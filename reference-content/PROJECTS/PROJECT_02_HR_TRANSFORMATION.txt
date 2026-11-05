@@ -1,0 +1,56 @@
+================================================================================
+HR VERSE: PROFESSIONAL HUMAN RESOURCE MANAGEMENT CERTIFICATION
+CAPSTONE PROJECT PART 2: DIGITAL HR TRANSFORMATION & PEOPLE ANALYTICS
+================================================================================
+
+1. PROJECT BRIEF & SCOPE
+--------------------------------------------------------------------------------
+Capstone Project Part 2 focuses on modernizing legacy human resource operations through
+digital transformation, AI-powered automation, and strategic people analytics.
+
+Students assume the role of Chief People Officer (CPO) or VP of People Operations
+tasked with leading a complete modernization of an organization's HR operating model.
+
+Key Pillars of the Transformation:
+1. HR Operating Model Evolution:
+   - Migration from traditional transactional silos to Ulrich's Modern HR Model
+     (HR Business Partners, Centers of Excellence, and Shared Services Portal).
+2. Technology & AI Stack Architecture:
+   - Evaluation, selection, and integration architecture of modern HRIS (Workday, BambooHR),
+     ATS (Greenhouse, Lever), LMS/LXP (HR Verse), and AI-driven Talent Intelligence platforms.
+   - Generative AI governance: Ethical AI policy for recruiting, candidate screening,
+     performance summarization, and automated employee query resolution.
+3. Advanced People Analytics Architecture:
+   - Predictive attrition modeling, flight-risk indicators, organizational network analysis (ONA),
+     and dynamic workforce planning simulations.
+4. Change Management & Stakeholder Alignment:
+   - Kotter's 8-Step Change Framework or Prosci ADKAR model application to guide adoption
+     across executive leadership, managers, and frontline employees.
+
+--------------------------------------------------------------------------------
+2. PROJECT DELIVERABLES
+--------------------------------------------------------------------------------
+Deliverable 1: Digital HR Transformation Blueprint
+- Architectural blueprint illustrating data flows between ATS, Core HRIS, LMS, Payroll, and Performance systems.
+- Comprehensive AI Ethics & Employee Data Privacy Charter.
+
+Deliverable 2: People Analytics Executive Dashboard Design
+- Interactive dashboard prototype specification (or mockups) featuring:
+  * Predictive attrition probability model by department and tenure.
+  * Quality of Hire vs. Cost per Hire correlation matrix.
+  * Pay Equity parity monitor with continuous compa-ratio variance tracking.
+  * Skills taxonomy and capability readiness heatmaps.
+
+Deliverable 3: Change Management Playbook & Business Case Pitch Deck
+- Detailed ROI calculation justification showing net financial payback within 18 months.
+- Stakeholder resistance analysis and engagement strategy.
+- 12-month phased transition roadmap with milestone gates and post-implementation audit protocols.
+
+--------------------------------------------------------------------------------
+3. GRADING RUBRIC (100 TOTAL POINTS)
+--------------------------------------------------------------------------------
+- Strategic Vision & Architecture Integrity: 30 Points
+- Technology & AI Integration Sophistication: 25 Points
+- People Analytics Model Validity: 20 Points
+- Change Management & Executive Business Case: 15 Points
+- Synthesis, Deliverable Quality & Polish: 10 Points

@@ -1,0 +1,112 @@
+================================================================================
+HR VERSE: PROFESSIONAL HUMAN RESOURCE MANAGEMENT CERTIFICATION
+WEEK 01 - MODULE 03: RECRUITMENT, SELECTION, AND TALENT ACQUISITION
+================================================================================
+
+1. EXECUTIVE SUMMARY & LEARNING OBJECTIVES
+--------------------------------------------------------------------------------
+Talent Acquisition is no longer merely an administrative recruiting function; it is
+a strategic differentiator in the modern knowledge-driven economy. Organizations
+compete vigorously for top-tier capability, making the design and execution of an
+effective, equitable, and data-driven recruitment and selection system paramount.
+
+By the conclusion of this module, learners will be able to:
+1. Differentiate between transactional recruiting and strategic talent acquisition.
+2. Formulate multi-channel sourcing strategies including employee referrals, direct
+   executive sourcing, digital platforms, and campus talent pipelines.
+3. Apply structured behavioral and competency-based interview methodologies (STAR/CAR).
+4. Implement psychometric, cognitive, and assessment center evaluation frameworks.
+5. Calculate and optimize core Talent Acquisition metrics: Quality of Hire (QoH),
+   Time to Fill (TTF), Cost per Hire (CPH), and Offer Acceptance Rate (OAR).
+6. Build an exceptional candidate experience and structured 30-60-90 day onboarding
+   architecture that accelerates time-to-productivity and drives long-term retention.
+
+--------------------------------------------------------------------------------
+2. STRATEGIC TALENT ACQUISITION FRAMEWORK
+--------------------------------------------------------------------------------
+Talent acquisition encompasses employer branding, future workforce forecasting,
+candidate relationship management (CRM), and talent pipelining before vacancies arise.
+
+Key Pillars of Modern Talent Acquisition:
+A. Employer Value Proposition (EVP):
+   The holistic set of offerings (monetary compensation, benefits, career growth,
+   company mission, workplace culture, and flexibility) conveyed to prospective talent.
+B. Proactive Talent Pipelining:
+   Engaging passive candidates through content marketing, talent communities, and
+   continuous industry networking ahead of requisition approvals.
+C. Candidate Experience (CX):
+   The sum of all touchpoints between a prospective hire and the enterprise,
+   from job advertisement readability to prompt interview feedback and empathetic rejection notices.
+
+--------------------------------------------------------------------------------
+3. CANDIDATE SOURCING STRATEGIES
+--------------------------------------------------------------------------------
+1. Inbound Sourcing:
+   - Optimized Careers Portals: Mobile-first responsive career pages with authentic employee stories.
+   - Job Board Aggregators: Strategic placement on LinkedIn, Indeed, Glassdoor, and niche trade boards.
+   - Search Engine Optimization (SEO) for Job Posts: Schema.org job posting markup.
+
+2. Outbound & Passive Sourcing:
+   - Boolean and Semantic Search across professional repositories (GitHub for engineering, Behance for designers).
+   - Direct Headhunting for executive and critical leadership positions.
+   - Alumni and Silver Medalist Networks: Re-engaging runner-up candidates from previous searches.
+
+3. Internal Mobility & Referral Systems:
+   - Employee Referral Programs (ERP): Structuring incentives (monetary and recognition) while mitigating homophily risks.
+   - Internal Talent Marketplaces: Enabling existing employees to apply for cross-functional assignments, transfers, and promotions.
+
+--------------------------------------------------------------------------------
+4. SELECTION METHODOLOGIES & ASSESSMENT DESIGN
+--------------------------------------------------------------------------------
+The selection process must maximize predictive validity while minimizing adverse impact
+and cognitive bias.
+
+Predictive Validity of Selection Instruments (Schmidt & Hunter Meta-Analysis Benchmark):
+- Work Sample Tests: ~0.54 predictive validity coefficient.
+- General Mental Ability (GMA) / Cognitive Tests: ~0.51.
+- Structured Behavioral Interviews: ~0.51.
+- Unstructured Interviews: ~0.38 (High susceptibility to halo effect, primacy/recency bias).
+- Reference Checks: ~0.26.
+- Graphology / Personality inventories (standalone): ~0.10 - 0.22.
+
+The Gold Standard: Multi-Hurdle Evaluation Architecture:
+- Stage 1: Asynchronous Resume Screening & Qualification Assessment (AI-assisted with bias auditing).
+- Stage 2: Initial Video/Phone Screening (Recruiter alignment on expectations, compensation, logistical fit).
+- Stage 3: Technical / Competency Assessment or Work Sample (Blind review when applicable).
+- Stage 4: Structured Competency & Behavioral Interview (Panel with standardized rubrics).
+- Stage 5: Values & Team Collaboration Alignment.
+- Stage 6: Formal Background & Credential Verification.
+
+Behavioral Interviewing Technique (STAR Method):
+- Situation: Context of the past event.
+- Task: Specific challenge or objective the candidate was assigned.
+- Action: Discrete personal actions taken by the candidate.
+- Result: Measurable outcome, quantifiable metrics, and lessons learned.
+
+--------------------------------------------------------------------------------
+5. OFFER MANAGEMENT & NEW HIRE ONBOARDING
+--------------------------------------------------------------------------------
+A. Offer Formulation:
+   - Total rewards alignment against benchmark market percentiles (P50, P75).
+   - Total package presentation: Base salary, annual variable incentives (STI),
+     equity grants (RSUs/Options), sign-on bonuses, relocation, and healthcare.
+   - Mitigating pre-start attrition: Continuous engagement between offer acceptance
+     and Day 1 ("Keep Warm" cadences).
+
+B. The 30-60-90 Day Structured Onboarding Model:
+   - Days 1-30 (Learn & Assimilate): Company orientation, compliance completions,
+     buddy pairing, tooling access, cultural immersion, and shadowing.
+   - Days 31-60 (Contribute & Collaborate): Independent task execution, cross-functional
+     stakeholder introduction, initial sprint contributions, first check-in review.
+   - Days 61-90 (Accelerate & Optimize): Full workload autonomy, stretch project assignment,
+     formal 90-day performance review and long-term goal setting.
+
+--------------------------------------------------------------------------------
+6. CORE TALENT ACQUISITION METRICS & ANALYTICS
+--------------------------------------------------------------------------------
+- Time to Fill (TTF): Calendar days from job requisition approval to candidate offer acceptance.
+- Time to Hire (TTH): Calendar days from candidate application to offer acceptance.
+- Cost per Hire (CPH): (Total Internal Recruiting Costs + External Costs) / Total Hires.
+- Quality of Hire (QoH): Composite index combining 90-day retention, 1-year performance appraisal rating, and hiring manager satisfaction score.
+- Sourcing Channel Effectiveness: Conversion rates per channel through the funnel stages.
+- Offer Acceptance Rate (OAR): Accepted Offers / Total Offers Extended * 100%.

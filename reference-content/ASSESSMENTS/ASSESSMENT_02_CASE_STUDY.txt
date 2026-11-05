@@ -1,0 +1,49 @@
+================================================================================
+HR VERSE: PROFESSIONAL HUMAN RESOURCE MANAGEMENT CERTIFICATION
+ASSESSMENT 02: CASE STUDY ANALYSIS - THE TALENT CRISIS AT NOVAHEALTH
+================================================================================
+
+1. CASE BACKGROUND: NOVAHEALTH INTEGRATED SYSTEMS
+--------------------------------------------------------------------------------
+NovaHealth is a multi-facility healthcare network employing 2,400 clinical and
+administrative personnel across seven regional hospitals and twelve outpatient clinics.
+Following a major healthcare systems acquisition 18 months ago, the leadership team
+attempted to harmonize operational cultures, wage scales, and shift rosters across
+legacy and acquired facilities.
+
+The Resulting Crisis:
+- Registered Nurse (RN) turnover surged to 34.2% within the past 12 months.
+- Agency/Locum staffing expenditure exploded by 310%, consuming $18.4M in temporary contract premiums.
+- Clinical staff burnout metrics reached critical levels (78% reporting emotional exhaustion on the Maslach Burnout Inventory).
+- A newly introduced biometric attendance system and rigid mandatory overtime policy led to an active union organizing petition.
+- Exit interviews revealed four dominant themes: toxic supervisory behaviors, inconsistent shift scheduling, perceived wage suppression relative to regional competitors, and non-existent professional development pathways.
+
+--------------------------------------------------------------------------------
+2. CASE STUDY QUESTIONS (SUBMISSION REQUIREMENTS)
+--------------------------------------------------------------------------------
+Learners are required to submit an analytical diagnostic report (2,000 - 3,000 words)
+answering the following core analytical questions:
+
+Question 1: Root Cause & Systems Analysis
+- Conduct a comprehensive Root Cause Analysis (Fishbone / Ishikawa or 5-Whys methodology) dissecting the interaction of compensation, leadership, operational integration, and organizational culture in driving RN attrition.
+
+Question 2: Labor Relations & Risk Mitigation
+- Formulate an immediate labor relations strategy addressing the unionization petition, ensuring legal compliance with national labor relations standards while establishing open, constructive employee communication forums.
+
+Question 3: Total Rewards Restructuring & Locum Cost Abatement
+- Construct a compensation strategy to eliminate the unsustainable $18.4M agency spend. Include shift differentials, retention bonuses, career ladder pay bands, and loan forgiveness programs.
+
+Question 4: Wellbeing, Retention & Psychological Safety Architecture
+- Design a nurse-centric wellness and psychological safety framework. Address scheduling flexibility (self-scheduling algorithms), peer support programs, and first-line clinical manager empathy training.
+
+Question 5: Governance & Continuous Monitoring Dashboard
+- Present an Executive HR Analytics Scorecard with leading and lagging indicators to monitor post-intervention stabilization over 6, 12, and 18 months.
+
+--------------------------------------------------------------------------------
+3. EVALUATION CRITERIA (100 TOTAL POINTS)
+--------------------------------------------------------------------------------
+- Diagnostic Insight & Systems Thinking: 25 points
+- Actionable Solution Architecture: 25 points
+- Financial & Operational Viability: 20 points
+- Ethical & Regulatory Compliance: 15 points
+- Analytical Clarity & Presentation: 15 points

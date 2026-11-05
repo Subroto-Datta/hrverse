@@ -1,0 +1,164 @@
+================================================================================
+HR VERSE: PROFESSIONAL HUMAN RESOURCE MANAGEMENT CERTIFICATION
+WEEK 02 COMPREHENSIVE QUIZ: REWARDS, PERFORMANCE & L&D
+================================================================================
+
+Q1. In the WorldatWork Total Rewards Model, what are the five key foundational components?
+A) Rent, Utilities, Equipment, Hardware, Software
+B) Compensation, Benefits, Work-Life Well-being, Recognition, and Development/Career Opportunities
+C) Hiring, Onboarding, Probation, Dismissal, Severance
+D) Stocks, Bonds, Mutual Funds, Commodities, Crypto
+Correct: B
+Explanation: The WorldatWork framework identifies Compensation, Benefits, Work-Life, Recognition, and Development/Career Opportunities as total rewards.
+
+Q2. If an employee earns an annual salary of $85,000 and the salary grade midpoint is $100,000, what is the employee's compa-ratio?
+A) 1.15
+B) 0.85
+C) 0.72
+D) 1.00
+Correct: B
+Explanation: Compa-Ratio = Actual Salary / Range Midpoint = 85,000 / 100,000 = 0.85 (or 85%).
+
+Q3. What does a "Red-Circle Rate" represent in compensation management?
+A) An employee earning below the pay range minimum
+B) An employee whose current pay rate exceeds the maximum salary of their assigned pay grade
+C) An employee working for an unprofitable startup
+D) An employee due for a mandatory demotion
+Correct: B
+Explanation: A red-circle rate occurs when an employee's pay is above the maximum established salary band for their position.
+
+Q4. What is the primary advantage of a Behaviorally Anchored Rating Scale (BARS) over standard graphic rating scales?
+A) BARS requires zero effort or training to build
+B) BARS anchors each rating point to observable, concrete behavioral examples, reducing supervisor subjectivity
+C) BARS automatically gives everyone top ratings
+D) BARS is strictly used for firing underperforming staff
+Correct: B
+Explanation: BARS pairs numerical scales with explicit behavioral descriptions of critical incidents, providing clear objective benchmarks.
+
+Q5. In goal-setting methodology, what does the 'M' in SMART represent?
+A) Mandatory
+B) Measurable
+C) Motivational
+D) Multi-tiered
+Correct: B
+Explanation: SMART stands for Specific, Measurable, Achievable, Relevant, and Time-bound.
+
+Q6. In OKR methodology, what is considered an ideal average target achievement score on a 0.0 to 1.0 scale?
+A) Exactly 0.2
+B) Approximately 0.6 to 0.7
+C) Exactly 1.0 (100% every single time)
+D) Over 1.5
+Correct: B
+Explanation: In OKR frameworks, a score between 0.6 and 0.7 reflects an ambitious stretch target; consistently hitting 1.0 implies goals are insufficiently challenging.
+
+Q7. What cognitive evaluation error occurs when an appraiser rates an employee poorly on all competencies because of a single negative incident?
+A) Halo Effect
+B) Horns Effect
+C) Leniency Bias
+D) Central Tendency
+Correct: B
+Explanation: The Horns Effect is a cognitive bias where one perceived flaw or mistake negatively colors the evaluator's entire judgment of the individual.
+
+Q8. In Kirkpatrick's Four-Level Training Evaluation Model, what does Level 3 evaluate?
+A) Learner reaction and satisfaction with the coffee and room temperature
+B) Classroom knowledge retention via multiple choice quiz
+C) Behavior change and on-the-job transfer of learned skills
+D) Total corporate stock valuation increase
+Correct: C
+Explanation: Level 3 measures Behavior—specifically whether learners apply what they learned when returning to their actual work environment.
+
+Q9. What are the five phases of the ADDIE instructional design framework?
+A) Align, Determine, Direct, Inspect, Execute
+B) Analysis, Design, Development, Implementation, Evaluation
+C) Acquire, Define, Distribute, Instruct, Examine
+D) Assess, Draft, Demonstrate, Integrate, Evolve
+Correct: B
+Explanation: ADDIE stands for Analysis, Design, Development, Implementation, and Evaluation.
+
+Q10. According to Malcolm Knowles' Andragogy theory, which assumption is true regarding adult learners?
+A) Adults are strictly dependent learners who require rigid authoritarian direction
+B) Adults learn best when content is problem-centered and has immediate relevance to their job or life
+C) Adults have no prior experiences that can be used in the learning process
+D) Adults are purely motivated by external threats of punishment
+Correct: B
+Explanation: Adult learning theory posits that adults are self-directed, bring rich experience, and prefer problem-centered learning with immediate practical utility.
+
+Q11. According to the 70-20-10 learning model, where does the majority (70%) of workplace capability development occur?
+A) In university lecture halls
+B) On-the-job experiential challenges and stretch assignments
+C) Through formal corporate compliance videos
+D) Reading trade textbooks at home
+Correct: B
+Explanation: 70% of learning occurs experientially through real job challenges; 20% through relationships and mentoring; 10% through formal courses.
+
+Q12. What does a "Green-Circle Rate" signify?
+A) An employee dedicated to environmental sustainability
+B) An employee whose compensation falls below the minimum established pay band for their grade
+C) An employee earning higher equity than base cash
+D) An employee who just completed a green belt certification
+Correct: B
+Explanation: A green-circle rate indicates an employee paid below the salary range minimum, requiring an upward adjustment to maintain internal equity.
+
+Q13. In 360-degree feedback systems, what is the best recommended application of the survey results?
+A) Sole criteria for determining immediate termination
+B) Professional development, self-awareness, and leadership coaching
+C) Calculating the exact annual bonus percentage down to the penny
+D) Publicly posting results on the company bulletin board
+Correct: B
+Explanation: 360-degree feedback is most effective for developmental growth, identifying blind spots, and coaching, rather than high-stakes compensation decisions.
+
+Q14. How is the Phillips ROI of a training initiative calculated?
+A) (Total Training Days / Total Number of Attendees) * 100
+B) [(Net Financial Benefits - Total Program Costs) / Total Program Costs] * 100%
+C) Total Tuition Fees paid / Current Annual Revenue
+D) Number of Slides Created / Number of Quizzes Passed
+Correct: B
+Explanation: Phillips Level 5 ROI = [(Net Benefits - Costs) / Costs] * 100%, expressing the monetary return generated per dollar invested.
+
+Q15. What is the primary purpose of a Performance Calibration session?
+A) Deciding on office furniture allocations
+B) Harmonizing rating distributions across departments to ensure fairness, eliminate grading bias, and establish common standards
+C) Calculating individual hourly overtime rates
+D) Administering personality test re-takes
+Correct: B
+Explanation: Calibration brings managers together to discuss and normalize proposed ratings, ensuring equal standards across teams.
+
+Q16. What is the typical vesting schedule structure for corporate Restricted Stock Units (RSUs)?
+A) 100% vesting on Day 1 of employment
+B) 4-year vesting schedule with a 1-year cliff (25% after year 1, remainder vesting monthly or quarterly over years 2-4)
+C) RSUs never vest until the company dissolves
+D) RSUs vest only upon the CEO's retirement
+Correct: B
+Explanation: The standard corporate equity schedule is a 4-year vesting timeline with a 12-month cliff for the initial 25%.
+
+Q17. In the Point-Factor Method of job evaluation, what is a "Compensable Factor"?
+A) A variable that increases employee healthcare premiums
+B) A specific job dimension (e.g., skill, effort, responsibility, working conditions) for which an employer is willing to pay
+C) A tax deduction claimed by corporate finance
+D) A disciplinary penalty deduction
+Correct: B
+Explanation: Compensable factors are fundamental dimensions (skills, responsibilities, effort) that an organization values and compensates.
+
+Q18. What is a "Cafeteria Plan" (IRS Section 125) in employee benefits administration?
+A) A mandatory lunch buffet provided in the company cafeteria
+B) A flexible benefit plan allowing employees to choose between taxable cash and a menu of pre-tax qualified benefits
+C) A catering discount program for sales meetings
+D) A culinary training program for hospitality workers
+Correct: B
+Explanation: Section 125 cafeteria plans permit employees to pick tailored pre-tax benefits (healthcare, dependent care FSAs) from a qualified menu.
+
+Q19. What should be the first step when designing a workplace training initiative in the ADDIE model?
+A) Purchasing expensive VR headsets
+B) Conducting a Training Needs Assessment (Organizational, Task, and Person Analysis)
+C) Writing the final multiple-choice exam
+D) Booking an offsite conference venue
+Correct: B
+Explanation: The Analysis phase of ADDIE requires diagnosing the root cause of the performance issue via a thorough Needs Assessment before designing content.
+
+Q20. What is the key legal and management requirement when administering a Performance Improvement Plan (PIP)?
+A) PIPs must always be completely verbal with no written records
+B) PIPs must document clear performance shortfalls, quantifiable goals, support resources, timelines, and consequences of non-completion
+C) PIPs must never exceed 48 hours in duration
+D) Managers must not provide feedback during the PIP period
+Correct: B
+Explanation: Legally defensible and effective PIPs provide concrete documentation of deficits, explicit goals, employer support, clear review intervals, and transparent outcomes.

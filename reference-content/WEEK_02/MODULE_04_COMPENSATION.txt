@@ -1,0 +1,98 @@
+================================================================================
+HR VERSE: PROFESSIONAL HUMAN RESOURCE MANAGEMENT CERTIFICATION
+WEEK 02 - MODULE 04: TOTAL REWARDS, COMPENSATION ARCHITECTURE & BENEFITS
+================================================================================
+
+1. EXECUTIVE SUMMARY & LEARNING OBJECTIVES
+--------------------------------------------------------------------------------
+Total Rewards constitutes the strategic integration of monetary compensation, employee
+benefits, recognition, work-life flexibility, and career growth opportunities into a
+cohesive framework. A modern compensation structure balances internal equity (fairness
+within the organization) with external competitiveness (attractiveness relative to market
+peers).
+
+By the completion of this module, learners will be able to:
+1. Synthesize the Total Rewards Framework established by WorldatWork.
+2. Execute job evaluation methodologies (Point-Factor System, Hay Group Guide Chart).
+3. Design competitive salary structures including pay grades, midpoints, spread, and compa-ratios.
+4. Interpret benchmark salary surveys and navigate percentile strategies (P25, P50, P75).
+5. Structure variable compensation systems (Short-Term Incentives/STI, Sales Commissions, Long-Term Incentives/LTI/Equity).
+6. Implement flexible employee benefit packages complying with statutory and fringe tax standards.
+
+--------------------------------------------------------------------------------
+2. THE TOTAL REWARDS PHILOSOPHY
+--------------------------------------------------------------------------------
+Total Rewards encompasses everything of value that an employee receives as a consequence
+of the employment relationship:
+- Compensation: Base salary, hourly wages, overtime, shift differentials, and bonuses.
+- Benefits: Health insurance, retirement provisions, paid time off (PTO), parental leaves, disability.
+- Work-Life Well-being: Hybrid/remote flexibility, wellness subsidies, employee assistance programs (EAP).
+- Recognition & Appreciation: Peer bonuses, formal awards, milestone celebrations.
+- Development & Career Opportunities: Tuition reimbursement, mentorship programs, leadership tracks.
+
+Organizational Pay Philosophies:
+- Lead the Market (75th percentile / P75): Paying above market median to attract elite industry performers.
+- Match the Market (50th percentile / P50): Market median parity; relies on culture and non-monetary rewards.
+- Lag the Market (25th percentile / P25): Constrained cash flow, often offset by equity or mission alignment.
+
+--------------------------------------------------------------------------------
+3. JOB EVALUATION & INTERNAL EQUITY
+--------------------------------------------------------------------------------
+Job evaluation systematically assesses the relative worth of positions within the enterprise.
+
+Common Evaluation Methodologies:
+1. Job Ranking: Simple qualitative ordering from highest to lowest value (suited for small teams).
+2. Job Classification: Categorizing jobs into predetermined classes/grades (common in civil service).
+3. Point-Factor Method: The most robust quantitative approach. Evaluates compensable factors:
+   - Skill (education, technical expertise, specialized certifications).
+   - Effort (physical stamina, mental/cognitive concentration).
+   - Responsibility (budget authority, decision impact, supervision of direct reports).
+   - Working Conditions (physical hazards, travel requirements, shift patterns).
+
+--------------------------------------------------------------------------------
+4. SALARY STRUCTURE DESIGN & QUANTITATIVE METRICS
+--------------------------------------------------------------------------------
+Key mathematical formulas in compensation engineering:
+
+A. Pay Grade Range Spread:
+   Range Spread = (Maximum Salary - Minimum Salary) / Minimum Salary * 100%
+   - Entry roles: 20% to 30% range spread.
+   - Professional / Managerial roles: 35% to 50% range spread.
+   - Executive roles: 50% to 100%+ range spread.
+
+B. Range Midpoint:
+   Midpoint = (Minimum + Maximum) / 2
+   Represents the target pay for a fully competent, proficient performer in the grade.
+
+C. Compa-Ratio (CR):
+   Compa-Ratio = Actual Individual Salary / Grade Midpoint
+   - CR < 0.80: Significantly below target (new in role or lagging compensation).
+   - CR = 0.80 - 1.00: Developing or meeting core expectations.
+   - CR = 1.00: Perfect alignment with market target.
+   - CR = 1.00 - 1.20: High mastery, seasoned performer, deep institutional knowledge.
+   - CR > 1.20: Red-circle candidate requiring potential promotion or grade review.
+
+D. Green-Circle and Red-Circle Rates:
+   - Green-Circle: Employee paid below the pay grade minimum. Requires mandatory pay adjustment.
+   - Red-Circle: Employee paid above pay grade maximum. Salaries are frozen or rewarded via lump-sum bonuses until grade bands increase.
+
+--------------------------------------------------------------------------------
+5. VARIABLE PAY & INCENTIVE SCHEMES
+--------------------------------------------------------------------------------
+1. Short-Term Incentives (STI):
+   - Annual Performance Bonus based on Corporate EBITDA, Team Objectives, and Individual KPIs.
+   - Spot Awards for extraordinary project milestones.
+   - Sales Commissions: Tiered accelerators, uncapped plans, draw against commission.
+
+2. Long-Term Incentives (LTI) & Equity:
+   - Restricted Stock Units (RSUs): Shares that vest over time (typically a 4-year schedule with a 1-year cliff).
+   - Stock Options (Incentive Stock Options/ISOs and Non-Qualified Stock Options/NSOs): Strike price discount mechanisms.
+   - Employee Stock Purchase Plans (ESPP): Payroll deductions to purchase shares at a discount (often 15%).
+
+--------------------------------------------------------------------------------
+6. STATUTORY & FRINGE BENEFITS ADMINISTRATION
+--------------------------------------------------------------------------------
+- Mandated Benefits: Social Security, Unemployment Insurance, Workers' Compensation, Family Medical Leave Act (FMLA).
+- Voluntary Core Benefits: Medical, Dental, Vision HMO/PPO/HDHP plans with HSA/FSA tax-advantaged structures.
+- Retirement: Defined Benefit (pension) versus Defined Contribution (401k/Superannuation with employer matching).
+- Cafeteria Plans (Section 125): Permitting employees to choose between taxable cash and qualified pre-tax fringe benefits.

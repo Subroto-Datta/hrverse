@@ -1,0 +1,47 @@
+================================================================================
+HR VERSE: PROFESSIONAL HUMAN RESOURCE MANAGEMENT CERTIFICATION
+CAPSTONE PROJECT PART 1: COMPREHENSIVE ORGANIZATIONAL HR AUDIT
+================================================================================
+
+1. PROJECT BRIEF & SCOPE
+--------------------------------------------------------------------------------
+The HR Audit Capstone Project requires students to conduct an end-to-end audit of
+an enterprise's human resource functions, evaluating legal compliance, operational
+efficiency, strategic alignment, and data integrity.
+
+Target Organization Options:
+Option A: The learner's current or prior employer (anonymized data permitted).
+Option B: "Global Retail Innovations (GRI)" - provided comprehensive synthetic enterprise dataset (850 employees, omnichannel consumer goods company).
+
+Core Audit Functional Areas:
+1. Legal & Regulatory Compliance (FLSA classifications, EEO-1 reporting, I-9 verification, statutory leaves, safety standards).
+2. Talent Acquisition & Onboarding (Recruitment funnel efficiency, interview consistency, adverse impact compliance).
+3. Total Rewards & Compensation Administration (Job descriptions, pay equity analysis, overtime compliance, benefits uptake).
+4. Performance Management & Appraisals (Distribution curve analysis, calibration review, bias auditing).
+5. HR Information Systems (HRIS) & People Data Privacy (Data access controls, GDPR/CCPA employee data rights, records retention).
+
+--------------------------------------------------------------------------------
+2. PROJECT DELIVERABLES
+--------------------------------------------------------------------------------
+Deliverable 1: HR Audit Scope & Methodology Charter
+- Executive overview of audit objectives, timeline, stakeholder interviews, and data sampling methodology.
+
+Deliverable 2: Quantitative Data Analytics & Compliance Audit Matrix
+- Spreadsheets or analytical models detailing:
+  * Equal Pay Audit (gender and ethnic pay parity regressions across job grades).
+  * 4/5ths Rule adverse impact calculations across talent acquisition stages.
+  * Overtime risk audit (exempt vs. non-exempt classification testing).
+
+Deliverable 3: Final HR Audit Report & Executive Presentation
+- 15-20 page comprehensive audit report with executive summary.
+- Traffic-light risk matrix (High / Medium / Low risk classification).
+- Prioritized Remediation Roadmap with immediate (30-day), intermediate (90-day), and systemic (1-year) corrective action plans.
+
+--------------------------------------------------------------------------------
+3. GRADING RUBRIC (100 TOTAL POINTS)
+--------------------------------------------------------------------------------
+- Methodological Rigor & Audit Thoroughness: 30 Points
+- Data Analysis & Statistical Validity: 25 Points
+- Legal & Regulatory Accuracy: 20 Points
+- Strategic Recommendations & Risk Prioritization: 15 Points
+- Executive Report Quality & Professional Formatting: 10 Points

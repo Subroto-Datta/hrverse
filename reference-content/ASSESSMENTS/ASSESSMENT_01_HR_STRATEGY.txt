@@ -1,0 +1,60 @@
+================================================================================
+HR VERSE: PROFESSIONAL HUMAN RESOURCE MANAGEMENT CERTIFICATION
+ASSESSMENT 01: STRATEGIC HR ROADMAP & WORKFORCE ARCHITECTURE
+================================================================================
+
+1. ASSESSMENT CONTEXT & SCENARIO
+--------------------------------------------------------------------------------
+Organization: "ApexLogix Technologies"
+Company Profile: A 5-year-old enterprise SaaS scale-up that has grown from 45 to 380
+employees across 3 geographic regions (US Headquarters, European Tech Hub, Latin America
+Engineering Center). The company recently secured $65M Series C funding and is targeting
+an initial public offering (IPO) within 24 months.
+
+Current Critical Challenges:
+1. Voluntary turnover in Engineering and Product departments reached 28% annualized.
+2. Sourcing cycle time averages 74 days (Time to Fill), causing product release delays.
+3. Total compensation bands lack systematic market benchmarking; employees report
+   internal pay inequities and opaque promotion criteria.
+4. Onboarding is fragmented and decentralized, leading to low 90-day engagement scores.
+5. First-time managers lack training in performance coaching and feedback calibration.
+
+--------------------------------------------------------------------------------
+2. CANDIDATE DELIVERABLE REQUIREMENTS
+--------------------------------------------------------------------------------
+Students must construct a 12-month comprehensive Strategic HR Roadmap (maximum 2,500 words)
+subdivided into four mandatory strategic pillars:
+
+Pillar 1: Talent Acquisition & Employer Branding Transformation
+- Multi-channel sourcing architecture to compress Time to Fill from 74 to 42 days.
+- Structured behavioral interviewing protocol with standardized rubrics (STAR).
+- Employer Value Proposition (EVP) messaging strategy.
+
+Pillar 2: Total Rewards & Compensation Engineering
+- Step-by-step job evaluation plan using a Point-Factor methodology.
+- Salary structure modeling: range spread, midpoints, and compa-ratio guardrails (0.80 - 1.20).
+- Variable incentive redesign (short-term team bonuses + equity retention grants).
+
+Pillar 3: Performance Management & Continuous Coaching System
+- Transition from ad-hoc annual reviews to quarterly OKRs and bi-weekly 1-on-1s.
+- 360-degree feedback framework for engineering and product leads.
+- Calibrated performance evaluation rubric mitigating bias (Central Tendency, Halo/Horns).
+
+Pillar 4: Learning, Leadership Development & Culture Architecture
+- Structured 30-60-90 day onboarding framework for remote and hybrid teams.
+- "New Manager Academy" curriculum applying adult learning theory (Knowles' Andragogy).
+- Quantitative KPI scorecard tracking Quality of Hire, Retention, and Employee Net Promoter Score (eNPS).
+
+--------------------------------------------------------------------------------
+3. GRADING RUBRIC (100 TOTAL POINTS)
+--------------------------------------------------------------------------------
+1. Strategic Alignment & Diagnostic Depth (25 Points)
+   - Deep diagnostic linkage between business context (Series C to IPO) and HR interventions.
+2. Technical HR Rigor & Methodological Soundness (25 Points)
+   - Proper application of Point-Factor job evaluation, compa-ratio calculations, and BARS/OKR frameworks.
+3. Implementation Feasibility & Change Management (25 Points)
+   - Realistic 12-month phased roadmap with risk mitigation, budget considerations, and executive buy-in strategy.
+4. Measurement, Analytics & KPI Dashboard (15 Points)
+   - Concrete metrics (QoH, TTF, CPH, Compa-Ratio distribution, eNPS, retention).
+5. Professional Communication & Structure (10 Points)
+   - Executive-ready formatting, clarity, logical progression, and professional tone.

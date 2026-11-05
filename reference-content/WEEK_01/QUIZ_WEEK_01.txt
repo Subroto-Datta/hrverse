@@ -1,0 +1,164 @@
+================================================================================
+HR VERSE: PROFESSIONAL HUMAN RESOURCE MANAGEMENT CERTIFICATION
+WEEK 01 COMPREHENSIVE QUIZ: HRM FOUNDATIONS, PLANNING & RECRUITMENT
+================================================================================
+
+Q1. Which perspective views human capital not as an operational expenditure to be minimized, but as a primary competitive advantage?
+A) Classical Scientific Management
+B) Strategic Human Resource Management (SHRM)
+C) Bureaucratic Organization Theory
+D) Industrial Taylorism
+Correct: B
+Explanation: Strategic Human Resource Management (SHRM) links people management practices directly with long-term strategic enterprise objectives, viewing human capital as a core value driver.
+
+Q2. What is the fundamental distinction between a Job Description and a Job Specification?
+A) Job descriptions detail salary bands; job specifications define reporting hierarchies.
+B) Job descriptions define tasks, duties, and responsibilities (TDRs); job specifications define Knowledge, Skills, Abilities, and Other characteristics (KSAOs).
+C) Job descriptions are public; job specifications are internal secrets.
+D) Job descriptions are updated annually; job specifications never change.
+Correct: B
+Explanation: Job descriptions capture the observable work and responsibilities (TDRs), while job specifications state the human competencies and credentials required (KSAOs).
+
+Q3. In quantitative workforce planning, which technique establishes statistical relationships between organizational volume (e.g., sales revenue) and required headcount?
+A) Delphi Method
+B) Trend / Ratio Regression Analysis
+C) Nominal Group Technique
+D) Succession Scenario Planning
+Correct: B
+Explanation: Ratio analysis and regression modeling correlate operational volume indicators (e.g., units produced, revenue) with staffing requirements.
+
+Q4. What is the main threat to validity when conducting an unstructured interview?
+A) Overly rigid scoring criteria
+B) Cognitive bias, halo/horns effects, and inconsistent questioning across candidates
+C) Excessive predictive accuracy
+D) High statistical reliability
+Correct: B
+Explanation: Unstructured interviews lack standard questions and evaluation rubrics, making them highly susceptible to interviewer bias, intuition errors, and poor predictive validity.
+
+Q5. Which selection tool consistently exhibits the highest predictive validity in employment testing literature?
+A) Standalone Myers-Briggs personality indicator
+B) Work sample tests and structured behavioral interviews
+C) Reference checks from past colleagues
+D) Analysis of personal handwriting (graphology)
+Correct: B
+Explanation: Schmidt & Hunter meta-analyses demonstrate that work sample tests (~0.54) and structured behavioral interviews (~0.51) offer the highest predictive validities for job performance.
+
+Q6. In the STAR interview technique, what does the acronym represent?
+A) Strategy, Timing, Action, Reward
+B) Situation, Task, Action, Result
+C) Standards, Technique, Attitude, Reliability
+D) System, Target, Alignment, Review
+Correct: B
+Explanation: STAR stands for Situation, Task, Action, Result—a structured framework for eliciting and evaluating behavioral examples.
+
+Q7. What does the "4/5ths Rule" (or 80% Rule) measure in employment selection?
+A) Whether a recruitment test takes less than 80 minutes to finish
+B) Potential adverse impact against a protected class in hiring selection ratios
+C) The percentage of employees who pass annual probation
+D) The required offer acceptance rate for campus hiring
+Correct: B
+Explanation: Under EEOC guidelines, if the selection rate for a protected group is less than four-fifths (80%) of the rate for the group with the highest rate, adverse impact is indicated.
+
+Q8. Which talent metric measures the total duration from job opening requisition approval to the day the final candidate accepts the written offer?
+A) Time to Productivity
+B) Time to Fill
+C) Time to Interview
+D) Sourcing Cycle Speed
+Correct: B
+Explanation: Time to Fill calculates the total calendar days from formal requisition approval until candidate offer acceptance.
+
+Q9. In the Delphi technique for HR demand forecasting, what is the key characteristic of the panel?
+A) Experts meet face-to-face and debate loudly until consensus
+B) Independent, iterative anonymous questionnaires with aggregated feedback
+C) Algorithmic machine learning models replace human opinions entirely
+D) Decisions are made solely by the Chief Human Resources Officer
+Correct: B
+Explanation: The Delphi method relies on an iterative, anonymous survey of subject-matter experts to eliminate peer pressure and groupthink.
+
+Q10. What is an internal talent marketplace?
+A) A public website where contractors sell services
+B) A platform allowing existing employees to discover gigs, project assignments, and transfers across the enterprise
+C) An auction platform for employee overtime shifts
+D) A procurement software for hiring temporary agency staff
+Correct: B
+Explanation: An internal talent marketplace matches existing organizational talent with internal opportunities, cross-functional projects, and role transitions.
+
+Q11. Which document establishes the foundational rights of workers globally through international labor standards?
+A) The Sarbanes-Oxley Act
+B) The International Labour Organization (ILO) Conventions
+C) The Dodd-Frank Declaration
+D) The General Data Protection Regulation (GDPR)
+Correct: B
+Explanation: The ILO (a specialized agency of the UN) develops international labor conventions addressing fundamental rights at work.
+
+Q12. What is the "Silver Medalist" candidate strategy in Talent Acquisition?
+A) Offering second-tier compensation packages to entry-level hires
+B) Proactively nurturing and reconsidering highly rated runner-up candidates from previous searches
+C) Hiring competitors' second-in-command executives only
+D) Rewarding hiring managers who finish recruiting under budget
+Correct: B
+Explanation: Silver medalists are vetted, qualified finalists who were not selected for a specific role but remain exceptional prospects for future openings.
+
+Q13. In workforce succession planning, what is the primary purpose of a 9-Box Grid?
+A) Allocating workspace seating arrangements
+B) Evaluating employees simultaneously on Performance (past delivery) and Potential (future growth capacity)
+C) Tracking weekly hours worked across nine job grades
+D) Designing nine tiers of healthcare benefits
+Correct: B
+Explanation: The 9-Box Grid plots employees on two axes: current performance and future leadership/growth potential.
+
+Q14. How is Cost per Hire (CPH) calculated according to ISO and SHRM standards?
+A) Base Salary of Hire divided by 12 months
+B) (Sum of Internal Recruiting Costs + Sum of External Recruiting Costs) divided by Total Number of Hires
+C) Total HR Department Budget divided by Total Company Headcount
+D) Agency commission percentage multiplied by gross revenue
+Correct: B
+Explanation: CPH = (Internal Recruiting Costs + External Recruiting Costs) / Total Hires made within the period.
+
+Q15. In modern structured onboarding, what is the primary focus of the first 30 days?
+A) Executing multi-million dollar strategy decisions without supervision
+B) Cultural immersion, role expectations alignment, compliance, and foundational tool access
+C) Conducting annual performance reviews
+D) Taking over organizational restructuring
+Correct: B
+Explanation: The first 30 days are designed for orientation, psychological safety, understanding team context, and mastering tools.
+
+Q16. What is the "Halo Effect" in candidate evaluation?
+A) Scoring a candidate poorly due to a single perceived flaw
+B) Allowing one positive candidate trait (e.g., charisma, alma mater) to positively bias judgment across all competencies
+C) Systematically hiring only candidates who attended religious universities
+D) Giving every candidate the exact same high score
+Correct: B
+Explanation: The Halo Effect occurs when one striking positive characteristic blinds the evaluator to other weaknesses.
+
+Q17. Which sourcing channel typically demonstrates the highest 1-year retention and fastest time-to-hire?
+A) Blind cold postal outreach
+B) Employee Referral Programs
+C) Generalist internet pop-up ads
+D) Unverified resume scraper databases
+Correct: B
+Explanation: Employee referrals consistently deliver higher cultural alignment, faster onboarding, and significantly higher 1-year retention rates.
+
+Q18. What is the fundamental goal of Job Enrichment according to Herzberg's Motivator-Hygiene Theory?
+A) Adding more mundane, repetitive tasks to a worker's shift (Job Enlargement)
+B) Increasing autonomy, responsibility, depth, and opportunities for personal achievement in the job role
+C) Installing air conditioning and clean water fountains
+D) Eliminating all performance reviews
+Correct: B
+Explanation: Job Enrichment involves vertical loading of a role, granting greater discretion, responsibility, and cognitive engagement.
+
+Q19. What does the term "Offer Acceptance Rate" (OAR) gauge?
+A) The percentage of applied candidates who receive job offers
+B) The percentage of candidates extended a formal written offer who sign and accept
+C) The percentage of new hires who pass probation
+D) The ratio of job applicants to open requisitions
+Correct: B
+Explanation: OAR = (Accepted Job Offers / Total Offers Extended) * 100%, indicating competitiveness of offers and brand appeal.
+
+Q20. What is an Assessment Center in modern employee selection?
+A) A physical medical clinic for health checks
+B) A standardized multi-exercise evaluation featuring role-plays, in-basket exercises, and simulations evaluated by multiple trained observers
+C) An online typing speed test platform
+D) A payroll processing office
+Correct: B
+Explanation: An Assessment Center utilizes standardized behavioral simulations, presentations, and group exercises scored by calibrated assessors.
