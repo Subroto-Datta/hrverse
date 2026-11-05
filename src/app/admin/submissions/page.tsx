@@ -1,8 +1,8 @@
-import { createClient } from '@/lib/supabase/server'
+import { createAdminClient } from '@/lib/supabase/admin'
 import { SubmissionsClient } from './submissions-client'
 
 export default async function AdminSubmissionsPage() {
-  const supabase = await createClient()
+  const supabase = createAdminClient()
 
   // Fetch assessment submissions with student profile and assessment title
   const { data: assessments } = await supabase

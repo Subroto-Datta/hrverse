@@ -1,17 +1,22 @@
 'use server'
 
 import { createClient } from '@/lib/supabase/server'
+import { createAdminClient } from '@/lib/supabase/admin'
 import { revalidatePath } from 'next/cache'
 
 async function assertAdmin() {
   const supabase = await createClient()
-  const { data: { user }, error: authError } = await supabase.auth.getUser()
+  const {
+    data: { user },
+    error: authError,
+  } = await supabase.auth.getUser()
 
   if (authError || !user) {
     throw new Error('Unauthorized: Authentication required')
   }
 
-  const { data: profile, error: profileError } = await supabase
+  const adminClient = createAdminClient()
+  const { data: profile, error: profileError } = await adminClient
     .from('profiles')
     .select('role')
     .eq('id', user.id)
@@ -21,7 +26,7 @@ async function assertAdmin() {
     throw new Error('Forbidden: Administrative access required')
   }
 
-  return { supabase, user }
+  return { supabase: adminClient, user }
 }
 
 // -------------------------------------------------------------
@@ -34,7 +39,7 @@ export async function createCourse(formData: FormData) {
   const title = formData.get('title') as string
   const slug = formData.get('slug') as string
   const description = formData.get('description') as string
-  const durationWeeks = parseInt(formData.get('duration_weeks') as string || '8')
+  const durationWeeks = parseInt((formData.get('duration_weeks') as string) || '8')
   const difficultyLevel = (formData.get('difficulty_level') as string) || 'intermediate'
   const isPublished = formData.get('is_published') === 'true'
 
@@ -81,7 +86,12 @@ export async function toggleCoursePublish(courseId: string, isPublished: boolean
 // MODULE & PART MANAGEMENT
 // -------------------------------------------------------------
 
-export async function createModule(courseId: string, title: string, description: string, orderIndex: number) {
+export async function createModule(
+  courseId: string,
+  title: string,
+  description: string,
+  orderIndex: number
+) {
   const { supabase } = await assertAdmin()
 
   const { data, error } = await supabase
@@ -104,7 +114,12 @@ export async function createModule(courseId: string, title: string, description:
   return { success: true, module: data }
 }
 
-export async function createPart(moduleId: string, title: string, description: string, orderIndex: number) {
+export async function createPart(
+  moduleId: string,
+  title: string,
+  description: string,
+  orderIndex: number
+) {
   const { supabase } = await assertAdmin()
 
   const { data, error } = await supabase
@@ -252,4 +267,3 @@ export async function gradeProjectSubmission(
   revalidatePath('/projects')
   return { success: true }
 }
-

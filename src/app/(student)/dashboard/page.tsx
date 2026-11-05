@@ -1,5 +1,11 @@
-import { createClient } from '@/lib/supabase/server'
 import { getUser } from '@/lib/utils/auth'
+import {
+  getStudentEnrollment,
+  getStudentLessonProgress,
+  getStudentQuizAttempts,
+  getStudentLearningActivities,
+  getTotalPublishedLessonsCount,
+} from '@/lib/content/get-content'
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
@@ -18,50 +24,25 @@ import {
 
 export default async function StudentDashboardPage() {
   const user = await getUser()
-  const supabase = await createClient()
+  const studentId = user?.id || ''
 
-  // Fetch enrollment and course progress
-  const { data: enrollment } = await supabase
-    .from('enrollments')
-    .select('*, courses(*)')
-    .eq('student_id', user?.id || '')
-    .single()
+  // Safely fetch data
+  const enrollment = await getStudentEnrollment(studentId)
+  const progress = await getStudentLessonProgress(studentId)
+  const attempts = await getStudentQuizAttempts(studentId)
+  const activities = await getStudentLearningActivities(studentId, 5)
+  const totalLessons = await getTotalPublishedLessonsCount()
 
-  // Fetch completed lessons count
-  const { count: completedLessonsCount } = await supabase
-    .from('lesson_progress')
-    .select('id', { count: 'exact', head: true })
-    .eq('student_id', user?.id || '')
-    .eq('status', 'completed')
-
-  // Fetch quiz attempts
-  const { data: attempts } = await supabase
-    .from('quiz_attempts')
-    .select('*')
-    .eq('student_id', user?.id || '')
-    .order('completed_at', { ascending: false })
-
-  // Fetch recent activities
-  const { data: activities } = await supabase
-    .from('learning_activities')
-    .select('*')
-    .eq('student_id', user?.id || '')
-    .order('created_at', { ascending: false })
-    .limit(5)
-
-  // Total lessons in system
-  const { count: totalLessonsCount } = await supabase
-    .from('lessons')
-    .select('id', { count: 'exact', head: true })
-    .eq('is_published', true)
-
-  const progressPercent = enrollment?.progress_percentage || 0
-  const totalLessons = totalLessonsCount || 6
-  const completedCount = completedLessonsCount || 0
+  const completedCount = progress.filter((p: any) => p.status === 'completed').length
+  const progressPercent =
+    totalLessons > 0 ? Math.min(100, Math.round((completedCount / totalLessons) * 100)) : 0
 
   const quizAvg =
     attempts && attempts.length > 0
-      ? Math.round(attempts.reduce((a, b) => a + Number(b.percentage), 0) / attempts.length)
+      ? Math.round(
+          attempts.reduce((a: number, b: any) => a + Number(b.percentage || 0), 0) /
+            attempts.length
+        )
       : 0
 
   return (
@@ -250,7 +231,7 @@ export default async function StudentDashboardPage() {
             <CardContent>
               {activities && activities.length > 0 ? (
                 <div className="space-y-3 text-xs">
-                  {activities.map((act) => (
+                  {activities.map((act: any) => (
                     <div key={act.id} className="flex items-center justify-between border-b border-border/40 pb-2">
                       <span className="capitalize font-medium text-foreground">
                         {act.activity_type.replace('_', ' ')}
@@ -273,4 +254,3 @@ export default async function StudentDashboardPage() {
     </div>
   )
 }
-

@@ -34,13 +34,17 @@ ${lessonTitle ? `\nCurrent Lesson Context: "${lessonTitle}"\nLesson Content Exce
     const aiReply = await generateAIResponse(systemPrompt, userPrompt)
 
     // Save to learning activities asynchronously
-    await supabase.from('learning_activities').insert({
-      student_id: user.id,
-      activity_type: 'ai_chat',
-      resource_id: user.id,
-      resource_type: 'ai_assistant',
-      metadata: { messageQuery: message.slice(0, 100) },
-    })
+    try {
+      await supabase.from('learning_activities').insert({
+        student_id: user.id,
+        activity_type: 'ai_chat',
+        resource_id: user.id,
+        resource_type: 'ai_assistant',
+        metadata: { messageQuery: message.slice(0, 100) },
+      })
+    } catch {
+      // non-critical activity log
+    }
 
     return NextResponse.json({ reply: aiReply })
   } catch (error: unknown) {

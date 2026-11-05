@@ -1,8 +1,8 @@
-import { createClient } from '@/lib/supabase/server'
+import { createAdminClient } from '@/lib/supabase/admin'
 import { LessonsListClient } from './lessons-list-client'
 
 export default async function AdminLessonsPage() {
-  const supabase = await createClient()
+  const supabase = createAdminClient()
 
   // Fetch all lessons with part & module titles
   const { data: lessons } = await supabase

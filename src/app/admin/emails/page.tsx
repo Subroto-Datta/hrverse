@@ -1,9 +1,9 @@
-import { createClient } from '@/lib/supabase/server'
+import { createAdminClient } from '@/lib/supabase/admin'
 import { EmailManagementClient } from './email-management-client'
 import { Mail } from 'lucide-react'
 
 export default async function AdminEmailsPage() {
-  const supabase = await createClient()
+  const supabase = createAdminClient()
 
   const { data: students } = await supabase
     .from('profiles')

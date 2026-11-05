@@ -333,6 +333,17 @@ CREATE TRIGGER on_auth_user_created
   AFTER INSERT ON auth.users
   FOR EACH ROW EXECUTE FUNCTION public.handle_new_user();
 
+-- Function to check if current user is admin without triggering RLS recursion
+CREATE OR REPLACE FUNCTION public.is_admin()
+RETURNS BOOLEAN AS $$
+BEGIN
+  RETURN EXISTS (
+    SELECT 1 FROM public.profiles
+    WHERE id = auth.uid() AND role = 'admin'
+  );
+END;
+$$ LANGUAGE plpgsql SECURITY DEFINER SET search_path = public;
+
 -- Function to update updated_at timestamp
 CREATE OR REPLACE FUNCTION public.update_updated_at_column()
 RETURNS TRIGGER AS $$
@@ -417,20 +428,10 @@ ALTER TABLE public.email_reminders ENABLE ROW LEVEL SECURITY;
 -- ============================================
 -- PROFILES POLICIES
 -- ============================================
--- Users can read their own profile
-CREATE POLICY "Users can view own profile"
+-- Users and admins can view profiles
+CREATE POLICY "Users and admins can view profiles"
   ON public.profiles FOR SELECT
-  USING (auth.uid() = id);
-
--- Admins can view all profiles
-CREATE POLICY "Admins can view all profiles"
-  ON public.profiles FOR SELECT
-  USING (
-    EXISTS (
-      SELECT 1 FROM public.profiles
-      WHERE id = auth.uid() AND role = 'admin'
-    )
-  );
+  USING (auth.uid() = id OR public.is_admin());
 
 -- Users can update their own profile (but not role)
 CREATE POLICY "Users can update own profile"
@@ -438,92 +439,71 @@ CREATE POLICY "Users can update own profile"
   USING (auth.uid() = id)
   WITH CHECK (auth.uid() = id AND role = (SELECT role FROM public.profiles WHERE id = auth.uid()));
 
+CREATE POLICY "Admins can manage all profiles"
+  ON public.profiles FOR ALL
+  USING (public.is_admin());
+
 -- ============================================
 -- COURSES POLICIES
 -- ============================================
--- Anyone authenticated can view published courses
-CREATE POLICY "Authenticated users can view published courses"
+-- Anyone can view published courses
+CREATE POLICY "Anyone can view published courses"
   ON public.courses FOR SELECT
   USING (is_published = true);
 
 -- Admins can do everything with courses
 CREATE POLICY "Admins can manage courses"
   ON public.courses FOR ALL
-  USING (
-    EXISTS (
-      SELECT 1 FROM public.profiles
-      WHERE id = auth.uid() AND role = 'admin'
-    )
-  );
+  USING (public.is_admin());
 
 -- ============================================
 -- MODULES POLICIES
 -- ============================================
-CREATE POLICY "Authenticated users can view published modules"
+CREATE POLICY "Anyone can view published modules"
   ON public.modules FOR SELECT
   USING (is_published = true);
 
 CREATE POLICY "Admins can manage modules"
   ON public.modules FOR ALL
-  USING (
-    EXISTS (
-      SELECT 1 FROM public.profiles
-      WHERE id = auth.uid() AND role = 'admin'
-    )
-  );
+  USING (public.is_admin());
 
 -- ============================================
 -- PARTS POLICIES
 -- ============================================
-CREATE POLICY "Authenticated users can view published parts"
+CREATE POLICY "Anyone can view published parts"
   ON public.parts FOR SELECT
   USING (is_published = true);
 
 CREATE POLICY "Admins can manage parts"
   ON public.parts FOR ALL
-  USING (
-    EXISTS (
-      SELECT 1 FROM public.profiles
-      WHERE id = auth.uid() AND role = 'admin'
-    )
-  );
+  USING (public.is_admin());
 
 -- ============================================
 -- LESSONS POLICIES
 -- ============================================
-CREATE POLICY "Authenticated users can view published lessons"
+CREATE POLICY "Anyone can view published lessons"
   ON public.lessons FOR SELECT
   USING (is_published = true);
 
 CREATE POLICY "Admins can manage lessons"
   ON public.lessons FOR ALL
-  USING (
-    EXISTS (
-      SELECT 1 FROM public.profiles
-      WHERE id = auth.uid() AND role = 'admin'
-    )
-  );
+  USING (public.is_admin());
 
 -- ============================================
 -- QUIZZES POLICIES
 -- ============================================
-CREATE POLICY "Authenticated users can view published quizzes"
+CREATE POLICY "Anyone can view published quizzes"
   ON public.quizzes FOR SELECT
   USING (is_published = true);
 
 CREATE POLICY "Admins can manage quizzes"
   ON public.quizzes FOR ALL
-  USING (
-    EXISTS (
-      SELECT 1 FROM public.profiles
-      WHERE id = auth.uid() AND role = 'admin'
-    )
-  );
+  USING (public.is_admin());
 
 -- ============================================
 -- QUIZ QUESTIONS POLICIES
 -- ============================================
-CREATE POLICY "Authenticated users can view questions of published quizzes"
+CREATE POLICY "Anyone can view questions of published quizzes"
   ON public.quiz_questions FOR SELECT
   USING (
     EXISTS (
@@ -534,12 +514,7 @@ CREATE POLICY "Authenticated users can view questions of published quizzes"
 
 CREATE POLICY "Admins can manage quiz questions"
   ON public.quiz_questions FOR ALL
-  USING (
-    EXISTS (
-      SELECT 1 FROM public.profiles
-      WHERE id = auth.uid() AND role = 'admin'
-    )
-  );
+  USING (public.is_admin());
 
 -- ============================================
 -- QUIZ ATTEMPTS POLICIES
@@ -558,28 +533,18 @@ CREATE POLICY "Students can update own quiz attempts"
 
 CREATE POLICY "Admins can view all quiz attempts"
   ON public.quiz_attempts FOR SELECT
-  USING (
-    EXISTS (
-      SELECT 1 FROM public.profiles
-      WHERE id = auth.uid() AND role = 'admin'
-    )
-  );
+  USING (public.is_admin());
 
 -- ============================================
 -- ASSESSMENTS POLICIES
 -- ============================================
-CREATE POLICY "Authenticated users can view published assessments"
+CREATE POLICY "Anyone can view published assessments"
   ON public.assessments FOR SELECT
   USING (is_published = true);
 
 CREATE POLICY "Admins can manage assessments"
   ON public.assessments FOR ALL
-  USING (
-    EXISTS (
-      SELECT 1 FROM public.profiles
-      WHERE id = auth.uid() AND role = 'admin'
-    )
-  );
+  USING (public.is_admin());
 
 -- ============================================
 -- ASSESSMENT SUBMISSIONS POLICIES
@@ -598,28 +563,18 @@ CREATE POLICY "Students can update own draft submissions"
 
 CREATE POLICY "Admins can manage all assessment submissions"
   ON public.assessment_submissions FOR ALL
-  USING (
-    EXISTS (
-      SELECT 1 FROM public.profiles
-      WHERE id = auth.uid() AND role = 'admin'
-    )
-  );
+  USING (public.is_admin());
 
 -- ============================================
 -- PROJECTS POLICIES
 -- ============================================
-CREATE POLICY "Authenticated users can view published projects"
+CREATE POLICY "Anyone can view published projects"
   ON public.projects FOR SELECT
   USING (is_published = true);
 
 CREATE POLICY "Admins can manage projects"
   ON public.projects FOR ALL
-  USING (
-    EXISTS (
-      SELECT 1 FROM public.profiles
-      WHERE id = auth.uid() AND role = 'admin'
-    )
-  );
+  USING (public.is_admin());
 
 -- ============================================
 -- PROJECT SUBMISSIONS POLICIES
@@ -638,12 +593,7 @@ CREATE POLICY "Students can update own draft project submissions"
 
 CREATE POLICY "Admins can manage all project submissions"
   ON public.project_submissions FOR ALL
-  USING (
-    EXISTS (
-      SELECT 1 FROM public.profiles
-      WHERE id = auth.uid() AND role = 'admin'
-    )
-  );
+  USING (public.is_admin());
 
 -- ============================================
 -- ENROLLMENTS POLICIES
@@ -658,12 +608,7 @@ CREATE POLICY "Students can enroll themselves"
 
 CREATE POLICY "Admins can manage all enrollments"
   ON public.enrollments FOR ALL
-  USING (
-    EXISTS (
-      SELECT 1 FROM public.profiles
-      WHERE id = auth.uid() AND role = 'admin'
-    )
-  );
+  USING (public.is_admin());
 
 -- ============================================
 -- LESSON PROGRESS POLICIES
@@ -682,12 +627,7 @@ CREATE POLICY "Students can update own lesson progress"
 
 CREATE POLICY "Admins can view all lesson progress"
   ON public.lesson_progress FOR SELECT
-  USING (
-    EXISTS (
-      SELECT 1 FROM public.profiles
-      WHERE id = auth.uid() AND role = 'admin'
-    )
-  );
+  USING (public.is_admin());
 
 -- ============================================
 -- LEARNING ACTIVITIES POLICIES
@@ -702,12 +642,7 @@ CREATE POLICY "Students can insert own activities"
 
 CREATE POLICY "Admins can view all activities"
   ON public.learning_activities FOR SELECT
-  USING (
-    EXISTS (
-      SELECT 1 FROM public.profiles
-      WHERE id = auth.uid() AND role = 'admin'
-    )
-  );
+  USING (public.is_admin());
 
 -- ============================================
 -- AI CONVERSATIONS POLICIES
@@ -726,24 +661,14 @@ CREATE POLICY "Students can update own AI conversations"
 
 CREATE POLICY "Admins can view all AI conversations"
   ON public.ai_conversations FOR SELECT
-  USING (
-    EXISTS (
-      SELECT 1 FROM public.profiles
-      WHERE id = auth.uid() AND role = 'admin'
-    )
-  );
+  USING (public.is_admin());
 
 -- ============================================
 -- EMAIL REMINDERS POLICIES
 -- ============================================
 CREATE POLICY "Admins can manage email reminders"
   ON public.email_reminders FOR ALL
-  USING (
-    EXISTS (
-      SELECT 1 FROM public.profiles
-      WHERE id = auth.uid() AND role = 'admin'
-    )
-  );
+  USING (public.is_admin());
 
 CREATE POLICY "Users can view own email reminders"
   ON public.email_reminders FOR SELECT

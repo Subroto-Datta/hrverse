@@ -74,3 +74,4 @@ export async function uploadCourseAsset(
 
   return { url: urlData.publicUrl }
 }
+

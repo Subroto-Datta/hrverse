@@ -1,4 +1,4 @@
-import { createClient } from '@/lib/supabase/server'
+import { createAdminClient } from '@/lib/supabase/admin'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
@@ -6,7 +6,7 @@ import { HelpCircle, Clock, Award, Plus, CheckCircle2 } from 'lucide-react'
 import Link from 'next/link'
 
 export default async function AdminQuizzesPage() {
-  const supabase = await createClient()
+  const supabase = createAdminClient()
 
   const { data: quizzes } = await supabase
     .from('quizzes')

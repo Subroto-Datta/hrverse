@@ -1,30 +1,24 @@
-import { createClient } from '@/lib/supabase/server'
 import { getUser } from '@/lib/utils/auth'
+import {
+  getStudentQuizAttempts,
+  getStudentLessonProgress,
+  getTotalPublishedLessonsCount,
+} from '@/lib/content/get-content'
 import { StudentAnalyticsClient } from './student-analytics-client'
 
 export default async function StudentAnalyticsPage() {
   const user = await getUser()
-  const supabase = await createClient()
+  const studentId = user?.id || ''
 
-  // 1. Fetch user quiz attempts
-  const { data: attempts } = await supabase
-    .from('quiz_attempts')
-    .select('*')
-    .eq('student_id', user?.id || '')
-    .order('completed_at', { ascending: true })
+  // 1. Fetch user quiz attempts safely
+  const attempts = await getStudentQuizAttempts(studentId)
 
-  // 2. Fetch completed lessons count
-  const { count: completedCount } = await supabase
-    .from('lesson_progress')
-    .select('id', { count: 'exact', head: true })
-    .eq('student_id', user?.id || '')
-    .eq('status', 'completed')
+  // 2. Fetch completed lessons count safely
+  const progress = await getStudentLessonProgress(studentId)
+  const completedCount = progress.filter((p: any) => p.status === 'completed').length
 
-  // 3. Total published lessons
-  const { count: totalLessons } = await supabase
-    .from('lessons')
-    .select('id', { count: 'exact', head: true })
-    .eq('is_published', true)
+  // 3. Total published lessons safely
+  const totalLessons = await getTotalPublishedLessonsCount()
 
   return (
     <div className="p-6 sm:p-8 space-y-8 max-w-5xl mx-auto">
@@ -45,4 +39,3 @@ export default async function StudentAnalyticsPage() {
     </div>
   )
 }
-

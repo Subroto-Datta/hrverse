@@ -1,5 +1,8 @@
-import { createClient } from '@/lib/supabase/server'
 import { getUser } from '@/lib/utils/auth'
+import {
+  getProjectById,
+  getStudentProjectSubmissions,
+} from '@/lib/content/get-content'
 import { notFound } from 'next/navigation'
 import { ProjectDetailClient } from './project-detail-client'
 
@@ -10,26 +13,17 @@ export default async function ProjectDetailPage({
 }) {
   const { id } = await params
   const user = await getUser()
-  const supabase = await createClient()
 
-  // 1. Fetch project
-  const { data: project, error } = await supabase
-    .from('projects')
-    .select('*')
-    .eq('id', id)
-    .single()
+  // 1. Fetch project safely
+  const project = await getProjectById(id)
 
-  if (error || !project) {
+  if (!project) {
     notFound()
   }
 
-  // 2. Fetch student's submission (if any)
-  const { data: submission } = await supabase
-    .from('project_submissions')
-    .select('*')
-    .eq('project_id', id)
-    .eq('student_id', user?.id || '')
-    .single()
+  // 2. Fetch student's submission safely
+  const submissions = await getStudentProjectSubmissions(user?.id || '')
+  const submission = submissions.find((s: any) => s.project_id === id) || null
 
   return (
     <div className="p-6 sm:p-10 max-w-4xl mx-auto">
@@ -37,4 +31,3 @@ export default async function ProjectDetailPage({
     </div>
   )
 }
-

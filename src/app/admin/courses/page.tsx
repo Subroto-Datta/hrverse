@@ -1,4 +1,4 @@
-import { createClient } from '@/lib/supabase/server'
+import { createAdminClient } from '@/lib/supabase/admin'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
@@ -7,7 +7,7 @@ import Link from 'next/link'
 import { toggleCoursePublish } from '@/actions/admin'
 
 export default async function AdminCoursesPage() {
-  const supabase = await createClient()
+  const supabase = createAdminClient()
 
   const { data: courses } = await supabase
     .from('courses')

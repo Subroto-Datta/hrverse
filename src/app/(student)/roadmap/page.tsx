@@ -1,5 +1,5 @@
-import { createClient } from '@/lib/supabase/server'
 import { getUser } from '@/lib/utils/auth'
+import { getPublishedModules, getStudentLessonProgress } from '@/lib/content/get-content'
 import Link from 'next/link'
 import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -7,32 +7,24 @@ import { Button } from '@/components/ui/button'
 import {
   CheckCircle2,
   Clock,
-  ArrowRight,
   BookOpen,
   HelpCircle,
-  ClipboardCheck,
   Lock,
 } from 'lucide-react'
 
 export default async function RoadmapPage() {
   const user = await getUser()
-  const supabase = await createClient()
 
-  // Fetch modules, parts, and lessons
-  const { data: modules } = await supabase
-    .from('modules')
-    .select('*, parts(*, lessons(*))')
-    .eq('is_published', true)
-    .order('order_index', { ascending: true })
+  // Safely fetch modules with parts and lessons
+  const modules = await getPublishedModules()
 
-  // Fetch student lesson completions
-  const { data: progress } = await supabase
-    .from('lesson_progress')
-    .select('lesson_id, status')
-    .eq('student_id', user?.id || '')
-    .eq('status', 'completed')
-
-  const completedLessonIds = new Set(progress?.map((p) => p.lesson_id) || [])
+  // Safely fetch student lesson completions
+  const progress = await getStudentLessonProgress(user?.id || '')
+  const completedLessonIds = new Set(
+    progress
+      ?.filter((p: any) => p.status === 'completed')
+      .map((p: any) => p.lesson_id) || []
+  )
 
   const weeks = [
     {
@@ -116,7 +108,7 @@ export default async function RoadmapPage() {
       <div className="relative pl-6 sm:pl-8 space-y-8 border-l-2 border-primary/20">
         {weeks.map((w, idx) => {
           const isCurrent = idx === 0
-          const correspondingModule = modules?.find((m) => m.order_index === w.moduleIndex)
+          const correspondingModule = modules?.find((m: any) => m.order_index === w.moduleIndex)
 
           return (
             <div key={idx} className="relative group">
@@ -213,4 +205,3 @@ export default async function RoadmapPage() {
     </div>
   )
 }
-

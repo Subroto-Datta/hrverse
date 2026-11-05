@@ -64,3 +64,4 @@ CREATE POLICY "Admins can view all student submissions"
       WHERE id = auth.uid() AND role = 'admin'
     )
   );
+
