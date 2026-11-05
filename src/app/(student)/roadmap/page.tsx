@@ -1,0 +1,215 @@
+import { createClient } from '@/lib/supabase/server'
+import { getUser } from '@/lib/utils/auth'
+import Link from 'next/link'
+import { Card, CardContent } from '@/components/ui/card'
+import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
+import {
+  CheckCircle2,
+  Clock,
+  ArrowRight,
+  BookOpen,
+  HelpCircle,
+  ClipboardCheck,
+  Lock,
+} from 'lucide-react'
+
+export default async function RoadmapPage() {
+  const user = await getUser()
+  const supabase = await createClient()
+
+  // Fetch modules, parts, and lessons
+  const { data: modules } = await supabase
+    .from('modules')
+    .select('*, parts(*, lessons(*))')
+    .eq('is_published', true)
+    .order('order_index', { ascending: true })
+
+  // Fetch student lesson completions
+  const { data: progress } = await supabase
+    .from('lesson_progress')
+    .select('lesson_id, status')
+    .eq('student_id', user?.id || '')
+    .eq('status', 'completed')
+
+  const completedLessonIds = new Set(progress?.map((p) => p.lesson_id) || [])
+
+  const weeks = [
+    {
+      weekNum: 1,
+      title: 'Week 1: Strategic Foundations & Talent Acquisition',
+      desc: 'Evolution of HRM, Job Analysis (TDRs/KSAOs), Demand Forecasting, Multi-Channel Sourcing & Structured STAR Interviews.',
+      moduleIndex: 1,
+      quizTitle: 'Week 1 Comprehensive Quiz',
+      status: 'active',
+    },
+    {
+      weekNum: 2,
+      title: 'Week 2: Total Rewards, Performance Architecture & ADDIE',
+      desc: 'WorldatWork Framework, Point-Factor Job Evaluation, Salary Bands & Compa-Ratios, BARS/OKRs, Knowles Adult Learning.',
+      moduleIndex: 2,
+      quizTitle: 'Week 2 Comprehensive Quiz',
+      status: 'upcoming',
+    },
+    {
+      weekNum: 3,
+      title: 'Week 3: Labor Relations, Compliance & Psychological Safety',
+      desc: 'FLSA, EEO-1, 4/5ths Rule Adverse Impact Testing, Union Organizing, Progressive Discipline.',
+      moduleIndex: null,
+      quizTitle: 'Labor Law Diagnostic',
+      status: 'upcoming',
+    },
+    {
+      weekNum: 4,
+      title: 'Week 4: Executive Long-Term Incentives & Equity Architecture',
+      desc: 'RSUs, Stock Options, Vesting Cliffs, Pay Parity Regressions, Section 125 Benefits.',
+      moduleIndex: null,
+      quizTitle: 'Assessment 1 Submission',
+      status: 'upcoming',
+    },
+    {
+      weekNum: 5,
+      title: 'Week 5: High-Performance Culture & 9-Box Succession',
+      desc: '9-Box Performance vs. Potential Grid, 70-20-10 Learning Architecture, Executive Calibration, PIPs.',
+      moduleIndex: null,
+      quizTitle: 'Succession Simulation',
+      status: 'upcoming',
+    },
+    {
+      weekNum: 6,
+      title: 'Week 6: Instructional Evaluation & Human Capital ROI',
+      desc: 'Kirkpatrick Levels 1-4, Jack Phillips Level 5 ROI Formula, Microlearning, Communities of Practice.',
+      moduleIndex: null,
+      quizTitle: 'Assessment 2 Submission',
+      status: 'upcoming',
+    },
+    {
+      weekNum: 7,
+      title: 'Week 7: People Analytics & Flight-Risk Modeling',
+      desc: 'Talent Acquisition Metrics (QoH, TTF, CPH), Logistic Regression Attrition Models, Ethical AI Charters.',
+      moduleIndex: null,
+      quizTitle: 'Capstone 1 Submission',
+      status: 'upcoming',
+    },
+    {
+      weekNum: 8,
+      title: 'Week 8: Digital HR Transformation & Final Board Defense',
+      desc: 'Ulrich Operating Model, Enterprise HRIS Architecture (Workday, ATS, LMS), Final Certification Defense.',
+      moduleIndex: null,
+      quizTitle: 'Capstone 2 Defense',
+      status: 'upcoming',
+    },
+  ]
+
+  return (
+    <div className="p-6 sm:p-8 space-y-8 max-w-5xl mx-auto">
+      <div className="border-b border-border pb-6 space-y-2">
+        <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-foreground">
+          Course Roadmap & Milestones
+        </h1>
+        <p className="text-xs sm:text-sm text-muted-foreground">
+          Visual 8-week curriculum timeline for the Certified Human Resource Management Professional (CHRMP).
+        </p>
+      </div>
+
+      {/* Timeline Flow */}
+      <div className="relative pl-6 sm:pl-8 space-y-8 border-l-2 border-primary/20">
+        {weeks.map((w, idx) => {
+          const isCurrent = idx === 0
+          const correspondingModule = modules?.find((m) => m.order_index === w.moduleIndex)
+
+          return (
+            <div key={idx} className="relative group">
+              {/* Timeline Indicator Dot */}
+              <div
+                className={`absolute -left-[31px] sm:-left-[39px] top-1.5 flex h-7 w-7 items-center justify-center rounded-full text-xs font-bold border-2 transition-all ${
+                  isCurrent
+                    ? 'bg-primary text-primary-foreground border-primary shadow-md scale-110'
+                    : 'bg-card text-muted-foreground border-border'
+                }`}
+              >
+                {isCurrent ? <CheckCircle2 className="h-4 w-4" /> : idx + 1}
+              </div>
+
+              <Card
+                className={`border transition-all ${
+                  isCurrent
+                    ? 'border-primary/50 shadow-md bg-card'
+                    : 'border-border/60 bg-muted/10'
+                }`}
+              >
+                <CardContent className="p-5 sm:p-6 space-y-4">
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <h3 className="font-bold text-base text-foreground">{w.title}</h3>
+                        {isCurrent && (
+                          <Badge variant="default" className="text-[10px] bg-primary text-primary-foreground">
+                            Current Week
+                          </Badge>
+                        )}
+                      </div>
+                      <p className="text-xs text-muted-foreground mt-1 leading-relaxed">{w.desc}</p>
+                    </div>
+
+                    <div className="shrink-0 flex items-center gap-2">
+                      {isCurrent ? (
+                        <Link href="/learn">
+                          <Button size="sm" className="gap-1.5 text-xs h-8">
+                            <BookOpen className="h-3.5 w-3.5" /> Study Now
+                          </Button>
+                        </Link>
+                      ) : (
+                        <Badge variant="secondary" className="text-[11px] gap-1">
+                          <Lock className="h-3 w-3" /> Sequenced
+                        </Badge>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Lessons list if corresponding module exists */}
+                  {correspondingModule && correspondingModule.parts && (
+                    <div className="pt-3 border-t border-border/50 space-y-2">
+                      <p className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
+                        Included Lessons:
+                      </p>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                        {correspondingModule.parts.flatMap((part: { lessons: Array<{ id: string; title: string; slug: string }> }) =>
+                          (part.lessons || []).map((lesson) => {
+                            const isDone = completedLessonIds.has(lesson.id)
+                            return (
+                              <Link
+                                key={lesson.id}
+                                href={`/learn/${lesson.id}`}
+                                className="flex items-center gap-2 p-2 rounded-md hover:bg-muted/60 text-xs text-foreground group/link"
+                              >
+                                {isDone ? (
+                                  <CheckCircle2 className="h-3.5 w-3.5 text-emerald-500 shrink-0" />
+                                ) : (
+                                  <Clock className="h-3.5 w-3.5 text-muted-foreground shrink-0" />
+                                )}
+                                <span className="truncate group-hover/link:text-primary transition-colors">
+                                  {lesson.title}
+                                </span>
+                              </Link>
+                            )
+                          })
+                        )}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Deliverable Pill */}
+                  <div className="flex items-center gap-2 text-xs font-medium text-muted-foreground bg-muted/40 p-2.5 rounded-md">
+                    <HelpCircle className="h-3.5 w-3.5 text-primary" />
+                    <span>Deliverable: {w.quizTitle}</span>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          )
+        })}
+      </div>
+    </div>
+  )
+}
