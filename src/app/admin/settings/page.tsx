@@ -82,7 +82,7 @@ export default function AdminSettingsPage() {
                 <BrainCircuit className="h-5 w-5 text-purple-400" />
                 <div>
                   <p className="text-xs font-bold text-white">Groq AI Cloud SDK</p>
-                  <p className="text-[10px] text-slate-400">Model: llama-3.1-70b-versatile • Pedagogical Mentorship</p>
+                  <p className="text-[10px] text-slate-400">Model: llama-3.3-70b-versatile • Pedagogical Mentorship</p>
                 </div>
               </div>
               <Badge className="bg-purple-600 text-white text-[10px]">Active</Badge>
