@@ -59,3 +59,4 @@ async function updateLessons() {
 }
 
 updateLessons().catch(console.error);
+
