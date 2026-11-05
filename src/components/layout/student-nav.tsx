@@ -73,11 +73,11 @@ export function StudentSidebar({
               href={item.href}
               className={`flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                 isActive
-                  ? 'bg-primary text-primary-foreground shadow-xs font-semibold glow-ambient-sm'
-                  : 'text-muted-foreground hover:bg-muted/60 hover:text-foreground'
+                  ? 'bg-primary text-primary-foreground shadow-xs font-semibold glow-ambient-sm dark:bg-amber-500/15 dark:text-amber-300 dark:border dark:border-amber-500/25 dark:shadow-[0_0_16px_-3px_rgba(245,158,11,0.2)]'
+                  : 'text-muted-foreground hover:bg-muted/60 hover:text-foreground dark:hover:bg-white/[0.04]'
               }`}
             >
-              <Icon className="h-4 w-4" />
+              <Icon className={`h-4 w-4 ${isActive ? 'text-primary-foreground dark:text-amber-400' : 'text-muted-foreground'}`} />
               <span>{item.title}</span>
             </Link>
           )

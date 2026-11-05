@@ -20,7 +20,7 @@ export default function LandingPage() {
     <div className="flex flex-col relative">
       {/* Hero Section */}
       <section className="relative overflow-hidden pt-20 pb-24 md:pt-28 md:pb-32">
-        <AmbientGlow variant="hero" />
+        <AmbientGlow variant="hero" showGrid={true} />
         <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <MotionDiv
             initial="hidden"

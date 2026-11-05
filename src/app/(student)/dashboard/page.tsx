@@ -48,7 +48,7 @@ export default async function StudentDashboardPage() {
 
   return (
     <div className="p-6 sm:p-8 space-y-8 max-w-7xl mx-auto relative">
-      <AmbientGlow variant="corner" />
+      <AmbientGlow variant="corner" showGrid={true} />
       {/* Welcome Banner */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-border pb-6">
         <div>
