@@ -14,3 +14,4 @@ export default async function StudentLayout({
     </StudentLayoutClient>
   )
 }
+

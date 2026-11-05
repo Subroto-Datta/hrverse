@@ -12,6 +12,7 @@ import {
   CheckCircle2,
   BookOpen,
 } from 'lucide-react'
+import { MotionDiv, MotionH1, MotionP, fadeIn, staggerContainer } from '@/components/layout/motion-wrapper'
 
 export default function LandingPage() {
   return (
@@ -19,24 +20,41 @@ export default function LandingPage() {
       {/* Hero Section */}
       <section className="relative overflow-hidden pt-20 pb-24 md:pt-28 md:pb-32 bg-gradient-to-b from-primary/5 via-background to-background">
         <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto space-y-6">
-            <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary">
+          <MotionDiv
+            initial="hidden"
+            animate="visible"
+            variants={staggerContainer}
+            className="text-center max-w-3xl mx-auto space-y-6"
+          >
+            <MotionDiv
+              variants={fadeIn}
+              className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary"
+            >
               <Sparkles className="h-3.5 w-3.5" />
               <span>Next-Generation AI-Powered HR Learning</span>
-            </div>
+            </MotionDiv>
 
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-foreground leading-[1.15]">
+            <MotionH1
+              variants={fadeIn}
+              className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-foreground leading-[1.15]"
+            >
               Master Strategic Human Resources with{' '}
               <span className="bg-gradient-to-r from-primary via-indigo-600 to-purple-600 bg-clip-text text-transparent">
                 HR Verse
               </span>
-            </h1>
+            </MotionH1>
 
-            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+            <MotionP
+              variants={fadeIn}
+              className="text-base sm:text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto"
+            >
               Accelerate your HR leadership trajectory through real-world case simulations, predictive talent acquisition, compensation modeling, and continuous Groq-powered AI coaching.
-            </p>
+            </MotionP>
 
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+            <MotionDiv
+              variants={fadeIn}
+              className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4"
+            >
               <Link href="/register">
                 <Button size="lg" className="w-full sm:w-auto gap-2 px-8 shadow-md">
                   Enroll in CHRMP <ArrowRight className="h-4 w-4" />
@@ -47,10 +65,13 @@ export default function LandingPage() {
                   Explore 8-Week Roadmap
                 </Button>
               </Link>
-            </div>
+            </MotionDiv>
 
             {/* Quick Metrics */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 pt-12 border-t border-border/60">
+            <MotionDiv
+              variants={fadeIn}
+              className="grid grid-cols-2 sm:grid-cols-4 gap-6 pt-12 border-t border-border/60"
+            >
               <div>
                 <p className="text-2xl sm:text-3xl font-extrabold text-foreground">8 Weeks</p>
                 <p className="text-xs text-muted-foreground font-medium">Intensive Curriculum</p>
@@ -67,8 +88,8 @@ export default function LandingPage() {
                 <p className="text-2xl sm:text-3xl font-extrabold text-foreground">Groq AI</p>
                 <p className="text-xs text-muted-foreground font-medium">24/7 Learning Mentor</p>
               </div>
-            </div>
-          </div>
+            </MotionDiv>
+          </MotionDiv>
         </div>
       </section>
 

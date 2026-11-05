@@ -87,3 +87,4 @@ When an employee persistently falls below acceptable performance baselines:
 - Specify employer support: training resources, tooling, weekly coaching checkpoints.
 - Define explicit time horizons (typically 30, 60, or 90 calendar days).
 - Transparently state outcomes: Successful graduation, role reassignment, or separation of employment.
+

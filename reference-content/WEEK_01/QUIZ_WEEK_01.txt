@@ -162,3 +162,4 @@ C) An online typing speed test platform
 D) A payroll processing office
 Correct: B
 Explanation: An Assessment Center utilizes standardized behavioral simulations, presentations, and group exercises scored by calibrated assessors.
+

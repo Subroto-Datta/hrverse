@@ -22,3 +22,4 @@ export default async function AdminLessonEditPage({
 
   return <LessonEditorClient lesson={lesson} />
 }
+

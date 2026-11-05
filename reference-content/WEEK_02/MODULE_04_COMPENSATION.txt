@@ -96,3 +96,4 @@ D. Green-Circle and Red-Circle Rates:
 - Voluntary Core Benefits: Medical, Dental, Vision HMO/PPO/HDHP plans with HSA/FSA tax-advantaged structures.
 - Retirement: Defined Benefit (pension) versus Defined Contribution (401k/Superannuation with employer matching).
 - Cafeteria Plans (Section 125): Permitting employees to choose between taxable cash and qualified pre-tax fringe benefits.
+

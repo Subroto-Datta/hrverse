@@ -256,3 +256,4 @@ export function ProjectDetailClient({
     </div>
   )
 }
+

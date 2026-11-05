@@ -162,3 +162,4 @@ C) PIPs must never exceed 48 hours in duration
 D) Managers must not provide feedback during the PIP period
 Correct: B
 Explanation: Legally defensible and effective PIPs provide concrete documentation of deficits, explicit goals, employer support, clear review intervals, and transparent outcomes.
+

@@ -110,3 +110,4 @@ B. The 30-60-90 Day Structured Onboarding Model:
 - Quality of Hire (QoH): Composite index combining 90-day retention, 1-year performance appraisal rating, and hiring manager satisfaction score.
 - Sourcing Channel Effectiveness: Conversion rates per channel through the funnel stages.
 - Offer Acceptance Rate (OAR): Accepted Offers / Total Offers Extended * 100%.
+

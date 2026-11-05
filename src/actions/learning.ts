@@ -289,3 +289,4 @@ export async function enrollInCourse(courseId: string) {
   revalidatePath('/dashboard')
   return { success: true }
 }
+

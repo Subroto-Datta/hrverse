@@ -12,3 +12,4 @@ export default async function AdminLessonsPage() {
 
   return <LessonsListClient lessons={lessons || []} />
 }
+

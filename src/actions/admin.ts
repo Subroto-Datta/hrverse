@@ -252,3 +252,4 @@ export async function gradeProjectSubmission(
   revalidatePath('/projects')
   return { success: true }
 }
+

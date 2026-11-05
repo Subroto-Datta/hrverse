@@ -248,3 +248,4 @@ export function AdminDashboardClient({ metrics }: { metrics: DashboardMetrics })
     </div>
   )
 }
+

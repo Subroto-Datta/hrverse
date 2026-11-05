@@ -110,3 +110,4 @@ export function AdminSidebar({ profile }: { profile: Profile | null }) {
     </aside>
   )
 }
+

@@ -58,3 +58,4 @@ Pillar 4: Learning, Leadership Development & Culture Architecture
    - Concrete metrics (QoH, TTF, CPH, Compa-Ratio distribution, eNPS, retention).
 5. Professional Communication & Structure (10 Points)
    - Executive-ready formatting, clarity, logical progression, and professional tone.
+
