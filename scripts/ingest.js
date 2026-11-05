@@ -179,5 +179,9 @@ function run() {
   console.log(`\n🎉 INGESTION SUMMARY: All 12 reference files (${totalBlocks} content blocks, ${q1.length + q2.length} quiz questions) fully verified and ready!`);
 }
 
-run();
+if (require.main === module) {
+  run();
+}
+
+module.exports = { parseModuleTextToBlocks, parseQuizFile };
 
