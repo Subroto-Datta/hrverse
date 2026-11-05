@@ -74,10 +74,10 @@ export default async function LearnOverviewPage() {
       ) : (
         <div className="space-y-6">
           {modules.map((module: any) => (
-            <Card key={module.id} className="border border-border/80 shadow-sm overflow-hidden">
+            <Card key={module.id} className="border border-border/70 shadow-xs hover:shadow-sm rounded-xl overflow-hidden transition-all">
               <CardHeader className="bg-muted/30 border-b border-border/50 pb-4">
                 <div className="flex items-center justify-between">
-                  <Badge variant="outline" className="text-primary border-primary/20">
+                  <Badge variant="outline" className="text-amber-700 dark:text-amber-300 border-amber-500/25 bg-amber-500/10 font-semibold text-[11px]">
                     Module {module.order_index}
                   </Badge>
                   <span className="text-xs text-muted-foreground">
@@ -91,7 +91,7 @@ export default async function LearnOverviewPage() {
                 <CardTitle className="text-lg font-bold text-foreground mt-1">
                   {module.title}
                 </CardTitle>
-                <CardDescription className="text-xs leading-relaxed">
+                <CardDescription className="text-xs leading-relaxed text-muted-foreground">
                   {module.description}
                 </CardDescription>
               </CardHeader>
@@ -109,8 +109,11 @@ export default async function LearnOverviewPage() {
                     }>
                   }) => (
                     <div key={part.id} className="space-y-3">
-                      <h4 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground border-b border-border/40 pb-1.5">
-                        {part.title}
+                      <h4 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground border-b border-border/40 pb-1.5 flex items-center justify-between">
+                        <span>{part.title}</span>
+                        <span className="text-[10px] text-muted-foreground/80 font-normal">
+                          {part.lessons?.length || 0} Lessons
+                        </span>
                       </h4>
                       <div className="space-y-2">
                         {part.lessons?.map((lesson) => {
@@ -119,7 +122,7 @@ export default async function LearnOverviewPage() {
                           return (
                             <div
                               key={lesson.id}
-                              className="flex items-center justify-between p-3.5 rounded-lg border border-border/60 hover:border-primary/40 bg-card hover:bg-muted/20 transition-all group"
+                              className="flex items-center justify-between p-3.5 rounded-xl border border-border/60 hover:border-amber-500/35 bg-card hover:bg-amber-500/[0.02] hover:shadow-[0_2px_16px_-4px_rgba(245,158,11,0.08)] transition-all duration-200 group"
                             >
                               <div className="flex items-center gap-3 min-w-0">
                                 {isCompleted ? (

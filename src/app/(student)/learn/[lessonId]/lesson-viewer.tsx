@@ -93,19 +93,19 @@ export function LessonViewer({
             variant="outline"
             size="sm"
             onClick={() => setAiModalOpen(true)}
-            className="gap-1.5 text-xs text-amber-600 dark:text-amber-400 border-amber-500/30 hover:bg-amber-500/10"
+            className="gap-1.5 text-xs text-amber-700 dark:text-amber-300 border-amber-500/20 hover:border-amber-500/35 bg-amber-500/[0.04] hover:bg-amber-500/10 transition-all"
           >
-            <Sparkles className="h-3.5 w-3.5" /> Ask AI Tutor
+            <Sparkles className="h-3.5 w-3.5 text-amber-500" /> Ask AI Tutor
           </Button>
 
           <Button
             size="sm"
             onClick={handleMarkComplete}
             disabled={submitting}
-            className={`gap-1.5 text-xs ${
+            className={`gap-1.5 text-xs font-semibold ${
               completed
                 ? 'bg-emerald-600 hover:bg-emerald-700 text-white'
-                : 'bg-primary text-primary-foreground'
+                : 'bg-primary text-primary-foreground shadow-xs hover:shadow-[0_0_18px_-3px_rgba(245,158,11,0.22)] transition-all'
             }`}
           >
             {submitting ? (
@@ -158,8 +158,8 @@ export function LessonViewer({
             const title = block.data?.title as string
             const text = block.data?.text as string
             return (
-              <div key={idx} className="p-4 rounded-xl border border-amber-500/30 bg-amber-500/10 dark:bg-amber-500/5 text-xs sm:text-sm my-4 space-y-1">
-                {title && <h5 className="font-bold text-amber-700 dark:text-amber-300">{title}</h5>}
+              <div key={idx} className="p-4.5 rounded-xl border border-amber-500/20 bg-amber-500/[0.04] dark:bg-amber-500/[0.03] text-xs sm:text-sm my-5 space-y-1.5 shadow-[0_1px_10px_-3px_rgba(245,158,11,0.06)]">
+                {title && <h5 className="font-semibold text-amber-700 dark:text-amber-300 tracking-tight">{title}</h5>}
                 {text && <p className="text-foreground/90 leading-relaxed">{text}</p>}
               </div>
             )
@@ -169,10 +169,10 @@ export function LessonViewer({
             const headers = (block.data?.headers as string[]) || []
             const rows = (block.data?.rows as string[][]) || []
             return (
-              <div key={idx} className="overflow-x-auto my-6 border border-border/80 rounded-xl shadow-xs">
+              <div key={idx} className="overflow-x-auto my-6 border border-border/70 rounded-xl shadow-xs bg-card">
                 <table className="w-full text-left text-xs sm:text-sm border-collapse">
                   {headers.length > 0 && (
-                    <thead className="bg-muted/70 text-foreground font-semibold border-b border-border/80">
+                    <thead className="bg-muted/50 text-foreground font-semibold border-b border-border/70">
                       <tr>
                         {headers.map((h, hIdx) => (
                           <th key={hIdx} className="px-4 py-3">{h}</th>

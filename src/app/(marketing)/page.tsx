@@ -13,12 +13,14 @@ import {
   BookOpen,
 } from 'lucide-react'
 import { MotionDiv, MotionH1, MotionP, fadeIn, staggerContainer } from '@/components/layout/motion-wrapper'
+import { AmbientGlow } from '@/components/ui/ambient-glow'
 
 export default function LandingPage() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col relative">
       {/* Hero Section */}
-      <section className="relative overflow-hidden pt-20 pb-24 md:pt-28 md:pb-32 bg-gradient-to-b from-primary/5 via-background to-background">
+      <section className="relative overflow-hidden pt-20 pb-24 md:pt-28 md:pb-32">
+        <AmbientGlow variant="hero" />
         <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <MotionDiv
             initial="hidden"
@@ -28,9 +30,9 @@ export default function LandingPage() {
           >
             <MotionDiv
               variants={fadeIn}
-              className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary"
+              className="inline-flex items-center gap-2 rounded-full border border-amber-500/20 bg-amber-500/10 px-4 py-1.5 text-xs font-semibold text-amber-700 dark:text-amber-300 backdrop-blur-xs glow-ambient-sm"
             >
-              <Sparkles className="h-3.5 w-3.5" />
+              <Sparkles className="h-3.5 w-3.5 text-amber-500" />
               <span>Next-Generation AI-Powered HR Learning</span>
             </MotionDiv>
 
@@ -39,7 +41,7 @@ export default function LandingPage() {
               className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-foreground leading-[1.15]"
             >
               Master Strategic Human Resources with{' '}
-              <span className="bg-gradient-to-r from-amber-500 via-orange-500 to-amber-400 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-amber-500 via-orange-400 to-amber-300 bg-clip-text text-transparent">
                 HR Verse
               </span>
             </MotionH1>
@@ -56,12 +58,12 @@ export default function LandingPage() {
               className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4"
             >
               <Link href="/register">
-                <Button size="lg" className="w-full sm:w-auto gap-2 px-8 shadow-md">
+                <Button size="lg" className="w-full sm:w-auto gap-2 px-8 shadow-sm glow-subtle-border font-semibold">
                   Enroll in CHRMP <ArrowRight className="h-4 w-4" />
                 </Button>
               </Link>
               <Link href="/curriculum">
-                <Button variant="outline" size="lg" className="w-full sm:w-auto">
+                <Button variant="outline" size="lg" className="w-full sm:w-auto hover:border-amber-500/30">
                   Explore 8-Week Roadmap
                 </Button>
               </Link>

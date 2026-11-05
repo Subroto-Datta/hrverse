@@ -21,6 +21,7 @@ import {
   HelpCircle,
   ClipboardCheck,
 } from 'lucide-react'
+import { AmbientGlow } from '@/components/ui/ambient-glow'
 
 export default async function StudentDashboardPage() {
   const user = await getUser()
@@ -46,7 +47,8 @@ export default async function StudentDashboardPage() {
       : 0
 
   return (
-    <div className="p-6 sm:p-8 space-y-8 max-w-7xl mx-auto">
+    <div className="p-6 sm:p-8 space-y-8 max-w-7xl mx-auto relative">
+      <AmbientGlow variant="corner" />
       {/* Welcome Banner */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-border pb-6">
         <div>
@@ -58,7 +60,7 @@ export default async function StudentDashboardPage() {
           </p>
         </div>
         <Link href="/learn">
-          <Button className="gap-2 shadow-sm">
+          <Button className="gap-2 shadow-xs hover:shadow-[0_0_16px_-3px_rgba(245,158,11,0.22)] font-semibold transition-all">
             <BookOpen className="h-4 w-4" /> Continue Learning
           </Button>
         </Link>
@@ -66,19 +68,19 @@ export default async function StudentDashboardPage() {
 
       {/* Metrics Row */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        <Card className="border border-border/70 shadow-sm">
+        <Card className="border border-border/70 hover:border-amber-500/30 transition-all duration-200 shadow-xs">
           <CardContent className="p-5 flex items-center justify-between">
             <div className="space-y-1">
               <p className="text-xs font-medium text-muted-foreground">Course Completion</p>
               <p className="text-2xl font-bold text-foreground">{progressPercent}%</p>
             </div>
-            <div className="h-10 w-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
+            <div className="h-10 w-10 rounded-xl bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center">
               <CheckCircle2 className="h-5 w-5" />
             </div>
           </CardContent>
         </Card>
 
-        <Card className="border border-border/70 shadow-sm">
+        <Card className="border border-border/70 hover:border-amber-500/30 transition-all duration-200 shadow-xs">
           <CardContent className="p-5 flex items-center justify-between">
             <div className="space-y-1">
               <p className="text-xs font-medium text-muted-foreground">Lessons Completed</p>
@@ -86,25 +88,25 @@ export default async function StudentDashboardPage() {
                 {completedCount} <span className="text-xs text-muted-foreground font-normal">/ {totalLessons}</span>
               </p>
             </div>
-            <div className="h-10 w-10 rounded-xl bg-indigo-500/10 text-indigo-600 flex items-center justify-center">
+            <div className="h-10 w-10 rounded-xl bg-orange-500/10 text-orange-600 dark:text-orange-400 flex items-center justify-center">
               <BookOpen className="h-5 w-5" />
             </div>
           </CardContent>
         </Card>
 
-        <Card className="border border-border/70 shadow-sm">
+        <Card className="border border-border/70 hover:border-amber-500/30 transition-all duration-200 shadow-xs">
           <CardContent className="p-5 flex items-center justify-between">
             <div className="space-y-1">
               <p className="text-xs font-medium text-muted-foreground">Quiz Average</p>
               <p className="text-2xl font-bold text-foreground">{quizAvg}%</p>
             </div>
-            <div className="h-10 w-10 rounded-xl bg-purple-500/10 text-purple-600 flex items-center justify-center">
+            <div className="h-10 w-10 rounded-xl bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center">
               <HelpCircle className="h-5 w-5" />
             </div>
           </CardContent>
         </Card>
 
-        <Card className="border border-border/70 shadow-sm">
+        <Card className="border border-border/70 hover:border-amber-500/30 transition-all duration-200 shadow-xs">
           <CardContent className="p-5 flex items-center justify-between">
             <div className="space-y-1">
               <p className="text-xs font-medium text-muted-foreground">Target Certification</p>

@@ -46,11 +46,11 @@ export function AdminSidebar({ profile }: { profile: Profile | null }) {
       {/* Brand Header with Admin Badge */}
       <div className="h-16 border-b border-border flex items-center justify-between px-4">
         <div className="flex items-center gap-2.5">
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-sm shadow-amber-500/20">
+          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-xs">
             <ShieldCheck className="h-5 w-5" />
           </div>
           <div className="flex flex-col">
-            <span className="font-extrabold text-base tracking-tight leading-none bg-gradient-to-r from-amber-500 via-orange-500 to-amber-400 bg-clip-text text-transparent">
+            <span className="font-extrabold text-base tracking-tight leading-none bg-gradient-to-r from-amber-500 via-amber-400 to-orange-400 bg-clip-text text-transparent">
               HR Verse
             </span>
             <span className="text-[10px] text-amber-600 dark:text-amber-400 font-bold uppercase tracking-wider mt-0.5">
@@ -71,10 +71,10 @@ export function AdminSidebar({ profile }: { profile: Profile | null }) {
             <Link
               key={item.href}
               href={item.href}
-              className={`flex items-center gap-3 px-3 py-2 rounded-lg text-xs font-medium transition-all ${
+              className={`flex items-center gap-3 px-3 py-2 rounded-lg text-xs font-medium transition-all duration-200 ${
                 isActive
-                  ? 'bg-primary text-primary-foreground shadow-sm shadow-amber-500/20 font-semibold'
-                  : 'text-muted-foreground hover:bg-muted hover:text-foreground'
+                  ? 'bg-primary text-primary-foreground shadow-xs font-semibold glow-ambient-sm'
+                  : 'text-muted-foreground hover:bg-muted/60 hover:text-foreground'
               }`}
             >
               <Icon className="h-4 w-4 shrink-0" />
