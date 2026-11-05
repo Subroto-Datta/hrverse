@@ -11,7 +11,7 @@ export default function AdminSettingsPage() {
     <div className="p-6 sm:p-8 space-y-6 max-w-5xl mx-auto">
       <div className="border-b border-slate-800 pb-6 space-y-1">
         <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white flex items-center gap-2.5">
-          <Settings className="h-6 w-6 text-purple-400" /> Platform Settings & Infrastructure
+          <Settings className="h-6 w-6 text-amber-400" /> Platform Settings & Infrastructure
         </h1>
         <p className="text-xs sm:text-sm text-slate-400">
           Manage system configurations, AI models, database connections, and email integrations.
@@ -79,13 +79,13 @@ export default function AdminSettingsPage() {
 
             <div className="flex items-center justify-between p-3.5 rounded-lg bg-slate-900 border border-slate-800">
               <div className="flex items-center gap-3">
-                <BrainCircuit className="h-5 w-5 text-purple-400" />
+                <BrainCircuit className="h-5 w-5 text-amber-400" />
                 <div>
                   <p className="text-xs font-bold text-white">Groq AI Cloud SDK</p>
                   <p className="text-[10px] text-slate-400">Model: llama-3.3-70b-versatile • Pedagogical Mentorship</p>
                 </div>
               </div>
-              <Badge className="bg-purple-600 text-white text-[10px]">Active</Badge>
+              <Badge className="bg-amber-500 text-white text-[10px]">Active</Badge>
             </div>
 
             <div className="flex items-center justify-between p-3.5 rounded-lg bg-slate-900 border border-slate-800">

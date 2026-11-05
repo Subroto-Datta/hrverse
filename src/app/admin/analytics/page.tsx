@@ -11,7 +11,7 @@ export default async function AdminAnalyticsPage() {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-6">
         <div>
           <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white flex items-center gap-2.5">
-            <BarChart3 className="h-6 w-6 text-purple-400" /> Student Performance Analytics
+            <BarChart3 className="h-6 w-6 text-amber-400" /> Student Performance Analytics
           </h1>
           <p className="text-xs sm:text-sm text-slate-400 mt-1">
             Cohort intelligence, score distributions, pass rates, and completion trajectories.
@@ -49,7 +49,7 @@ export default async function AdminAnalyticsPage() {
             <CardTitle className="text-sm font-semibold text-slate-300">Quiz Pass Velocity</CardTitle>
           </CardHeader>
           <CardContent className="space-y-2">
-            <p className="text-3xl font-extrabold text-purple-400">{metrics.quizPassRate}%</p>
+            <p className="text-3xl font-extrabold text-amber-400">{metrics.quizPassRate}%</p>
             <p className="text-xs text-slate-400">
               Students scoring &ge; 70% threshold on first or second attempt.
             </p>
@@ -78,10 +78,10 @@ export default async function AdminAnalyticsPage() {
           <div className="space-y-2">
             <div className="flex justify-between text-xs text-slate-300">
               <span>Predictive Talent Acquisition & STAR Interviews (Module 3)</span>
-              <span className="font-bold text-purple-400">82% Mastery</span>
+              <span className="font-bold text-amber-400">82% Mastery</span>
             </div>
             <div className="w-full h-2 rounded-full bg-slate-900 overflow-hidden">
-              <div className="h-full bg-purple-500 rounded-full" style={{ width: '82%' }} />
+              <div className="h-full bg-amber-500 rounded-full" style={{ width: '82%' }} />
             </div>
           </div>
 

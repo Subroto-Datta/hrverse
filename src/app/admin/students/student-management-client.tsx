@@ -92,7 +92,7 @@ export function StudentManagementClient({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-6">
         <div>
           <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white flex items-center gap-2.5">
-            <Users className="h-6 w-6 text-purple-400" /> Student Management
+            <Users className="h-6 w-6 text-amber-400" /> Student Management
           </h1>
           <p className="text-xs sm:text-sm text-slate-400 mt-1">
             Search, filter, inspect profiles, and review AI-generated pedagogical diagnostics.
@@ -123,7 +123,7 @@ export function StudentManagementClient({
               onClick={() => setProgressFilter(f)}
               className={`text-xs h-7 capitalize ${
                 progressFilter === f
-                  ? 'bg-purple-600 text-white'
+                  ? 'bg-amber-500 text-white'
                   : 'border-slate-800 text-slate-400 hover:text-white hover:bg-slate-900'
               }`}
             >
@@ -154,7 +154,7 @@ export function StudentManagementClient({
                   <tr key={item.student.id} className="hover:bg-slate-900/50 transition-colors">
                     <td className="p-3.5">
                       <div className="flex items-center gap-3">
-                        <div className="h-8 w-8 rounded-full bg-purple-500/20 text-purple-300 flex items-center justify-center font-bold">
+                        <div className="h-8 w-8 rounded-full bg-amber-500/20 text-amber-300 flex items-center justify-center font-bold">
                           {item.student.full_name ? item.student.full_name[0].toUpperCase() : 'S'}
                         </div>
                         <div>
@@ -168,7 +168,7 @@ export function StudentManagementClient({
                       <div className="flex items-center gap-2">
                         <div className="w-16 h-1.5 rounded-full bg-slate-800 overflow-hidden">
                           <div
-                            className="h-full bg-purple-500 rounded-full"
+                            className="h-full bg-amber-500 rounded-full"
                             style={{ width: `${item.enrollment.progress_percentage}%` }}
                           />
                         </div>
@@ -230,7 +230,7 @@ export function StudentManagementClient({
             <DialogHeader>
               <div className="flex items-center justify-between border-b border-slate-800 pb-3">
                 <div className="flex items-center gap-3">
-                  <div className="h-10 w-10 rounded-full bg-purple-600 text-white flex items-center justify-center font-bold">
+                  <div className="h-10 w-10 rounded-full bg-amber-500 text-white flex items-center justify-center font-bold">
                     {selectedStudent.student.full_name ? selectedStudent.student.full_name[0].toUpperCase() : 'S'}
                   </div>
                   <div>
@@ -240,7 +240,7 @@ export function StudentManagementClient({
                     <p className="text-xs text-slate-400">{selectedStudent.student.email}</p>
                   </div>
                 </div>
-                <Badge className="bg-purple-600 text-white text-xs">
+                <Badge className="bg-amber-500 text-white text-xs">
                   {selectedStudent.enrollment.progress_percentage}% Progress
                 </Badge>
               </div>
@@ -271,7 +271,7 @@ export function StudentManagementClient({
             {/* AI Insights Section */}
             <div className="space-y-3 pt-2">
               <div className="flex items-center justify-between">
-                <div className="flex items-center gap-1.5 text-xs font-semibold text-purple-400">
+                <div className="flex items-center gap-1.5 text-xs font-semibold text-amber-400">
                   <Sparkles className="h-4 w-4" />
                   <span>AI Pedagogical Diagnosis (Groq LLM)</span>
                 </div>
@@ -279,7 +279,7 @@ export function StudentManagementClient({
                   size="sm"
                   onClick={handleGenerateStudentAIInsight}
                   disabled={loadingAI}
-                  className="text-xs h-7 bg-purple-600 hover:bg-purple-700 text-white gap-1"
+                  className="text-xs h-7 bg-amber-500 hover:bg-amber-600 text-white gap-1"
                 >
                   {loadingAI ? <Loader2 className="h-3 w-3 animate-spin" /> : <BrainCircuit className="h-3 w-3" />}
                   Generate AI Analysis

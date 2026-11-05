@@ -1,0 +1,819 @@
+DAY 6 – HEALTHCARE HUMAN RESOURCE MANAGEMENT: HOSPITAL HR STRUCTURE, STAFFING, SHIFT MANAGEMENT AND EMPLOYEE REQUIREMENTS.
+
+Y
+DAY 6 – HEALTHCARE HUMAN RESOURCE MANAGEMENT
+Hospital HR Structure, Medical Staffing, Shift Management & Employee Requirements
+Module: HR Fundamentals
+Duration: 3–4 Hours
+Level: Beginner
+Prerequisites: Days 1–5
+
+Today's Objective
+Today focuses on understanding how Human Resource Management operates in hospitals and healthcare organisations.
+
+Healthcare HR is different from HR in a conventional corporate office because hospitals operate continuously, require specialised professionals, manage shift-based staffing and have additional patient-safety and confidentiality considerations.
+
+R's Biomedical Engineering background and hospital internship provide a useful foundation for understanding this industry.
+
+By the end of today, she should understand how a hospital HR department functions and how HR coordinates with medical, technical and administrative departments.
+
+TOPIC 1: INTRODUCTION TO HEALTHCARE HR MANAGEMENT
+1.1 What is Healthcare HR Management?
+Healthcare Human Resource Management refers to the process of managing employees working in hospitals, clinics, diagnostic centres, laboratories and other healthcare organisations.
+
+It involves planning, recruiting, training, managing, evaluating and retaining healthcare employees.
+
+Unlike many conventional organisations, hospitals require different categories of professionals working together to deliver healthcare services.
+
+These include:
+
+Doctors and surgeons.
+Nurses.
+Biomedical Engineers.
+Laboratory Technicians.
+Pharmacists.
+Radiology Technicians.
+Hospital Administrators.
+Receptionists.
+Housekeeping Staff.
+Security Personnel.
+Finance and HR Professionals.
+Healthcare HR ensures that the organisation has sufficient qualified personnel to support its operations.
+
+1.2 Why is HR Important in Hospitals?
+1. Patient Care Continuity
+
+Hospitals must maintain adequate staffing to support continuous patient care.
+
+For example, a hospital operating 24 hours a day needs appropriate staffing arrangements for day, evening and night shifts.
+
+2. Recruitment of Qualified Professionals
+
+Healthcare positions often require specific educational qualifications, registrations, certifications or technical competencies.
+
+HR must coordinate with department heads to identify suitable candidates and verify relevant credentials.
+
+3. Employee Training
+
+Healthcare employees may require training in:
+
+Patient safety.
+Infection prevention.
+Emergency procedures.
+Equipment handling.
+Workplace safety.
+Hospital protocols.
+4. Shift and Attendance Management
+
+Hospitals operate across different shifts. HR must coordinate attendance, leave, overtime and shift allocation.
+
+5. Employee Retention
+
+Healthcare professionals may experience demanding workloads and irregular schedules.
+
+HR helps improve employee satisfaction, engagement and retention.
+
+6. Regulatory and Policy Compliance
+
+Healthcare organisations must follow applicable employment requirements and relevant healthcare workplace policies.
+
+7. Employee Safety and Well-being
+
+Hospitals need to protect employees from occupational risks, workplace harassment and unsafe working conditions.
+
+TOPIC 2: STRUCTURE OF A HOSPITAL HR DEPARTMENT
+A hospital's HR department may be small or large depending on the organisation's size and operational complexity.
+
+A large hospital may have specialised HR teams, whereas a smaller hospital may have only an HR Manager and a few HR Executives.
+
+2.1 Typical Hospital HR Hierarchy
+A simplified structure:
+
+Hospital Management / CEO
+
+↓
+
+HR Head / HR Director
+
+↓
+
+HR Manager
+
+↓
+
+Specialised HR Functions:
+
+Talent Acquisition and Recruitment.
+HR Operations and Administration.
+Payroll and Compensation.
+Learning and Development.
+Employee Relations.
+HR Compliance.
+↓
+
+HR Executives / Coordinators / Assistants
+
+2.2 Important Hospital HR Roles
+Designation	Main Responsibilities
+HR Head	Oversees overall HR strategy and workforce management
+HR Manager	Manages HR operations, policies and employee-related decisions
+Talent Acquisition Specialist	Recruits doctors, nurses, technicians and administrative staff
+HR Executive	Handles recruitment coordination, documentation and employee support
+HR Operations Executive	Maintains employee records and HR processes
+Payroll Executive	Coordinates salary processing, deductions and payroll records
+Training Coordinator	Organises employee training programmes
+Employee Relations Executive	Handles employee concerns, grievances and workplace matters
+HR Coordinator	Supports scheduling, documentation and communication
+2.3 How HR Coordinates with Other Hospital Departments
+HR does not independently decide every operational requirement.
+
+It works closely with department heads.
+
+Department	HR Coordination
+Nursing	Nurse recruitment, shift-related staffing, attendance
+Medical	Doctor recruitment, credential verification, contracts
+Biomedical	Biomedical Engineer recruitment and technical training
+Laboratory	Technician staffing and qualification verification
+Pharmacy	Pharmacist recruitment and employee records
+Administration	Receptionist and administrative staffing
+Finance	Payroll information, salary coordination and budgeting
+Housekeeping	Staffing, attendance and training
+Practical Understanding:
+
+Suppose the Biomedical Department requires two additional Biomedical Engineers.
+
+The department head informs HR about the requirement.
+
+HR coordinates the recruitment process, prepares or finalises the job description with the department, sources candidates, schedules interviews and coordinates the offer and joining process.
+
+The technical department evaluates whether the candidate has the necessary technical knowledge.
+
+HR and the department head therefore have different but complementary responsibilities.
+
+TOPIC 3: CATEGORIES OF HOSPITAL EMPLOYEES
+A hospital workforce can be divided into several broad categories.
+
+3.1 Clinical Employees
+These employees directly participate in diagnosis, treatment and patient care.
+
+Examples:
+
+Doctors.
+Nurses.
+Surgeons.
+Physiotherapists.
+Pharmacists.
+3.2 Technical and Diagnostic Employees
+These employees support medical diagnosis, testing and technical operations.
+
+Examples:
+
+Laboratory Technicians.
+Radiology Technicians.
+Biomedical Engineers.
+Medical Equipment Technicians.
+3.3 Administrative Employees
+These employees support the administrative functioning of the hospital.
+
+Examples:
+
+Hospital Administrators.
+Receptionists.
+Billing Executives.
+HR Executives.
+Accounts Executives.
+3.4 Support Employees
+These employees support the hospital's day-to-day operations.
+
+Examples:
+
+Housekeeping Staff.
+Security Personnel.
+Maintenance Staff.
+Transport Staff.
+General Support Staff.
+3.5 Why Does HR Need to Understand These Categories?
+Different employee categories require different:
+
+Educational qualifications.
+Recruitment procedures.
+Training programmes.
+Work schedules.
+Performance expectations.
+Documentation.
+Compensation structures.
+For example, recruiting a Biomedical Engineer requires evaluating technical qualifications and equipment-related knowledge.
+
+Recruiting a Receptionist requires greater emphasis on communication, administrative skills and patient interaction.
+
+HR must understand these differences to recruit appropriately.
+
+TOPIC 4: HEALTHCARE RECRUITMENT AND CREDENTIAL VERIFICATION
+Healthcare recruitment requires particular attention to qualifications and professional suitability.
+
+4.1 Recruitment Process in Hospitals
+A typical healthcare recruitment process involves:
+
+Step 1: Manpower Requirement
+
+The department head identifies a vacancy.
+
+Example: The ICU department requires three additional nurses.
+
+Step 2: Job Description Preparation
+
+HR coordinates with the department to establish the responsibilities and requirements.
+
+Step 3: Candidate Sourcing
+
+Candidates may be sourced through:
+
+Job portals.
+Hospital career pages.
+Employee referrals.
+Recruitment agencies.
+Campus placements.
+Professional networks.
+Step 4: Resume Screening
+
+HR checks whether the candidate's educational qualifications and experience match the job requirements.
+
+Step 5: Interview Coordination
+
+HR schedules interviews with the relevant department.
+
+Step 6: Technical Evaluation
+
+The concerned department assesses technical competence.
+
+Step 7: Credential and Background Verification
+
+HR coordinates the verification of relevant documents.
+
+Depending on the position, this may include:
+
+Educational certificates.
+Professional registrations.
+Experience certificates.
+Identity documents.
+References.
+Background verification.
+Relevant licences or certifications.
+Step 8: Selection and Offer
+
+The selected candidate receives an employment offer.
+
+Step 9: Joining and Onboarding
+
+HR completes joining formalities and coordinates induction.
+
+4.2 Why is Credential Verification Important?
+Credential verification helps ensure that employees possess the qualifications and professional credentials required for their roles.
+
+Example:
+
+A hospital recruiting a registered nurse must verify relevant nursing qualifications and applicable professional registration.
+
+Similarly, a hospital recruiting a Biomedical Engineer may verify the candidate's engineering degree and relevant technical experience.
+
+Important distinction: HR coordinates and records verification. Technical or clinical departments must assess role-specific competence where required.
+
+TOPIC 5: SHIFT MANAGEMENT IN HOSPITALS
+One of the major differences between hospital HR and conventional office HR is shift management.
+
+Hospitals may operate 24 hours a day, seven days a week.
+
+Therefore, HR must coordinate staffing across different shifts.
+
+5.1 What is Shift Management?
+Shift management refers to organising employee working hours to ensure that operational requirements are fulfilled.
+
+A hospital may use the following illustrative shift structure:
+
+Shift	Working Hours
+Morning Shift	7 AM – 3 PM
+Evening Shift	3 PM – 11 PM
+Night Shift	11 PM – 7 AM
+These are examples, not universal hospital timings.
+
+5.2 Why is Shift Management Important?
+Ensures operational continuity.
+Maintains adequate staffing.
+Distributes workloads.
+Helps manage employee availability.
+Supports patient-care operations.
+Reduces scheduling conflicts.
+5.3 Important Factors in Shift Scheduling
+1. Employee Availability
+
+HR must consider employee availability, approved leave and existing schedules.
+
+2. Staffing Requirements
+
+Different departments require different staffing levels.
+
+For example, ICU staffing requirements cannot be treated the same as routine administrative office staffing.
+
+3. Employee Skills
+
+Employees assigned to shifts must have the appropriate qualifications and competencies.
+
+4. Workload Distribution
+
+HR should coordinate with department heads to prevent unfair or excessive workload distribution.
+
+5. Weekly Offs and Leave
+
+Weekly offs and approved leave must be incorporated into schedules.
+
+6. Applicable Working-Hour Requirements
+
+Shift schedules must comply with applicable employment laws, rules and organisational policies.
+
+5.4 Practical Shift Scheduling Example
+A hospital requires six nurses across three shifts.
+
+Assume the following minimum staffing requirement:
+
+Shift	Required Nurses
+Morning	3
+Evening	2
+Night	1
+Total	6
+HR and the Nursing Supervisor must prepare a roster that maintains coverage while considering weekly offs, leave and other applicable working-hour requirements.
+
+Important: Six nurses may not be sufficient to maintain these positions every day because employees also require weekly rest and leave. Actual staffing must account for the complete roster cycle.
+
+5.5 What is a Duty Roster?
+A duty roster is a schedule showing which employees are assigned to specific shifts or duties.
+
+It typically includes:
+
+Employee name.
+Employee ID.
+Department.
+Shift timing.
+Weekly off.
+Leave status.
+Assigned responsibilities.
+A duty roster helps HR and department managers monitor employee deployment.
+
+TOPIC 6: ATTENDANCE AND LEAVE MANAGEMENT IN HOSPITALS
+Attendance management is particularly important in healthcare because an employee's absence can affect departmental operations.
+
+6.1 Common Attendance Systems
+Hospitals may use:
+
+Biometric attendance.
+RFID attendance cards.
+Facial recognition systems.
+Attendance registers.
+HRMS-based attendance tracking.
+6.2 Responsibilities of HR
+HR may be responsible for:
+
+Maintaining attendance records.
+Monitoring late arrivals.
+Recording absences.
+Processing leave requests.
+Coordinating attendance corrections.
+Sharing attendance information with payroll.
+Preparing attendance reports.
+6.3 Common Leave Categories
+Leave Type	Meaning
+Casual Leave	Leave for personal or unforeseen requirements
+Sick Leave	Leave due to illness
+Earned Leave	Leave accumulated according to applicable policy
+Maternity Leave	Leave associated with maternity
+Paternity Leave	Leave provided under applicable organisational policy or law
+Leave Without Pay	Approved absence without salary for the relevant period
+Compensatory Off	Time off provided under an applicable policy for eligible additional work
+Important: Leave eligibility and entitlements depend on applicable laws, employment arrangements and organisational policies. HR must verify the rules applicable to the establishment rather than assuming every hospital follows identical leave provisions.
+
+6.4 Practical Scenario
+A nurse assigned to the night shift informs HR that she is unwell and cannot report to work.
+
+HR should:
+
+Record the leave request.
+Inform the Nursing Supervisor.
+Check available staffing.
+Coordinate a replacement if necessary.
+Update the attendance system.
+Maintain appropriate documentation.
+The objective is to manage employee absence without compromising essential hospital operations.
+
+TOPIC 7: EMPLOYEE TRAINING IN HEALTHCARE
+Healthcare employees require continuous training because their work involves patient safety, technical equipment and established hospital procedures.
+
+7.1 What is Employee Training?
+Employee training is a structured process through which employees acquire knowledge and skills required to perform their current jobs effectively.
+
+7.2 Common Healthcare Training Programmes
+Training Programme	Target Employees
+Infection Prevention	Clinical and support staff
+Fire Safety	All employees
+Emergency Response	Relevant clinical and support teams
+Patient Handling	Nursing and support staff
+Equipment Handling	Biomedical and clinical staff
+Data Confidentiality	Employees handling patient information
+Workplace Safety	Employees across departments
+Communication Skills	Front-office and patient-facing staff
+7.3 Training Needs Analysis (TNA)
+Training Needs Analysis is the process of identifying the difference between employees' existing capabilities and the skills required for their jobs.
+
+Example:
+
+A hospital introduces a new patient-monitoring system.
+
+Existing employees may not know how to operate it.
+
+HR coordinates with the Biomedical Department to identify employees requiring training and arrange appropriate sessions.
+
+7.4 Basic Training Process
+Identify the training requirement.
+Determine the employees who need training.
+Define learning objectives.
+Select a trainer.
+Schedule the programme.
+Conduct training.
+Evaluate learning.
+Record completion.
+Monitor workplace application.
+7.5 How Can HR Measure Training?
+HR may monitor:
+
+Number of employees trained.
+Training completion rate.
+Assessment scores.
+Employee feedback.
+Post-training performance.
+Reduction in identified skill gaps.
+TOPIC 8: PERFORMANCE MANAGEMENT IN HOSPITALS
+Performance management is the process of setting expectations, monitoring employee performance, providing feedback and supporting improvement.
+
+8.1 Why is Performance Management Important?
+It helps organisations:
+
+Evaluate employee performance.
+Identify skill gaps.
+Improve productivity.
+Recognise good performance.
+Identify training requirements.
+Support employee development.
+8.2 Examples of Performance Indicators
+Different departments require different performance indicators.
+
+Department	Illustrative Performance Indicators
+Nursing	Documentation quality, completion of assigned duties, protocol adherence
+Biomedical	Preventive maintenance completion, equipment downtime, maintenance documentation
+HR	Recruitment turnaround time, documentation accuracy, onboarding completion
+Reception	Patient registration accuracy, communication, service responsiveness
+Housekeeping	Cleaning schedule adherence, inspection results, hygiene protocol compliance
+These indicators must be interpreted according to role requirements and should not encourage unsafe shortcuts.
+
+8.3 What are KPIs?
+Key Performance Indicators (KPIs) are measurable indicators used to evaluate progress towards specific performance objectives.
+
+Example:
+
+A recruitment team's objective is to fill approved vacancies efficiently.
+
+Possible KPI:
+
+Average Time to Fill.
+
+A Biomedical Department's objective is to maintain equipment availability.
+
+Possible KPI:
+
+Preventive Maintenance Completion Rate.
+
+Important: HR may coordinate the performance management process, but department heads and technical supervisors are usually responsible for evaluating role-specific performance.
+
+TOPIC 9: EMPLOYEE SAFETY, WELL-BEING AND WORKPLACE CONDUCT
+Hospitals present occupational risks that may differ from those in conventional office environments.
+
+Examples include:
+
+Biological exposure.
+Chemical exposure.
+Needle-stick injuries.
+Radiation-related risks in relevant departments.
+Electrical and equipment-related hazards.
+Physical strain.
+Workplace violence or harassment.
+9.1 HR's Role in Employee Safety
+HR may coordinate:
+
+Employee safety training.
+Workplace policies.
+Incident documentation.
+Occupational health coordination.
+Employee awareness programmes.
+Grievance reporting mechanisms.
+Coordination with safety and infection-control departments.
+HR does not replace the responsibilities of qualified safety, medical or infection-control professionals.
+
+9.2 Employee Well-being
+Employee well-being refers to the physical, mental and workplace-related welfare of employees.
+
+Possible initiatives:
+
+Employee assistance programmes.
+Health check-up coordination.
+Fair shift scheduling.
+Grievance mechanisms.
+Recognition programmes.
+Stress-management initiatives.
+Employee feedback sessions.
+9.3 Workplace Harassment and Professional Conduct
+Healthcare organisations must maintain professional and respectful workplaces.
+
+HR may coordinate complaint-handling processes, documentation and appropriate internal mechanisms under applicable policies and law.
+
+For sexual harassment complaints in India, the POSH framework is relevant. The organisation must follow the applicable legal requirements and prescribed procedures.
+
+TOPIC 10: HOSPITAL HR DOCUMENTATION AND RECORD MANAGEMENT
+Hospitals maintain several employee-related records.
+
+HR must ensure that these records are accurate, appropriately accessible and confidential.
+
+10.1 Important Employee Documents
+Recruitment Documents
+
+Resume.
+Application form.
+Interview evaluation.
+Educational certificates.
+Experience certificates.
+Reference details.
+Verification records.
+Joining Documents
+
+Offer letter.
+Appointment letter.
+Employee information form.
+Identity and address documents.
+Bank details.
+Emergency contact details.
+Relevant declarations.
+Employment Records
+
+Employee ID.
+Attendance records.
+Leave records.
+Shift rosters.
+Training records.
+Performance reviews.
+Salary-related records.
+Separation Documents
+
+Resignation letter.
+Notice-period records.
+Exit interview.
+Handover documentation.
+Full and final settlement records.
+Relieving or experience documentation, as applicable.
+10.2 Why is Documentation Important?
+Documentation supports:
+
+Accurate employee records.
+Payroll processing.
+Attendance tracking.
+Recruitment decisions.
+Performance management.
+Compliance.
+Internal audits.
+Resolution of employee disputes.
+10.3 Confidentiality in Healthcare HR
+Employee records may contain sensitive personal information.
+
+Patient-related information may also be encountered during hospital HR operations.
+
+HR must follow appropriate access controls and confidentiality requirements.
+
+For example, an HR Executive should not share an employee's salary details with unauthorised colleagues.
+
+Similarly, patient records should not be accessed or shared merely because an employee works in the hospital.
+
+TOPIC 11: PRACTICAL CASE STUDY – HOSPITAL HR OPERATIONS
+Scenario
+A 150-bed hospital is experiencing the following problems:
+
+Three nurses have resigned.
+The ICU requires two additional nurses.
+A Biomedical Engineer is absent frequently.
+New employees are not receiving structured induction.
+Attendance records contain inconsistencies.
+Employees are complaining about uneven shift allocation.
+The hospital has introduced new medical equipment requiring staff training.
+The HR Manager asks the HR Executive to help coordinate corrective actions.
+
+Your Task
+For each problem, identify the HR function involved and recommend an appropriate action.
+
+Problem	HR Function	Recommended Action
+Nurses resigning	Employee Retention	Conduct exit interviews and analyse reasons
+ICU staffing shortage	Workforce Planning and Recruitment	Coordinate staffing forecast and recruitment
+Frequent absenteeism	Attendance Management	Review attendance records and investigate patterns
+No structured induction	Onboarding	Develop an induction programme
+Incorrect attendance records	HR Operations	Verify records and correct discrepancies
+Uneven shift allocation	Employee Relations and Workforce Coordination	Review roster fairness with department supervisors
+New equipment introduced	Learning and Development	Coordinate equipment-related training with technical experts
+Additional Questions
+Which problems should HR address immediately?
+Which problems require investigation before action?
+Which problems require coordination with department heads?
+Which problems can be prevented through better HR policies?
+Which HR metrics could help management monitor improvement?
+Expected understanding: HR must coordinate with hospital management and departmental supervisors. It cannot independently solve every clinical or technical issue.
+
+DAY 6 – PRACTICAL ASSIGNMENTS
+R must complete all three assignments.
+
+Assignment 1: Hospital HR Organisational Structure
+Design an HR organisational chart for a hospital with approximately 300 employees.
+
+Include:
+
+HR Head.
+HR Manager.
+Talent Acquisition Executive.
+HR Operations Executive.
+Payroll Executive.
+Training Coordinator.
+Employee Relations Executive.
+HR Coordinator.
+For every role, mention:
+
+Reporting authority.
+Main responsibilities.
+Key daily activities.
+Departments with which the role interacts.
+Deliverable: Organisational chart and role-description document.
+
+Expected Length: 4–5 pages.
+
+Assignment 2: Hospital Duty Roster
+Create a fictional duty roster for 12 hospital employees working across three shifts.
+
+Include:
+
+Employee name.
+Employee ID.
+Department.
+Assigned shift.
+Weekly off.
+Attendance status.
+Additional Requirement:
+
+Explain how HR should handle:
+
+Sudden employee absence.
+Shift exchange requests.
+Unplanned overtime.
+Conflicts between employees regarding shift allocation.
+The roster is an educational exercise. Ensure that the proposed schedule accounts for appropriate rest periods and applicable working-hour requirements.
+
+Deliverable: Excel duty roster.
+
+Assignment 3: Healthcare Employee Onboarding Programme
+Design a structured onboarding programme for a newly recruited Biomedical Engineer joining a hospital.
+
+Include:
+
+Before Joining
+
+Offer acceptance.
+Document collection.
+Joining confirmation.
+Department coordination.
+Joining Day
+
+Welcome and introduction.
+Employee documentation.
+Hospital overview.
+HR policy explanation.
+First Week
+
+Department introduction.
+Equipment and workplace orientation.
+Safety training.
+Reporting structure.
+Role expectations.
+First Month
+
+Performance discussion.
+Training review.
+Employee feedback.
+Manager feedback.
+Deliverable: Onboarding checklist and 30-day onboarding plan.
+
+DAY 6 – ASSESSMENT
+Total Marks: 30
+
+Section A: Conceptual Understanding – 10 Marks
+Define Healthcare HR Management. (2)
+Explain any four responsibilities of a hospital HR department. (2)
+Differentiate between clinical and non-clinical employees. (2)
+What is a duty roster? (2)
+What is Training Needs Analysis? (2)
+Section B: Practical Understanding – 10 Marks
+Explain the recruitment process for hiring a Biomedical Engineer in a hospital. (3)
+A hospital has three shifts. Explain the factors HR should consider while preparing a duty roster. (3)
+Explain the importance of employee documentation in healthcare HR. (2)
+Mention two ways HR can evaluate the effectiveness of employee training. (2)
+Section C: Situational Decision-Making – 10 Marks
+Question 1 – Employee Absence (3 Marks)
+
+A nurse assigned to the night shift informs HR two hours before reporting that she cannot attend work.
+
+What should HR do?
+
+Question 2 – Recruitment (3 Marks)
+
+A hospital requires two Biomedical Engineers urgently.
+
+How should HR coordinate the recruitment process with the Biomedical Department?
+
+Question 3 – Employee Relations (4 Marks)
+
+Several employees complain that night shifts are being distributed unfairly.
+
+How should HR investigate and address the complaint?
+
+Evaluation Criteria
+Score	Performance
+27–30	Excellent
+24–26	Very Good
+21–23	Good
+18–20	Needs Improvement
+Below 18	Revision Required
+Minimum Passing Score: 21/30 (70%).
+
+MENTOR EVALUATION CHECKLIST
+Use this checklist to assess R's understanding.
+
+Parameter	What You Should Evaluate
+Healthcare HR Understanding	Can she explain how HR functions in hospitals?
+Hospital Structure	Can she identify different HR roles and reporting structures?
+Recruitment	Does she understand healthcare recruitment and credential verification?
+Shift Management	Can she explain how duty rosters are prepared?
+Attendance Management	Does she understand attendance and leave coordination?
+Training	Can she explain healthcare training requirements?
+Documentation	Can she identify essential employee records?
+Decision-Making	Can she handle practical hospital HR situations?
+Communication	Can she communicate recommendations professionally?
+Five Oral Questions for the Mentor
+Ask these without allowing her to refer to the notes:
+
+How is hospital HR different from HR in a conventional corporate office?
+Why is credential verification important when recruiting healthcare professionals?
+What factors should HR consider when preparing hospital duty rosters?
+How can HR support a Biomedical Department that requires additional technical staff?
+If employees complain about unfair shift allocation, how should HR investigate the matter?
+DAY 6 – COMPLETION CHECKLIST
+Studied Healthcare HR Management.
+Understood hospital HR organisational structures.
+Learned different categories of hospital employees.
+Understood healthcare recruitment.
+Learned credential verification.
+Understood shift management.
+Learned duty roster preparation.
+Understood attendance and leave management.
+Studied healthcare employee training.
+Understood hospital performance management.
+Studied workplace safety and employee well-being.
+Learned healthcare HR documentation.
+Completed the hospital HR organisational chart.
+Completed the duty roster.
+Completed the onboarding programme.
+Attempted the assessment.
+Achieved at least 21 marks.
+MENTOR'S NOTE
+Day 6 should help R connect her existing Biomedical Engineering exposure with HR responsibilities.
+
+Pay particular attention to whether she understands the distinction between HR coordination and technical decision-making.
+
+For example:
+
+HR coordinates recruitment of Biomedical Engineers.
+The Biomedical Department evaluates their technical capabilities.
+HR coordinates employee documentation and onboarding.
+The technical department provides equipment-specific training.
+HR may monitor attendance and performance records.
+The department supervisor evaluates technical work quality.
+This distinction is important for someone entering HR without a formal HR educational background.
+
+Also, assess whether she can communicate professionally with doctors, nurses, technicians and administrative employees. Healthcare HR requires interaction with employees from very different professional backgrounds.
+
+WEEK 1 PROGRESS
+Day	Topic	Status
+Day 1	Introduction to HRM	Pending Evaluation
+Day 2	HR Department Structure and Roles	Pending Evaluation
+Day 3	Employee Lifecycle Management	Pending Evaluation
+Day 4	HR Policies and Organisational Culture	Pending Evaluation
+Day 5	Strategic HRM and Workforce Planning	Pending Evaluation
+Day 6	Healthcare Human Resource Management	Pending Evaluation
+Day 7	Weekly Revision and Assessment	Upcoming

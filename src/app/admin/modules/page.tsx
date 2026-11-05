@@ -19,7 +19,7 @@ export default async function AdminModulesPage() {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-6">
         <div>
           <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white flex items-center gap-2.5">
-            <Layers className="h-6 w-6 text-purple-400" /> Module & Part Management
+            <Layers className="h-6 w-6 text-amber-400" /> Module & Part Management
           </h1>
           <p className="text-xs sm:text-sm text-slate-400 mt-1">
             Organize course hierarchy: Courses → Modules → Parts → Lessons.
@@ -27,7 +27,7 @@ export default async function AdminModulesPage() {
         </div>
 
         <Link href="/admin/lessons">
-          <Button size="sm" className="bg-purple-600 hover:bg-purple-700 text-white gap-1.5 text-xs">
+          <Button size="sm" className="bg-amber-500 hover:bg-amber-600 text-white gap-1.5 text-xs">
             <FileText className="h-4 w-4" /> Lesson Editor
           </Button>
         </Link>
@@ -38,7 +38,7 @@ export default async function AdminModulesPage() {
           <Card key={mod.id} className="bg-slate-950 border-slate-800 shadow-sm overflow-hidden">
             <CardHeader className="bg-slate-900/60 border-b border-slate-800/80 pb-3">
               <div className="flex items-center justify-between">
-                <Badge className="bg-purple-600 text-white text-[10px]">
+                <Badge className="bg-amber-500 text-white text-[10px]">
                   Module {mod.order_index}
                 </Badge>
                 <span className="text-[11px] text-slate-400">
@@ -57,7 +57,7 @@ export default async function AdminModulesPage() {
               {mod.parts?.map((part: { id: string; title: string; order_index: number; lessons: Array<{ id: string; title: string; estimated_minutes: number; is_published: boolean }> }) => (
                 <div key={part.id} className="p-4 rounded-xl bg-slate-900 border border-slate-800/80 space-y-3">
                   <div className="flex items-center justify-between border-b border-slate-800 pb-2">
-                    <span className="text-xs font-bold text-purple-300">
+                    <span className="text-xs font-bold text-amber-300">
                       Part {part.order_index}: {part.title}
                     </span>
                     <span className="text-[10px] text-slate-500">
@@ -73,7 +73,7 @@ export default async function AdminModulesPage() {
                       >
                         <span className="truncate text-slate-200 font-medium">{lesson.title}</span>
                         <Link href={`/admin/lessons/${lesson.id}/edit`}>
-                          <Button size="sm" variant="ghost" className="h-6 text-[10px] text-purple-400 hover:text-white hover:bg-slate-800">
+                          <Button size="sm" variant="ghost" className="h-6 text-[10px] text-amber-400 hover:text-white hover:bg-slate-800">
                             Edit
                           </Button>
                         </Link>

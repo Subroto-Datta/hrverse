@@ -1,0 +1,560 @@
+DAY 1 – INTRODUCTION TO HUMAN RESOURCE MANAGEMENT
+Module: HR Fundamentals
+Duration: 3–4 Hours
+Level: Beginner
+Today's Objective: Understand what Human Resource Management is, why organisations need it, what HR professionals actually do and how HR contributes to an organisation's success.
+Today's Learning Outcomes
+By the end of Day 1, she should be able to:
+1. Define Human Resource Management in her own words.
+2. Explain the objectives and importance of HRM.
+3. Identify the major functions performed by an HR department.
+4. Understand the evolution of HRM.
+5. Differentiate between Personnel Management, Human Resource Management and Strategic HRM.
+6. Explain how HR contributes to an organisation using practical examples.
+TOPIC 1: UNDERSTANDING HUMAN RESOURCE MANAGEMENT (HRM)
+1.1 What is Human Resource Management?
+Human Resource Management (HRM) is the process of managing people within an organisation to achieve organisational objectives while ensuring employee satisfaction, development and well-being.
+
+In simple terms, HRM involves managing the entire working relationship between an organisation and its employees.
+
+Every organisation needs people to perform different responsibilities.
+
+For example, consider a hospital:
+Department	Employees Required
+Medical Department	Doctors
+Nursing Department	Nurses
+Laboratory	Lab Technicians
+Biomedical Department	Biomedical Engineers
+Administration	Administrative Staff
+Finance	Accountants
+Human Resources	HR Executives
+
+
+The HR department ensures that the organisation has the right people, in the right positions, with the right skills, at the right time.
+
+However, HR's responsibility does not end after hiring someone.
+
+It continues throughout the employee's association with the organisation, from recruitment and onboarding to performance management, employee development and separation.
+1.2 Understanding the Term Human Resources
+The term Human Resources consists of two words:
+
+Human: The individuals who contribute their knowledge, skills, abilities, experience and efforts to an organisation.
+
+Resources: The people, materials, finances and other assets an organisation uses to achieve its objectives.
+
+Human resources refer to the employees who contribute to an organisation through their abilities and work.
+
+Unlike machines or financial resources, employees have individual expectations, emotions, motivations, ambitions and development needs.
+
+This makes managing human resources a specialised organisational responsibility.
+1.3 Definition of HRM
+For academic and professional understanding:
+
+Human Resource Management is a systematic approach to acquiring, developing, motivating, compensating and retaining employees while aligning their individual contributions with organisational goals.
+
+Remember these five important words:
+- Acquiring – Hiring suitable employees.
+- Developing – Improving employee knowledge and skills.
+- Motivating – Encouraging employees to perform effectively.
+- Compensating – Providing salaries, benefits and rewards.
+- Retaining – Encouraging valuable employees to remain with the organisation.
+These five concepts form the foundation of HRM.
+TOPIC 2: OBJECTIVES OF HUMAN RESOURCE MANAGEMENT
+HRM has several objectives. They can broadly be classified into four categories.
+2.1 Organisational Objectives
+The primary objective of HRM is to help an organisation achieve its goals by managing its workforce effectively.
+
+Examples:
+- Recruiting qualified employees.
+- Improving employee productivity.
+- Reducing unnecessary employee turnover.
+- Ensuring appropriate staffing levels.
+- Improving organisational performance.
+Practical example:
+
+A hospital is experiencing a shortage of nurses.
+
+The HR department identifies the staffing requirement, prepares job descriptions, recruits qualified nurses and coordinates their onboarding.
+
+This helps the hospital maintain its operations and patient-care services.
+2.2 Functional Objectives
+These objectives ensure that the HR department itself operates efficiently.
+
+Examples:
+- Maintaining accurate employee records.
+- Processing recruitment activities on time.
+- Managing payroll coordination.
+- Handling employee grievances.
+- Maintaining HR policies and procedures.
+Practical example:
+
+If the hospital has 100 employees, HR must maintain their employee records, attendance information, joining documents and relevant employment information.
+2.3 Personal Objectives
+Employees have individual expectations and professional goals.
+
+HRM attempts to support these objectives while balancing organisational requirements.
+
+Examples:
+- Fair compensation.
+- Career growth opportunities.
+- Training and development.
+- Employee recognition.
+- Work-life balance.
+- Safe working conditions.
+Practical example:
+
+A Biomedical Engineer wants to develop expertise in advanced medical equipment.
+
+HR can coordinate with the department head to identify suitable technical training opportunities.
+2.4 Societal Objectives
+Organisations also have responsibilities towards society.
+
+HRM helps organisations maintain ethical and socially responsible employment practices.
+
+Examples:
+- Equal employment opportunities.
+- Prevention of workplace harassment.
+- Compliance with applicable labour laws.
+- Employee health and safety.
+- Non-discriminatory recruitment.
+- Ethical workplace practices.
+Practical example:
+
+A company must ensure that recruitment decisions are based on relevant qualifications and job requirements rather than unfair discrimination.
+Summary
+Objective	Main Focus
+Organisational	Achieving company goals
+Functional	Efficient HR department operations
+Personal	Employee needs and development
+Societal	Ethical and socially responsible practices
+
+
+Important: These four objectives are frequently used to explain the purpose of HRM in academic discussions and interviews.
+TOPIC 3: IMPORTANCE OF HUMAN RESOURCE MANAGEMENT
+Why does an organisation need an HR department?
+
+An organisation may have excellent infrastructure, technology and financial resources. However, without capable employees, it cannot operate effectively.
+
+HRM is important for the following reasons.
+3.1 Recruitment of Suitable Employees
+HR ensures that vacancies are filled with individuals who possess the required qualifications, knowledge and skills.
+
+For example, a hospital requires a qualified Lab Technician.
+
+HR coordinates the recruitment process, screens applications and arranges interviews with the concerned department.
+3.2 Employee Training and Development
+Employees require continuous learning to improve their performance.
+
+HR identifies training requirements and coordinates suitable development programmes.
+
+Examples:
+- Communication training.
+- Leadership development.
+- Workplace safety training.
+- Technical training.
+- Software training.
+3.3 Employee Motivation
+Motivated employees are generally more engaged and productive.
+
+HR supports employee motivation through:
+- Recognition programmes.
+- Rewards and incentives.
+- Career development opportunities.
+- Employee engagement initiatives.
+- Fair compensation practices.
+3.4 Employee Retention
+Employee retention refers to an organisation's ability to retain its employees over a period of time.
+
+High employee turnover can increase recruitment expenses, training costs and operational disruption.
+
+HR works towards identifying reasons for employee dissatisfaction and developing appropriate retention initiatives.
+3.5 Maintaining Workplace Relationships
+HR acts as an important link between employees and management.
+
+It helps address:
+- Workplace conflicts.
+- Employee complaints.
+- Communication gaps.
+- Grievances.
+- Disciplinary matters.
+HR must remain professional, impartial and follow appropriate organisational procedures.
+3.6 Legal and Regulatory Compliance
+Organisations must follow applicable employment-related laws and regulations.
+
+HR helps maintain compliance through:
+- Employee documentation.
+- Payroll-related records.
+- Applicable social security requirements.
+- Workplace safety procedures.
+- POSH compliance.
+- Statutory records and reporting.
+3.7 Performance Improvement
+HR helps organisations establish performance evaluation systems.
+
+These systems help identify:
+- High-performing employees.
+- Employees requiring additional support.
+- Training requirements.
+- Performance gaps.
+- Development opportunities.
+3.8 Organisational Culture
+Organisational culture refers to the shared values, beliefs, behaviours and practices that influence how people work within an organisation.
+
+HR contributes to creating a workplace that encourages:
+- Professionalism.
+- Collaboration.
+- Accountability.
+- Respect.
+- Ethical behaviour.
+- Inclusion.
+TOPIC 4: FUNCTIONS OF HUMAN RESOURCE MANAGEMENT
+This is one of the most important topics in today's lesson.
+
+HR functions can broadly be divided into two categories:
+1. Managerial Functions.
+2. Operative Functions.
+4.1 Managerial Functions
+Managerial functions involve planning, organising, directing and controlling HR activities.
+A. Planning
+HR planning involves determining the organisation's future workforce requirements.
+
+It answers questions such as:
+- How many employees are required?
+- Which departments need additional employees?
+- What skills are needed?
+- When should recruitment begin?
+- What is the expected workforce budget?
+Example:
+
+A hospital plans to open a new department.
+
+HR estimates the number of doctors, nurses, technicians and administrative employees required.
+B. Organising
+Organising involves arranging HR activities, responsibilities and resources systematically.
+
+It includes:
+- Defining employee responsibilities.
+- Establishing reporting structures.
+- Allocating HR duties.
+- Creating departmental coordination processes.
+Example:
+
+The HR Manager assigns one HR Executive to recruitment and another to employee documentation and attendance coordination.
+C. Directing
+Directing involves guiding, motivating and supervising employees to achieve organisational objectives.
+
+It includes:
+- Leadership.
+- Communication.
+- Motivation.
+- Guidance.
+- Supervision.
+Example:
+
+An HR Manager guides the recruitment team to complete hiring requirements before a specified deadline.
+D. Controlling
+Controlling involves monitoring HR activities and comparing actual performance with planned objectives.
+
+It includes:
+- Monitoring recruitment targets.
+- Checking payroll accuracy.
+- Reviewing employee attendance.
+- Evaluating training effectiveness.
+- Identifying deviations and corrective actions.
+Example:
+
+If the recruitment target is to hire 10 employees within 30 days but only four have joined, HR investigates the reasons and takes corrective action.
+4.2 Operative Functions
+Operative functions are the actual activities performed by HR to manage employees.
+
+These are particularly important for someone entering HR Operations or HR Generalist roles.
+A. Procurement Function
+Procurement refers to obtaining the required workforce for an organisation.
+
+It includes:
+1. Human Resource Planning.
+2. Job Analysis.
+3. Recruitment.
+4. Selection.
+5. Placement.
+Example:
+
+A hospital needs three nurses.
+
+HR identifies the requirement, prepares the job description, sources candidates, conducts screening and coordinates selection.
+B. Development Function
+Development focuses on improving employee knowledge, abilities and professional capabilities.
+
+It includes:
+- Employee training.
+- Skill development.
+- Career planning.
+- Leadership development.
+- Performance improvement.
+Example:
+
+A hospital introduces new medical equipment.
+
+HR coordinates training so that relevant employees understand its correct operation and safety requirements.
+C. Compensation Function
+Compensation refers to the financial and non-financial rewards provided to employees in exchange for their work.
+
+It includes:
+- Basic salary.
+- Allowances.
+- Incentives.
+- Bonuses.
+- Benefits.
+- Recognition and rewards.
+HR typically coordinates compensation policies and payroll-related activities with finance.
+D. Integration Function
+Integration focuses on maintaining positive relationships between employees and management.
+
+It includes:
+- Employee engagement.
+- Grievance handling.
+- Conflict resolution.
+- Employee communication.
+- Workplace discipline.
+- Employee relations.
+Example:
+
+Two employees from different departments have a disagreement affecting their work.
+
+HR facilitates an appropriate discussion and follows organisational procedures to address the issue.
+E. Maintenance Function
+Maintenance focuses on preserving employee well-being and maintaining a safe and supportive working environment.
+
+It includes:
+- Workplace health and safety.
+- Employee welfare.
+- Employee benefits.
+- Leave administration.
+- Employee records.
+- Working conditions.
+Example:
+
+HR ensures that hospital employees receive relevant workplace safety training and that applicable employee welfare procedures are followed.
+F. Separation Function
+Separation refers to the end of the employment relationship between an employee and the organisation.
+
+It includes:
+- Resignation processing.
+- Retirement.
+- Termination.
+- Exit interviews.
+- Knowledge transfer.
+- Asset clearance.
+- Full and final settlement coordination.
+- Issuing relevant employment documents.
+Example:
+
+An employee submits a resignation.
+
+HR coordinates the notice period, exit formalities, clearance and relevant documentation.
+Managerial vs Operative Functions
+Managerial Functions	Operative Functions
+Planning	Procurement
+Organising	Development
+Directing	Compensation
+Controlling	Integration
+	Maintenance
+	Separation
+
+
+Remember: Managerial functions explain how HR activities are managed. Operative functions explain the specific activities HR performs.
+TOPIC 5: EVOLUTION OF HUMAN RESOURCE MANAGEMENT
+HRM did not develop in its current form overnight.
+
+It evolved as organisations began recognising that employees are not simply workers who perform assigned tasks. They are valuable contributors to organisational success.
+
+Understand the following three stages.
+5.1 Personnel Management
+Personnel Management represents an earlier approach to managing employees.
+
+Its primary focus was administrative and employment-related activities.
+
+Major responsibilities included:
+- Employee record maintenance.
+- Attendance management.
+- Salary administration.
+- Hiring and termination.
+- Maintaining workplace discipline.
+- Ensuring basic employment compliance.
+Example:
+
+A factory's personnel department maintains employee attendance registers, salary records and appointment documents.
+
+The focus is mainly on administration and maintaining employment records.
+5.2 Human Resource Management
+Human Resource Management introduced a broader approach.
+
+Employees began to be viewed as valuable organisational resources whose performance and development contribute to business success.
+
+Its focus expanded to include:
+- Recruitment and selection.
+- Employee training.
+- Performance management.
+- Employee motivation.
+- Compensation and benefits.
+- Employee engagement.
+- Retention.
+- Workplace relationships.
+Example:
+
+Instead of merely maintaining attendance records, an HR department also analyses absenteeism, identifies underlying problems and develops initiatives to improve attendance.
+5.3 Strategic Human Resource Management
+Strategic HRM connects workforce management with the organisation's long-term business objectives.
+
+HR becomes involved in organisational planning and decision-making.
+
+Its responsibilities include:
+- Workforce forecasting.
+- Leadership development.
+- Succession planning.
+- Organisational development.
+- Talent management.
+- Workforce productivity.
+- Strategic employee retention.
+Example:
+
+A hospital plans to expand into three new locations over the next two years.
+
+Strategic HR planning identifies the future requirements for doctors, nurses, technicians and administrative personnel.
+
+It also plans recruitment timelines, training budgets and leadership requirements.
+Comparison
+Basis	Personnel Management	HRM	Strategic HRM
+Main Focus	Administration	Employee management	Business strategy
+Employee View	Workforce/labour	Valuable resource	Strategic contributor
+Approach	Primarily administrative	Operational and developmental	Long-term and strategic
+Training	Limited or task-focused	Employee skill development	Future workforce capabilities
+Decision-making	Mainly administrative	HR and management	Integrated with business leadership
+Objective	Maintain employment records and processes	Improve workforce effectiveness	Achieve long-term organisational goals
+
+
+Important Note: These stages are useful conceptual distinctions. In practice, many organisations perform activities associated with all three approaches simultaneously.
+TOPIC 6: PRACTICAL UNDERSTANDING OF HRM IN A HOSPITAL
+Now connect everything to an actual workplace environment.
+
+Consider a hospital with 100 employees.
+
+The hospital has the following requirements:
+1. Five new nurses need to be recruited.
+2. Three employees have recently joined.
+3. Two employees have attendance discrepancies.
+4. One employee has submitted a grievance.
+5. The hospital wants to introduce a training programme.
+6. Management wants to reduce employee turnover.
+What does HR do?
+Situation	HR Responsibility
+Five nurses required	Recruitment and selection
+Three new employees joined	Onboarding
+Attendance discrepancies	Attendance management
+Employee grievance	Employee relations
+Training programme	Learning and development
+High employee turnover	Retention strategy
+
+
+Practical Scenario
+The hospital has experienced an increase in nurse resignations over the past three months.
+
+Management asks HR to investigate.
+
+An HR Executive should not immediately assume that employees are resigning because of salary dissatisfaction.
+
+Instead, HR should:
+1. Review resignation records.
+2. Conduct or review exit interviews.
+3. Examine attendance and overtime patterns.
+4. Identify department-wise attrition.
+5. Collect employee feedback.
+6. Discuss findings with department heads.
+7. Recommend appropriate corrective measures.
+This demonstrates how HR uses employee information to support organisational decisions.
+DAY 1 ASSIGNMENT
+R must complete the following assignment independently after studying the notes.
+Assignment 1: HRM Functions Document
+Prepare a document explaining:
+1. Meaning of HRM.
+2. Four objectives of HRM.
+3. Eight reasons why HRM is important.
+4. Four managerial functions.
+5. Six operative functions.
+6. Evolution of HRM.
+7. Differences between Personnel Management, HRM and Strategic HRM.
+Format: Word or Google Docs.
+
+Expected Length: 3–5 pages.
+Assignment 2: Hospital HR Department Case Study
+Consider a hospital with 100 employees.
+
+Prepare a table containing:
+Problem	HR Function Required	Proposed Action
+Nurse shortage	Recruitment	
+Employee attendance issues	Attendance Management	
+Employee complaints	Employee Relations	
+Low employee performance	Performance Management	
+High employee resignations	Retention Management	
+New employees joining	Onboarding	
+Employees need training	Learning & Development	
+Payroll discrepancies	Payroll Coordination	
+
+
+She must complete the proposed action column independently.
+DAY 1 ASSESSMENT
+Conduct this assessment after she finishes the notes and assignments.
+
+Total Marks: 30
+Section A: Conceptual Understanding – 10 Marks
+1. Define Human Resource Management. (2)
+2. Explain the four objectives of HRM. (4)
+3. Differentiate between Personnel Management and Strategic HRM. (4)
+Section B: Practical Understanding – 10 Marks
+1. A hospital requires 10 nurses. Which HR functions are involved in fulfilling this requirement? (3)
+2. An employee complains about unfair treatment by their manager. What should HR do? (3)
+3. Why is employee retention important for an organisation? (4)
+Section C: Communication – 10 Marks
+Ask her to answer verbally:
+1. What is HRM, and why is it important? (3)
+2. What are the major responsibilities of an HR Executive? (3)
+3. Why should an organisation invest in its employees? (4)
+Evaluation Criteria
+Score	Performance
+27–30	Excellent
+24–26	Very Good
+21–23	Good
+18–20	Needs Improvement
+Below 18	Revise the concepts
+
+
+Minimum Passing Score: 21/30 (70%).
+YOUR ROLE AS THE MENTOR
+Once she completes Day 1, evaluate her on these five parameters:
+Parameter	What You Should Check
+Conceptual Clarity	Does she understand HRM rather than memorise definitions?
+Practical Application	Can she connect HR concepts to hospital situations?
+Communication	Can she explain concepts confidently?
+Documentation	Is her assignment structured and professional?
+Independent Thinking	Can she suggest reasonable solutions without being prompted?
+
+
+One important instruction: Don't teach her the answers to the assessment beforehand. Let her attempt them independently. You'll get a much more accurate picture of what she has understood.
+DAY 1 COMPLETION CHECKLIST
+- [ ] Studied all six topics.
+- [ ] Understood the four objectives of HRM.
+- [ ] Learned managerial and operative functions.
+- [ ] Understood the evolution of HRM.
+- [ ] Completed the HRM Functions Document.
+- [ ] Completed the Hospital HR Case Study.
+- [ ] Attempted the 30-mark assessment.
+- [ ] Achieved at least 21 marks.
+How we'll manage the remaining 89 days
+For every subsequent day, I'll provide:
+1. Detailed study notes: Definitions, concepts, explanations and subtopics.
+2. Practical examples: Preferably including healthcare and general corporate scenarios.
+3. Industry application: What an actual HR professional does with the knowledge.
+4. Assignments: Work she must complete independently.
+5. Assessment: Questions to test conceptual and practical understanding.
+6. Mentor evaluation: What you should check before moving forward.
+For now, let's keep Day 1 as the baseline. Once she completes it, share her score, feedback and any concepts she found difficult. I'll use that to calibrate Day 2 rather than blindly following the original schedule.

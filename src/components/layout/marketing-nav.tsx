@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { GraduationCap, ArrowRight, Menu, X } from 'lucide-react'
 import { useState } from 'react'
+import { ThemeToggle } from '@/components/ui/theme-toggle'
 
 export function MarketingNav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -12,10 +13,10 @@ export function MarketingNav() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2.5 font-bold text-xl tracking-tight">
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-sm">
+          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-sm shadow-amber-500/20">
             <GraduationCap className="h-5 w-5" />
           </div>
-          <span className="bg-gradient-to-r from-primary via-indigo-600 to-purple-600 bg-clip-text text-transparent font-extrabold">
+          <span className="bg-gradient-to-r from-amber-500 via-orange-500 to-amber-400 bg-clip-text text-transparent font-extrabold">
             HR Verse
           </span>
         </Link>
@@ -36,28 +37,32 @@ export function MarketingNav() {
           </Link>
         </nav>
 
-        {/* CTA Buttons */}
+        {/* CTA Buttons & Theme Toggle */}
         <div className="hidden md:flex items-center gap-3">
+          <ThemeToggle />
           <Link href="/login">
             <Button variant="ghost" size="sm">
               Sign In
             </Button>
           </Link>
           <Link href="/register">
-            <Button size="sm" className="gap-1.5 shadow-sm">
+            <Button size="sm" className="gap-1.5 shadow-sm shadow-amber-500/20">
               Get Started <ArrowRight className="h-4 w-4" />
             </Button>
           </Link>
         </div>
 
         {/* Mobile menu toggle */}
-        <button
-          className="md:hidden p-2 text-muted-foreground"
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          aria-label="Toggle menu"
-        >
-          {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-        </button>
+        <div className="md:hidden flex items-center gap-2">
+          <ThemeToggle />
+          <button
+            className="p-2 text-muted-foreground"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          </button>
+        </div>
       </div>
 
       {/* Mobile Menu Dropdown */}

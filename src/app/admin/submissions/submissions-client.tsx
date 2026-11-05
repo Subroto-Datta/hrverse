@@ -100,7 +100,7 @@ export function SubmissionsClient({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-6">
         <div>
           <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white flex items-center gap-2.5">
-            <Inbox className="h-6 w-6 text-purple-400" /> Assignment & Capstone Evaluation
+            <Inbox className="h-6 w-6 text-amber-400" /> Assignment & Capstone Evaluation
           </h1>
           <p className="text-xs sm:text-sm text-slate-400 mt-1">
             Review written case turnarounds, examine external artifacts, and submit certified feedback.
@@ -112,7 +112,7 @@ export function SubmissionsClient({
             size="sm"
             variant={activeTab === 'assessments' ? 'default' : 'ghost'}
             onClick={() => setActiveTab('assessments')}
-            className={`text-xs h-7 ${activeTab === 'assessments' ? 'bg-purple-600 text-white' : 'text-slate-400'}`}
+            className={`text-xs h-7 ${activeTab === 'assessments' ? 'bg-amber-500 text-white' : 'text-slate-400'}`}
           >
             Assessments ({assessments.length})
           </Button>
@@ -120,7 +120,7 @@ export function SubmissionsClient({
             size="sm"
             variant={activeTab === 'projects' ? 'default' : 'ghost'}
             onClick={() => setActiveTab('projects')}
-            className={`text-xs h-7 ${activeTab === 'projects' ? 'bg-purple-600 text-white' : 'text-slate-400'}`}
+            className={`text-xs h-7 ${activeTab === 'projects' ? 'bg-amber-500 text-white' : 'text-slate-400'}`}
           >
             Capstones ({projects.length})
           </Button>
@@ -175,7 +175,7 @@ export function SubmissionsClient({
                           <Button
                             size="sm"
                             onClick={() => openGradingModal(sub, 'assessment')}
-                            className="h-7 text-xs bg-purple-600 hover:bg-purple-700 text-white"
+                            className="h-7 text-xs bg-amber-500 hover:bg-amber-600 text-white"
                           >
                             Evaluate
                           </Button>
@@ -220,7 +220,7 @@ export function SubmissionsClient({
                         <Button
                           size="sm"
                           onClick={() => openGradingModal(sub, 'project')}
-                          className="h-7 text-xs bg-purple-600 hover:bg-purple-700 text-white"
+                          className="h-7 text-xs bg-amber-500 hover:bg-amber-600 text-white"
                         >
                           Evaluate
                         </Button>
@@ -256,7 +256,7 @@ export function SubmissionsClient({
                       : (selectedSub as ProjectSub).projects?.title}
                   </p>
                 </div>
-                <Badge className="bg-purple-600 text-white text-xs">
+                <Badge className="bg-amber-500 text-white text-xs">
                   Max: 100 Points
                 </Badge>
               </div>
@@ -279,7 +279,7 @@ export function SubmissionsClient({
                     href={selectedSub.file_urls[0]}
                     target="_blank"
                     rel="noreferrer"
-                    className="text-xs text-purple-400 hover:underline flex items-center gap-1.5"
+                    className="text-xs text-amber-400 hover:underline flex items-center gap-1.5"
                   >
                     <ExternalLink className="h-3.5 w-3.5" /> {selectedSub.file_urls[0]}
                   </a>
@@ -334,7 +334,7 @@ export function SubmissionsClient({
                   size="sm"
                   onClick={handleGrade}
                   disabled={submitting}
-                  className="text-xs bg-purple-600 hover:bg-purple-700 text-white gap-1.5"
+                  className="text-xs bg-amber-500 hover:bg-amber-600 text-white gap-1.5"
                 >
                   {submitting ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : <Award className="h-3.5 w-3.5" />}
                   Record Evaluation & Return

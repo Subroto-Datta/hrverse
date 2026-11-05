@@ -85,11 +85,11 @@ export function StudentAnalyticsClient({
   return (
     <div className="space-y-8">
       {/* AI Performance Insight Generator Banner */}
-      <Card className="border border-indigo-500/30 bg-gradient-to-br from-indigo-500/10 via-purple-500/5 to-card shadow-sm">
+      <Card className="border border-amber-500/30 bg-gradient-to-br from-amber-500/10 via-orange-500/5 to-card shadow-sm">
         <CardContent className="p-6 space-y-4">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div className="space-y-1">
-              <div className="flex items-center gap-2 text-indigo-600 font-bold text-base">
+              <div className="flex items-center gap-2 text-amber-600 dark:text-amber-400 font-bold text-base">
                 <Sparkles className="h-5 w-5" />
                 <span>AI Learning Diagnostic & Personalized Recommendations</span>
               </div>
@@ -101,7 +101,7 @@ export function StudentAnalyticsClient({
               size="sm"
               onClick={handleGenerateAIInsights}
               disabled={loadingAI}
-              className="gap-2 text-xs bg-indigo-600 hover:bg-indigo-700 text-white shrink-0"
+              className="gap-2 text-xs bg-primary text-primary-foreground font-semibold shadow-xs shrink-0"
             >
               {loadingAI ? (
                 <>

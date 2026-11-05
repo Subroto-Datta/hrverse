@@ -51,7 +51,7 @@ export function LessonsListClient({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-6">
         <div>
           <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white flex items-center gap-2.5">
-            <FileText className="h-6 w-6 text-purple-400" /> Lesson Management & Rich Editor
+            <FileText className="h-6 w-6 text-amber-400" /> Lesson Management & Rich Editor
           </h1>
           <p className="text-xs sm:text-sm text-slate-400 mt-1">
             Author and edit lesson content blocks with headings, callouts, tables, and definitions.
@@ -64,7 +64,7 @@ export function LessonsListClient({
             onClick={handleIngestReferenceContent}
             disabled={ingesting}
             variant="outline"
-            className="text-xs border-purple-500/30 text-purple-300 hover:bg-purple-950/30 gap-1.5"
+            className="text-xs border-amber-500/30 text-amber-300 hover:bg-amber-950/30 gap-1.5"
           >
             {ingesting ? (
               <>
@@ -80,8 +80,8 @@ export function LessonsListClient({
       </div>
 
       {ingestMessage && (
-        <div className="p-3.5 rounded-xl bg-purple-950/40 border border-purple-500/30 text-xs text-purple-200 flex items-center gap-2">
-          <CheckCircle2 className="h-4 w-4 text-purple-400 shrink-0" />
+        <div className="p-3.5 rounded-xl bg-amber-950/40 border border-amber-500/30 text-xs text-amber-200 flex items-center gap-2">
+          <CheckCircle2 className="h-4 w-4 text-amber-400 shrink-0" />
           <span>{ingestMessage}</span>
         </div>
       )}
@@ -114,7 +114,7 @@ export function LessonsListClient({
 
                     <td className="p-3.5 text-slate-400">
                       <span className="flex items-center gap-1">
-                        <Clock className="h-3 w-3 text-purple-400" /> {lesson.estimated_minutes} min
+                        <Clock className="h-3 w-3 text-amber-400" /> {lesson.estimated_minutes} min
                       </span>
                     </td>
 
@@ -137,7 +137,7 @@ export function LessonsListClient({
                         </Button>
                       </Link>
                       <Link href={`/admin/lessons/${lesson.id}/edit`}>
-                        <Button size="sm" className="h-7 text-xs bg-purple-600 hover:bg-purple-700 text-white">
+                        <Button size="sm" className="h-7 text-xs bg-amber-500 hover:bg-amber-600 text-white">
                           <Edit3 className="h-3.5 w-3.5 mr-1" /> Rich Editor
                         </Button>
                       </Link>

@@ -87,13 +87,13 @@ export function EmailManagementClient({
           <div className="flex items-center justify-between">
             <div>
               <CardTitle className="text-base font-bold text-white flex items-center gap-2">
-                <Mail className="h-4 w-4 text-purple-400" /> Automated Email Campaign Dispatcher
+                <Mail className="h-4 w-4 text-amber-400" /> Automated Email Campaign Dispatcher
               </CardTitle>
               <CardDescription className="text-xs text-slate-400">
                 Powered by Resend API. Deliver personalized notifications, due date alerts, and re-engagement triggers.
               </CardDescription>
             </div>
-            <Badge className="bg-purple-600 text-white text-[10px]">Resend Integration</Badge>
+            <Badge className="bg-amber-500 text-white text-[10px]">Resend Integration</Badge>
           </div>
         </CardHeader>
         <CardContent className="p-6">
@@ -151,8 +151,8 @@ export function EmailManagementClient({
             </div>
 
             {statusMessage && (
-              <div className="p-3 rounded-lg bg-slate-900 border border-purple-500/30 text-xs text-purple-300 flex items-center gap-2">
-                <CheckCircle2 className="h-4 w-4 text-purple-400 shrink-0" />
+              <div className="p-3 rounded-lg bg-slate-900 border border-amber-500/30 text-xs text-amber-300 flex items-center gap-2">
+                <CheckCircle2 className="h-4 w-4 text-amber-400 shrink-0" />
                 <span>{statusMessage}</span>
               </div>
             )}
@@ -160,7 +160,7 @@ export function EmailManagementClient({
             <Button
               type="submit"
               disabled={sending}
-              className="text-xs bg-purple-600 hover:bg-purple-700 text-white gap-2 shadow-sm"
+              className="text-xs bg-amber-500 hover:bg-amber-600 text-white gap-2 shadow-sm"
             >
               {sending ? (
                 <>

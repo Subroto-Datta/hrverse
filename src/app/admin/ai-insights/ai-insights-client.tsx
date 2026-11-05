@@ -50,12 +50,12 @@ export function AIInsightsClient({
 
   return (
     <div className="space-y-6">
-      <Card className="bg-slate-950 border-purple-500/30 shadow-sm">
+      <Card className="bg-slate-950 border-amber-500/30 shadow-sm">
         <CardContent className="p-6 space-y-4">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div className="space-y-1">
               <h2 className="text-lg font-bold text-white flex items-center gap-2">
-                <Sparkles className="h-5 w-5 text-purple-400" /> Cohort Intelligence & Predictive Risk Engine
+                <Sparkles className="h-5 w-5 text-amber-400" /> Cohort Intelligence & Predictive Risk Engine
               </h2>
               <p className="text-xs text-slate-400">
                 Powered by Groq LLM. Dissects cohort telemetry, identifies curriculum bottlenecks, and generates actionable administrative interventions.
@@ -66,7 +66,7 @@ export function AIInsightsClient({
               size="sm"
               onClick={handleScanCohort}
               disabled={loading}
-              className="bg-purple-600 hover:bg-purple-700 text-white gap-2 text-xs shrink-0 shadow-sm"
+              className="bg-amber-500 hover:bg-amber-600 text-white gap-2 text-xs shrink-0 shadow-sm"
             >
               {loading ? (
                 <>

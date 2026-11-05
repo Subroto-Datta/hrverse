@@ -88,13 +88,13 @@ export function AIAssistantModal({
       <DialogContent className="max-w-2xl sm:max-w-2xl h-[600px] flex flex-col p-0 overflow-hidden">
         <DialogHeader className="p-4 border-b border-border bg-muted/30">
           <div className="flex items-center gap-2.5">
-            <div className="h-8 w-8 rounded-lg bg-indigo-500/10 text-indigo-600 flex items-center justify-center">
+            <div className="h-8 w-8 rounded-lg bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center">
               <Sparkles className="h-4 w-4" />
             </div>
             <div>
               <DialogTitle className="text-base font-bold flex items-center gap-2">
                 HR Verse AI Learning Assistant
-                <span className="text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded bg-indigo-500/10 text-indigo-600">
+                <span className="text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-600 dark:text-amber-400">
                   Groq LLM
                 </span>
               </DialogTitle>
@@ -113,14 +113,14 @@ export function AIAssistantModal({
               className={`flex gap-3 ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}
             >
               {m.role === 'assistant' && (
-                <div className="h-7 w-7 rounded-full bg-indigo-600 text-white flex items-center justify-center shrink-0 text-xs">
+                <div className="h-7 w-7 rounded-full bg-primary text-primary-foreground flex items-center justify-center shrink-0 text-xs shadow-xs">
                   <Bot className="h-4 w-4" />
                 </div>
               )}
               <div
                 className={`max-w-[80%] rounded-xl px-4 py-3 leading-relaxed ${
                   m.role === 'user'
-                    ? 'bg-primary text-primary-foreground'
+                    ? 'bg-primary text-primary-foreground font-medium'
                     : 'bg-muted/80 text-foreground whitespace-pre-wrap'
                 }`}
               >
@@ -136,7 +136,7 @@ export function AIAssistantModal({
 
           {loading && (
             <div className="flex gap-3 items-center text-muted-foreground text-xs">
-              <div className="h-7 w-7 rounded-full bg-indigo-600 text-white flex items-center justify-center shrink-0">
+              <div className="h-7 w-7 rounded-full bg-primary text-primary-foreground flex items-center justify-center shrink-0">
                 <Loader2 className="h-4 w-4 animate-spin" />
               </div>
               <span>HR Mentor is thinking...</span>

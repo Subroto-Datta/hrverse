@@ -19,6 +19,7 @@ import {
 import { Button } from '@/components/ui/button'
 import { signout } from '@/actions/auth'
 import type { Profile } from '@/types'
+import { ThemeToggle } from '@/components/ui/theme-toggle'
 
 const studentNavItems = [
   { title: 'Dashboard', href: '/dashboard', icon: LayoutDashboard },
@@ -41,20 +42,23 @@ export function StudentSidebar({
   const pathname = usePathname()
 
   return (
-    <aside className="w-64 border-r border-border bg-card/50 flex flex-col h-screen sticky top-0">
+    <aside className="w-64 border-r border-border bg-card/60 backdrop-blur flex flex-col h-screen sticky top-0">
       {/* Brand Header */}
-      <div className="h-16 border-b border-border flex items-center px-6 gap-2.5">
-        <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-sm">
-          <GraduationCap className="h-5 w-5" />
+      <div className="h-16 border-b border-border flex items-center justify-between px-4">
+        <div className="flex items-center gap-2.5">
+          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-sm shadow-amber-500/20">
+            <GraduationCap className="h-5 w-5" />
+          </div>
+          <div className="flex flex-col">
+            <span className="font-extrabold text-base tracking-tight leading-none bg-gradient-to-r from-amber-500 via-orange-500 to-amber-400 bg-clip-text text-transparent">
+              HR Verse
+            </span>
+            <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-wider mt-0.5">
+              Student Portal
+            </span>
+          </div>
         </div>
-        <div className="flex flex-col">
-          <span className="font-extrabold text-base tracking-tight leading-none bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
-            HR Verse
-          </span>
-          <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-wider mt-0.5">
-            Student Portal
-          </span>
-        </div>
+        <ThemeToggle />
       </div>
 
       {/* Navigation Links */}
@@ -69,7 +73,7 @@ export function StudentSidebar({
               href={item.href}
               className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all ${
                 isActive
-                  ? 'bg-primary text-primary-foreground shadow-sm'
+                  ? 'bg-primary text-primary-foreground shadow-sm shadow-amber-500/20 font-semibold'
                   : 'text-muted-foreground hover:bg-muted hover:text-foreground'
               }`}
             >
@@ -83,11 +87,11 @@ export function StudentSidebar({
         <div className="pt-4 mt-4 border-t border-border">
           <button
             onClick={onOpenAIChat}
-            className="w-full flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm font-medium bg-gradient-to-r from-indigo-500/10 via-purple-500/10 to-pink-500/10 text-indigo-700 dark:text-indigo-300 border border-indigo-500/20 hover:border-indigo-500/40 transition-all text-left group"
+            className="w-full flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm font-medium bg-gradient-to-r from-amber-500/10 via-orange-500/10 to-amber-400/10 text-amber-700 dark:text-amber-300 border border-amber-500/20 hover:border-amber-500/40 transition-all text-left group"
           >
-            <Sparkles className="h-4 w-4 text-indigo-500 group-hover:scale-110 transition-transform" />
+            <Sparkles className="h-4 w-4 text-amber-500 group-hover:scale-110 transition-transform" />
             <span className="flex-1">AI HR Assistant</span>
-            <span className="text-[10px] uppercase font-bold bg-indigo-500/20 px-1.5 py-0.5 rounded text-indigo-600 dark:text-indigo-300">
+            <span className="text-[10px] uppercase font-bold bg-amber-500/20 px-1.5 py-0.5 rounded text-amber-600 dark:text-amber-300">
               Groq
             </span>
           </button>

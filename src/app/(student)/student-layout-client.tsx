@@ -25,10 +25,10 @@ export function StudentLayoutClient({
       {/* Floating AI Button for quick access anywhere in learning flow */}
       <button
         onClick={() => setAiModalOpen(true)}
-        className="fixed bottom-6 right-6 z-40 flex items-center gap-2 px-4 py-3 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-medium text-sm shadow-lg hover:shadow-xl hover:scale-105 transition-all"
+        className="fixed bottom-6 right-6 z-40 flex items-center gap-2 px-4 py-3 rounded-full bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 text-black font-bold text-sm shadow-lg shadow-amber-500/25 hover:shadow-xl hover:shadow-amber-500/35 hover:scale-105 transition-all"
         aria-label="Open AI Learning Assistant"
       >
-        <Sparkles className="h-4 w-4 animate-pulse" />
+        <Sparkles className="h-4 w-4 animate-pulse text-black" />
         <span>Ask AI Mentor</span>
       </button>
 

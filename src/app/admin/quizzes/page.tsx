@@ -18,7 +18,7 @@ export default async function AdminQuizzesPage() {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-6">
         <div>
           <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white flex items-center gap-2.5">
-            <HelpCircle className="h-6 w-6 text-purple-400" /> Quiz Management
+            <HelpCircle className="h-6 w-6 text-amber-400" /> Quiz Management
           </h1>
           <p className="text-xs sm:text-sm text-slate-400 mt-1">
             Configure passing criteria, time limits, question pools, and view aggregate attempts.
@@ -40,7 +40,7 @@ export default async function AdminQuizzesPage() {
                 >
                   {quiz.is_published ? 'Published' : 'Draft'}
                 </Badge>
-                <span className="text-[11px] text-purple-400 font-semibold">
+                <span className="text-[11px] text-amber-400 font-semibold">
                   Pass Threshold: {quiz.passing_score}%
                 </span>
               </div>
@@ -56,7 +56,7 @@ export default async function AdminQuizzesPage() {
             <CardContent className="pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400">
               <div className="flex items-center gap-3">
                 <span className="flex items-center gap-1">
-                  <Clock className="h-3 w-3 text-purple-400" /> {quiz.time_limit_minutes || 30} mins
+                  <Clock className="h-3 w-3 text-amber-400" /> {quiz.time_limit_minutes || 30} mins
                 </span>
                 <span>Max Attempts: {quiz.max_attempts}</span>
               </div>

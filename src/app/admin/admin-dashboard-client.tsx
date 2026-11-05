@@ -38,7 +38,7 @@ export function AdminDashboardClient({ metrics }: { metrics: DashboardMetrics })
             <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
               Executive Admin Dashboard
             </h1>
-            <Badge className="bg-purple-600 text-white text-[10px]">Live Database</Badge>
+            <Badge className="bg-amber-500 text-white text-[10px]">Live Database</Badge>
           </div>
           <p className="text-xs sm:text-sm text-slate-400 mt-1">
             Real-time telemetry, student progression, quiz pass rates, and evaluation queues.
@@ -52,7 +52,7 @@ export function AdminDashboardClient({ metrics }: { metrics: DashboardMetrics })
             </Button>
           </Link>
           <Link href="/admin/submissions">
-            <Button size="sm" className="text-xs bg-purple-600 hover:bg-purple-700 text-white gap-1.5 shadow-sm">
+            <Button size="sm" className="text-xs bg-amber-500 hover:bg-amber-600 text-white gap-1.5 shadow-sm">
               <Inbox className="h-4 w-4" /> Grading Queue
             </Button>
           </Link>
@@ -65,7 +65,7 @@ export function AdminDashboardClient({ metrics }: { metrics: DashboardMetrics })
           <CardContent className="p-4 space-y-1">
             <div className="flex items-center justify-between">
               <span className="text-[11px] font-medium text-slate-400">Total Students</span>
-              <Users className="h-4 w-4 text-purple-400" />
+              <Users className="h-4 w-4 text-amber-400" />
             </div>
             <p className="text-2xl font-bold text-white">{metrics.totalStudents}</p>
             <p className="text-[10px] text-slate-500">Registered learners</p>
@@ -134,7 +134,7 @@ export function AdminDashboardClient({ metrics }: { metrics: DashboardMetrics })
           <div className="flex items-center justify-between">
             <div>
               <CardTitle className="text-base font-bold text-white flex items-center gap-2">
-                <TrendingUp className="h-4 w-4 text-purple-400" /> Weekly Learning Activity Trends
+                <TrendingUp className="h-4 w-4 text-amber-400" /> Weekly Learning Activity Trends
               </CardTitle>
               <CardDescription className="text-xs text-slate-400">
                 Lessons completed, quizzes attempted, and written assessments submitted
@@ -175,9 +175,9 @@ export function AdminDashboardClient({ metrics }: { metrics: DashboardMetrics })
           <CardHeader className="pb-3 border-b border-slate-800/80">
             <div className="flex items-center justify-between">
               <CardTitle className="text-sm font-bold text-white flex items-center gap-2">
-                <UserPlus className="h-4 w-4 text-purple-400" /> Recent Student Registrations
+                <UserPlus className="h-4 w-4 text-amber-400" /> Recent Student Registrations
               </CardTitle>
-              <Link href="/admin/students" className="text-[11px] text-purple-400 hover:underline">
+              <Link href="/admin/students" className="text-[11px] text-amber-400 hover:underline">
                 View All
               </Link>
             </div>
@@ -190,7 +190,7 @@ export function AdminDashboardClient({ metrics }: { metrics: DashboardMetrics })
                   className="flex items-center justify-between p-2.5 rounded-lg bg-slate-900 border border-slate-800 text-xs"
                 >
                   <div className="flex items-center gap-3">
-                    <div className="h-8 w-8 rounded-full bg-purple-500/20 text-purple-300 flex items-center justify-center font-bold">
+                    <div className="h-8 w-8 rounded-full bg-amber-500/20 text-amber-300 flex items-center justify-center font-bold">
                       {student.full_name ? student.full_name[0].toUpperCase() : 'S'}
                     </div>
                     <div>
@@ -216,7 +216,7 @@ export function AdminDashboardClient({ metrics }: { metrics: DashboardMetrics })
               <CardTitle className="text-sm font-bold text-white flex items-center gap-2">
                 <Inbox className="h-4 w-4 text-indigo-400" /> Recent Assessment Submissions
               </CardTitle>
-              <Link href="/admin/submissions" className="text-[11px] text-purple-400 hover:underline">
+              <Link href="/admin/submissions" className="text-[11px] text-amber-400 hover:underline">
                 Grading Queue
               </Link>
             </div>

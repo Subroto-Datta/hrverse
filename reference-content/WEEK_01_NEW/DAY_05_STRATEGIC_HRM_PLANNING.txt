@@ -1,0 +1,893 @@
+DAY 5 – Strategic Human Resource Management, Workforce Planning and HR Metrics.
+
+Yes
+DAY 5 – STRATEGIC HUMAN RESOURCE MANAGEMENT, WORKFORCE PLANNING & HR METRICS
+Module: HR Fundamentals
+Duration: 3–4 Hours
+Level: Beginner
+Prerequisite: Day 1–4
+
+Today's lesson introduces the business and analytical side of Human Resource Management.
+
+Until now, R has learned what HR does, how HR departments operate, how employees move through an organisation and how workplace policies are established.
+
+Today, she will learn how HR plans for the future, determines how many employees an organisation needs, manages workforce requirements and measures HR performance using data.
+
+This is particularly important because modern HR professionals are expected to understand business requirements rather than simply perform administrative tasks.
+
+Today's Learning Outcomes
+By the end of Day 5, R should be able to:
+
+Explain Strategic Human Resource Management (SHRM).
+Understand the relationship between business strategy and HR strategy.
+Explain Human Resource Planning (HRP).
+Understand manpower forecasting and workforce requirements.
+Differentiate between internal and external workforce supply.
+Calculate important HR metrics.
+Understand how HR uses data to support management decisions.
+Prepare a basic manpower plan for a hospital.
+TOPIC 1: INTRODUCTION TO STRATEGIC HUMAN RESOURCE MANAGEMENT
+1.1 What is Strategic Human Resource Management?
+Strategic Human Resource Management (SHRM) refers to the process of aligning an organisation's HR policies, practices and workforce capabilities with its long-term business objectives.
+
+In simple terms, strategic HRM ensures that an organisation has the right people, skills and workforce structure to achieve its future goals.
+
+Traditional HR activities often focus on immediate employee-related requirements.
+
+Strategic HRM looks beyond immediate requirements and considers how people management contributes to long-term organisational success.
+
+Example
+Consider a hospital that currently has 100 employees.
+
+Management plans to expand its operations and open two additional branches within three years.
+
+This expansion will require:
+
+Additional doctors.
+More nurses.
+Biomedical Engineers.
+Lab Technicians.
+Hospital Administrators.
+HR professionals.
+Finance and administrative employees.
+If HR starts recruiting only after the new branches open, the hospital may experience staffing shortages.
+
+Instead, strategic HR planning anticipates these requirements and prepares a workforce strategy in advance.
+
+This is an example of Strategic Human Resource Management.
+
+1.2 Objectives of Strategic HRM
+A. Aligning HR with Business Goals
+
+HR activities should support the organisation's business objectives.
+
+Example:
+
+If a company wants to expand its sales operations, HR must plan recruitment and training for additional sales employees.
+
+B. Improving Workforce Productivity
+
+HR works towards ensuring that employees have the necessary skills, resources and support to perform effectively.
+
+C. Developing Talent
+
+Organisations need employees with suitable capabilities to meet future requirements.
+
+HR supports this through training, career development and succession planning.
+
+D. Improving Employee Retention
+
+Strategic HRM considers employee satisfaction, engagement and retention as important factors in organisational stability.
+
+E. Managing Workforce Costs
+
+HR helps management plan recruitment budgets, compensation structures and workforce expenditure.
+
+F. Preparing for Organisational Changes
+
+Organisations may experience expansion, restructuring, technological changes or new business requirements.
+
+HR helps prepare employees and workforce structures for these changes.
+
+TOPIC 2: DIFFERENCE BETWEEN TRADITIONAL HRM AND STRATEGIC HRM
+Understanding this difference is important.
+
+Basis	Traditional HRM	Strategic HRM
+Focus	Routine employee administration	Long-term workforce strategy
+Approach	Primarily operational	Strategic and future-oriented
+Planning	Immediate requirements	Future workforce requirements
+Employee Development	Job-related training	Long-term capability development
+Decision-Making	Mainly HR operational decisions	Integrated with business decisions
+Recruitment	Filling current vacancies	Building future talent pipelines
+Performance	Monitoring individual performance	Aligning performance with business goals
+Example	Hiring five nurses for current vacancies	Planning workforce requirements for future hospital expansion
+Important: Traditional HR activities are not unnecessary. Strategic HRM builds on operational HR processes and connects them with organisational objectives.
+
+TOPIC 3: UNDERSTANDING HUMAN RESOURCE PLANNING (HRP)
+3.1 What is Human Resource Planning?
+Human Resource Planning (HRP), also called workforce planning, is the process of identifying an organisation's current and future employee requirements and ensuring that suitable employees are available when needed.
+
+It helps answer four important questions:
+
+How many employees does the organisation currently have?
+How many employees will it need in the future?
+What skills and qualifications will be required?
+How will the organisation fulfil the workforce gap?
+3.2 Objectives of HR Planning
+A. Ensuring Adequate Staffing
+
+HR planning ensures that the organisation has sufficient employees to perform its operations.
+
+B. Avoiding Workforce Shortages
+
+It helps organisations anticipate situations where employee availability may be insufficient.
+
+C. Avoiding Workforce Surplus
+
+An organisation may also have more employees than required.
+
+HR planning helps identify and manage such situations.
+
+D. Identifying Skill Gaps
+
+It identifies differences between existing employee capabilities and future job requirements.
+
+E. Supporting Organisational Expansion
+
+HR planning prepares the workforce needed for new branches, departments or business operations.
+
+F. Controlling Recruitment Costs
+
+Advance planning can reduce urgent recruitment expenses and inefficient hiring.
+
+TOPIC 4: THE HUMAN RESOURCE PLANNING PROCESS
+Human Resource Planning generally involves the following stages.
+
+Step 1: Analyse Organisational Objectives
+HR first understands the organisation's business plans.
+
+Example:
+
+A hospital plans to expand its ICU capacity from 10 beds to 25 beds.
+
+This expansion will require additional medical and support staff.
+
+Step 2: Analyse Existing Workforce
+HR studies the current workforce.
+
+Important information includes:
+
+Total employee headcount.
+Department-wise employee count.
+Employee designations.
+Qualifications.
+Skills.
+Experience.
+Retirement or resignation projections.
+Employee availability.
+This is called workforce analysis.
+
+Step 3: Forecast Future Workforce Demand
+HR estimates the number and types of employees required in the future.
+
+For example:
+
+Department	Current Employees	Future Requirement
+Nursing	30	45
+Laboratory	10	14
+Biomedical	5	8
+Administration	15	18
+Finance	5	6
+These numbers are illustrative assumptions.
+
+Step 4: Forecast Workforce Supply
+HR estimates how many employees will be available to fulfil future requirements.
+
+Supply can come from:
+
+Internal Sources
+
+Existing employees.
+Promotions.
+Transfers.
+Internal role changes.
+Employees returning from approved leave.
+External Sources
+
+New recruitment.
+Campus placements.
+Recruitment agencies.
+Employee referrals.
+Job portals.
+Professional networks.
+Step 5: Identify Workforce Gaps
+HR compares future workforce demand with expected workforce supply.
+
+Formula:
+
+Workforce Gap = Forecasted Workforce Demand − Forecasted Workforce Supply
+
+Example:
+
+A hospital requires 15 nurses but expects only 11 to be available.
+
+Workforce Gap:
+
+15 − 11 = 4 nurses.
+
+Therefore, the hospital has a shortage of four nurses.
+
+Step 6: Develop an Action Plan
+HR decides how to address the workforce gap.
+
+Possible actions:
+
+Recruitment.
+Internal transfers.
+Promotions.
+Training.
+Reskilling.
+Temporary staffing.
+Workforce restructuring.
+Step 7: Implement and Monitor
+HR implements the plan and regularly reviews whether staffing requirements are being fulfilled.
+
+TOPIC 5: WORKFORCE DEMAND AND SUPPLY FORECASTING
+5.1 What is Workforce Demand Forecasting?
+Workforce demand forecasting is the process of estimating how many employees and what types of skills an organisation will require in the future.
+
+It considers factors such as:
+
+Business expansion.
+Increased workload.
+New projects.
+Employee productivity.
+Technology changes.
+Departmental requirements.
+Expected employee turnover.
+Example
+A hospital currently has five Biomedical Engineers.
+
+Management plans to install additional medical equipment and expand its ICU.
+
+The department head estimates that eight Biomedical Engineers will be required next year.
+
+Therefore:
+
+Current Workforce = 5
+
+Future Demand = 8
+
+Additional Requirement = 3
+
+HR must plan how to fulfil this requirement.
+
+5.2 What is Workforce Supply Forecasting?
+Workforce supply forecasting estimates the number of employees who will be available to fulfil future workforce requirements.
+
+It considers:
+
+Existing employees.
+Expected resignations.
+Retirements.
+Promotions.
+Transfers.
+Internal training.
+External recruitment availability.
+Example
+A hospital currently has 20 nurses.
+
+During the next year:
+
+Two nurses are expected to retire.
+One nurse is expected to transfer to another branch.
+Three new nurses are expected to join.
+Expected workforce supply:
+
+20 − 2 − 1 + 3 = 20 nurses.
+
+If future demand is 25 nurses:
+
+Workforce Gap = 25 − 20 = 5 nurses.
+
+The hospital must arrange additional staffing.
+
+5.3 Difference Between Demand and Supply Forecasting
+Basis	Demand Forecasting	Supply Forecasting
+Meaning	Estimates employees required	Estimates employees available
+Focus	Future workforce needs	Future workforce availability
+Sources	Business plans and workload	Existing employees and labour market
+Objective	Determine staffing requirements	Determine staffing availability
+Outcome	Required headcount	Expected available headcount
+TOPIC 6: METHODS OF HUMAN RESOURCE PLANNING
+There are different methods organisations use to estimate workforce requirements.
+
+6.1 Managerial Judgement
+Department heads and managers estimate future staffing requirements based on their experience and operational needs.
+
+Example:
+
+A Nursing Supervisor estimates that the department requires five additional nurses to manage increased patient workload.
+
+6.2 Trend Analysis
+Trend analysis uses historical workforce data to estimate future requirements.
+
+Example:
+
+A hospital's nursing department has increased its workforce by approximately 10% annually over the last three years.
+
+HR may use this trend as one input when estimating future staffing requirements.
+
+However, historical trends should not be applied blindly if business conditions change.
+
+6.3 Ratio Analysis
+Ratio analysis estimates staffing requirements using a relationship between two variables.
+
+Example:
+
+A hospital requires one administrative employee for every 20 employees.
+
+If the hospital has 200 employees:
+
+Required Administrative Employees:
+
+200 ÷ 20 = 10.
+
+6.4 Workload Analysis
+Workload analysis estimates staffing requirements based on the amount of work that must be completed.
+
+Example:
+
+A recruitment team must process 300 applications every month.
+
+If one recruiter can effectively process 100 applications per month:
+
+Required Recruiters:
+
+300 ÷ 100 = 3 recruiters.
+
+6.5 Skills Inventory
+A skills inventory is a record of employee qualifications, experience, knowledge and competencies.
+
+It helps HR understand what capabilities already exist within the organisation.
+
+Example:
+
+A hospital has five Biomedical Engineers.
+
+Two specialise in imaging equipment, while three have experience with ICU and monitoring equipment.
+
+The hospital can use this information when planning future technical requirements.
+
+TOPIC 7: UNDERSTANDING HR METRICS
+Now we move to the analytical part of today's lesson.
+
+HR metrics are measurable values used to evaluate workforce-related activities and HR performance.
+
+They help organisations understand whether HR processes are working effectively.
+
+For example:
+
+Are employees leaving frequently?
+How long does recruitment take?
+Is absenteeism increasing?
+How much does hiring cost?
+Are employees staying with the organisation?
+These questions can be answered using HR metrics.
+
+7.1 Employee Headcount
+Headcount refers to the total number of employees working in an organisation at a particular point in time.
+
+Formula:
+
+Employee Headcount = Total Number of Active Employees
+
+Example:
+
+A company has:
+
+25 employees in HR.
+50 employees in Sales.
+30 employees in Finance.
+45 employees in Operations.
+Total Headcount:
+
+25 + 50 + 30 + 45 = 150 employees.
+
+HR Application: Helps management understand the size and distribution of the workforce.
+
+7.2 Employee Attrition Rate
+Attrition rate measures the percentage of the average workforce that leaves an organisation during a specified period.
+
+Formula:
+
+Attrition Rate = (Number of Employees Who Left ÷ Average Headcount) × 100
+
+Average Headcount:
+
+(Opening Headcount + Closing Headcount) ÷ 2
+
+Example:
+
+Opening Headcount = 100
+
+Closing Headcount = 90
+
+Employees Who Left = 15
+
+Average Headcount:
+
+(100 + 90) ÷ 2 = 95
+
+Attrition Rate:
+
+(15 ÷ 95) × 100 = 15.79%
+
+Interpretation: Approximately 15.79% of the average workforce left during the specified period.
+
+7.3 Employee Retention Rate
+Retention rate measures the percentage of employees from the opening workforce who remain employed at the end of the period.
+
+Formula:
+
+Retention Rate = [(Employees at the End − New Employees Joined During the Period) ÷ Employees at the Beginning] × 100
+
+Example:
+
+Opening Headcount = 100
+
+Closing Headcount = 90
+
+New Employees Joined = 10
+
+Retention Rate:
+
+[(90 − 10) ÷ 100] × 100
+
+= 80%
+
+Therefore, the retention rate is 80%.
+
+Important: Retention and attrition measure different aspects of workforce movement. They are not necessarily exact complements because they use different calculation conventions.
+
+7.4 Absenteeism Rate
+Absenteeism rate measures the proportion of scheduled working time lost due to employee absence.
+
+Formula:
+
+Absenteeism Rate = (Total Absent Workdays ÷ Total Scheduled Workdays) × 100
+
+Example:
+
+A department has 20 employees.
+
+Each employee is scheduled to work 22 days in a month.
+
+Total Scheduled Workdays:
+
+20 × 22 = 440 days.
+
+Total Absent Workdays = 22 days.
+
+Absenteeism Rate:
+
+(22 ÷ 440) × 100 = 5%
+
+Interpretation: Employees were absent for 5% of the total scheduled working days.
+
+The organisation should clearly define which absence categories are included in this metric.
+
+7.5 Time to Hire
+Time to Hire measures the time taken to hire a candidate, generally from the date the candidate enters the recruitment process to offer acceptance.
+
+Organisations may use different starting and ending points, so the measurement definition should be consistent.
+
+Formula:
+
+Time to Hire = Offer Acceptance Date − Candidate Entry Date
+
+Example:
+
+Candidate enters the recruitment process on 1 November.
+
+Candidate accepts the offer on 16 November.
+
+Time to Hire = 15 days.
+
+HR Application: Helps evaluate recruitment efficiency.
+
+7.6 Time to Fill
+Time to Fill measures the number of days taken to fill a vacancy, generally from the date the position is approved or opened until the selected candidate accepts the offer.
+
+Formula:
+
+Time to Fill = Offer Acceptance Date − Vacancy Approval Date
+
+Example:
+
+Vacancy approved on 1 November.
+
+Candidate accepts the offer on 25 November.
+
+Time to Fill = 24 days.
+
+Time to Hire vs Time to Fill
+Basis	Time to Hire	Time to Fill
+Starting Point	Candidate enters recruitment process	Vacancy is approved or opened
+Ending Point	Offer acceptance	Offer acceptance
+Focus	Candidate recruitment experience	Overall vacancy-filling duration
+7.7 Cost per Hire
+Cost per Hire measures the average expenditure incurred to recruit one employee.
+
+Formula:
+
+Cost per Hire = Total Recruitment Costs ÷ Number of Employees Hired
+
+Recruitment costs may include:
+
+Job advertisements.
+Recruitment agency fees.
+Background verification.
+Recruitment software.
+Campus recruitment expenses.
+Interview-related expenses.
+Example:
+
+Total recruitment expenditure = ₹60,000.
+
+Employees hired = 5.
+
+Cost per Hire:
+
+₹60,000 ÷ 5 = ₹12,000.
+
+Average Cost per Hire = ₹12,000.
+
+7.8 Offer Acceptance Rate
+Offer Acceptance Rate measures the percentage of job offers accepted by candidates.
+
+Formula:
+
+Offer Acceptance Rate = (Offers Accepted ÷ Total Offers Extended) × 100
+
+Example:
+
+Offers Extended = 20
+
+Offers Accepted = 16
+
+Offer Acceptance Rate:
+
+(16 ÷ 20) × 100 = 80%.
+
+Interpretation: 80% of the offers were accepted.
+
+7.9 Employee Turnover Rate
+Employee turnover measures the rate at which employees leave an organisation during a particular period.
+
+In many HR reports, turnover and attrition are used interchangeably. However, some organisations distinguish them based on whether vacancies are replaced.
+
+Always check the organisation's metric definition before interpreting the figure.
+
+7.10 Training Effectiveness
+Training effectiveness measures whether a training programme achieved its intended learning or performance outcomes.
+
+Possible indicators include:
+
+Training completion rate.
+Assessment score improvement.
+Skill improvement.
+Employee feedback.
+Reduction in work-related errors.
+Improvement in productivity.
+Example:
+
+Before training, employees achieved an average assessment score of 60%.
+
+After training, the average score increased to 85%.
+
+Improvement:
+
+85 − 60 = 25 percentage points.
+
+This indicates an improvement in assessment performance, although additional evidence would be needed to establish whether the training caused improvements in actual workplace performance.
+
+TOPIC 8: USING HR METRICS FOR MANAGEMENT DECISIONS
+Calculating metrics is only the first step.
+
+An HR professional must understand what the numbers indicate and what actions may be appropriate.
+
+Example 1: High Attrition
+A hospital's nursing department reports an attrition rate of 22%.
+
+HR should investigate:
+
+Salary competitiveness.
+Shift allocation.
+Workload.
+Employee feedback.
+Managerial practices.
+Career development opportunities.
+Possible actions:
+
+Review shift scheduling.
+Conduct employee feedback sessions.
+Improve training and development.
+Review compensation structures.
+Strengthen employee support systems.
+Example 2: High Absenteeism
+A department reports an absenteeism rate of 12%.
+
+HR should examine:
+
+Absence patterns.
+Department-wise absenteeism.
+Shift-related issues.
+Workload.
+Employee welfare.
+Attendance-record accuracy.
+Possible actions should be based on the actual reasons identified.
+
+Example 3: High Recruitment Time
+A company takes an average of 45 days to fill vacancies.
+
+HR should investigate:
+
+Delayed interview scheduling.
+Slow managerial feedback.
+Limited candidate sourcing.
+Unrealistic job requirements.
+Offer approval delays.
+Example 4: Low Offer Acceptance Rate
+A company extends 30 offers but only 15 candidates accept.
+
+Offer Acceptance Rate:
+
+(15 ÷ 30) × 100 = 50%.
+
+HR should investigate:
+
+Compensation expectations.
+Candidate experience.
+Offer delays.
+Job role clarity.
+Competing offers.
+Location and work arrangements.
+Key Concept: HR metrics help identify problems. HR professionals must investigate the reasons before recommending solutions.
+
+TOPIC 9: PRACTICAL CASE STUDY – WORKFORCE PLANNING FOR A HOSPITAL
+Now apply strategic HRM and workforce planning.
+
+Situation
+A hospital currently has 100 employees.
+
+Management plans to expand its services over the next year.
+
+The department heads provide the following workforce estimates:
+
+Department	Current Employees	Required Next Year
+Nursing	30	40
+Laboratory	10	15
+Biomedical	5	8
+Administration	15	18
+Finance	5	6
+Pharmacy	10	12
+Medical Support	25	30
+Total	100	129
+Step 1: Calculate Workforce Demand
+Current Employees = 100
+
+Future Employees Required = 129
+
+Additional Workforce Requirement:
+
+129 − 100 = 29 employees.
+
+Step 2: Estimate Internal Workforce Supply
+Suppose the hospital expects the following changes:
+
+5 employees may resign.
+2 employees may retire.
+3 employees may transfer from other branches into the hospital.
+2 existing employees may be promoted into roles that reduce the need for external recruitment.
+For this simplified exercise, assume the two promoted employees remain within the hospital's total headcount and do not create additional vacancies.
+
+Expected Workforce Supply:
+
+100 − 5 − 2 + 3 = 96 employees.
+
+Step 3: Calculate Workforce Gap
+Future Demand = 129
+
+Expected Supply = 96
+
+Workforce Gap:
+
+129 − 96 = 33 employees.
+
+Therefore, the hospital needs to plan for 33 additional employees through recruitment or other staffing arrangements.
+
+Step 4: Develop a Manpower Plan
+Department	Additional Requirement
+Nursing	10
+Laboratory	5
+Biomedical	3
+Administration	3
+Finance	1
+Pharmacy	2
+Medical Support	5
+Total	29
+The additional requirement from the department table is 29 positions.
+
+The workforce supply calculation indicates a net gap of 33 employees.
+
+Notice the difference: The 29 positions represent planned department-level expansion, whereas the 33-person gap also accounts for projected exits and internal transfers.
+
+HR must reconcile these figures with department heads before finalising the recruitment plan.
+
+This is an important real-world lesson: workforce planning requires accurate assumptions and consistent calculations.
+
+DAY 5 – PRACTICAL ASSIGNMENTS
+R must complete all three assignments independently.
+
+Assignment 1: Manpower Planning Report
+Situation:
+
+A hospital has 100 employees and plans to expand its operations.
+
+Prepare a manpower planning report.
+
+The report must include:
+
+Current workforce analysis.
+Future workforce requirements.
+Workforce demand forecast.
+Workforce supply forecast.
+Workforce gap calculation.
+Recruitment requirements.
+Internal transfer opportunities.
+Training and development requirements.
+Estimated recruitment timeline.
+Final manpower recommendations.
+Deliverable: Manpower Planning Report.
+
+Expected Length: 4–6 pages.
+
+Assignment 2: HR Metrics Calculation Workbook
+Create an Excel workbook containing the following calculations:
+
+Metric	Required Calculation
+Employee Headcount	Total active employees
+Attrition Rate	Employees who left ÷ average headcount
+Retention Rate	Employees retained from opening workforce ÷ opening workforce
+Absenteeism Rate	Absent workdays ÷ scheduled workdays
+Time to Hire	Candidate entry to offer acceptance
+Time to Fill	Vacancy approval to offer acceptance
+Cost per Hire	Recruitment cost ÷ hires
+Offer Acceptance Rate	Accepted offers ÷ offers extended
+Use fictional data for at least 20 employees and 10 recruitment cases.
+
+Deliverable: HR Metrics Excel Workbook.
+
+Assignment 3: HR Management Recommendation Report
+Use the following fictional data:
+
+Metric	Current Result
+Attrition Rate	20%
+Absenteeism Rate	10%
+Average Time to Hire	35 Days
+Offer Acceptance Rate	55%
+Training Completion Rate	60%
+Prepare a report explaining:
+
+What each metric indicates.
+Why the organisation may be experiencing these results.
+What additional information HR should investigate.
+What actions HR should recommend.
+How the organisation should measure improvement.
+Important: These figures are hypothetical. R must not assume that the numbers automatically reveal the causes of the problems.
+
+Deliverable: HR Management Recommendation Report.
+
+DAY 5 – ASSESSMENT
+Total Marks: 30
+
+Section A: Conceptual Understanding – 10 Marks
+Define Strategic Human Resource Management. (2)
+What is Human Resource Planning? (2)
+Differentiate between workforce demand and supply forecasting. (3)
+What are HR metrics? (3)
+Section B: Numerical and Practical Understanding – 10 Marks
+Question 1: Attrition Rate (3 Marks)
+
+A company has:
+
+Opening Headcount: 200.
+Closing Headcount: 180.
+Employees who left: 30.
+Calculate the attrition rate using average headcount.
+
+Question 2: Cost per Hire (2 Marks)
+
+Recruitment expenditure is ₹90,000, and 6 employees are hired.
+
+Calculate the cost per hire.
+
+Question 3: Workforce Gap (2 Marks)
+
+An organisation requires 50 employees but expects only 42 employees to be available.
+
+Calculate the workforce gap.
+
+Question 4: Offer Acceptance Rate (3 Marks)
+
+An organisation extends 40 offers, of which 28 are accepted.
+
+Calculate the offer acceptance rate and briefly interpret the result.
+
+Section C: Communication and Decision-Making – 10 Marks
+Ask her to answer verbally:
+
+Why is workforce planning important for an expanding organisation? (3)
+How can HR use attrition data to improve employee retention? (3)
+If a hospital experiences increasing absenteeism, what should HR investigate before recommending corrective action? (4)
+Evaluation Criteria
+Score	Performance
+27–30	Excellent
+24–26	Very Good
+21–23	Good
+18–20	Needs Improvement
+Below 18	Revision Required
+Minimum Passing Score: 21/30 (70%).
+
+YOUR MENTOR EVALUATION CHECKLIST
+Parameter	What to Evaluate
+Strategic Understanding	Can she explain how HR supports business objectives?
+Workforce Planning	Can she identify future employee requirements?
+Forecasting	Can she calculate workforce demand and supply?
+Numerical Accuracy	Can she calculate HR metrics correctly?
+Data Interpretation	Can she explain what the metrics indicate?
+Decision-Making	Can she recommend reasonable HR actions?
+Documentation	Is her manpower planning report structured?
+Five Questions to Ask Her Without Showing Her the Notes
+What is the difference between traditional HRM and Strategic HRM?
+If a hospital plans to open a new branch, how should HR prepare for the expansion?
+What is the difference between workforce demand and workforce supply?
+If an organisation has high attrition, what information should HR investigate?
+Why is calculating an HR metric not enough to make a management decision?
+DAY 5 COMPLETION CHECKLIST
+Studied all nine topics.
+Understood Strategic HRM.
+Learned Human Resource Planning.
+Understood workforce demand forecasting.
+Understood workforce supply forecasting.
+Learned workforce planning methods.
+Understood important HR metrics.
+Practised attrition and retention calculations.
+Practised absenteeism calculations.
+Practised recruitment metrics.
+Completed the manpower planning report.
+Completed the HR metrics workbook.
+Completed the management recommendation report.
+Attempted the 30-mark assessment.
+Achieved at least 21 marks.
+MENTOR'S NOTE
+Day 5 is a significant step because it moves her from understanding HR activities to understanding how HR contributes to business decisions.
+
+Pay particular attention to three things:
+
+1. Numerical accuracy: She must understand the formulas and be able to calculate metrics without relying entirely on Excel.
+
+2. Interpretation: If she calculates a 20% attrition rate, she must explain what it means rather than simply reporting the number.
+
+3. Practical judgement: She should not immediately recommend recruitment whenever a workforce shortage appears. Internal transfers, training, workload redistribution and other options should also be considered.
+
+WEEK 1 PROGRESS
+Day	Topic	Status
+1	Introduction to HRM	Pending Evaluation
+2	HR Department Structure and Roles	Pending Evaluation
+3	Employee Lifecycle Management	Pending Evaluation
+4	HR Policies and Organisational Culture	Pending Evaluation
+5	Strategic HRM and Workforce Planning	Pending Evaluation
+6	Healthcare HR Management	Upcoming
+7	Weekly Revision and Assessment	Upcoming

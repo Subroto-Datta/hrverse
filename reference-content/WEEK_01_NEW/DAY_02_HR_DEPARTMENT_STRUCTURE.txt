@@ -1,0 +1,764 @@
+DAY 2 – HR DEPARTMENT STRUCTURE, ROLES AND RESPONSIBILITIES
+Module: HR Fundamentals
+Duration: 3–4 Hours
+Level: Beginner
+Prerequisite: Day 1 – Introduction to Human Resource Management
+
+Today's lesson focuses on understanding how an HR department is structured, the different positions within it, what each HR professional actually does and how responsibilities are distributed.
+
+This is important because someone entering HR should understand not just what HR does as a department, but also what their own responsibilities might be as an HR Executive.
+
+Today's Learning Outcomes
+By the end of Day 2, R should be able to:
+
+Explain the structure of an HR department.
+Identify different HR designations and their responsibilities.
+Understand the hierarchy within an HR department.
+Differentiate between HR Generalist and HR Specialist roles.
+Understand the responsibilities of an HR Executive.
+Explain how HR departments function in hospitals and corporate organisations.
+TOPIC 1: UNDERSTANDING THE HR DEPARTMENT
+1.1 What is an HR Department?
+An HR department is a functional unit within an organisation responsible for managing employee-related activities throughout the employment lifecycle.
+
+It ensures that the organisation recruits suitable employees, maintains employee records, manages workplace relationships, coordinates compensation processes and supports employee development.
+
+The HR department acts as a bridge between employees and management.
+
+It must balance two important interests:
+
+Organisational requirements: Productivity, performance, cost management and business objectives.
+Employee requirements: Fair treatment, compensation, development, workplace safety and professional growth.
+1.2 Why Do Organisations Need an HR Department?
+Consider a company with 500 employees.
+
+Without a dedicated HR function, the organisation may face problems such as:
+
+Unstructured recruitment.
+Incorrect employee records.
+Delayed onboarding.
+Attendance discrepancies.
+Payroll coordination problems.
+Employee dissatisfaction.
+Workplace conflicts.
+Lack of performance evaluation.
+Compliance failures.
+An HR department establishes structured processes to prevent and address these problems.
+
+1.3 Core Responsibilities of an HR Department
+The following are the major responsibilities:
+
+Responsibility	What HR Does
+Workforce Planning	Identifies employee requirements
+Recruitment	Finds and hires suitable candidates
+Onboarding	Coordinates new employee joining
+Employee Records	Maintains employee information
+Payroll Coordination	Coordinates salary processing
+Employee Relations	Handles grievances and workplace concerns
+Performance Management	Coordinates performance evaluation
+Learning & Development	Organises employee training
+Compliance	Supports applicable employment-law compliance
+Employee Engagement	Develops initiatives to improve employee experience
+Separation	Coordinates employee exit procedures
+Important: In smaller organisations, one HR professional may handle several of these responsibilities. In larger organisations, separate teams may manage each function.
+
+TOPIC 2: HR DEPARTMENT HIERARCHY AND DESIGNATIONS
+An HR department can have multiple levels of responsibility depending on the size and structure of the organisation.
+
+Let's understand the common hierarchy.
+
+2.1 Chief Human Resources Officer (CHRO)
+The CHRO is generally the highest-ranking HR executive in a large organisation.
+
+The CHRO is responsible for aligning the organisation's human resource strategy with its overall business strategy.
+
+Major Responsibilities:
+
+Developing long-term HR strategies.
+Advising the CEO and senior leadership.
+Workforce planning at an organisational level.
+Leadership development.
+Succession planning.
+Organisational culture.
+Talent management.
+HR policy direction.
+Monitoring overall workforce performance.
+Example:
+
+A company plans to expand from 500 to 2,000 employees over three years.
+
+The CHRO works with senior management to develop a workforce strategy covering recruitment, leadership requirements, employee development and HR budgets.
+
+Skills Required:
+
+Strategic thinking.
+Leadership.
+Business understanding.
+Decision-making.
+Communication.
+Workforce planning.
+2.2 HR Director
+An HR Director leads the HR function or a major HR division.
+
+The position may report directly to the CHRO or another senior executive, depending on the organisation.
+
+Major Responsibilities:
+
+Implementing HR strategy.
+Supervising HR managers.
+Establishing HR policies.
+Monitoring HR department performance.
+Managing HR budgets.
+Ensuring consistent HR practices.
+Coordinating with other departments.
+Example:
+
+An HR Director supervises recruitment, HR operations and employee development teams across multiple company locations.
+
+2.3 HR Manager
+An HR Manager manages the day-to-day functioning of the HR department or a specific HR team.
+
+Major Responsibilities:
+
+Supervising HR Executives.
+Managing recruitment requirements.
+Monitoring employee records.
+Reviewing HR operations.
+Handling escalated employee grievances.
+Coordinating payroll and compliance activities.
+Implementing HR policies.
+Reporting HR performance to senior management.
+Example:
+
+An organisation needs 20 new employees within 45 days.
+
+The HR Manager allocates recruitment responsibilities, monitors progress and coordinates with department heads.
+
+Skills Required:
+
+Team management.
+Problem-solving.
+HR operations.
+Communication.
+Conflict management.
+2.4 HR Business Partner (HRBP)
+An HR Business Partner works closely with business leaders and department heads to align HR practices with departmental and organisational objectives.
+
+Unlike a role focused mainly on administrative HR tasks, an HRBP takes a more strategic and consultative approach.
+
+Major Responsibilities:
+
+Understanding business requirements.
+Advising department managers.
+Workforce planning.
+Supporting organisational changes.
+Identifying talent requirements.
+Improving employee performance.
+Analysing workforce challenges.
+Supporting employee engagement and retention.
+Example:
+
+The sales department is experiencing high employee turnover.
+
+The HRBP works with the Sales Head to understand the reasons, analyses workforce data and recommends suitable retention strategies.
+
+Skills Required:
+
+Business understanding.
+Analytical thinking.
+Stakeholder management.
+Communication.
+Problem-solving.
+2.5 HR Generalist
+An HR Generalist handles multiple HR functions rather than specialising in just one area.
+
+This role provides exposure to different aspects of HR operations.
+
+Major Responsibilities:
+
+Recruitment coordination.
+Employee onboarding.
+Employee documentation.
+Attendance management.
+Leave administration.
+Payroll coordination.
+Employee grievance handling.
+HR policy implementation.
+Performance management coordination.
+Exit formalities.
+Example:
+
+In a company with 100 employees, an HR Generalist may handle recruitment, joining documentation, attendance, employee queries and exit procedures.
+
+Skills Required:
+
+Knowledge of multiple HR functions.
+Documentation.
+Excel.
+Communication.
+Time management.
+Organisation.
+2.6 HR Executive
+An HR Executive is generally an operational-level professional responsible for executing HR activities.
+
+This is one of the common entry-level positions for someone beginning an HR career.
+
+Major Responsibilities:
+
+Coordinating recruitment activities.
+Collecting joining documents.
+Maintaining employee databases.
+Updating attendance records.
+Coordinating leave requests.
+Supporting payroll processing.
+Preparing HR reports.
+Coordinating employee induction.
+Sending employee-related communications.
+Maintaining HR documentation.
+Example:
+
+A new employee joins the organisation.
+
+The HR Executive:
+
+Collects the employee's documents.
+Updates the employee master database.
+Coordinates the joining formalities.
+Shares induction information.
+Updates the onboarding tracker.
+Coordinates with the concerned department.
+Skills Required:
+
+MS Excel.
+Documentation.
+Communication.
+Coordination.
+Attention to detail.
+Basic HR knowledge.
+2.7 HR Coordinator
+An HR Coordinator primarily supports the administrative and coordination aspects of HR operations.
+
+Major Responsibilities:
+
+Scheduling interviews.
+Coordinating candidate communication.
+Maintaining HR documentation.
+Arranging induction sessions.
+Updating employee records.
+Coordinating training programmes.
+Scheduling HR meetings.
+Maintaining recruitment trackers.
+Example:
+
+A company has scheduled 15 interviews in one week.
+
+The HR Coordinator contacts candidates, confirms availability, schedules interview slots and communicates with hiring managers.
+
+2.8 Talent Acquisition Specialist
+A Talent Acquisition Specialist focuses on identifying, attracting and hiring suitable candidates.
+
+Talent Acquisition is generally broader and more long-term than simply filling immediate vacancies.
+
+Major Responsibilities:
+
+Candidate sourcing.
+Job advertisement.
+Resume screening.
+Talent pipeline development.
+Interview coordination.
+Candidate evaluation.
+Offer management.
+Recruitment analytics.
+Example:
+
+An IT company needs 15 software engineers.
+
+The Talent Acquisition Specialist identifies suitable candidates through LinkedIn, job portals, referrals and other sourcing channels.
+
+2.9 Learning and Development (L&D) Specialist
+An L&D Specialist focuses on improving employee knowledge, skills and capabilities.
+
+Major Responsibilities:
+
+Identifying training requirements.
+Designing training programmes.
+Organising workshops.
+Coordinating employee development.
+Evaluating training effectiveness.
+Maintaining training records.
+Supporting leadership development.
+Example:
+
+A hospital introduces new patient-management software.
+
+The L&D team coordinates training sessions for employees who will use the software.
+
+2.10 Compensation and Benefits Specialist
+This professional focuses on employee compensation structures and benefits.
+
+Major Responsibilities:
+
+Salary structure administration.
+Compensation benchmarking.
+Employee benefits.
+Incentive structures.
+Variable pay.
+Compensation policies.
+Salary review coordination.
+Example:
+
+An organisation is planning annual salary revisions.
+
+The Compensation and Benefits team analyses salary structures, internal compensation data and relevant market benchmarks.
+
+2.11 HR Operations Specialist
+HR Operations focuses on the smooth execution of routine employee-related processes.
+
+Major Responsibilities:
+
+Employee database management.
+Employee documentation.
+Attendance and leave administration.
+HRMS management.
+Payroll coordination.
+Employee lifecycle administration.
+HR reporting.
+Process improvement.
+Example:
+
+An organisation has 1,000 employees across multiple locations.
+
+The HR Operations team ensures that employee records, joining information, attendance and HR-related workflows remain accurate and updated.
+
+TOPIC 3: UNDERSTANDING HR GENERALIST VS HR SPECIALIST
+This is an important distinction for career planning.
+
+3.1 HR Generalist
+An HR Generalist handles multiple HR functions.
+
+They have broad knowledge of different HR activities.
+
+For example, an HR Generalist may handle:
+
+Recruitment.
+Onboarding.
+Payroll coordination.
+Employee relations.
+Attendance.
+Performance management.
+Employee documentation.
+3.2 HR Specialist
+An HR Specialist focuses on one particular HR domain.
+
+Examples:
+
+Talent Acquisition Specialist.
+Payroll Specialist.
+Compensation and Benefits Specialist.
+Learning and Development Specialist.
+HR Analytics Specialist.
+Employee Relations Specialist.
+3.3 Comparison
+Basis	HR Generalist	HR Specialist
+Focus	Multiple HR functions	Specific HR function
+Knowledge	Broad HR knowledge	Deep domain knowledge
+Responsibilities	Diverse	Specialised
+Work Exposure	Across HR activities	Concentrated in one area
+Example	HR Executive	Talent Acquisition Specialist
+Suitable For	People who enjoy varied responsibilities	People who prefer specialised work
+3.4 Which Is Better?
+Neither is universally better.
+
+An HR Generalist role can provide broad exposure, particularly at the beginning of a career.
+
+An HR Specialist role can help someone develop deeper expertise in a specific area.
+
+My recommendation: At the entry level, gaining exposure to multiple HR functions is valuable. It helps someone understand which HR domain they would eventually like to specialise in.
+
+TOPIC 4: HR DEPARTMENT STRUCTURE IN DIFFERENT ORGANISATIONS
+HR departments do not have the same structure everywhere.
+
+Their size and responsibilities depend on the organisation's workforce, industry, geographical presence and operational requirements.
+
+4.1 HR Structure in a Small Organisation
+Consider a company with 30 employees.
+
+It may have:
+
+One HR Manager.
+One HR Executive.
+The HR Manager oversees HR activities, while the HR Executive handles operational tasks.
+
+The same HR team may manage recruitment, onboarding, attendance, payroll coordination and employee records.
+
+4.2 HR Structure in a Medium-Sized Organisation
+Consider a company with 300 employees.
+
+Its HR structure may look like this:
+
+                HR MANAGER
+                     |
+          -----------------------
+          |          |          |
+      HR Executive  Recruiter  HR Operations
+          |          |          |
+      Employee    Candidate   Employee Records
+      Relations   Hiring      Attendance
+      Onboarding              HRMS
+                              Payroll Support
+Responsibilities are divided among different employees to improve efficiency.
+
+4.3 HR Structure in a Large Organisation
+A large organisation with thousands of employees may have specialised HR divisions.
+
+                   CHRO
+                    |
+                HR Director
+                    |
+       -----------------------------
+       |          |        |        |
+   HR Operations  TA      L&D      HRBP
+       |          |        |        |
+   HR Managers  Recruiters Trainers Business
+   HR Executives          Specialists Partners
+Other dedicated teams may include:
+
+Compensation and Benefits.
+Employee Relations.
+HR Analytics.
+HR Technology.
+Organisational Development.
+Workforce Planning.
+Remember: These are illustrative structures. Actual reporting lines differ between organisations.
+
+TOPIC 5: HR DEPARTMENT STRUCTURE IN A HOSPITAL
+This is particularly useful because hospital operations involve several employee categories, different shifts and specialised staffing requirements.
+
+Consider a hospital with 100 employees.
+
+Its HR department may look like this:
+
+             HOSPITAL ADMINISTRATOR
+                       |
+                   HR MANAGER
+                       |
+             --------------------
+             |                  |
+        HR Executive       HR Coordinator
+             |                  |
+      Employee Records     Recruitment Support
+      Attendance           Interview Scheduling
+      Onboarding           Joining Coordination
+      Employee Queries     Training Coordination
+      Payroll Support
+Depending on the hospital's size, some of these responsibilities may be handled by administrative or finance teams instead.
+
+5.1 Major Responsibilities of Hospital HR
+A. Healthcare Recruitment
+
+Recruiting:
+
+Doctors.
+Nurses.
+Biomedical Engineers.
+Lab Technicians.
+Pharmacists.
+Hospital Administrators.
+Support Staff.
+HR must coordinate qualification verification, experience checks and relevant professional credentials according to the role and applicable requirements.
+
+B. Shift and Roster Coordination
+
+Hospitals operate across different shifts.
+
+HR coordinates with department heads regarding:
+
+Employee availability.
+Shift schedules.
+Weekly offs.
+Leave requests.
+Overtime records.
+Attendance discrepancies.
+C. Employee Documentation
+
+Maintaining relevant employee records, such as:
+
+Educational certificates.
+Identity documents.
+Employment details.
+Appointment letters.
+Relevant professional registrations.
+Training records.
+Access to sensitive documents must be appropriately restricted.
+
+D. Employee Training
+
+Coordinating:
+
+Workplace safety training.
+Infection prevention training.
+Emergency response training.
+Equipment-related training.
+Employee orientation.
+E. Employee Welfare
+
+Supporting:
+
+Employee grievances.
+Workplace safety.
+Employee engagement.
+Staff welfare initiatives.
+Workplace communication.
+5.2 Practical Example
+A hospital requires:
+
+Position	Required Employees
+Nurses	5
+Biomedical Engineers	2
+Lab Technicians	3
+Hospital Administrators	2
+Total	12
+The HR department must:
+
+Confirm staffing requirements with department heads.
+Prepare job descriptions.
+Publish job advertisements.
+Source suitable candidates.
+Screen applications.
+Coordinate interviews.
+Process selected candidates.
+Verify relevant documents and credentials.
+Issue employment documentation.
+Coordinate onboarding.
+This is an example of HR supporting the operational requirements of a healthcare organisation.
+
+TOPIC 6: SKILLS REQUIRED TO WORK IN HR
+An HR professional requires a combination of technical, interpersonal and organisational skills.
+
+6.1 Communication Skills
+HR professionals communicate with:
+
+Employees.
+Managers.
+Candidates.
+Recruiters.
+Senior management.
+External service providers.
+They must be able to communicate clearly through emails, phone calls, meetings and professional conversations.
+
+Example: Explaining joining documentation requirements to a newly selected candidate.
+
+6.2 Interpersonal Skills
+Interpersonal skills refer to the ability to interact effectively with other people.
+
+They include:
+
+Empathy.
+Active listening.
+Relationship building.
+Cooperation.
+Respectful communication.
+Example: Listening carefully to an employee who raises a workplace concern.
+
+6.3 Problem-Solving Skills
+HR professionals frequently encounter unexpected problems.
+
+Examples:
+
+Candidates withdrawing from recruitment.
+Payroll discrepancies.
+Employee grievances.
+Attendance errors.
+Workplace conflicts.
+They must understand the situation, identify possible causes and coordinate appropriate solutions.
+
+6.4 Organisational Skills
+HR professionals handle multiple responsibilities simultaneously.
+
+They need to:
+
+Prioritise tasks.
+Maintain deadlines.
+Organise documents.
+Track employee information.
+Coordinate multiple activities.
+6.5 Technical Skills
+Important technical skills include:
+
+Skill	HR Application
+MS Excel	Employee databases and HR analytics
+MS Word	HR documentation
+PowerPoint	HR presentations
+Email Communication	Employee and candidate communication
+HRMS	Employee information management
+ATS	Recruitment management
+Google Sheets	HR trackers
+Power BI	HR dashboards and analytics
+6.6 Ethical and Confidentiality Skills
+HR professionals frequently handle sensitive information.
+
+Examples:
+
+Employee salaries.
+Personal information.
+Performance evaluations.
+Grievances.
+Disciplinary records.
+Recruitment decisions.
+They must maintain confidentiality and share information only with authorised individuals for legitimate work-related purposes.
+
+TOPIC 7: WHAT DOES AN HR EXECUTIVE ACTUALLY DO IN A DAY?
+This section is particularly important because it connects theoretical knowledge to a real job.
+
+Consider an HR Executive working in a medium-sized organisation.
+
+Sample Daily Schedule
+Time	Activity
+9:30 AM	Check emails and pending HR tasks
+10:00 AM	Update employee attendance records
+10:30 AM	Coordinate scheduled interviews
+11:30 AM	Review candidate applications
+12:30 PM	Update recruitment tracker
+1:00 PM	Lunch
+2:00 PM	Collect documents from new joiners
+3:00 PM	Update employee master database
+4:00 PM	Coordinate with finance regarding payroll queries
+4:30 PM	Respond to employee queries
+5:00 PM	Prepare HR reports
+5:30 PM	Review pending tasks and plan the next day
+This is only an illustrative schedule. Actual responsibilities and working hours vary between organisations.
+
+Important Understanding
+An HR Executive does not spend the entire day interviewing people or conducting employee engagement activities.
+
+A considerable amount of HR work involves:
+
+Documentation.
+Coordination.
+Data entry.
+Follow-ups.
+Reporting.
+Employee communication.
+Process management.
+Someone entering HR must be comfortable with administrative responsibilities as well as people-oriented work.
+
+DAY 2 – PRACTICAL ASSIGNMENTS
+R must complete the following three assignments.
+
+Assignment 1: HR Department Organisational Chart
+Task: Create an organisational chart for a company with 300 employees.
+
+The chart must include:
+
+HR Manager.
+HR Operations Executive.
+Talent Acquisition Executive.
+HR Coordinator.
+Learning and Development Executive.
+She must clearly show:
+
+Reporting relationships.
+Departmental responsibilities.
+Position hierarchy.
+Tools: PowerPoint, Canva, Word or Draw.io.
+
+Deliverable: One HR Organisational Chart.
+
+Assignment 2: HR Job Roles and Responsibilities
+Prepare a document covering the following five positions:
+
+HR Manager.
+HR Generalist.
+HR Executive.
+Talent Acquisition Specialist.
+HR Operations Executive.
+For each position, include:
+
+Job purpose.
+Minimum qualifications typically required.
+Five major responsibilities.
+Five required skills.
+Three performance indicators.
+Example:
+
+Designation	Responsibility	Performance Indicator
+HR Executive	Maintain employee records	Employee record accuracy
+HR Executive	Coordinate onboarding	Onboarding completion rate
+HR Executive	Update attendance	Attendance record accuracy
+Deliverable: HR Job Roles and Responsibilities Document.
+
+Assignment 3: Hospital HR Department Structure
+Task: Design an HR department for a hospital with 100 employees.
+
+Include:
+
+HR Manager.
+HR Executive.
+HR Coordinator.
+Divide the responsibilities among these three positions.
+
+Then explain how the department would manage:
+
+Recruitment of five nurses.
+Onboarding of three new employees.
+Attendance management.
+Employee grievances.
+Training coordination.
+Employee record maintenance.
+Deliverable: Hospital HR Structure and Responsibility Allocation Report.
+
+DAY 2 – ASSESSMENT
+Total Marks: 30
+
+Section A: Conceptual Understanding – 10 Marks
+What is an HR department? Explain its major responsibilities. (2)
+Explain the responsibilities of an HR Manager. (2)
+Differentiate between an HR Generalist and HR Specialist. (3)
+What is the role of an HR Business Partner? (3)
+Section B: Practical Understanding – 10 Marks
+A company has 30 employees and only one HR Executive. Which HR functions should this employee handle? (3)
+A hospital is recruiting 10 nurses. Which HR professionals may be involved in the process? Explain their responsibilities. (3)
+Why is confidentiality important in HR? Give two examples. (4)
+Section C: Communication and Role Understanding – 10 Marks
+Ask her to answer verbally:
+
+Explain the difference between an HR Manager and HR Executive. (3)
+What does an HR Executive do during a typical working day? (3)
+Which HR responsibilities do you think require the greatest attention to detail, and why? (4)
+Evaluation Criteria
+Score	Performance
+27–30	Excellent
+24–26	Very Good
+21–23	Good
+18–20	Needs Improvement
+Below 18	Revision Required
+Minimum Passing Score: 21/30 (70%).
+
+YOUR MENTOR EVALUATION CHECKLIST
+After she completes Day 2, evaluate her on these parameters:
+
+Parameter	What to Evaluate
+HR Hierarchy	Can she explain the reporting structure?
+Role Understanding	Can she distinguish HR designations?
+Practical Knowledge	Does she understand daily HR activities?
+Organisational Understanding	Can she design a basic HR department?
+Communication	Can she explain job responsibilities clearly?
+Five Questions You Should Ask Her Without Showing Her the Notes
+If you joined a company tomorrow as an HR Executive, what would your responsibilities be?
+What is the difference between an HR Generalist and a Talent Acquisition Specialist?
+Why might a 30-employee company need a different HR structure from a 3,000-employee company?
+What would happen if HR failed to maintain employee records properly?
+How would you divide responsibilities between an HR Manager, HR Executive and HR Coordinator in a hospital?
+DAY 2 COMPLETION CHECKLIST
+Studied all seven topics.
+Understood HR department structure.
+Learned the major HR designations.
+Understood HR Generalist versus HR Specialist.
+Understood hospital HR operations.
+Learned the skills required for HR roles.
+Completed the organisational chart.
+Completed the job roles document.
+Completed the hospital HR structure report.
+Attempted the 30-mark assessment.
+Achieved at least 21 marks.
+Mentor's instruction: Pay particular attention to whether she understands the difference between an HR Manager, HR Generalist and HR Executive. These titles are often confused by beginners, but their responsibilities and levels of authority are different.

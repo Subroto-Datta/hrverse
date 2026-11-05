@@ -23,7 +23,7 @@ export default async function AdminAssessmentsPage() {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-6">
         <div>
           <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white flex items-center gap-2.5">
-            <ClipboardCheck className="h-6 w-6 text-purple-400" /> Assessment & Project Architecture
+            <ClipboardCheck className="h-6 w-6 text-amber-400" /> Assessment & Project Architecture
           </h1>
           <p className="text-xs sm:text-sm text-slate-400 mt-1">
             Manage written scenario prompts, scoring rubrics, and capstone milestones.
@@ -34,7 +34,7 @@ export default async function AdminAssessmentsPage() {
       {/* Written Assessments */}
       <div className="space-y-4">
         <h2 className="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
-          <ClipboardCheck className="h-4 w-4 text-purple-400" /> Case Study Written Assessments
+          <ClipboardCheck className="h-4 w-4 text-amber-400" /> Case Study Written Assessments
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -42,7 +42,7 @@ export default async function AdminAssessmentsPage() {
             <Card key={item.id} className="bg-slate-950 border-slate-800 shadow-sm flex flex-col justify-between">
               <CardHeader className="space-y-1.5 pb-3">
                 <div className="flex items-center justify-between">
-                  <Badge className="bg-purple-600 text-white text-[10px]">
+                  <Badge className="bg-amber-500 text-white text-[10px]">
                     {item.max_score} Max Points
                   </Badge>
                   <span className="text-[11px] text-slate-400">
@@ -60,7 +60,7 @@ export default async function AdminAssessmentsPage() {
               <CardContent className="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400">
                 <span>Rubric Criteria: {Array.isArray(item.rubric) ? item.rubric.length : 4}</span>
                 <Link href={`/assessments/${item.id}`} target="_blank">
-                  <Button size="sm" variant="ghost" className="h-7 text-xs text-purple-400 hover:text-white">
+                  <Button size="sm" variant="ghost" className="h-7 text-xs text-amber-400 hover:text-white">
                     <Eye className="h-3.5 w-3.5 mr-1" /> View Brief
                   </Button>
                 </Link>
@@ -73,7 +73,7 @@ export default async function AdminAssessmentsPage() {
       {/* Capstone Projects */}
       <div className="space-y-4 pt-4 border-t border-slate-800">
         <h2 className="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
-          <FolderKanban className="h-4 w-4 text-purple-400" /> Capstone Portfolios
+          <FolderKanban className="h-4 w-4 text-amber-400" /> Capstone Portfolios
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -81,7 +81,7 @@ export default async function AdminAssessmentsPage() {
             <Card key={item.id} className="bg-slate-950 border-slate-800 shadow-sm flex flex-col justify-between">
               <CardHeader className="space-y-1.5 pb-3">
                 <div className="flex items-center justify-between">
-                  <Badge className="bg-purple-600 text-white text-[10px]">
+                  <Badge className="bg-amber-500 text-white text-[10px]">
                     {item.max_score} Max Points
                   </Badge>
                   <span className="text-[11px] text-slate-400">
@@ -99,7 +99,7 @@ export default async function AdminAssessmentsPage() {
               <CardContent className="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400">
                 <span>Rubric Criteria: {Array.isArray(item.rubric) ? item.rubric.length : 5}</span>
                 <Link href={`/projects/${item.id}`} target="_blank">
-                  <Button size="sm" variant="ghost" className="h-7 text-xs text-purple-400 hover:text-white">
+                  <Button size="sm" variant="ghost" className="h-7 text-xs text-amber-400 hover:text-white">
                     <Eye className="h-3.5 w-3.5 mr-1" /> View Capstone
                   </Button>
                 </Link>

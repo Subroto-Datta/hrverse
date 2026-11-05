@@ -39,7 +39,7 @@ export default function LandingPage() {
               className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-foreground leading-[1.15]"
             >
               Master Strategic Human Resources with{' '}
-              <span className="bg-gradient-to-r from-primary via-indigo-600 to-purple-600 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-amber-500 via-orange-500 to-amber-400 bg-clip-text text-transparent">
                 HR Verse
               </span>
             </MotionH1>
@@ -106,9 +106,9 @@ export default function LandingPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <Card className="border border-border/60 bg-card hover:border-primary/40 transition-all shadow-sm">
+            <Card className="border border-border/60 bg-card hover:border-amber-500/40 transition-all shadow-sm">
               <CardContent className="p-6 space-y-3">
-                <div className="h-10 w-10 rounded-lg bg-indigo-500/10 text-indigo-600 flex items-center justify-center">
+                <div className="h-10 w-10 rounded-lg bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center">
                   <Target className="h-5 w-5" />
                 </div>
                 <h3 className="font-bold text-lg text-foreground">Predictive Talent Acquisition</h3>
@@ -118,9 +118,9 @@ export default function LandingPage() {
               </CardContent>
             </Card>
 
-            <Card className="border border-border/60 bg-card hover:border-primary/40 transition-all shadow-sm">
+            <Card className="border border-border/60 bg-card hover:border-amber-500/40 transition-all shadow-sm">
               <CardContent className="p-6 space-y-3">
-                <div className="h-10 w-10 rounded-lg bg-purple-500/10 text-purple-600 flex items-center justify-center">
+                <div className="h-10 w-10 rounded-lg bg-orange-500/10 text-orange-600 dark:text-orange-400 flex items-center justify-center">
                   <BarChart3 className="h-5 w-5" />
                 </div>
                 <h3 className="font-bold text-lg text-foreground">Total Rewards & Comp Engineering</h3>
@@ -130,9 +130,9 @@ export default function LandingPage() {
               </CardContent>
             </Card>
 
-            <Card className="border border-border/60 bg-card hover:border-primary/40 transition-all shadow-sm">
+            <Card className="border border-border/60 bg-card hover:border-amber-500/40 transition-all shadow-sm">
               <CardContent className="p-6 space-y-3">
-                <div className="h-10 w-10 rounded-lg bg-pink-500/10 text-pink-600 flex items-center justify-center">
+                <div className="h-10 w-10 rounded-lg bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center">
                   <Sparkles className="h-5 w-5" />
                 </div>
                 <h3 className="font-bold text-lg text-foreground">AI Learning Assistant</h3>
@@ -150,7 +150,7 @@ export default function LandingPage() {
         <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <div className="inline-flex items-center gap-2 rounded-full border border-purple-500/20 bg-purple-500/10 px-3 py-1 text-xs font-semibold text-purple-600">
+              <div className="inline-flex items-center gap-2 rounded-full border border-amber-500/20 bg-amber-500/10 px-3 py-1 text-xs font-semibold text-amber-600 dark:text-amber-400">
                 <Award className="h-3.5 w-3.5" />
                 <span>Executive Capstones</span>
               </div>
@@ -178,14 +178,14 @@ export default function LandingPage() {
               </div>
               <div className="pt-4">
                 <Link href="/register">
-                  <Button className="gap-2 shadow-sm">
+                  <Button className="gap-2 shadow-sm shadow-amber-500/20">
                     Begin Your Transformation <ArrowRight className="h-4 w-4" />
                   </Button>
                 </Link>
               </div>
             </div>
 
-            <div className="rounded-2xl border border-border bg-gradient-to-br from-indigo-500/10 via-purple-500/5 to-card p-8 shadow-sm">
+            <div className="rounded-2xl border border-border bg-gradient-to-br from-amber-500/10 via-orange-500/5 to-card p-8 shadow-sm">
               <div className="space-y-4">
                 <div className="flex items-center justify-between border-b border-border/80 pb-4">
                   <span className="text-xs font-bold text-muted-foreground uppercase tracking-wider">Course Accreditation</span>

@@ -1,0 +1,508 @@
+DAY 7 – WEEK 1 COMPREHENSIVE REVISION, HR FUNDAMENTALS TEST, PRACTICAL CASE STUDY AND PERFORMANCE EVALUATION.
+
+Yes
+DAY 7 – WEEK 1 COMPREHENSIVE REVISION & PRACTICAL HR ASSESSMENT
+Module: HR Fundamentals
+Duration: 3–4 Hours
+Level: Beginner
+Coverage: Days 1–6
+
+Today's Objective
+Day 7 is the first weekly evaluation checkpoint.
+
+During the previous six days, R studied the fundamentals of Human Resource Management, HR department structures, employee lifecycle, workplace policies, strategic HRM, workforce planning and healthcare HR.
+
+Today is not about introducing a large number of new concepts. It is about checking whether she can connect what she has learned and apply it to realistic workplace situations.
+
+By the end of today, she should be able to:
+
+Explain the purpose and functions of HR.
+Understand the structure and responsibilities of an HR department.
+Explain the complete employee lifecycle.
+Identify important HR policies and workplace procedures.
+Understand how HR supports organisational objectives.
+Perform basic workforce planning calculations.
+Interpret basic HR metrics.
+Apply HR fundamentals to hospital-related situations.
+Prepare professional HR documentation.
+PART 1: COMPREHENSIVE REVISION NOTES
+TOPIC 1: FUNDAMENTALS OF HUMAN RESOURCE MANAGEMENT
+1.1 Definition of HRM
+Human Resource Management is the process of managing an organisation's employees through recruitment, selection, training, compensation, performance management, employee engagement and other workforce-related activities.
+
+The primary objective is to ensure that employees contribute effectively towards organisational goals while receiving appropriate support and opportunities for development.
+
+1.2 Four Major Objectives of HRM
+Objective	Explanation	Example
+Organisational	Supporting business objectives	Hiring employees for expansion
+Functional	Ensuring HR activities operate effectively	Maintaining recruitment processes
+Personal	Supporting employee development	Providing training
+Societal	Maintaining responsible employment practices	Promoting workplace fairness
+1.3 Major Functions of HRM
+Managerial Functions
+
+Planning.
+Organising.
+Directing.
+Controlling.
+Operative Functions
+
+Recruitment and selection.
+Training and development.
+Compensation management.
+Employee integration.
+Employee maintenance.
+Separation management.
+1.4 Evolution of HRM
+Stage	Primary Focus
+Personnel Management	Employee administration and record keeping
+Human Resource Management	Employee development and management
+Strategic HRM	Aligning workforce strategy with business objectives
+Revision Question: Why is HR considered a strategic function rather than simply an administrative department?
+
+Expected answer: Because workforce decisions influence organisational productivity, expansion, employee retention, costs and long-term business performance.
+
+TOPIC 2: HR DEPARTMENT STRUCTURE AND RESPONSIBILITIES
+2.1 HR Hierarchy
+A typical HR hierarchy:
+
+Chief Human Resources Officer.
+HR Director.
+HR Manager.
+HR Business Partner.
+HR Executive / HR Generalist.
+HR Coordinator.
+HR Assistant.
+The exact hierarchy differs depending on organisational size.
+
+2.2 Major HR Specialisations
+HR Function	Main Responsibility
+Talent Acquisition	Recruitment and selection
+HR Operations	Employee documentation and administration
+Payroll	Salary processing and payroll coordination
+Learning & Development	Employee training
+Employee Relations	Grievances and workplace relationships
+Compensation & Benefits	Salary structures and employee benefits
+HR Analytics	Workforce data analysis
+2.3 HR Generalist vs HR Specialist
+An HR Generalist handles multiple HR functions.
+
+An HR Specialist focuses on one particular area, such as recruitment, payroll or learning and development.
+
+Example:
+
+An HR Generalist may coordinate recruitment, onboarding, attendance and employee documentation.
+
+A Talent Acquisition Specialist primarily focuses on sourcing, screening, interviewing coordination and hiring.
+
+TOPIC 3: EMPLOYEE LIFECYCLE MANAGEMENT
+The employee lifecycle describes the different stages of an employee's relationship with an organisation.
+
+Seven Stages
+Attraction.
+Recruitment and Selection.
+Onboarding.
+Development.
+Engagement and Retention.
+Performance Management.
+Separation.
+Important Concepts
+Concept	Meaning
+Recruitment	Attracting potential candidates
+Selection	Choosing suitable candidates
+Onboarding	Integrating new employees into the organisation
+Training	Improving job-related skills
+Employee Engagement	Building employee involvement and commitment
+Retention	Keeping employees within the organisation
+Attrition	Employees leaving an organisation
+Performance Management	Monitoring and improving employee performance
+Exit Interview	Gathering feedback from departing employees
+Important Distinction
+Recruitment and selection are not the same.
+
+Recruitment attracts candidates.
+
+Selection evaluates candidates and identifies the most suitable person for the role.
+
+TOPIC 4: HR POLICIES AND ORGANISATIONAL CULTURE
+4.1 What is an HR Policy?
+An HR policy is a formal organisational guideline that establishes how employee-related matters should be handled.
+
+Important HR Policies
+Attendance Policy.
+Leave Policy.
+Recruitment Policy.
+Code of Conduct.
+Performance Management Policy.
+Employee Grievance Policy.
+Confidentiality Policy.
+Disciplinary Policy.
+Anti-Harassment Policy.
+Data Protection Policy.
+4.2 Policy vs Procedure vs Rule vs Guideline
+Term	Meaning
+Policy	Establishes organisational direction
+Procedure	Explains how an activity is performed
+Rule	Specifies a requirement or restriction
+Guideline	Provides recommended practices
+4.3 Organisational Culture
+Organisational culture refers to the shared values, beliefs, attitudes and behavioural expectations within an organisation.
+
+Four commonly discussed culture types:
+
+Culture	Characteristics
+Clan	Teamwork and collaboration
+Adhocracy	Innovation and experimentation
+Market	Competition and results
+Hierarchy	Structure and formal processes
+4.4 HR Ethics
+Important ethical responsibilities include:
+
+Confidentiality.
+Fairness.
+Transparency.
+Professional behaviour.
+Avoiding discrimination.
+Responsible handling of employee information.
+Fair treatment during disciplinary procedures.
+TOPIC 5: STRATEGIC HRM AND WORKFORCE PLANNING
+5.1 Strategic HRM
+Strategic HRM aligns workforce management with long-term organisational objectives.
+
+Example:
+
+A hospital planning to expand its ICU facilities must plan for additional nurses, technicians and support employees.
+
+5.2 Workforce Planning Process
+Understand organisational objectives.
+Analyse existing employees.
+Forecast future workforce demand.
+Forecast future workforce supply.
+Identify workforce gaps.
+Develop a manpower plan.
+Implement and monitor the plan.
+5.3 Workforce Gap Formula
+Workforce Gap = Workforce Demand − Workforce Supply.
+
+Example:
+
+Required Employees = 50.
+
+Available Employees = 42.
+
+Workforce Gap = 8 employees.
+
+5.4 Important HR Metrics
+Metric	Formula
+Attrition Rate	Employees who left ÷ Average Headcount × 100
+Retention Rate	Employees retained from opening workforce ÷ Opening Headcount × 100
+Absenteeism Rate	Absent Workdays ÷ Scheduled Workdays × 100
+Cost per Hire	Recruitment Costs ÷ Number of Hires
+Offer Acceptance Rate	Accepted Offers ÷ Offers Extended × 100
+Training Completion Rate	Employees Completing Training ÷ Employees Assigned Training × 100
+Remember: A metric is only useful when HR understands what it indicates and investigates the underlying reasons.
+
+TOPIC 6: HEALTHCARE HUMAN RESOURCE MANAGEMENT
+Healthcare HR manages employees working in hospitals, diagnostic centres, clinics and other healthcare organisations.
+
+Categories of Healthcare Employees
+Category	Examples
+Clinical	Doctors, Nurses, Surgeons
+Technical	Biomedical Engineers, Lab Technicians
+Administrative	HR Executives, Receptionists
+Support	Housekeeping, Security, Maintenance
+Major Healthcare HR Responsibilities
+Recruitment and credential verification.
+Attendance and leave management.
+Shift scheduling coordination.
+Employee onboarding.
+Training coordination.
+Employee documentation.
+Performance management coordination.
+Employee relations.
+Workplace safety coordination.
+Important Distinction
+HR is responsible for coordinating recruitment and employee processes.
+
+The concerned technical or clinical department evaluates professional competence.
+
+For example, HR may recruit a Biomedical Engineer, but the Biomedical Department evaluates the candidate's knowledge of medical equipment.
+
+PART 2: WEEK 1 PRACTICAL KNOWLEDGE CHECK
+Before attempting the main examination, R should complete this short exercise.
+
+For each situation, identify the HR function involved.
+
+Situation	Expected HR Function
+A company needs five new employees	Recruitment
+A new employee joins the company	Onboarding
+An employee complains about unfair treatment	Employee Relations
+Employees require technical training	Learning & Development
+Employee attendance is incorrectly recorded	HR Operations
+An organisation plans to open a new branch	Workforce Planning
+Employees are resigning frequently	Retention Management
+Employees need annual performance reviews	Performance Management
+Salary calculations need to be processed	Payroll
+An employee submits a resignation	Separation Management
+R should explain why each HR function is relevant rather than simply memorising the answers.
+
+PART 3: WEEK 1 COMPREHENSIVE ASSESSMENT
+Total Marks: 50
+
+Duration: 60–75 Minutes
+
+Passing Score: 35/50 (70%)
+
+Do not allow R to refer to the study notes while attempting this assessment.
+
+SECTION A – HR Fundamentals (10 Marks)
+Q1. Define Human Resource Management and explain its four major objectives. (4)
+
+Q2. Explain the difference between Personnel Management, HRM and Strategic HRM. (3)
+
+Q3. Differentiate between HR Generalist and HR Specialist. (3)
+
+SECTION B – Employee Lifecycle and HR Policies (10 Marks)
+Q4. Explain the seven stages of the employee lifecycle. (4)
+
+Q5. Differentiate between policy, procedure, rule and guideline. (3)
+
+Q6. Explain why confidentiality is important in HR. (3)
+
+SECTION C – Strategic HRM and Numerical Questions (10 Marks)
+Q7. Attrition Rate (3 Marks)
+
+A company has:
+
+Opening Headcount: 150.
+Closing Headcount: 130.
+Employees who left: 25.
+Calculate the attrition rate using average headcount.
+
+Q8. Workforce Gap (2 Marks)
+
+A hospital requires 60 employees but expects only 52 employees to be available.
+
+Calculate the workforce gap.
+
+Q9. Cost per Hire (2 Marks)
+
+A company spends ₹1,20,000 on recruitment and hires 8 employees.
+
+Calculate the cost per hire.
+
+Q10. Offer Acceptance Rate (3 Marks)
+
+A company extends 50 job offers, out of which 35 are accepted.
+
+Calculate the offer acceptance rate and explain its meaning.
+
+SECTION D – Healthcare HR (10 Marks)
+Q11. Explain five major responsibilities of a hospital HR department. (5)
+
+Q12. Why is credential verification important during healthcare recruitment? (2)
+
+Q13. Explain how HR coordinates shift management in hospitals. (3)
+
+SECTION E – Situational Judgement (10 Marks)
+Q14. Recruitment Situation (3 Marks)
+
+A hospital needs two Biomedical Engineers urgently. Explain how HR should coordinate the recruitment process.
+
+Q15. Employee Relations Situation (3 Marks)
+
+Two employees complain that their manager is treating them unfairly. What should HR do?
+
+Q16. Employee Retention Situation (4 Marks)
+
+A hospital's nursing department is experiencing high attrition.
+
+Explain:
+
+What information HR should investigate.
+What steps HR should take.
+How HR should evaluate whether the situation improves.
+PART 4: PRACTICAL EVALUATION – MINI HR PROJECT
+This is the most important part of Day 7.
+
+R must prepare a small HR operations project using everything she has learned.
+
+Project: HR Operations Framework for a 100-Employee Hospital
+Scenario
+A hospital has 100 employees across the following departments:
+
+Department	Employees
+Nursing	30
+Medical	15
+Biomedical	5
+Laboratory	10
+Pharmacy	8
+Administration	12
+Finance	5
+Housekeeping	10
+HR	5
+Total	100
+The hospital is experiencing the following issues:
+
+Employee attendance records are inconsistent.
+The hospital has no structured onboarding programme.
+Two Biomedical Engineer positions are vacant.
+Employee complaints are not documented properly.
+Training records are incomplete.
+Management wants to improve employee retention.
+R's Deliverables
+Deliverable 1: HR Organisational Structure
+
+Create an organisational chart showing the HR department and its reporting structure.
+
+Deliverable 2: Employee Lifecycle Framework
+
+Create a flowchart explaining how an employee moves from recruitment to separation.
+
+Deliverable 3: HR Policy Framework
+
+Prepare a table containing at least eight HR policies and their purposes.
+
+Deliverable 4: Recruitment Plan
+
+Prepare a recruitment plan for the two vacant Biomedical Engineer positions.
+
+Include:
+
+Job requirement.
+Educational qualification.
+Relevant skills.
+Recruitment channels.
+Screening criteria.
+Interview stages.
+Joining documentation.
+Deliverable 5: Employee Onboarding Checklist
+
+Prepare a checklist for a newly recruited Biomedical Engineer.
+
+Deliverable 6: HR Improvement Recommendations
+
+Recommend practical measures to address the hospital's six problems.
+
+Deliverable 7: HR Metrics
+
+Identify at least five metrics that management should monitor.
+
+Project Format
+Word or Google Docs for the report.
+Excel or Google Sheets for tables and metrics.
+Canva, PowerPoint or diagrams for organisational charts and flowcharts.
+Expected Length: 8–12 pages, excluding supporting spreadsheets.
+
+This project should demonstrate understanding, not merely copied definitions.
+
+PART 5: MENTOR EVALUATION FRAMEWORK
+As her mentor, evaluate her on more than examination marks.
+
+A candidate may memorise definitions but still struggle to apply HR concepts in the workplace.
+
+Use the following evaluation sheet.
+
+Evaluation Parameter	Maximum Marks
+Conceptual Understanding	20
+Practical HR Knowledge	20
+Numerical Accuracy	10
+Documentation Skills	15
+Communication Skills	10
+Problem-Solving Ability	15
+Professionalism and Ethics	10
+Total	100
+Performance Interpretation
+Score	Evaluation
+90–100	Excellent foundation
+80–89	Strong foundation
+70–79	Acceptable foundation
+60–69	Needs targeted improvement
+Below 60	Requires revision before progressing
+Mentor's Oral Evaluation
+Ask R these questions in a conversational manner:
+
+If you were appointed as an HR Executive tomorrow, what would your first responsibilities be?
+How would you handle an employee who repeatedly arrives late?
+How would you recruit a Biomedical Engineer?
+What would you do if an employee shared confidential salary information?
+How would you investigate why employees are resigning?
+What is the difference between HR Operations and Talent Acquisition?
+Why should HR understand the business it supports?
+Ask her to explain her reasoning. Do not accept memorised definitions as complete answers.
+
+PART 6: WEEK 1 REVIEW AND FEEDBACK
+After the assessment, discuss the following with R.
+
+1. Conceptual Clarity
+Which HR topics were easiest to understand?
+Which topics were difficult?
+Can she explain HR concepts without referring to notes?
+2. Practical Interest
+Does she find recruitment interesting?
+Does she prefer HR Operations?
+Is she interested in employee relations?
+Does she enjoy documentation and workforce planning?
+3. Skills Assessment
+Evaluate her current ability in:
+
+Written communication.
+Verbal communication.
+Excel basics.
+Documentation.
+Organisation.
+Problem-solving.
+Professional interaction.
+4. Career Direction
+At this stage, she does not need to choose a permanent HR specialisation.
+
+However, start identifying which entry-level roles appear most suitable:
+
+HR Career Path	Typical Work
+HR Operations Executive	Employee records, onboarding, attendance and documentation
+Talent Acquisition Associate	Recruitment, screening and interview coordination
+HR Coordinator	HR administration and employee support
+HR Generalist Trainee	Exposure to multiple HR functions
+Healthcare HR Executive	HR operations within hospitals and healthcare organisations
+Her Biomedical Engineering background may be particularly useful when understanding healthcare organisations and recruiting technical healthcare professionals.
+
+WEEK 1 – FINAL PROGRESS TRACKER
+Day	Topic	Completion
+1	Introduction to HRM	To be evaluated
+2	HR Department Structure	To be evaluated
+3	Employee Lifecycle Management	To be evaluated
+4	HR Policies and Organisational Culture	To be evaluated
+5	Strategic HRM and Workforce Planning	To be evaluated
+6	Healthcare HR Management	To be evaluated
+7	Weekly Revision and Assessment	Current Day
+WEEK 1 COMPLETION CRITERIA
+Before moving to Week 2, check that she can:
+
+Explain the major functions of HRM.
+Identify different HR roles and responsibilities.
+Explain the complete employee lifecycle.
+Understand the purpose of major HR policies.
+Explain organisational culture.
+Understand Strategic HRM.
+Prepare a basic manpower plan.
+Calculate basic HR metrics.
+Explain how HR operates in a hospital.
+Prepare basic HR documentation.
+Score at least 35/50 in the weekly assessment.
+Complete the mini HR project.
+WHAT COMES NEXT?
+WEEK 2 – RECRUITMENT & TALENT ACQUISITION
+
+This is one of the most important modules for entry-level HR opportunities.
+
+The upcoming lessons will cover:
+
+Day	Topic
+Day 8	Introduction to Recruitment and Talent Acquisition
+Day 9	Job Analysis, Job Descriptions and Job Specifications
+Day 10	Recruitment Sources and Candidate Sourcing
+Day 11	Resume Screening and Shortlisting
+Day 12	Interview Planning and Coordination
+Day 13	Candidate Evaluation, Selection and Offer Management
+Day 14	Recruitment Practical Project and Weekly Assessment
+Mentor's recommendation: Give her particular attention to Week 2. Recruitment is a common entry point into HR, and practical competence in sourcing, screening, candidate communication and interview coordination will make her more prepared for entry-level Talent Acquisition roles.

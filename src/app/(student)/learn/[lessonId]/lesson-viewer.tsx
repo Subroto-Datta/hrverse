@@ -93,7 +93,7 @@ export function LessonViewer({
             variant="outline"
             size="sm"
             onClick={() => setAiModalOpen(true)}
-            className="gap-1.5 text-xs text-indigo-600 border-indigo-200 hover:bg-indigo-50 dark:hover:bg-indigo-950/20"
+            className="gap-1.5 text-xs text-amber-600 dark:text-amber-400 border-amber-500/30 hover:bg-amber-500/10"
           >
             <Sparkles className="h-3.5 w-3.5" /> Ask AI Tutor
           </Button>
@@ -158,9 +158,38 @@ export function LessonViewer({
             const title = block.data?.title as string
             const text = block.data?.text as string
             return (
-              <div key={idx} className="p-4 rounded-xl border border-indigo-500/20 bg-indigo-500/10 text-xs sm:text-sm my-4 space-y-1">
-                {title && <h5 className="font-bold text-indigo-700 dark:text-indigo-300">{title}</h5>}
-                <p className="text-indigo-900 dark:text-indigo-200 leading-relaxed">{text}</p>
+              <div key={idx} className="p-4 rounded-xl border border-amber-500/30 bg-amber-500/10 dark:bg-amber-500/5 text-xs sm:text-sm my-4 space-y-1">
+                {title && <h5 className="font-bold text-amber-700 dark:text-amber-300">{title}</h5>}
+                {text && <p className="text-foreground/90 leading-relaxed">{text}</p>}
+              </div>
+            )
+          }
+
+          if (block.type === 'table') {
+            const headers = (block.data?.headers as string[]) || []
+            const rows = (block.data?.rows as string[][]) || []
+            return (
+              <div key={idx} className="overflow-x-auto my-6 border border-border/80 rounded-xl shadow-xs">
+                <table className="w-full text-left text-xs sm:text-sm border-collapse">
+                  {headers.length > 0 && (
+                    <thead className="bg-muted/70 text-foreground font-semibold border-b border-border/80">
+                      <tr>
+                        {headers.map((h, hIdx) => (
+                          <th key={hIdx} className="px-4 py-3">{h}</th>
+                        ))}
+                      </tr>
+                    </thead>
+                  )}
+                  <tbody className="divide-y divide-border/50">
+                    {rows.map((row, rIdx) => (
+                      <tr key={rIdx} className="hover:bg-muted/30 transition-colors">
+                        {row.map((cell, cIdx) => (
+                          <td key={cIdx} className="px-4 py-2.5 text-foreground/90">{cell}</td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
               </div>
             )
           }

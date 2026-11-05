@@ -1,0 +1,807 @@
+DAY 4 – HR Policies, Workplace Rules, Organisational Culture and Employee Code of Conduct.
+
+Yes
+DAY 4 – HR POLICIES, WORKPLACE RULES, ORGANISATIONAL CULTURE & CODE OF CONDUCT
+Module: HR Fundamentals
+Duration: 3–4 Hours
+Level: Beginner
+Prerequisite: Day 1 – Introduction to HRM, Day 2 – HR Department Structure, Day 3 – Employee Lifecycle Management.
+
+Today's lesson focuses on how organisations establish workplace rules, communicate employee expectations, maintain discipline and develop a healthy organisational culture.
+
+An HR professional must understand not only how to hire employees but also how to manage workplace behaviour and ensure employees follow organisational policies.
+
+Today's Learning Outcomes
+By the end of Day 4, R should be able to:
+
+Explain what HR policies are and why organisations need them.
+Understand the major types of HR policies.
+Differentiate between policies, procedures, rules and guidelines.
+Understand workplace discipline and employee conduct.
+Explain organisational culture and its importance.
+Understand confidentiality and professional workplace behaviour.
+Draft a basic attendance and leave policy.
+TOPIC 1: INTRODUCTION TO HR POLICIES
+1.1 What is an HR Policy?
+An HR policy is a formal guideline established by an organisation to regulate employee-related matters and ensure consistency in workplace decisions and practices.
+
+It explains what employees and management are expected to do in specific situations.
+
+In simple terms, HR policies establish the rules and expectations employees must follow during their employment.
+
+Practical Example
+Consider a company with 200 employees.
+
+Without an attendance policy:
+
+Employees may follow different reporting times.
+Managers may approve leave inconsistently.
+Late arrivals may not be recorded properly.
+Attendance disputes may arise.
+Employees may not understand the consequences of repeated absence.
+An attendance policy establishes a common framework that employees and managers must follow.
+
+1.2 Objectives of HR Policies
+HR policies are created to achieve the following objectives:
+
+A. Consistency
+
+Ensures that similar employee situations are handled using consistent organisational standards.
+
+Example: Leave requests are evaluated according to a common approval process.
+
+B. Transparency
+
+Employees understand workplace expectations, entitlements and responsibilities.
+
+Example: Employees know how to apply for annual leave and whom to approach for approval.
+
+C. Legal Compliance
+
+Policies help organisations implement applicable employment laws and regulations.
+
+Example: An organisation establishes procedures for addressing workplace sexual harassment complaints in accordance with the POSH Act.
+
+D. Employee Protection
+
+Policies establish safeguards for employees.
+
+Example: A workplace anti-harassment policy explains reporting channels and expected organisational responses.
+
+E. Organisational Discipline
+
+Policies establish expected standards of workplace behaviour.
+
+Example: Employees are required to follow attendance procedures and maintain professional conduct.
+
+F. Efficient Decision-Making
+
+Managers and HR teams can refer to established policies instead of making inconsistent decisions.
+
+TOPIC 2: DIFFERENCE BETWEEN POLICIES, PROCEDURES, RULES AND GUIDELINES
+These four terms are related but have different meanings.
+
+2.1 Policy
+A policy explains an organisation's overall position, principles or approach towards a particular matter.
+
+Example:
+
+Leave Policy: Employees may request leave according to their eligibility and the organisation's prescribed approval process.
+
+2.2 Procedure
+A procedure explains the steps that must be followed to implement a policy.
+
+Example:
+
+An employee must:
+
+Log in to the HRMS.
+Select the leave category.
+Enter the requested dates.
+Submit the application.
+Wait for the reporting manager's decision.
+2.3 Rule
+A rule specifies a requirement or restriction that employees are expected to follow.
+
+Example:
+
+Employees must wear their official identity cards while inside the organisation's premises.
+
+2.4 Guideline
+A guideline provides recommendations or instructions to help employees make appropriate decisions.
+
+Example:
+
+Employees are encouraged to communicate professionally and respond to work-related emails within a reasonable period.
+
+Comparison
+Basis	Policy	Procedure	Rule	Guideline
+Meaning	Establishes organisational principles	Explains steps	Specifies requirements	Provides recommendations
+Purpose	Consistency	Implementation	Discipline	Guidance
+Nature	Broad	Operational	Specific	Advisory
+Example	Leave Policy	Leave Application Process	ID Card Requirement	Email Etiquette
+Remember: A policy explains what the organisation expects. A procedure explains how to implement it.
+
+TOPIC 3: MAJOR TYPES OF HR POLICIES
+Organisations may have several HR policies depending on their size, industry and legal requirements.
+
+Let's understand the most important ones.
+
+3.1 Attendance Policy
+An attendance policy establishes expectations regarding employee attendance and reporting time.
+
+It generally covers:
+
+Working hours.
+Reporting time.
+Late arrivals.
+Early departures.
+Absence reporting.
+Attendance recording.
+Shift attendance.
+Regularisation of attendance.
+Consequences of unauthorised absence.
+Example:
+
+An organisation has working hours from 9:30 AM to 6:30 PM.
+
+Its attendance policy explains:
+
+How employees record attendance.
+How late arrivals are recorded.
+Whom employees should inform if they cannot attend work.
+How attendance corrections are requested.
+HR Responsibility:
+
+Monitor attendance records.
+Identify discrepancies.
+Coordinate corrections.
+Prepare attendance reports.
+Escalate repeated attendance issues according to policy.
+3.2 Leave Policy
+A leave policy explains the types of leave available to employees and the process for requesting and approving leave.
+
+Common categories include:
+
+A. Casual Leave (CL)
+
+Generally provided for short-term personal requirements.
+
+Example: An employee needs a day off for personal work.
+
+B. Sick Leave (SL)
+
+Used when an employee cannot work due to illness or health-related reasons.
+
+Example: An employee requires leave due to fever.
+
+C. Earned Leave / Privilege Leave (EL/PL)
+
+Leave accumulated according to the organisation's policy and applicable rules.
+
+Example: An employee plans a holiday and applies for previously accrued leave.
+
+D. Maternity Leave
+
+Leave provided to eligible employees in accordance with applicable maternity benefit provisions.
+
+E. Paternity Leave
+
+Leave provided to eligible employees according to organisational policy or applicable service rules.
+
+F. Leave Without Pay (LWP)
+
+Leave taken when paid leave is unavailable, exhausted or otherwise not applicable, subject to approval and policy.
+
+G. Compensatory Off (Comp Off)
+
+Time off granted under applicable organisational rules for eligible additional work performed on holidays or weekly offs.
+
+Important HR Responsibility
+HR must maintain accurate leave records and ensure that leave administration follows applicable laws, employment terms and organisational policies.
+
+Important: Leave entitlements are not identical across all organisations. Statutory requirements, state-specific rules, establishment type and employment terms must be considered.
+
+3.3 Work From Home Policy
+A Work From Home (WFH) policy explains the conditions under which employees may work remotely.
+
+It may cover:
+
+Eligibility.
+Approval requirements.
+Working hours.
+Attendance recording.
+Productivity expectations.
+Data security.
+Communication.
+Equipment requirements.
+Example:
+
+A company permits eligible employees to work remotely two days per week with prior managerial approval.
+
+3.4 Code of Conduct Policy
+A Code of Conduct establishes the professional and ethical behaviour expected from employees.
+
+It may cover:
+
+Respectful workplace behaviour.
+Professional communication.
+Workplace discipline.
+Conflict of interest.
+Confidentiality.
+Anti-harassment expectations.
+Use of company resources.
+Ethical decision-making.
+Example:
+
+Employees must not disclose confidential company information to unauthorised individuals.
+
+3.5 Anti-Harassment and POSH Policy
+Organisations must establish appropriate mechanisms to prevent and address workplace sexual harassment.
+
+In India, the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013, commonly called the POSH Act, establishes important obligations for employers.
+
+A POSH policy should explain:
+
+Prohibited conduct.
+Complaint channels.
+Internal Committee details, where applicable.
+Complaint-handling procedures.
+Confidentiality.
+Awareness and training.
+Protection against retaliation.
+Appropriate action under applicable law.
+Important: HR must not independently conduct a POSH inquiry outside the legally prescribed process. The Internal Committee or Local Committee handles complaints within its jurisdiction under the applicable statutory framework.
+
+3.6 Disciplinary Policy
+A disciplinary policy explains how an organisation addresses employee misconduct or violations of workplace rules.
+
+It may cover:
+
+Types of misconduct.
+Reporting procedures.
+Preliminary assessment.
+Investigation requirements.
+Employee opportunity to respond.
+Disciplinary action.
+Appeal or review mechanisms, where applicable.
+Example:
+
+An employee repeatedly violates workplace safety procedures.
+
+The organisation follows its established disciplinary process and applicable legal requirements.
+
+3.7 Performance Management Policy
+This policy establishes how employee performance will be evaluated.
+
+It may include:
+
+Performance review frequency.
+KRA and KPI setting.
+Evaluation criteria.
+Feedback mechanisms.
+Appraisal procedures.
+Performance improvement processes.
+Documentation requirements.
+3.8 Recruitment Policy
+A recruitment policy establishes how the organisation hires employees.
+
+It may cover:
+
+Vacancy approval.
+Job descriptions.
+Candidate sourcing.
+Resume screening.
+Interview procedures.
+Candidate evaluation.
+Selection approvals.
+Offer management.
+Background verification.
+3.9 Confidentiality and Data Protection Policy
+This policy establishes how employees must handle confidential and personal information.
+
+It may cover:
+
+Employee personal information.
+Salary information.
+Customer or patient information.
+Company documents.
+Passwords and system access.
+Data sharing.
+Document storage.
+Information security incidents.
+Healthcare Example:
+
+A hospital employee must not share patient medical records with unauthorised individuals.
+
+Similarly, HR employees must not casually disclose another employee's salary, personal details or grievance records.
+
+TOPIC 4: UNDERSTANDING WORKPLACE DISCIPLINE
+4.1 What is Workplace Discipline?
+Workplace discipline refers to maintaining expected standards of employee behaviour, attendance, professionalism and compliance with organisational rules.
+
+Its objective is to establish a structured environment where employees understand their responsibilities and conduct themselves appropriately.
+
+4.2 Why is Workplace Discipline Important?
+Workplace discipline helps:
+
+Maintain productivity.
+Reduce workplace conflicts.
+Improve employee accountability.
+Establish professional behaviour.
+Protect organisational resources.
+Maintain workplace safety.
+Ensure consistent operations.
+4.3 Examples of Workplace Misconduct
+Examples may include:
+
+Repeated unauthorised absence.
+Workplace harassment.
+Deliberate falsification of attendance records.
+Misuse of organisational property.
+Unauthorised disclosure of confidential information.
+Serious violation of workplace safety procedures.
+Insubordination or refusal to follow lawful and reasonable instructions.
+The seriousness of an incident must be assessed based on facts, applicable rules and relevant legal requirements.
+
+4.4 How Should HR Handle a Disciplinary Issue?
+Consider this situation:
+
+An employee repeatedly arrives late without providing an explanation.
+
+HR should follow an appropriate process:
+
+Step 1: Identify the Issue
+
+Review attendance records and confirm the discrepancy.
+
+Step 2: Verify Information
+
+Check whether there are genuine attendance-recording errors or approved exceptions.
+
+Step 3: Communicate with the Employee
+
+Ask the employee to explain the situation.
+
+Step 4: Review the Explanation
+
+Understand the employee's circumstances and any supporting information.
+
+Step 5: Follow Organisational Policy
+
+Apply the relevant policy consistently and proportionately.
+
+Step 6: Document the Matter
+
+Maintain appropriate records of communication and action taken.
+
+Step 7: Follow Up
+
+Monitor whether the issue has been resolved.
+
+Important Principle
+HR should not immediately punish an employee based on an allegation.
+
+It must establish the facts, provide an appropriate opportunity to respond and follow the organisation's disciplinary procedure and applicable law.
+
+TOPIC 5: ORGANISATIONAL CULTURE
+5.1 What is Organisational Culture?
+Organisational culture refers to the shared values, beliefs, attitudes, behaviours and working practices that influence how people interact and perform within an organisation.
+
+In simple terms, organisational culture describes how things are generally done within a workplace.
+
+5.2 Elements of Organisational Culture
+A. Values
+
+The principles an organisation considers important.
+
+Examples:
+
+Integrity.
+Respect.
+Accountability.
+Innovation.
+Teamwork.
+B. Beliefs
+
+The shared assumptions that influence workplace decisions and behaviour.
+
+Example:
+
+An organisation believes that employee development improves long-term business performance.
+
+C. Behaviour
+
+The way employees and managers act in the workplace.
+
+Example:
+
+Employees communicate respectfully and support one another during challenging situations.
+
+D. Leadership Style
+
+The way managers guide, supervise and interact with employees.
+
+Example:
+
+A manager who encourages open communication may create a more participative working environment.
+
+E. Communication
+
+How information flows within the organisation.
+
+Example:
+
+An organisation regularly conducts employee meetings and shares important workplace updates.
+
+F. Workplace Environment
+
+The physical, social and psychological conditions in which employees work.
+
+5.3 Types of Organisational Culture
+A useful model developed by researchers Robert Quinn and Kim Cameron identifies four broad organisational culture types.
+
+1. Clan Culture
+
+Focuses on collaboration, teamwork and employee relationships.
+
+Characteristics:
+
+Supportive leadership.
+Teamwork.
+Employee participation.
+Strong interpersonal relationships.
+Example:
+
+A hospital where departments work closely together and encourage staff collaboration.
+
+2. Adhocracy Culture
+
+Focuses on innovation, experimentation and adaptability.
+
+Characteristics:
+
+Creativity.
+Innovation.
+Risk-taking.
+Flexible working practices.
+Example:
+
+A technology startup that encourages employees to experiment with new product ideas.
+
+3. Market Culture
+
+Focuses on performance, competition and achieving measurable results.
+
+Characteristics:
+
+Target-oriented work.
+Performance measurement.
+Competitive environment.
+Business growth.
+Example:
+
+A sales organisation that evaluates employees against revenue targets.
+
+4. Hierarchy Culture
+
+Focuses on structure, formal processes, rules and organisational control.
+
+Characteristics:
+
+Defined reporting structures.
+Formal procedures.
+Standardisation.
+Clear responsibilities.
+Example:
+
+A highly regulated organisation where employees must follow documented procedures.
+
+Comparison
+Culture Type	Main Focus	Key Characteristics
+Clan	Collaboration	Teamwork and relationships
+Adhocracy	Innovation	Creativity and adaptability
+Market	Results	Targets and competition
+Hierarchy	Structure	Rules and procedures
+Organisations may combine elements of multiple culture types.
+
+5.4 Role of HR in Developing Organisational Culture
+HR contributes to organisational culture through:
+
+Recruitment practices.
+Employee induction.
+Workplace policies.
+Leadership development.
+Employee engagement.
+Recognition programmes.
+Performance management.
+Grievance handling.
+Internal communication.
+Practical Example:
+
+An organisation wants to establish a culture of accountability.
+
+HR can support this by helping management define responsibilities, introduce measurable performance expectations and establish transparent feedback mechanisms.
+
+TOPIC 6: PROFESSIONAL WORKPLACE BEHAVIOUR AND ETHICS
+6.1 What is Professional Behaviour?
+Professional behaviour refers to the conduct expected from individuals while performing their workplace responsibilities.
+
+It involves acting responsibly, respectfully and ethically.
+
+6.2 Important Elements
+A. Punctuality
+
+Arriving on time and meeting work-related deadlines.
+
+B. Respect
+
+Treating colleagues, managers and employees respectfully.
+
+C. Accountability
+
+Accepting responsibility for assigned tasks and mistakes.
+
+D. Integrity
+
+Being honest and avoiding unethical practices.
+
+E. Confidentiality
+
+Protecting sensitive organisational and employee information.
+
+F. Communication
+
+Using clear, respectful and appropriate language.
+
+G. Teamwork
+
+Cooperating with colleagues to achieve common objectives.
+
+6.3 Workplace Ethics
+Workplace ethics refers to the moral principles and standards that guide behaviour and decision-making within an organisation.
+
+Examples include:
+
+Honesty.
+Fairness.
+Respect.
+Transparency.
+Responsibility.
+Confidentiality.
+Non-discrimination.
+6.4 Ethical Challenges in HR
+HR professionals may face situations involving:
+
+Situation 1: Salary Confidentiality
+
+An employee asks an HR Executive to disclose another employee's salary.
+
+The HR Executive should not disclose confidential salary information without proper authorisation.
+
+Situation 2: Unfair Recruitment
+
+A manager requests that an unqualified personal acquaintance be selected over more suitable candidates.
+
+HR should follow the established selection criteria and approval procedures.
+
+Situation 3: Employee Grievance
+
+An employee reports inappropriate workplace behaviour by a senior manager.
+
+HR should take the complaint seriously and follow the appropriate reporting and investigation procedures.
+
+Situation 4: Personal Conflict of Interest
+
+An HR professional participates in the selection process for a close relative.
+
+The relationship should be disclosed, and the professional should follow the organisation's conflict-of-interest procedure.
+
+TOPIC 7: CONFIDENTIALITY IN HUMAN RESOURCE MANAGEMENT
+This deserves special attention because HR professionals have access to highly sensitive employee information.
+
+7.1 What is Confidentiality?
+Confidentiality refers to protecting information from unauthorised access, disclosure or misuse.
+
+HR professionals routinely handle:
+
+Employee addresses.
+Identity information.
+Bank details.
+Salary information.
+Medical or leave-related records.
+Performance evaluations.
+Disciplinary records.
+Grievances.
+Recruitment information.
+7.2 Why is Confidentiality Important?
+It helps:
+
+Protect employee privacy.
+Maintain organisational trust.
+Prevent misuse of personal information.
+Reduce data security risks.
+Support compliance with applicable data protection requirements.
+7.3 Practical Rules for HR Professionals
+An HR professional should:
+
+Share employee records only with authorised individuals.
+Avoid discussing confidential matters in public.
+Use approved organisational systems.
+Maintain secure document storage.
+Follow access-control requirements.
+Avoid sending sensitive records to unauthorised email addresses.
+Report suspected data breaches through appropriate channels.
+Healthcare Example:
+
+A hospital HR Executive should not disclose an employee's medical information to unrelated colleagues simply because they are curious.
+
+Similarly, access to patient information should remain restricted to authorised individuals who need it for legitimate purposes.
+
+TOPIC 8: PRACTICAL CASE STUDY – DESIGNING HR POLICIES FOR A HOSPITAL
+Let's apply everything.
+
+Situation
+A hospital has 100 employees.
+
+Management has identified the following problems:
+
+Employees frequently arrive late.
+Leave applications are submitted without a consistent process.
+Employees are unaware of workplace behaviour expectations.
+Some employees share confidential information.
+Workplace conflicts are increasing.
+Employees are unsure how to raise complaints.
+Management asks the HR department to establish a basic policy framework.
+
+Required HR Policies
+Problem	Required Policy
+Late arrivals	Attendance Policy
+Unstructured leave applications	Leave Policy
+Unprofessional conduct	Code of Conduct
+Information disclosure	Confidentiality Policy
+Workplace conflicts	Grievance and Employee Relations Procedure
+Harassment complaints	POSH Policy and Complaint Procedure
+How Should HR Approach This?
+Step 1: Identify the problems and collect relevant information.
+
+Step 2: Review applicable laws and existing organisational requirements.
+
+Step 3: Draft suitable policies.
+
+Step 4: Obtain management and relevant legal approval.
+
+Step 5: Communicate policies to employees.
+
+Step 6: Conduct employee awareness sessions.
+
+Step 7: Monitor implementation.
+
+Step 8: Review policies periodically and update them when necessary.
+
+Key Understanding: Creating a policy is not enough. Employees must understand it, management must implement it consistently and HR must monitor whether it is effective.
+
+DAY 4 – PRACTICAL ASSIGNMENTS
+R must complete all three assignments.
+
+Assignment 1: Attendance and Leave Policy
+Task: Draft a basic Attendance and Leave Policy for a fictional organisation with 100 employees.
+
+The policy must contain:
+
+Policy title.
+Policy objective.
+Scope and applicability.
+Working hours.
+Attendance recording process.
+Late arrival procedure.
+Early departure procedure.
+Absence reporting.
+Leave categories.
+Leave application procedure.
+Leave approval authority.
+Attendance correction procedure.
+Unauthorised absence procedure.
+Policy review and amendment.
+Important: Use clearly stated fictional assumptions for working hours and leave entitlements. Do not present invented leave entitlements as statutory requirements.
+
+Deliverable: Attendance and Leave Policy.
+
+Expected Length: 3–5 pages.
+
+Assignment 2: Code of Conduct
+Draft a basic Code of Conduct for the same organisation.
+
+Include:
+
+Professional behaviour.
+Respectful communication.
+Workplace discipline.
+Confidentiality.
+Ethical behaviour.
+Conflict of interest.
+Appropriate use of company resources.
+Anti-harassment expectations.
+Reporting violations.
+Disciplinary procedure.
+Deliverable: Employee Code of Conduct Document.
+
+Expected Length: 2–3 pages.
+
+Assignment 3: HR Policy Framework
+Prepare a table identifying at least 10 HR policies required by an organisation.
+
+Use the following format:
+
+Policy	Purpose	Who Must Follow It?	Responsible Department
+Attendance Policy	Establish attendance expectations	All employees	HR
+Leave Policy	Regulate leave administration	All employees	HR
+Recruitment Policy	Standardise hiring	HR and hiring managers	HR
+Confidentiality Policy	Protect sensitive information	Authorised employees	HR / Management
+POSH Policy	Address workplace sexual harassment	As applicable under law and policy	Employer / Internal Committee
+Add at least five more policies.
+
+Deliverable: HR Policy Framework Matrix.
+
+DAY 4 – ASSESSMENT
+Total Marks: 30
+
+Section A: Conceptual Understanding – 10 Marks
+Define an HR policy and explain its importance. (2)
+Differentiate between a policy and a procedure. (2)
+Explain four common HR policies. (4)
+What is organisational culture? (2)
+Section B: Practical Understanding – 10 Marks
+An employee repeatedly arrives late. How should HR address the issue? (3)
+An employee shares confidential salary information with another employee. What should HR do? (3)
+Why should organisations establish a Code of Conduct? Explain with four points. (4)
+Section C: Communication and Situational Judgement – 10 Marks
+Ask her to answer verbally:
+
+Why are HR policies important in a growing organisation? (3)
+How would you explain an attendance policy to a newly joined employee? (3)
+What would you do if a senior manager asked you to disclose an employee's confidential information without a legitimate reason or authorisation? (4)
+Evaluation Criteria
+Score	Performance
+27–30	Excellent
+24–26	Very Good
+21–23	Good
+18–20	Needs Improvement
+Below 18	Revision Required
+Minimum Passing Score: 21/30 (70%).
+
+YOUR MENTOR EVALUATION CHECKLIST
+Parameter	What to Evaluate
+Policy Understanding	Can she distinguish policies, procedures and rules?
+HR Knowledge	Can she identify important HR policies?
+Documentation	Can she draft a structured policy?
+Ethical Awareness	Does she understand confidentiality?
+Workplace Discipline	Can she handle basic employee misconduct scenarios?
+Culture Awareness	Can she explain how HR influences workplace culture?
+Practical Application	Can she develop a basic policy framework for a hospital?
+Five Questions to Ask Her Without Showing Her the Notes
+What is the difference between an HR policy and an HR procedure?
+Why should an organisation have separate attendance and leave policies?
+What should an HR Executive do if an employee repeatedly violates workplace rules?
+Why is employee confidentiality particularly important in HR?
+How can HR contribute to developing a positive organisational culture?
+DAY 4 COMPLETION CHECKLIST
+Studied all eight topics.
+Understood HR policies.
+Differentiated policies, procedures, rules and guidelines.
+Learned major HR policies.
+Understood workplace discipline.
+Learned organisational culture.
+Understood professional behaviour and workplace ethics.
+Learned confidentiality requirements.
+Completed Attendance and Leave Policy.
+Completed Code of Conduct.
+Completed HR Policy Framework.
+Attempted the 30-mark assessment.
+Achieved at least 21 marks.
+MENTOR'S NOTE
+Today's lesson is important because it introduces a side of HR that beginners frequently overlook.
+
+HR is not simply about hiring employees, conducting interviews or organising office events. A substantial part of the profession involves maintaining structure, handling sensitive information, implementing policies and ensuring fair workplace practices.
+
+Pay particular attention to her ability to draft the Attendance and Leave Policy. This is her first exercise in creating an actual HR document rather than merely explaining theoretical concepts.

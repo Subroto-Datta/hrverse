@@ -1,0 +1,837 @@
+DAY 3 – Employee Lifecycle Management: From Recruitment to Separation.
+
+Nxt
+DAY 3 – EMPLOYEE LIFECYCLE MANAGEMENT
+Module: HR Fundamentals
+Duration: 3–4 Hours
+Level: Beginner
+Prerequisite: Day 1 – Introduction to HRM; Day 2 – HR Department Structure and Roles.
+
+Today's lesson focuses on understanding the complete journey of an employee within an organisation, from the moment a company identifies a hiring requirement until the employee leaves the organisation.
+
+This is one of the most important concepts in HR because almost every HR function is connected to some stage of the employee lifecycle.
+
+Today's Learning Outcomes
+By the end of Day 3, R should be able to:
+
+Explain the employee lifecycle and its importance.
+Identify the major stages of the employee lifecycle.
+Understand the responsibilities of HR at each stage.
+Differentiate between recruitment, selection and onboarding.
+Understand employee development, performance and retention.
+Explain employee separation and exit formalities.
+Map the complete employee lifecycle using a practical hospital example.
+TOPIC 1: INTRODUCTION TO THE EMPLOYEE LIFECYCLE
+1.1 What is the Employee Lifecycle?
+The employee lifecycle refers to the different stages an individual goes through during their relationship with an organisation.
+
+It begins when an organisation identifies the need to hire someone and continues through recruitment, onboarding, development, retention and eventually separation.
+
+HR manages and supports these stages to ensure that employees have a structured and positive experience throughout their employment.
+
+1.2 Why is the Employee Lifecycle Important?
+An organisation cannot focus only on hiring employees.
+
+It must also ensure that employees:
+
+Understand their responsibilities.
+Receive proper training.
+Get appropriate compensation.
+Have opportunities for professional development.
+Receive fair performance evaluations.
+Work in a healthy environment.
+Have a structured exit process when they leave.
+If any stage is poorly managed, it can negatively affect employee satisfaction and organisational performance.
+
+Example:
+
+A hospital successfully recruits five nurses but fails to provide proper induction, shift information or workplace training.
+
+Even though recruitment was successful, the employees may struggle to perform their responsibilities and could eventually resign.
+
+This demonstrates why every stage of the employee lifecycle matters.
+
+1.3 The Seven Stages of the Employee Lifecycle
+For this curriculum, we will use the following seven-stage model:
+
+Attraction.
+Recruitment and Selection.
+Onboarding.
+Development.
+Retention and Engagement.
+Performance Management.
+Separation.
+Different organisations may combine or label these stages differently. The underlying activities remain broadly similar.
+
+TOPIC 2: STAGE 1 – EMPLOYEE ATTRACTION
+2.1 What is Employee Attraction?
+Employee attraction refers to the activities an organisation undertakes to create awareness of employment opportunities and encourage suitable candidates to apply.
+
+The objective is to make the organisation attractive to potential employees.
+
+Before recruitment begins, candidates should have a reason to consider working for the organisation.
+
+2.2 Methods of Employee Attraction
+A. Employer Branding
+
+Employer branding refers to how an organisation is perceived as a place to work.
+
+It includes:
+
+Company reputation.
+Work environment.
+Employee experiences.
+Career opportunities.
+Workplace culture.
+Compensation and benefits.
+Example:
+
+A hospital known for providing professional training and a supportive working environment may attract more qualified nurses.
+
+B. Job Advertisements
+
+Organisations publish vacancies through different channels.
+
+Common platforms include:
+
+LinkedIn.
+Naukri.
+Indeed.
+Foundit.
+Internshala.
+Company career websites.
+C. Employee Referrals
+
+Employee referrals involve existing employees recommending suitable candidates for vacancies.
+
+Example:
+
+An existing Biomedical Engineer recommends a qualified former colleague for an opening in the hospital's biomedical department.
+
+D. Campus Recruitment
+
+Organisations approach colleges and educational institutions to recruit students or recent graduates.
+
+Example:
+
+A hospital collaborates with a nursing college to recruit newly qualified nurses.
+
+E. Social Media Recruitment
+
+Organisations use professional and social media platforms to promote job opportunities.
+
+2.3 Factors That Attract Candidates
+Candidates may consider:
+
+Salary and benefits.
+Career growth.
+Job security.
+Work environment.
+Organisation reputation.
+Learning opportunities.
+Work-life balance.
+Location.
+Leadership and management.
+Practical Understanding
+Suppose a hospital is struggling to attract qualified Biomedical Engineers.
+
+HR should examine:
+
+Whether the salary is competitive.
+Whether the job description is clear.
+Whether the organisation is reaching relevant candidates.
+Whether the job location is suitable.
+Whether the role offers professional development.
+Key Point: Employee attraction is about making suitable candidates interested in working for the organisation. Recruitment is the process of converting that interest into actual applications and hiring.
+
+TOPIC 3: STAGE 2 – RECRUITMENT AND SELECTION
+3.1 What is Recruitment?
+Recruitment is the process of identifying, attracting and encouraging suitable candidates to apply for job vacancies within an organisation.
+
+It involves creating a candidate pool from which the organisation can select suitable employees.
+
+3.2 What is Selection?
+Selection is the process of evaluating candidates and choosing the most suitable person for a particular job.
+
+Recruitment attracts candidates, while selection identifies the most appropriate candidate.
+
+3.3 Difference Between Recruitment and Selection
+Basis	Recruitment	Selection
+Meaning	Attracting candidates	Choosing suitable candidates
+Objective	Generate applications	Identify the best fit
+Nature	Positive process of attracting applicants	Evaluative process of screening candidates
+Activities	Job advertisements, sourcing, referrals	Interviews, assessments, verification
+Outcome	Candidate pool	Selected candidate
+3.4 Recruitment and Selection Process
+Understand this sequence:
+
+Step 1: Manpower Requirement
+
+The organisation identifies the need for additional employees.
+
+Example: A hospital needs three additional Lab Technicians.
+
+Step 2: Job Analysis
+
+HR gathers information about:
+
+Job responsibilities.
+Required qualifications.
+Skills.
+Experience.
+Reporting structure.
+Step 3: Job Description
+
+HR prepares a document explaining the responsibilities and expectations of the position.
+
+Step 4: Candidate Sourcing
+
+HR identifies candidates through:
+
+Job portals.
+LinkedIn.
+Referrals.
+Campus recruitment.
+Recruitment agencies.
+Step 5: Resume Screening
+
+Applications are reviewed against the job requirements.
+
+Step 6: Interview Coordination
+
+HR schedules interviews between shortlisted candidates and hiring managers.
+
+Step 7: Candidate Evaluation
+
+Candidates are assessed based on:
+
+Qualifications.
+Relevant experience.
+Technical knowledge.
+Communication.
+Role suitability.
+Step 8: Selection
+
+The organisation selects the most suitable candidate.
+
+Step 9: Background and Document Verification
+
+Relevant educational, identity, employment and professional credentials are verified according to organisational policy and applicable requirements.
+
+Step 10: Offer Management
+
+The organisation communicates the employment offer, compensation and joining requirements.
+
+Step 11: Joining Confirmation
+
+The candidate accepts the offer and confirms the joining date.
+
+3.5 Role of HR During Recruitment
+An HR professional may be responsible for:
+
+Understanding vacancy requirements.
+Preparing job descriptions.
+Publishing job advertisements.
+Sourcing candidates.
+Screening resumes.
+Scheduling interviews.
+Maintaining candidate trackers.
+Coordinating feedback.
+Communicating selection decisions.
+Coordinating offer documentation.
+Important: HR often coordinates the recruitment process, while technical selection decisions may involve the relevant department head.
+
+TOPIC 4: STAGE 3 – EMPLOYEE ONBOARDING
+4.1 What is Employee Onboarding?
+Employee onboarding is the structured process of integrating a newly hired employee into an organisation.
+
+It helps new employees understand their workplace, responsibilities, organisational policies and the resources required to perform their jobs.
+
+Onboarding starts before or on the employee's joining date and continues through the initial period of employment.
+
+4.2 Difference Between Joining and Onboarding
+Joining refers to the employee officially beginning employment with the organisation.
+
+Onboarding is the broader process of helping the employee settle into the organisation.
+
+For example:
+
+An employee may officially join on Monday, but their onboarding activities may continue over the following weeks.
+
+4.3 Stages of Onboarding
+A. Preboarding
+
+Preboarding refers to activities completed after offer acceptance but before the employee's joining date.
+
+Activities include:
+
+Sending joining instructions.
+Collecting required documents.
+Confirming joining date.
+Preparing workstation or equipment.
+Informing the concerned department.
+B. Joining Day
+
+Activities include:
+
+Document collection.
+Identity verification.
+Employment documentation.
+Introduction to HR.
+Introduction to the reporting manager.
+Workplace orientation.
+C. Induction
+
+Induction introduces employees to the organisation.
+
+It may include:
+
+Organisation history.
+Mission and vision.
+HR policies.
+Workplace rules.
+Department structure.
+Reporting procedures.
+D. Departmental Orientation
+
+Employees learn about their specific department and responsibilities.
+
+For example, a newly hired Biomedical Engineer may receive an introduction to:
+
+Biomedical equipment.
+Maintenance procedures.
+Equipment documentation.
+Safety requirements.
+Reporting hierarchy.
+E. Initial Employee Support
+
+HR and the reporting manager monitor whether the new employee is settling into the role.
+
+This may involve:
+
+Feedback sessions.
+Training.
+Clarification of responsibilities.
+Performance discussions.
+4.4 Important Onboarding Documents
+Document	Purpose
+Joining Form	Collects employee joining information
+Identity Proof	Verifies identity
+Address Proof	Records residential information
+Educational Certificates	Supports qualification verification
+Appointment Letter	Documents employment terms
+Bank Details Form	Supports salary processing
+Emergency Contact Form	Records emergency contact information
+Employee Information Form	Maintains employee master data
+Policy Acknowledgement	Confirms receipt or acceptance of relevant policies
+The exact documents depend on the organisation and the role.
+
+4.5 Why is Onboarding Important?
+Effective onboarding helps:
+
+Reduce confusion among new employees.
+Improve employee confidence.
+Explain organisational expectations.
+Support faster adjustment to the role.
+Reduce early employee turnover.
+Improve employee experience.
+Practical Example:
+
+A new nurse joins a hospital.
+
+If the hospital provides a structured induction explaining shift procedures, reporting hierarchy, safety protocols and department responsibilities, the nurse can understand the workplace more effectively.
+
+TOPIC 5: STAGE 4 – EMPLOYEE DEVELOPMENT
+5.1 What is Employee Development?
+Employee development refers to activities that improve employees' knowledge, skills, abilities and professional capabilities over time.
+
+It focuses on preparing employees to perform their current responsibilities effectively and potentially take on greater responsibilities in the future.
+
+5.2 Training vs Development
+These terms are related but different.
+
+Basis	Training	Development
+Focus	Specific job-related skills	Broader professional growth
+Duration	Often short-term	Usually long-term
+Objective	Improve current job performance	Prepare for future responsibilities
+Approach	Specific and task-oriented	Broader and continuous
+Example	Training an employee on HRMS	Preparing an employee for an HR Manager role
+5.3 Types of Employee Training
+A. Technical Training
+
+Improves job-specific technical skills.
+
+Example: Training a Biomedical Engineer to operate or maintain specific medical equipment.
+
+B. Soft Skills Training
+
+Improves interpersonal and communication abilities.
+
+Examples:
+
+Communication.
+Teamwork.
+Leadership.
+Conflict management.
+Time management.
+C. Compliance Training
+
+Helps employees understand relevant organisational rules and legal requirements.
+
+Examples:
+
+POSH awareness.
+Workplace safety.
+Data confidentiality.
+Information security.
+D. Induction Training
+
+Introduces employees to the organisation, its culture and policies.
+
+E. Leadership Training
+
+Develops employees' ability to supervise teams, make decisions and manage responsibilities.
+
+5.4 Training Needs Analysis (TNA)
+Training Needs Analysis is the process of identifying the gap between the skills employees currently possess and the skills required to perform their jobs effectively.
+
+Example:
+
+A hospital introduces a new HRMS.
+
+The HR department identifies that some employees do not understand how to submit leave requests through the system.
+
+HR conducts a training session to address this skill gap.
+
+5.5 Employee Career Development
+Career development focuses on helping employees progress professionally.
+
+It may include:
+
+Career planning.
+Mentorship.
+Leadership programmes.
+Skill development.
+Job rotation.
+Internal promotions.
+Succession planning.
+Key Point: Employee development benefits both the individual and the organisation by improving capabilities and supporting future workforce requirements.
+
+TOPIC 6: STAGE 5 – EMPLOYEE ENGAGEMENT AND RETENTION
+6.1 What is Employee Engagement?
+Employee engagement refers to the level of commitment, involvement and connection employees have with their organisation and work.
+
+Engaged employees generally show greater interest in contributing towards organisational objectives.
+
+Engagement is not simply about whether an employee is happy. It also concerns their motivation, commitment and willingness to contribute.
+
+6.2 Methods of Improving Employee Engagement
+A. Recognition Programmes
+
+Recognising employees for good performance and contributions.
+
+Example: Employee of the Month.
+
+B. Employee Feedback
+
+Collecting employee opinions through surveys, meetings and feedback sessions.
+
+C. Career Growth Opportunities
+
+Providing employees with opportunities to learn and advance.
+
+D. Workplace Communication
+
+Maintaining transparent communication between management and employees.
+
+E. Employee Welfare Initiatives
+
+Supporting employee well-being through suitable workplace facilities and initiatives.
+
+F. Team-Building Activities
+
+Organising activities that encourage collaboration and stronger workplace relationships.
+
+6.3 What is Employee Retention?
+Employee retention refers to an organisation's ability to keep employees working within the organisation over a particular period.
+
+A high retention rate generally indicates that a large proportion of employees continue working with the organisation.
+
+6.4 Why is Employee Retention Important?
+High employee turnover can create several problems:
+
+Increased recruitment costs.
+Additional training expenses.
+Loss of organisational knowledge.
+Reduced team stability.
+Increased workload for existing employees.
+Operational disruptions.
+6.5 Factors Affecting Employee Retention
+Employees may leave because of:
+
+Low or uncompetitive compensation.
+Limited career growth.
+Poor management.
+Excessive workload.
+Unhealthy workplace culture.
+Lack of recognition.
+Poor work-life balance.
+Better external opportunities.
+HR should identify the actual reasons rather than assuming all resignations have the same cause.
+
+6.6 Understanding Attrition
+Employee attrition refers to the reduction in an organisation's workforce when employees leave and their positions are not immediately or permanently replaced.
+
+A commonly used HR metric is the employee attrition rate.
+
+Formula:
+
+Attrition Rate = (Number of Employees Who Left During the Period ÷ Average Number of Employees During the Period) × 100
+
+Where:
+
+Average Headcount = (Opening Headcount + Closing Headcount) ÷ 2
+
+Example:
+
+A company has:
+
+Opening employees: 100.
+Closing employees: 90.
+Employees who left during the period: 15.
+Average Headcount:
+
+(100 + 90) ÷ 2 = 95
+
+Attrition Rate:
+
+(15 ÷ 95) × 100 = 15.79%
+
+Therefore, the attrition rate is approximately 15.79%.
+
+Note that organisations may use different reporting conventions. The calculation should always state the measurement period and denominator used.
+
+TOPIC 7: STAGE 6 – PERFORMANCE MANAGEMENT
+7.1 What is Performance Management?
+Performance management is a continuous process through which an organisation establishes expectations, monitors employee performance, provides feedback and supports improvement.
+
+Its objective is to ensure that employees contribute effectively towards organisational goals.
+
+7.2 Major Activities in Performance Management
+A. Setting Performance Expectations
+
+Employees should understand what they are expected to achieve.
+
+Example:
+
+An HR Executive is expected to maintain accurate employee records and complete onboarding documentation within specified timelines.
+
+B. Establishing KRAs and KPIs
+
+KRA stands for Key Result Area.
+
+It defines the major responsibility or outcome expected from an employee.
+
+KPI stands for Key Performance Indicator.
+
+It is a measurable value used to assess performance.
+
+Example:
+
+KRA	KPI
+Employee Onboarding	Percentage of onboarding tasks completed on time
+Recruitment	Average time to fill vacancies
+Employee Records	Employee record accuracy
+Attendance	Attendance report accuracy
+C. Performance Monitoring
+
+Managers review employee performance through reports, discussions and observations.
+
+D. Performance Appraisal
+
+A formal evaluation of employee performance over a defined period.
+
+E. Performance Improvement
+
+Employees who are not meeting expectations may receive additional guidance, training or a Performance Improvement Plan, depending on organisational policy.
+
+7.3 Why is Performance Management Important?
+It helps:
+
+Improve employee productivity.
+Identify skill gaps.
+Recognise good performance.
+Support employee development.
+Align individual work with organisational goals.
+Improve accountability.
+Practical Example:
+
+An HR Executive repeatedly submits inaccurate employee attendance reports.
+
+The manager reviews the errors, identifies the cause and provides additional training.
+
+If performance continues to remain below expectations, a structured improvement process may be initiated.
+
+TOPIC 8: STAGE 7 – EMPLOYEE SEPARATION
+8.1 What is Employee Separation?
+Employee separation refers to the end of the employment relationship between an employee and an organisation.
+
+It can occur for several reasons, including resignation, retirement, termination or other employment-related circumstances.
+
+8.2 Types of Employee Separation
+A. Resignation
+
+An employee voluntarily decides to leave the organisation.
+
+Example: An employee resigns after receiving another job offer.
+
+B. Retirement
+
+An employee leaves employment after reaching the applicable retirement age or under an approved retirement arrangement.
+
+C. Termination
+
+The employer ends the employment relationship in accordance with applicable law, employment terms and organisational procedures.
+
+D. Layoff or Retrenchment
+
+These are distinct employment-related situations involving workforce reduction or termination under applicable legal conditions.
+
+E. End of Contract
+
+An employee's employment ends when a fixed-term or contractual arrangement expires, subject to the relevant terms and law.
+
+8.3 Employee Exit Process
+When an employee leaves, HR coordinates the exit process.
+
+Typical steps include:
+
+Step 1: Resignation Submission
+
+The employee submits a resignation through the prescribed process.
+
+Step 2: Resignation Acknowledgement
+
+HR acknowledges receipt and coordinates the required formalities.
+
+Step 3: Notice Period
+
+The employee serves the applicable notice period or follows an approved alternative arrangement.
+
+Step 4: Knowledge Transfer
+
+The employee transfers relevant work information and responsibilities.
+
+Step 5: Asset Clearance
+
+The employee returns company-owned items such as:
+
+Laptop.
+ID card.
+Access card.
+Equipment.
+Documents.
+Step 6: Exit Interview
+
+HR may conduct an exit interview to understand the employee's experience and reasons for leaving.
+
+Step 7: Full and Final Settlement
+
+The organisation calculates and processes the employee's final dues and applicable deductions.
+
+Step 8: Exit Documentation
+
+HR coordinates relevant employment documents according to organisational policy and applicable requirements.
+
+8.4 What is an Exit Interview?
+An exit interview is a discussion between an organisation and an employee who is leaving.
+
+Its purpose is to understand the employee's experience and identify possible organisational improvements.
+
+Common questions include:
+
+What is the primary reason for leaving?
+How would you describe your experience?
+Were your responsibilities clearly defined?
+Did you receive adequate support from your manager?
+Were there sufficient career development opportunities?
+What improvements would you suggest?
+8.5 Importance of Proper Separation Management
+A structured exit process helps:
+
+Ensure proper documentation.
+Protect organisational assets.
+Support knowledge transfer.
+Identify employee concerns.
+Coordinate final settlement.
+Maintain professional relationships.
+TOPIC 9: COMPLETE EMPLOYEE LIFECYCLE – PRACTICAL CASE STUDY
+Now let's connect all seven stages.
+
+Case Study: A Hospital Hiring a Biomedical Engineer
+A hospital identifies a requirement for one Biomedical Engineer to manage its medical equipment.
+
+Follow the employee through the complete lifecycle.
+
+Stage	Activity	HR Responsibility
+1. Attraction	Hospital advertises the vacancy	Promote the opportunity
+2. Recruitment & Selection	Candidates apply and interviews take place	Source, screen and coordinate selection
+3. Onboarding	Selected candidate joins	Collect documents and coordinate induction
+4. Development	Employee receives technical training	Coordinate development activities
+5. Engagement & Retention	Employee receives feedback and career support	Support employee experience
+6. Performance Management	Manager evaluates employee performance	Coordinate appraisal process
+7. Separation	Employee resigns after three years	Coordinate exit formalities
+Scenario Analysis
+Suppose the Biomedical Engineer resigns after three years.
+
+HR reviews the employee's records and discovers:
+
+The employee received no formal career development discussion.
+The employee had requested additional training twice.
+The employee's workload had increased.
+The employee mentioned limited career progression during the exit interview.
+What can HR learn?
+
+The organisation may need to improve:
+
+Career development planning.
+Training opportunities.
+Workload management.
+Employee feedback mechanisms.
+This demonstrates how information from the separation stage can help improve earlier stages of the employee lifecycle.
+
+Important Concept: The employee lifecycle is not just a sequence of administrative activities. Information collected at one stage can help an organisation improve its decisions at other stages.
+
+DAY 3 – PRACTICAL ASSIGNMENTS
+R must complete all three assignments.
+
+Assignment 1: Employee Lifecycle Flowchart
+Task: Create a complete employee lifecycle flowchart.
+
+It must include:
+
+Employee Attraction.
+Recruitment and Selection.
+Onboarding.
+Development.
+Engagement and Retention.
+Performance Management.
+Separation.
+For every stage, mention:
+
+Purpose.
+Major activities.
+HR responsibilities.
+One practical example.
+Tools: Canva, PowerPoint, Word or Draw.io.
+
+Deliverable: Employee Lifecycle Flowchart.
+
+Assignment 2: Employee Lifecycle Case Study
+Situation:
+
+A hospital with 100 employees wants to recruit:
+
+Two Biomedical Engineers.
+Five Nurses.
+Three Lab Technicians.
+Prepare a report explaining how HR will manage these employees from attraction to separation.
+
+Your report must cover:
+
+Stage	Questions to Address
+Attraction	How will the hospital attract suitable candidates?
+Recruitment	How will candidates be sourced and screened?
+Selection	How will the hospital evaluate candidates?
+Onboarding	What documents and induction activities are required?
+Development	What training may be required?
+Engagement	How can the hospital maintain employee satisfaction?
+Performance	How will employee performance be evaluated?
+Separation	What happens if an employee resigns?
+Deliverable: Employee Lifecycle Management Report.
+
+Assignment 3: Employee Lifecycle Documentation Mapping
+Create a table listing important documents used at different stages.
+
+Stage	Document	Purpose
+Recruitment	Job Description	Defines job requirements
+Recruitment	Candidate Evaluation Form	Records interview assessment
+Onboarding	Joining Form	Collects joining information
+Onboarding	Appointment Letter	Documents employment terms
+Development	Training Record	Tracks employee training
+Performance	Appraisal Form	Records performance evaluation
+Engagement	Employee Survey	Collects employee feedback
+Separation	Resignation Letter	Records resignation
+Separation	Exit Interview Form	Collects employee feedback
+Separation	Clearance Form	Records asset and departmental clearance
+She must add at least 15 additional documents and explain their purpose.
+
+Deliverable: Employee Lifecycle Documentation Matrix.
+
+DAY 3 – ASSESSMENT
+Total Marks: 30
+
+Section A: Conceptual Understanding – 10 Marks
+Define the employee lifecycle. (2)
+Differentiate between recruitment and selection. (2)
+Explain employee onboarding. (2)
+Differentiate between training and development. (2)
+What is employee retention? (2)
+Section B: Practical Understanding – 10 Marks
+A hospital has recruited five nurses. Explain the activities HR must complete before and after their joining. (3)
+An employee resigns after working for two years. Explain the major exit formalities. (3)
+An organisation is experiencing high employee attrition. Suggest four steps HR should take to investigate and address the problem. (4)
+Section C: Communication and Application – 10 Marks
+Ask her to answer verbally:
+
+Explain the complete employee lifecycle using a hospital example. (4)
+Why is onboarding important even after a candidate has accepted the job offer? (3)
+How can an organisation use exit interviews to improve employee retention? (3)
+Evaluation Criteria
+Score	Performance
+27–30	Excellent
+24–26	Very Good
+21–23	Good
+18–20	Needs Improvement
+Below 18	Revision Required
+Minimum Passing Score: 21/30 (70%).
+
+YOUR MENTOR EVALUATION CHECKLIST
+Evaluate her on the following:
+
+Parameter	What to Evaluate
+Lifecycle Understanding	Can she explain all seven stages in sequence?
+Recruitment Knowledge	Does she understand attraction, recruitment and selection?
+Onboarding Knowledge	Can she identify joining and induction requirements?
+Employee Development	Does she understand training and development?
+Retention Awareness	Can she explain why employees leave?
+Separation Knowledge	Does she understand basic exit formalities?
+Practical Application	Can she map the lifecycle to a hospital?
+Five Questions to Ask Without Showing Her the Notes
+What happens after an organisation identifies a manpower requirement?
+What is the difference between employee attraction and recruitment?
+Why does the employee lifecycle continue even after an employee joins the organisation?
+If five employees resign within one month, what information should HR investigate?
+How can exit interview information help an organisation improve its employee retention strategy?
+DAY 3 COMPLETION CHECKLIST
+Studied all nine topics.
+Understood the seven stages of the employee lifecycle.
+Understood attraction, recruitment and selection.
+Learned onboarding activities.
+Understood employee development and training.
+Learned employee engagement and retention.
+Understood performance management.
+Learned separation and exit formalities.
+Completed the employee lifecycle flowchart.
+Completed the hospital lifecycle case study.
+Completed the documentation matrix.
+Attempted the 30-mark assessment.
+Achieved at least 21 marks.
+MENTOR'S NOTE
+Day 3 is a foundation for almost everything that follows in this curriculum.
+
+Recruitment, onboarding, payroll, performance management, employee engagement and separation will each become separate subjects in subsequent lessons.
+
+Make sure she understands the complete employee journey rather than memorising seven stages.
+
+A good test is to give her a random situation, such as a newly hired nurse, a dissatisfied employee or an employee resigning, and ask her to identify where that situation fits within the lifecycle and what HR should do.

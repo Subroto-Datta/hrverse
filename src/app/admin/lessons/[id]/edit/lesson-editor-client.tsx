@@ -141,7 +141,7 @@ export function LessonEditorClient({
             size="sm"
             onClick={handleSave}
             disabled={saving}
-            className="h-8 text-xs bg-purple-600 hover:bg-purple-700 text-white gap-1.5 shadow-sm"
+            className="h-8 text-xs bg-amber-500 hover:bg-amber-600 text-white gap-1.5 shadow-sm"
           >
             {saving ? (
               <Loader2 className="h-3.5 w-3.5 animate-spin" />
@@ -272,7 +272,7 @@ export function LessonEditorClient({
                 <div className="flex items-center justify-between border-b border-slate-800 pb-2">
                   <div className="flex items-center gap-2">
                     <span className="text-[10px] font-mono text-slate-500">#{index + 1}</span>
-                    <Badge variant="outline" className="text-[10px] capitalize text-purple-400 border-purple-500/30">
+                    <Badge variant="outline" className="text-[10px] capitalize text-amber-400 border-amber-500/30">
                       {block.type}
                     </Badge>
                   </div>
@@ -333,12 +333,12 @@ export function LessonEditorClient({
 
                 {/* Definition Block Editor */}
                 {block.type === 'definition' && (
-                  <div className="space-y-2 p-3 rounded-lg bg-purple-950/20 border border-purple-500/30">
+                  <div className="space-y-2 p-3 rounded-lg bg-amber-950/20 border border-amber-500/30">
                     <Input
                       value={(block.data?.term as string) || ''}
                       onChange={(e) => updateBlockData(block.id, 'term', e.target.value)}
                       placeholder="HR Term (e.g. Compa-Ratio)..."
-                      className="text-xs font-semibold bg-slate-900 border-slate-700 text-purple-300"
+                      className="text-xs font-semibold bg-slate-900 border-slate-700 text-amber-300"
                     />
                     <Textarea
                       rows={2}

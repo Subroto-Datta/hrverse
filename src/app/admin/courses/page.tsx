@@ -19,7 +19,7 @@ export default async function AdminCoursesPage() {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-6">
         <div>
           <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white flex items-center gap-2.5">
-            <GraduationCap className="h-6 w-6 text-purple-400" /> Course Management
+            <GraduationCap className="h-6 w-6 text-amber-400" /> Course Management
           </h1>
           <p className="text-xs sm:text-sm text-slate-400 mt-1">
             Create, configure duration, set difficulty levels, and manage publication states.
@@ -57,7 +57,7 @@ export default async function AdminCoursesPage() {
             <CardContent className="pt-3 border-t border-slate-800/80 flex items-center justify-between">
               <div className="flex items-center gap-3 text-xs text-slate-400">
                 <span className="flex items-center gap-1">
-                  <Clock className="h-3.5 w-3.5 text-purple-400" /> {course.duration_weeks} Weeks
+                  <Clock className="h-3.5 w-3.5 text-amber-400" /> {course.duration_weeks} Weeks
                 </span>
                 <span>{course.modules?.length || 0} Modules</span>
               </div>
@@ -80,7 +80,7 @@ export default async function AdminCoursesPage() {
                 </form>
 
                 <Link href={`/admin/modules`}>
-                  <Button size="sm" className="h-8 text-xs bg-purple-600 hover:bg-purple-700 text-white">
+                  <Button size="sm" className="h-8 text-xs bg-amber-500 hover:bg-amber-600 text-white">
                     Manage Modules
                   </Button>
                 </Link>
