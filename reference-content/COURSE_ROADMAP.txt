@@ -1,0 +1,677 @@
+================================================================================
+                         HR VERSE
+          PROFESSIONAL HUMAN RESOURCE MANAGEMENT PROGRAM
+                       COURSE ROADMAP
+                   WEEK-BY-WEEK LEARNING GUIDE
+================================================================================
+
+This roadmap provides a detailed week-by-week breakdown of the HR Verse 
+Professional Human Resource Management Program. Each week includes module 
+topics, learning objectives, estimated study hours, and required deliverables.
+
+================================================================================
+                    WEEK 1: FOUNDATIONS OF HRM & TALENT ACQUISITION
+                    Dates: Program Start – End of Week 1
+                    Estimated Total Effort: 15 hours
+================================================================================
+
+MODULE 01: INTRODUCTION TO HUMAN RESOURCE MANAGEMENT (5 hours)
+--------------------------------------------------------------------------
+Topics Covered:
+    1.1  Defining Human Resource Management
+    1.2  Historical Evolution of HR: From Personnel Administration to 
+         Strategic HRM
+    1.3  Core HR Functions: Staffing, Development, Compensation, Safety, 
+         Employee Relations
+    1.4  The HR Professional's Role in Modern Organizations
+    1.5  HR as a Strategic Business Partner
+    1.6  Ethical Foundations of HR Practice
+    1.7  Key HR Professional Bodies: SHRM, CIPD, HRCI
+    1.8  HR Competency Models and Frameworks
+
+Learning Objectives:
+    - Define HRM and articulate its strategic importance.
+    - Trace the evolution of HR from administrative function to strategic 
+      partner.
+    - Identify core HR functions and how they interconnect.
+    - Explain the ethical responsibilities of HR professionals.
+
+Activities:
+    - Read Module 01 learning materials (90 minutes)
+    - Watch video lectures on HR evolution (60 minutes)
+    - Discussion forum: "What makes HR strategic?" (30 minutes)
+    - Self-assessment exercise: HR function mapping (60 minutes)
+
+MODULE 02: HR PLANNING & JOB ANALYSIS (5 hours)
+--------------------------------------------------------------------------
+Topics Covered:
+    2.1  Strategic Workforce Planning
+    2.2  Labor Demand Forecasting Methods (Trend Analysis, Ratio Analysis, 
+         Regression Analysis)
+    2.3  Labor Supply Analysis (Internal and External)
+    2.4  Succession Planning
+    2.5  Job Analysis: Purpose and Methods (Observation, Interviews, 
+         Questionnaires, PAQ, O*NET)
+    2.6  Writing Job Descriptions
+    2.7  Developing Person Specifications and Competency Profiles
+    2.8  The Relationship Between Job Analysis and Other HR Functions
+
+Learning Objectives:
+    - Explain the workforce planning process and its strategic significance.
+    - Apply demand and supply forecasting techniques.
+    - Conduct job analysis using multiple methods.
+    - Write clear, accurate job descriptions and person specifications.
+
+Activities:
+    - Read Module 02 learning materials (90 minutes)
+    - Case exercise: Workforce demand forecasting for a retail chain 
+      (60 minutes)
+    - Practical exercise: Write a job description for an HR Coordinator 
+      (60 minutes)
+    - Quiz preparation review (30 minutes)
+
+MODULE 03: RECRUITMENT & SELECTION (5 hours)
+--------------------------------------------------------------------------
+Topics Covered:
+    3.1  The Recruitment Process: Planning to Offer
+    3.2  Internal vs. External Recruitment
+    3.3  Sourcing Strategies: Job Boards, Social Media, Employee Referrals, 
+         Recruitment Agencies, Campus Recruiting
+    3.4  Employer Branding and the Employee Value Proposition (EVP)
+    3.5  Selection Methods: Application Screening, Psychometric Testing, 
+         Work Samples, Assessment Centers
+    3.6  Interviewing Techniques: Structured, Behavioral (STAR), 
+         Situational, Panel
+    3.7  Making the Hiring Decision: Validity, Reliability, and Bias 
+         Reduction
+    3.8  Onboarding and New Employee Integration
+    3.9  Recruitment Metrics: Time to Fill, Cost per Hire, Quality of Hire
+
+Learning Objectives:
+    - Design an end-to-end recruitment process.
+    - Evaluate sourcing strategies for effectiveness and reach.
+    - Conduct structured interviews using behavioral techniques.
+    - Develop an onboarding program that accelerates new hire productivity.
+
+Activities:
+    - Read Module 03 learning materials (90 minutes)
+    - Video case study: Recruitment at a Fortune 500 company (45 minutes)
+    - Role-play exercise: Conduct a structured behavioral interview 
+      (60 minutes)
+    - Group discussion: Reducing bias in selection (30 minutes)
+
+WEEK 1 DELIVERABLES:
+    ✓ Complete Quiz: Week 1 Knowledge Check (20 multiple-choice questions)
+    ✓ Submit discussion forum post: "What makes HR strategic?"
+    ✓ Complete practical exercise: Job description writing
+
+================================================================================
+                    WEEK 2: REWARDING & DEVELOPING PEOPLE
+                    Dates: Week 2
+                    Estimated Total Effort: 15 hours
+================================================================================
+
+MODULE 04: COMPENSATION & BENEFITS MANAGEMENT (5 hours)
+--------------------------------------------------------------------------
+Topics Covered:
+    4.1  Total Rewards Philosophy
+    4.2  Pay Structures: Grades, Bands, Broadbanding
+    4.3  Job Evaluation Methods: Ranking, Classification, Point-Factor, 
+         Factor Comparison
+    4.4  Salary Surveys and Market Pricing
+    4.5  Variable Pay: Bonuses, Commissions, Profit Sharing, Gainsharing
+    4.6  Executive Compensation
+    4.7  Benefits Administration: Health Insurance, Retirement Plans, PTO, 
+         Wellness Programs
+    4.8  Pay Equity and Compliance (Equal Pay Act, Pay Transparency)
+    4.9  Compensation Technology and Payroll Systems
+
+Learning Objectives:
+    - Design a total rewards strategy aligned with organizational goals.
+    - Conduct job evaluation using the point-factor method.
+    - Analyze salary survey data to determine competitive pay rates.
+    - Ensure compliance with pay equity legislation.
+
+Activities:
+    - Read Module 04 learning materials (90 minutes)
+    - Practical exercise: Point-factor job evaluation (75 minutes)
+    - Salary survey data analysis exercise (60 minutes)
+    - Discussion forum: "Is pay transparency good for organizations?" 
+      (30 minutes)
+
+MODULE 05: PERFORMANCE MANAGEMENT SYSTEMS (5 hours)
+--------------------------------------------------------------------------
+Topics Covered:
+    5.1  Purpose and Philosophy of Performance Management
+    5.2  Distinguishing Performance Management from Performance Appraisal
+    5.3  Goal Setting: SMART Goals, OKRs, Cascading Objectives
+    5.4  Key Performance Indicators (KPIs) and Balanced Scorecard
+    5.5  Performance Appraisal Methods: Graphic Rating Scales, BARS, 
+         MBO, 360-Degree Feedback, Forced Ranking
+    5.6  Continuous Feedback and Check-ins
+    5.7  Performance Calibration and Rating Distribution
+    5.8  Managing Underperformance: PIPs, Coaching, Counseling
+    5.9  Legal Considerations in Performance Management
+    5.10 Technology in Performance Management (PM Software)
+
+Learning Objectives:
+    - Design a performance management cycle aligned with business strategy.
+    - Write effective SMART goals and OKRs.
+    - Select appropriate appraisal methods for different organizational 
+      contexts.
+    - Develop and implement a Performance Improvement Plan (PIP).
+
+Activities:
+    - Read Module 05 learning materials (90 minutes)
+    - Workshop: Writing SMART goals for different roles (60 minutes)
+    - Case study: Implementing 360-degree feedback (60 minutes)
+    - Self-reflection: Your own performance management experiences 
+      (30 minutes)
+
+MODULE 06: TRAINING & DEVELOPMENT (5 hours)
+--------------------------------------------------------------------------
+Topics Covered:
+    6.1  The Strategic Importance of Learning and Development
+    6.2  Training Needs Analysis (TNA): Organizational, Task, and Person 
+         Analysis
+    6.3  Learning Theories: Behaviorism, Cognitivism, Constructivism, 
+         Social Learning Theory, Adult Learning (Andragogy)
+    6.4  The ADDIE Model of Instructional Design
+    6.5  Training Methods: On-the-Job, Classroom, Simulation, Role-Play, 
+         Mentoring, Coaching
+    6.6  E-Learning, Blended Learning, and Microlearning
+    6.7  Evaluating Training Effectiveness: Kirkpatrick's Four Levels, 
+         Phillips ROI Model
+    6.8  Career Development and Career Pathing
+    6.9  Talent Pipelines and High-Potential Programs
+    6.10 Learning Management Systems (LMS) and Learning Technologies
+
+Learning Objectives:
+    - Conduct a training needs analysis at organizational, task, and 
+      individual levels.
+    - Design a training program using the ADDIE model.
+    - Evaluate training ROI using Kirkpatrick and Phillips frameworks.
+    - Create career development pathways for employees.
+
+Activities:
+    - Read Module 06 learning materials (90 minutes)
+    - Practical exercise: Conduct a training needs analysis for a 
+      department (75 minutes)
+    - Design a one-day training workshop outline (60 minutes)
+    - Discussion: "How do you measure the ROI of training?" (30 minutes)
+
+WEEK 2 DELIVERABLES:
+    ✓ Complete Quiz: Week 2 Knowledge Check (20 multiple-choice questions)
+    ✓ Submit Assessment 1: HR Strategy Development
+    ✓ Complete practical exercise: Training needs analysis
+    ✓ Submit discussion forum posts
+
+================================================================================
+                    WEEK 3: EMPLOYEE RELATIONS & EMPLOYMENT LAW
+                    Dates: Week 3
+                    Estimated Total Effort: 15 hours
+================================================================================
+
+MODULE 07: EMPLOYEE RELATIONS & ENGAGEMENT (5 hours)
+--------------------------------------------------------------------------
+Topics Covered:
+    7.1  Foundations of Employee Relations
+    7.2  The Psychological Contract
+    7.3  Employee Engagement Models (Gallup Q12, Aon Hewitt, Deloitte)
+    7.4  Employee Voice: Surveys, Focus Groups, Town Halls, ERGs
+    7.5  Grievance Handling Procedures
+    7.6  Discipline and Disciplinary Procedures (Progressive Discipline)
+    7.7  Conflict Resolution and Mediation
+    7.8  Labor Unions and Collective Bargaining
+    7.9  Employee Wellness and Work-Life Balance
+    7.10 Internal Communication Strategies
+
+Learning Objectives:
+    - Explain the concept of the psychological contract and its impact 
+      on engagement.
+    - Design employee engagement survey instruments and action plans.
+    - Manage grievances and disciplinary processes fairly and consistently.
+    - Develop internal communication strategies that foster trust.
+
+Activities:
+    - Read Module 07 learning materials (90 minutes)
+    - Case study: Resolving a workplace conflict scenario (75 minutes)
+    - Design an employee engagement survey (60 minutes)
+    - Discussion: "What drives engagement beyond compensation?" 
+      (30 minutes)
+
+MODULE 08: EMPLOYMENT LAW & REGULATORY COMPLIANCE (10 hours)
+--------------------------------------------------------------------------
+Topics Covered:
+    8.1  Overview of Employment Law Frameworks
+    8.2  Employment Contracts: Types, Terms, and Conditions
+    8.3  Anti-Discrimination Legislation (Title VII, ADA, ADEA, Equal 
+         Opportunity Acts)
+    8.4  Harassment Prevention: Policies and Training
+    8.5  Wage and Hour Laws (FLSA, Overtime, Minimum Wage)
+    8.6  Family and Medical Leave (FMLA, Parental Leave)
+    8.7  Workplace Health and Safety (OSHA, Risk Assessment)
+    8.8  Privacy and Data Protection in the Workplace (GDPR, CCPA)
+    8.9  Termination and Wrongful Dismissal
+    8.10 International Employment Law Considerations
+    8.11 HR's Role in Ensuring Compliance
+    8.12 Conducting Internal Investigations
+
+Learning Objectives:
+    - Identify key employment statutes and their implications for HR 
+      practice.
+    - Draft compliant employment contracts and workplace policies.
+    - Manage harassment complaints according to legal requirements.
+    - Conduct a basic internal workplace investigation.
+
+Activities:
+    - Read Module 08 learning materials (180 minutes)
+    - Legal scenario exercises: Apply law to workplace situations 
+      (120 minutes)
+    - Draft a harassment prevention policy (60 minutes)
+    - Mock investigation exercise (60 minutes)
+    - Quiz preparation review (30 minutes)
+
+WEEK 3 DELIVERABLES:
+    ✓ Complete Quiz: Week 3 Knowledge Check (20 multiple-choice questions)
+    ✓ Submit harassment prevention policy draft
+    ✓ Complete legal scenario exercises
+    ✓ Submit discussion forum posts
+
+================================================================================
+                    WEEK 4: ORGANIZATIONAL BEHAVIOR & CULTURE
+                    Dates: Week 4
+                    Estimated Total Effort: 15 hours
+================================================================================
+
+MODULE 09: ORGANIZATIONAL BEHAVIOR FUNDAMENTALS (7.5 hours)
+--------------------------------------------------------------------------
+Topics Covered:
+    9.1  Introduction to Organizational Behavior
+    9.2  Individual Behavior: Personality, Perception, Attitudes, Values
+    9.3  Motivation Theories: Maslow, Herzberg, Vroom, Adams, McClelland, 
+         Self-Determination Theory
+    9.4  Group Dynamics and Team Development (Tuckman's Model)
+    9.5  Leadership Theories: Trait, Behavioral, Contingency, 
+         Transformational, Servant Leadership
+    9.6  Organizational Power and Politics
+    9.7  Decision-Making Processes in Organizations
+    9.8  Stress Management and Employee Well-Being
+
+Learning Objectives:
+    - Apply motivation theories to design effective reward and recognition 
+      systems.
+    - Analyze group dynamics and recommend team effectiveness strategies.
+    - Compare leadership theories and their relevance to HR practice.
+    - Develop strategies to manage workplace stress.
+
+Activities:
+    - Read Module 09 learning materials (150 minutes)
+    - Motivation theory application exercise (60 minutes)
+    - Leadership style self-assessment (45 minutes)
+    - Team dynamics case study (60 minutes)
+    - Discussion: "Which motivation theory best explains modern worker 
+      behavior?" (30 minutes)
+
+MODULE 10: WORKPLACE CULTURE, DIVERSITY & INCLUSION (7.5 hours)
+--------------------------------------------------------------------------
+Topics Covered:
+    10.1  Defining Organizational Culture (Schein's Model, Competing 
+          Values Framework)
+    10.2  Culture Assessment and Measurement
+    10.3  Building and Sustaining Desired Culture
+    10.4  Diversity, Equity, and Inclusion (DEI): Definitions and Business 
+          Case
+    10.5  Unconscious Bias: Awareness and Mitigation
+    10.6  Creating Inclusive Workplace Policies and Practices
+    10.7  Employee Resource Groups (ERGs) and Affinity Networks
+    10.8  Measuring DEI Progress: Metrics and Reporting
+    10.9  Global Cultural Competence
+    10.10 Corporate Social Responsibility and Ethical Culture
+
+Learning Objectives:
+    - Analyze organizational culture using established frameworks.
+    - Develop a business case for diversity and inclusion initiatives.
+    - Design interventions to reduce unconscious bias in HR processes.
+    - Create metrics to track and report on DEI progress.
+
+Activities:
+    - Read Module 10 learning materials (150 minutes)
+    - Culture assessment exercise for a fictional organization (60 minutes)
+    - Develop a DEI action plan (75 minutes)
+    - Implicit bias self-reflection exercise (30 minutes)
+    - Discussion: "How do you build an inclusive culture?" (30 minutes)
+
+WEEK 4 DELIVERABLES:
+    ✓ Complete Quiz: Week 4 Knowledge Check (20 multiple-choice questions)
+    ✓ Submit Assessment 2: Case Study Analysis
+    ✓ Complete DEI action plan exercise
+    ✓ Submit discussion forum posts
+
+================================================================================
+                    WEEK 5: HR ANALYTICS & TECHNOLOGY
+                    Dates: Week 5
+                    Estimated Total Effort: 15 hours
+================================================================================
+
+MODULE 11: HR INFORMATION SYSTEMS (HRIS) (7.5 hours)
+--------------------------------------------------------------------------
+Topics Covered:
+    11.1  Introduction to HRIS: History and Evolution
+    11.2  Types of HR Technology: HRIS, HCM, HRMS
+    11.3  Core HRIS Modules: Employee Records, Payroll, Benefits, Time 
+          & Attendance
+    11.4  Talent Management Modules: Recruiting (ATS), Performance, 
+          Learning (LMS), Succession
+    11.5  HRIS Vendor Landscape: Workday, SAP SuccessFactors, Oracle HCM, 
+          BambooHR, ADP
+    11.6  HRIS Implementation: Planning, Configuration, Data Migration, 
+          Testing, Go-Live
+    11.7  HRIS Security, Privacy, and Compliance
+    11.8  Employee Self-Service and Manager Self-Service Portals
+    11.9  Mobile HR and the Digital Employee Experience
+    11.10 Evaluating HRIS ROI
+
+Learning Objectives:
+    - Differentiate between HRIS, HCM, and HRMS platforms.
+    - Evaluate HRIS vendors against organizational requirements.
+    - Plan an HRIS implementation project with appropriate milestones.
+    - Ensure HRIS data security and privacy compliance.
+
+Activities:
+    - Read Module 11 learning materials (150 minutes)
+    - HRIS vendor comparison exercise (75 minutes)
+    - HRIS implementation project plan development (90 minutes)
+    - Discussion: "What should HR leaders look for in an HRIS?" 
+      (30 minutes)
+
+MODULE 12: PEOPLE ANALYTICS & DATA-DRIVEN HR (7.5 hours)
+--------------------------------------------------------------------------
+Topics Covered:
+    12.1  Introduction to People Analytics
+    12.2  Levels of HR Analytics: Descriptive, Diagnostic, Predictive, 
+          Prescriptive
+    12.3  Key HR Metrics: Turnover Rate, Absenteeism, Revenue per 
+          Employee, Cost per Hire, Time to Fill, Employee NPS
+    12.4  Data Collection and Data Quality in HR
+    12.5  Statistical Fundamentals for HR: Correlation, Regression, 
+          Significance Testing
+    12.6  Predictive Analytics: Attrition Modeling, Flight Risk Scores
+    12.7  Workforce Planning Analytics
+    12.8  HR Dashboards and Data Visualization
+    12.9  Ethical Considerations in People Analytics
+    12.10 Building an Analytics-Driven HR Culture
+
+Learning Objectives:
+    - Calculate and interpret key HR metrics.
+    - Apply descriptive and diagnostic analytics to HR data.
+    - Understand the fundamentals of predictive analytics in HR.
+    - Design HR dashboards that communicate insights effectively.
+
+Activities:
+    - Read Module 12 learning materials (150 minutes)
+    - Hands-on exercise: Calculate HR metrics from sample data (75 minutes)
+    - Build an HR dashboard mockup (60 minutes)
+    - Case study: Using analytics to reduce turnover (45 minutes)
+    - Discussion: "What are the ethical limits of people analytics?" 
+      (30 minutes)
+
+WEEK 5 DELIVERABLES:
+    ✓ Complete Quiz: Week 5 Knowledge Check (20 multiple-choice questions)
+    ✓ Complete HRIS vendor comparison exercise
+    ✓ Submit HR dashboard mockup
+    ✓ Submit discussion forum posts
+
+================================================================================
+                    WEEK 6: CHANGE MANAGEMENT & ORGANIZATIONAL DEVELOPMENT
+                    Dates: Week 6
+                    Estimated Total Effort: 15 hours
+================================================================================
+
+MODULE 13: CHANGE MANAGEMENT PRINCIPLES (7.5 hours)
+--------------------------------------------------------------------------
+Topics Covered:
+    13.1  The Nature of Organizational Change
+    13.2  Drivers of Change: Internal and External
+    13.3  Change Models: Lewin's Three-Step, Kotter's Eight Steps, 
+          ADKAR, McKinsey 7-S
+    13.4  Resistance to Change: Causes and Strategies
+    13.5  Stakeholder Analysis and Communication Planning
+    13.6  HR's Role in Leading Change
+    13.7  Change Readiness Assessment
+    13.8  Sustaining Change and Continuous Improvement
+    13.9  Measuring Change Success
+
+Learning Objectives:
+    - Apply change management models to organizational scenarios.
+    - Identify sources of resistance and develop mitigation strategies.
+    - Create stakeholder communication plans for change initiatives.
+    - Evaluate the success of change implementation.
+
+Activities:
+    - Read Module 13 learning materials (150 minutes)
+    - Case study: Leading change in a merger scenario (75 minutes)
+    - Develop a change communication plan (60 minutes)
+    - Resistance analysis exercise (45 minutes)
+    - Discussion: "Why do change initiatives fail?" (30 minutes)
+
+MODULE 14: ORGANIZATIONAL DEVELOPMENT & TRANSFORMATION (7.5 hours)
+--------------------------------------------------------------------------
+Topics Covered:
+    14.1  Foundations of Organizational Development (OD)
+    14.2  OD Interventions: Team Building, Process Consultation, Survey 
+          Feedback, Appreciative Inquiry
+    14.3  Organization Design: Structures, Spans, Layers
+    14.4  Restructuring and Downsizing: Planning and Execution
+    14.5  Mergers, Acquisitions, and Cultural Integration
+    14.6  Agile Organizations and New Ways of Working
+    14.7  Employee Experience Design
+    14.8  Building Organizational Resilience
+    14.9  The Learning Organization (Senge's Five Disciplines)
+
+Learning Objectives:
+    - Select appropriate OD interventions for different organizational 
+      challenges.
+    - Design an organization structure that supports strategic objectives.
+    - Plan cultural integration activities for a merger scenario.
+    - Apply the principles of the learning organization.
+
+Activities:
+    - Read Module 14 learning materials (150 minutes)
+    - Organization design exercise: Restructure a fictional company 
+      (75 minutes)
+    - Appreciative Inquiry workshop simulation (60 minutes)
+    - Discussion: "What does the 'organization of the future' look like?" 
+      (30 minutes)
+    - Project Part 1 finalization (45 minutes)
+
+WEEK 6 DELIVERABLES:
+    ✓ Complete Quiz: Week 6 Knowledge Check (20 multiple-choice questions)
+    ✓ Submit Project Part 1: HR Audit
+    ✓ Complete organization design exercise
+    ✓ Submit discussion forum posts
+
+================================================================================
+                    WEEK 7: STRATEGIC HR & GLOBAL HRM
+                    Dates: Week 7
+                    Estimated Total Effort: 15 hours
+================================================================================
+
+MODULE 15: STRATEGIC HUMAN RESOURCE MANAGEMENT (7.5 hours)
+--------------------------------------------------------------------------
+Topics Covered:
+    15.1  From Operational to Strategic HR
+    15.2  HR Strategy Formulation: Environmental Scanning, SWOT, PESTLE
+    15.3  Aligning HR Strategy with Business Strategy
+    15.4  The HR Business Partner Model (Ulrich)
+    15.5  HR Shared Services and Centers of Excellence
+    15.6  Strategic Workforce Planning at Scale
+    15.7  Talent Management Strategy
+    15.8  Employer Brand Strategy
+    15.9  HR Scorecard and Strategic Measurement
+    15.10 Presenting HR Strategy to the C-Suite
+
+Learning Objectives:
+    - Develop an HR strategy aligned with organizational goals.
+    - Apply the Ulrich HR operating model to structure the HR function.
+    - Build an HR scorecard with strategic metrics.
+    - Present HR strategy recommendations to executive stakeholders.
+
+Activities:
+    - Read Module 15 learning materials (150 minutes)
+    - Strategic HR planning exercise: Develop an HR strategy for a 
+      growing tech company (90 minutes)
+    - HR scorecard development exercise (60 minutes)
+    - Mock C-suite presentation preparation (45 minutes)
+    - Discussion: "How does HR earn a seat at the strategic table?" 
+      (30 minutes)
+
+MODULE 16: GLOBAL & INTERNATIONAL HRM (7.5 hours)
+--------------------------------------------------------------------------
+Topics Covered:
+    16.1  Introduction to International HRM
+    16.2  Global Staffing Approaches: Ethnocentric, Polycentric, 
+          Geocentric, Regiocentric
+    16.3  Expatriate Management: Selection, Preparation, Adjustment, 
+          Repatriation
+    16.4  Global Compensation and Benefits
+    16.5  Cross-Cultural Management (Hofstede, Trompenaars, GLOBE)
+    16.6  International Employment Law Considerations
+    16.7  Managing Virtual and Distributed Global Teams
+    16.8  Global Talent Mobility and Immigration
+    16.9  Comparative HRM: Practices Across Different Countries
+    16.10 Global HR Shared Services
+
+Learning Objectives:
+    - Compare global staffing approaches and their strategic implications.
+    - Design expatriate management programs.
+    - Apply cross-cultural frameworks to global HR challenges.
+    - Navigate international employment law considerations.
+
+Activities:
+    - Read Module 16 learning materials (150 minutes)
+    - Case study: Managing an expatriate assignment to Japan (75 minutes)
+    - Cross-cultural management simulation (60 minutes)
+    - Discussion: "How will remote work change international HRM?" 
+      (30 minutes)
+    - Project Part 2 work session (45 minutes)
+
+WEEK 7 DELIVERABLES:
+    ✓ Complete Quiz: Week 7 Knowledge Check (20 multiple-choice questions)
+    ✓ Complete HR strategy exercise
+    ✓ Submit discussion forum posts
+    ✓ Continue working on Project Part 2: HR Digital Transformation
+
+================================================================================
+                    WEEK 8: CAPSTONE & CERTIFICATION
+                    Dates: Week 8
+                    Estimated Total Effort: 15 hours
+================================================================================
+
+MODULE 17: THE FUTURE OF WORK & EMERGING HR TRENDS (5 hours)
+--------------------------------------------------------------------------
+Topics Covered:
+    17.1  The Future of Work: Key Trends and Disruptions
+    17.2  Artificial Intelligence and Automation in HR
+    17.3  The Gig Economy and Contingent Workforce
+    17.4  Remote and Hybrid Work Models
+    17.5  Employee Experience and Experience Design Thinking
+    17.6  Well-Being as a Strategic Priority
+    17.7  Skills-Based Organizations
+    17.8  Sustainable HR and ESG
+    17.9  HR's Role in Business Continuity and Crisis Management
+    17.10 Preparing for the Unknown: Building Adaptive HR Capabilities
+
+Learning Objectives:
+    - Analyze how emerging trends will reshape HR practice.
+    - Evaluate the impact of AI and automation on HR roles and processes.
+    - Develop strategies for managing hybrid and remote workforces.
+    - Articulate the role of HR in organizational sustainability (ESG).
+
+Activities:
+    - Read Module 17 learning materials (90 minutes)
+    - Future of Work scenario planning exercise (60 minutes)
+    - AI in HR: Opportunities and risks debate (45 minutes)
+    - Discussion: "What will the HR function look like in 2030?" 
+      (30 minutes)
+
+MODULE 18: HR PROFESSIONAL ETHICS & CAREER DEVELOPMENT (5 hours)
+--------------------------------------------------------------------------
+Topics Covered:
+    18.1  HR Professional Ethics: Codes of Conduct (SHRM, CIPD)
+    18.2  Ethical Dilemmas in HR: Case Studies
+    18.3  Building Credibility and Trust as an HR Professional
+    18.4  HR Career Pathways: Generalist, Specialist, Business Partner, 
+          CHRO
+    18.5  Professional Certifications: SHRM-CP, SHRM-SCP, PHR, SPHR, 
+          CIPD Levels
+    18.6  Building Your HR Personal Brand
+    18.7  Networking and Professional Development
+    18.8  Continuous Learning and Staying Current
+    18.9  Mentoring and Coaching Others
+    18.10 Your 90-Day HR Development Action Plan
+
+Learning Objectives:
+    - Apply ethical frameworks to resolve HR dilemmas.
+    - Map out a personal HR career development plan.
+    - Identify relevant professional certifications and their requirements.
+    - Develop a 90-day action plan for continued professional growth.
+
+Activities:
+    - Read Module 18 learning materials (90 minutes)
+    - Ethical dilemma case discussions (60 minutes)
+    - Career development plan creation (60 minutes)
+    - Discussion: "What ethical principle is most important in HR?" 
+      (30 minutes)
+
+FINAL EXAMINATION (3 hours)
+--------------------------------------------------------------------------
+Format: Comprehensive multiple-choice and short-answer exam
+Coverage: All modules (Weeks 1–8)
+Duration: 2 hours (timed)
+Questions: 60 multiple-choice (70%) + 3 short-answer (30%)
+Passing Score: 60%
+Preparation: Review all module materials, quizzes, and assessment feedback.
+
+CAPSTONE PROJECT SUBMISSION (2 hours)
+--------------------------------------------------------------------------
+    - Finalize and submit Project Part 2: HR Digital Transformation Plan
+    - Prepare and deliver a 10-minute presentation (recorded or live)
+    - Complete peer review of one other participant's project
+
+WEEK 8 DELIVERABLES:
+    ✓ Complete Quiz: Week 8 Knowledge Check (20 multiple-choice questions)
+    ✓ Submit Project Part 2: HR Digital Transformation Plan
+    ✓ Complete Final Examination
+    ✓ Submit Career Development Action Plan
+    ✓ Complete Peer Review
+    ✓ Complete Program Evaluation Survey
+
+================================================================================
+                      PROGRAM COMPLETION CHECKLIST
+================================================================================
+
+Before certification, confirm you have completed ALL of the following:
+
+    □ Week 1 Quiz ..................... 2.5%
+    □ Week 2 Quiz ..................... 2.5%
+    □ Week 3 Quiz ..................... 2.5%
+    □ Week 4 Quiz ..................... 2.5%
+    □ Week 5 Quiz ..................... 2.5%
+    □ Week 6 Quiz ..................... 2.5%
+    □ Week 7 Quiz ..................... 2.5%
+    □ Week 8 Quiz ..................... 2.5%
+    □ Assessment 1: HR Strategy ....... 15%
+    □ Assessment 2: Case Study ........ 15%
+    □ Project Part 1: HR Audit ........ 15%
+    □ Project Part 2: HR Transform .... 15%
+    □ Final Examination ............... 20%
+    □ Discussion Forum Posts .......... Participation requirement
+    □ Live Session Attendance ......... 75% minimum
+    □ Program Evaluation Survey ....... Required for certificate release
+
+    TOTAL ............................ 100%
+
+================================================================================
+              © HR Verse Academy. All Rights Reserved.
+================================================================================
