@@ -17,11 +17,12 @@ import {
   Clock,
   Award,
   ArrowRight,
-  Sparkles,
   HelpCircle,
   ClipboardCheck,
+  Compass,
+  FileText,
+  ShieldCheck,
 } from 'lucide-react'
-import { AmbientGlow } from '@/components/ui/ambient-glow'
 
 export default async function StudentDashboardPage() {
   const user = await getUser()
@@ -47,72 +48,80 @@ export default async function StudentDashboardPage() {
       : 0
 
   return (
-    <div className="p-6 sm:p-8 space-y-8 max-w-7xl mx-auto relative">
-      <AmbientGlow variant="corner" showGrid={true} />
-      {/* Welcome Banner */}
+    <div className="p-6 sm:p-8 space-y-8 max-w-7xl mx-auto">
+      {/* Executive Welcome Banner */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-border pb-6">
-        <div>
-          <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-foreground">
-            Student Dashboard
+        <div className="space-y-1">
+          <div className="flex items-center gap-2">
+            <span className="text-[10px] font-mono uppercase tracking-widest text-primary font-bold px-2 py-0.5 rounded bg-primary/10 border border-primary/20">
+              Fellowship Cohort 2026
+            </span>
+            <span className="text-xs text-muted-foreground font-mono">
+              Candidate: {user?.user_metadata?.full_name || user?.email?.split('@')[0] || 'Enrolled Fellow'}
+            </span>
+          </div>
+          <h1 className="font-serif text-3xl sm:text-4xl font-bold tracking-tight text-foreground">
+            Executive Command Center
           </h1>
-          <p className="text-xs sm:text-sm text-muted-foreground mt-1">
-            Track your progress across the Certified Human Resource Management Professional (CHRMP) program.
+          <p className="text-xs sm:text-sm text-muted-foreground">
+            Certified Human Resource Management Professional (CHRMP) Applied Leadership Curriculum.
           </p>
         </div>
+
         <Link href="/learn">
-          <Button className="gap-2 shadow-xs hover:shadow-[0_0_16px_-3px_rgba(245,158,11,0.22)] font-semibold transition-all">
-            <BookOpen className="h-4 w-4" /> Continue Learning
+          <Button className="gap-2 shadow-xs font-semibold">
+            <BookOpen className="h-4 w-4" /> Continue Curriculum <ArrowRight className="h-4 w-4" />
           </Button>
         </Link>
       </div>
 
-      {/* Metrics Row */}
+      {/* Metrics Row (Executive Scorecard) */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        <Card className="border border-border/70 hover:border-amber-500/30 transition-all duration-200 shadow-xs">
+        <Card className="border border-border bg-card shadow-xs">
           <CardContent className="p-5 flex items-center justify-between">
             <div className="space-y-1">
-              <p className="text-xs font-medium text-muted-foreground">Course Completion</p>
-              <p className="text-2xl font-bold text-foreground">{progressPercent}%</p>
+              <p className="text-xs font-medium text-muted-foreground uppercase tracking-wider">Curriculum Progress</p>
+              <p className="font-serif text-3xl font-bold text-foreground">{progressPercent}%</p>
             </div>
-            <div className="h-10 w-10 rounded-xl bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center">
+            <div className="h-10 w-10 rounded-lg bg-primary/10 text-primary flex items-center justify-center">
               <CheckCircle2 className="h-5 w-5" />
             </div>
           </CardContent>
         </Card>
 
-        <Card className="border border-border/70 hover:border-amber-500/30 transition-all duration-200 shadow-xs">
+        <Card className="border border-border bg-card shadow-xs">
           <CardContent className="p-5 flex items-center justify-between">
             <div className="space-y-1">
-              <p className="text-xs font-medium text-muted-foreground">Lessons Completed</p>
-              <p className="text-2xl font-bold text-foreground">
-                {completedCount} <span className="text-xs text-muted-foreground font-normal">/ {totalLessons}</span>
+              <p className="text-xs font-medium text-muted-foreground uppercase tracking-wider">Completed Units</p>
+              <p className="font-serif text-3xl font-bold text-foreground">
+                {completedCount} <span className="text-xs text-muted-foreground font-sans font-normal">/ {totalLessons}</span>
               </p>
             </div>
-            <div className="h-10 w-10 rounded-xl bg-orange-500/10 text-orange-600 dark:text-orange-400 flex items-center justify-center">
+            <div className="h-10 w-10 rounded-lg bg-primary/10 text-primary flex items-center justify-center">
               <BookOpen className="h-5 w-5" />
             </div>
           </CardContent>
         </Card>
 
-        <Card className="border border-border/70 hover:border-amber-500/30 transition-all duration-200 shadow-xs">
+        <Card className="border border-border bg-card shadow-xs">
           <CardContent className="p-5 flex items-center justify-between">
             <div className="space-y-1">
-              <p className="text-xs font-medium text-muted-foreground">Quiz Average</p>
-              <p className="text-2xl font-bold text-foreground">{quizAvg}%</p>
+              <p className="text-xs font-medium text-muted-foreground uppercase tracking-wider">Assessment Average</p>
+              <p className="font-serif text-3xl font-bold text-foreground">{quizAvg}%</p>
             </div>
-            <div className="h-10 w-10 rounded-xl bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center">
+            <div className="h-10 w-10 rounded-lg bg-primary/10 text-primary flex items-center justify-center">
               <HelpCircle className="h-5 w-5" />
             </div>
           </CardContent>
         </Card>
 
-        <Card className="border border-border/70 hover:border-amber-500/30 transition-all duration-200 shadow-xs">
+        <Card className="border border-border bg-card shadow-xs">
           <CardContent className="p-5 flex items-center justify-between">
             <div className="space-y-1">
-              <p className="text-xs font-medium text-muted-foreground">Target Certification</p>
-              <p className="text-sm font-bold text-foreground truncate">CHRMP</p>
+              <p className="text-xs font-medium text-muted-foreground uppercase tracking-wider">Accreditation</p>
+              <p className="text-base font-bold text-foreground font-serif">CHRMP Fellow</p>
             </div>
-            <div className="h-10 w-10 rounded-xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center">
+            <div className="h-10 w-10 rounded-lg bg-primary/10 text-primary flex items-center justify-center">
               <Award className="h-5 w-5" />
             </div>
           </CardContent>
@@ -123,39 +132,39 @@ export default async function StudentDashboardPage() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Left Column: Active Course Progress & Next Actions */}
         <div className="lg:col-span-2 space-y-6">
-          <Card className="border border-border/80 shadow-sm">
-            <CardHeader className="pb-3">
+          <Card className="border border-border shadow-xs">
+            <CardHeader className="pb-3 border-b border-border/60 bg-muted/20">
               <div className="flex items-center justify-between">
-                <Badge variant="outline" className="text-primary border-primary/20">
-                  Active Enrollment
+                <Badge variant="outline" className="text-primary border-primary/30 bg-primary/10 font-semibold text-[10px]">
+                  Accredited Program
                 </Badge>
-                <span className="text-xs text-muted-foreground">Week 1 of 8</span>
+                <span className="text-xs text-muted-foreground font-mono">14 Curriculum Units Available</span>
               </div>
-              <CardTitle className="text-lg font-bold mt-1">
+              <CardTitle className="font-serif text-xl sm:text-2xl font-bold mt-1 text-foreground">
                 Certified Human Resource Management Professional (CHRMP)
               </CardTitle>
               <CardDescription className="text-xs">
-                Next Topic: Talent Acquisition, Predictive Validity & STAR Interviewing
+                Active Module: Recruitment, Talent Acquisition, Job Architecture & Hospital Operations
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-4">
-              <div className="space-y-1.5">
+            <CardContent className="p-6 space-y-5">
+              <div className="space-y-2">
                 <div className="flex justify-between text-xs font-medium">
-                  <span>Overall Curriculum Progress</span>
-                  <span>{progressPercent}%</span>
+                  <span className="text-muted-foreground">Mastery Milestones Completed</span>
+                  <span className="font-mono font-bold text-foreground">{progressPercent}%</span>
                 </div>
                 <Progress value={progressPercent} className="h-2" />
               </div>
 
               <div className="pt-2 flex flex-wrap gap-3">
                 <Link href="/learn">
-                  <Button size="sm" className="gap-1.5">
+                  <Button size="sm" className="gap-2 font-semibold">
                     Launch Learning Workspace <ArrowRight className="h-4 w-4" />
                   </Button>
                 </Link>
                 <Link href="/roadmap">
                   <Button variant="outline" size="sm">
-                    View Course Roadmap
+                    View Complete Syllabus
                   </Button>
                 </Link>
               </div>
@@ -163,39 +172,39 @@ export default async function StudentDashboardPage() {
           </Card>
 
           {/* Quick Tasks / Next Milestones */}
-          <Card className="border border-border/80 shadow-sm">
-            <CardHeader className="pb-3">
-              <CardTitle className="text-base font-bold">Upcoming Milestones & Quizzes</CardTitle>
+          <Card className="border border-border shadow-xs">
+            <CardHeader className="pb-3 border-b border-border/60">
+              <CardTitle className="font-serif text-lg font-bold">Upcoming Credential Evaluations</CardTitle>
             </CardHeader>
-            <CardContent className="space-y-3">
-              <div className="flex items-center justify-between p-3.5 rounded-lg border border-border/60 bg-muted/20">
+            <CardContent className="p-5 space-y-3">
+              <div className="flex items-center justify-between p-3.5 rounded-lg border border-border bg-card">
                 <div className="flex items-center gap-3">
-                  <div className="h-8 w-8 rounded-lg bg-indigo-500/10 text-indigo-600 flex items-center justify-center shrink-0">
+                  <div className="h-8 w-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0">
                     <HelpCircle className="h-4 w-4" />
                   </div>
                   <div>
-                    <h4 className="text-xs font-semibold text-foreground">Week 1 Comprehensive Quiz</h4>
-                    <p className="text-[11px] text-muted-foreground">20 Questions • 70% Passing Threshold</p>
+                    <h4 className="text-xs font-bold text-foreground">Week 1 Comprehensive Assessment</h4>
+                    <p className="text-[11px] text-muted-foreground">50 Marks • 75 Mins • 70% Passing Threshold</p>
                   </div>
                 </div>
                 <Link href="/quizzes">
                   <Button size="sm" variant="outline" className="text-xs h-8">
-                    Take Quiz
+                    View Assessment
                   </Button>
                 </Link>
               </div>
 
-              <div className="flex items-center justify-between p-3.5 rounded-lg border border-border/60 bg-muted/20">
+              <div className="flex items-center justify-between p-3.5 rounded-lg border border-border bg-card">
                 <div className="flex items-center gap-3">
-                  <div className="h-8 w-8 rounded-lg bg-purple-500/10 text-purple-600 flex items-center justify-center shrink-0">
+                  <div className="h-8 w-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0">
                     <ClipboardCheck className="h-4 w-4" />
                   </div>
                   <div>
-                    <h4 className="text-xs font-semibold text-foreground">Assessment 1: Strategic HR Roadmap</h4>
-                    <p className="text-[11px] text-muted-foreground">ApexLogix Technologies 12-Month Plan • 100 Pts</p>
+                    <h4 className="text-xs font-bold text-foreground">Capstone Project: 200-Bed Hospital Framework</h4>
+                    <p className="text-[11px] text-muted-foreground">7 Deliverables • 13 Departmental Vacancies • 100 Pts Rubric</p>
                   </div>
                 </div>
-                <Link href="/assessments">
+                <Link href="/projects">
                   <Button size="sm" variant="outline" className="text-xs h-8">
                     View Brief
                   </Button>
@@ -205,40 +214,40 @@ export default async function StudentDashboardPage() {
           </Card>
         </div>
 
-        {/* Right Column: AI Tutor Card & Learning Activity Log */}
+        {/* Right Column: Faculty Advisor & Activity Log */}
         <div className="space-y-6">
-          {/* AI Helper Banner */}
-          <Card className="border border-indigo-500/20 bg-gradient-to-br from-indigo-500/10 via-purple-500/5 to-card shadow-sm">
+          {/* Faculty Advisory Card */}
+          <Card className="border border-border bg-muted/30 shadow-xs">
             <CardContent className="p-6 space-y-4">
-              <div className="flex items-center gap-2 text-indigo-600 font-bold text-sm">
-                <Sparkles className="h-4 w-4" />
-                <span>Need Guidance?</span>
+              <div className="flex items-center gap-2 text-foreground font-serif font-bold text-base">
+                <Compass className="h-5 w-5 text-primary" />
+                <span>Director&apos;s Advisory Desk</span>
               </div>
               <p className="text-xs text-muted-foreground leading-relaxed">
-                Your AI Learning Assistant is ready to explain complex formulas like compa-ratios, walk through BARS examples, or review assignment drafts.
+                Consult senior faculty guidance on hospital staffing ratios, statutory labor bylaws, ATS screening formulas, or capstone project deliverables.
               </p>
-              <div className="p-2.5 bg-card/80 rounded-lg border border-border/50 text-[11px] text-muted-foreground">
-                &ldquo;What is the difference between a job description and a job specification?&rdquo;
+              <div className="p-3 bg-card rounded-lg border border-border text-[11px] text-muted-foreground font-serif italic">
+                &ldquo;What is the critical difference between Job Description (JD) and Job Specification (JS) during hospital accreditation audits?&rdquo;
               </div>
             </CardContent>
           </Card>
 
           {/* Activity Feed */}
-          <Card className="border border-border/80 shadow-sm">
-            <CardHeader className="pb-3">
-              <CardTitle className="text-base font-bold flex items-center gap-2">
-                <Clock className="h-4 w-4 text-muted-foreground" /> Recent Activity
+          <Card className="border border-border shadow-xs">
+            <CardHeader className="pb-3 border-b border-border/60">
+              <CardTitle className="font-serif text-base font-bold flex items-center gap-2">
+                <Clock className="h-4 w-4 text-muted-foreground" /> Learning Log
               </CardTitle>
             </CardHeader>
-            <CardContent>
+            <CardContent className="p-4">
               {activities && activities.length > 0 ? (
-                <div className="space-y-3 text-xs">
+                <div className="space-y-2.5 text-xs">
                   {activities.map((act: any) => (
                     <div key={act.id} className="flex items-center justify-between border-b border-border/40 pb-2">
                       <span className="capitalize font-medium text-foreground">
                         {act.activity_type.replace('_', ' ')}
                       </span>
-                      <span className="text-[10px] text-muted-foreground">
+                      <span className="text-[10px] text-muted-foreground font-mono">
                         {new Date(act.created_at).toLocaleDateString()}
                       </span>
                     </div>
@@ -246,7 +255,7 @@ export default async function StudentDashboardPage() {
                 </div>
               ) : (
                 <p className="text-xs text-muted-foreground text-center py-4">
-                  No activity recorded yet. Start reading lessons in the Learning Workspace!
+                  No activity recorded yet. Launch Day 1 in the Learning Workspace!
                 </p>
               )}
             </CardContent>

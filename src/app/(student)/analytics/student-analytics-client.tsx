@@ -14,7 +14,7 @@ import {
   BarChart,
   Bar,
 } from 'recharts'
-import { Sparkles, BrainCircuit, CheckCircle2, TrendingUp, Loader2 } from 'lucide-react'
+import { Compass, BarChart3 as BarChartIcon, CheckCircle2, TrendingUp, Loader2 } from 'lucide-react'
 
 export function StudentAnalyticsClient({
   attempts,
@@ -84,24 +84,24 @@ export function StudentAnalyticsClient({
 
   return (
     <div className="space-y-8">
-      {/* AI Performance Insight Generator Banner */}
-      <Card className="border border-amber-500/30 bg-gradient-to-br from-amber-500/10 via-orange-500/5 to-card shadow-sm">
+      {/* Faculty Performance Diagnostic Banner */}
+      <Card className="border border-border bg-card shadow-xs">
         <CardContent className="p-6 space-y-4">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div className="space-y-1">
-              <div className="flex items-center gap-2 text-amber-600 dark:text-amber-400 font-bold text-base">
-                <Sparkles className="h-5 w-5" />
-                <span>AI Learning Diagnostic & Personalized Recommendations</span>
+              <div className="flex items-center gap-2 text-foreground font-serif font-bold text-base">
+                <Compass className="h-5 w-5 text-primary" />
+                <span>Executive Competency Diagnostic & Study Recommendations</span>
               </div>
               <p className="text-xs text-muted-foreground">
-                Groq AI analyzes your quiz score distributions and pace to identify high-priority knowledge gaps.
+                Automated curriculum audit analyzing your assessment scores, retention benchmarks, and recommended focus areas.
               </p>
             </div>
             <Button
               size="sm"
               onClick={handleGenerateAIInsights}
               disabled={loadingAI}
-              className="gap-2 text-xs bg-primary text-primary-foreground font-semibold shadow-xs shrink-0"
+              className="gap-2 text-xs font-semibold shrink-0"
             >
               {loadingAI ? (
                 <>
@@ -109,7 +109,7 @@ export function StudentAnalyticsClient({
                 </>
               ) : (
                 <>
-                  <BrainCircuit className="h-3.5 w-3.5" /> Generate AI Diagnosis
+                  <BarChartIcon className="h-3.5 w-3.5" /> Generate Competency Audit
                 </>
               )}
             </Button>

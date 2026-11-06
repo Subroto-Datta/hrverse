@@ -651,12 +651,12 @@ export function InteractiveCheckpoint({
 
   return (
     <Card className="my-8 border border-amber-500/25 bg-gradient-to-br from-card via-card to-amber-500/[0.02] shadow-sm overflow-hidden">
-      <CardHeader className="bg-amber-500/[0.07] border-b border-amber-500/20 pb-4">
-        <div className="flex items-center gap-2 text-amber-600 dark:text-amber-400 text-xs font-bold uppercase tracking-wider">
-          <Sparkles className="h-4 w-4 text-amber-500" />
-          <span>Practical Knowledge Checkpoint</span>
+      <CardHeader className="bg-primary/5 border-b border-border pb-4">
+        <div className="flex items-center gap-2 text-primary text-xs font-bold uppercase tracking-wider font-mono">
+          <HelpCircle className="h-4 w-4 text-primary" />
+          <span>Situational Decision Vignette</span>
         </div>
-        <CardTitle className="text-base sm:text-lg font-bold text-foreground mt-1">
+        <CardTitle className="font-serif text-base sm:text-lg font-bold text-foreground mt-1">
           {question}
         </CardTitle>
         {scenario && (

@@ -394,3 +394,4 @@ seedQuizAndProject().catch(err => {
   console.error('Fatal error seeding quiz/project:', err);
   process.exit(1);
 });
+

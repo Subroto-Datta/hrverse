@@ -217,7 +217,7 @@ export default async function RoadmapPage() {
                                 {isDone ? (
                                   <CheckCircle2 className="h-3.5 w-3.5 text-emerald-500 shrink-0" />
                                 ) : (
-                                  <Sparkles className="h-3.5 w-3.5 text-amber-500 shrink-0" />
+                                  <BookOpen className="h-3.5 w-3.5 text-primary shrink-0" />
                                 )}
                                 <span className="truncate group-hover/link:text-primary transition-colors">
                                   {lesson.title}

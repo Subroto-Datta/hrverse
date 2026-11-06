@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Geist, Geist_Mono, Newsreader } from 'next/font/google'
 import './globals.css'
 import { TooltipProvider } from '@/components/ui/tooltip'
 import { Toaster } from '@/components/ui/sonner'
@@ -15,10 +15,16 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 })
 
+const newsreader = Newsreader({
+  variable: '--font-serif',
+  subsets: ['latin'],
+  style: ['normal', 'italic'],
+})
+
 export const metadata: Metadata = {
-  title: 'HR Verse – AI-Powered Human Resource Management LMS',
+  title: 'HR Verse – Applied Human Resource Management Academy',
   description:
-    'Full-stack AI-powered LMS for strategic Human Resource Management, certified CHRMP mastery, predictive talent acquisition, and compensation architecture.',
+    'Applied human resource curriculum for certified CHRMP mastery, healthcare HR operations, statutory compliance, and talent architecture.',
 }
 
 export default function RootLayout({
@@ -30,7 +36,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${newsreader.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-sans bg-background text-foreground transition-colors duration-200">
         <ThemeProvider
@@ -48,3 +54,4 @@ export default function RootLayout({
     </html>
   )
 }
+

@@ -12,7 +12,7 @@ import {
   ClipboardCheck,
   Inbox,
   BarChart3,
-  Sparkles,
+  Compass,
   Settings,
   ShieldCheck,
   LogOut,
@@ -33,7 +33,7 @@ const adminNavItems = [
   { title: 'Assessments', href: '/admin/assessments', icon: ClipboardCheck },
   { title: 'Submissions & Grading', href: '/admin/submissions', icon: Inbox },
   { title: 'Performance Analytics', href: '/admin/analytics', icon: BarChart3 },
-  { title: 'AI Insights', href: '/admin/ai-insights', icon: Sparkles },
+  { title: 'Cohort Intelligence', href: '/admin/ai-insights', icon: Compass },
   { title: 'Email Reminders', href: '/admin/emails', icon: Mail },
   { title: 'Settings', href: '/admin/settings', icon: Settings },
 ]
@@ -46,15 +46,15 @@ export function AdminSidebar({ profile }: { profile: Profile | null }) {
       {/* Brand Header with Admin Badge */}
       <div className="h-16 border-b border-border flex items-center justify-between px-4">
         <div className="flex items-center gap-2.5">
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-xs">
-            <ShieldCheck className="h-5 w-5" />
+          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-primary-foreground font-serif font-bold text-lg shadow-xs">
+            H
           </div>
           <div className="flex flex-col">
-            <span className="font-extrabold text-base tracking-tight leading-none bg-gradient-to-r from-amber-500 via-amber-400 to-orange-400 bg-clip-text text-transparent">
+            <span className="font-serif font-bold text-lg tracking-tight leading-none text-foreground">
               HR Verse
             </span>
-            <span className="text-[10px] text-amber-600 dark:text-amber-400 font-bold uppercase tracking-wider mt-0.5">
-              Admin Portal
+            <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-wider mt-0.5">
+              Faculty Administration
             </span>
           </div>
         </div>

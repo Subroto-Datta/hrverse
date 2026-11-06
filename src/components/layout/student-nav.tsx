@@ -13,7 +13,7 @@ import {
   Settings,
   GraduationCap,
   LogOut,
-  Sparkles,
+  Compass,
   User,
 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
@@ -46,15 +46,15 @@ export function StudentSidebar({
       {/* Brand Header */}
       <div className="h-16 border-b border-border flex items-center justify-between px-4">
         <div className="flex items-center gap-2.5">
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-xs">
-            <GraduationCap className="h-5 w-5" />
+          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-primary-foreground font-serif font-bold text-lg shadow-xs">
+            H
           </div>
           <div className="flex flex-col">
-            <span className="font-extrabold text-base tracking-tight leading-none bg-gradient-to-r from-amber-500 via-amber-400 to-orange-400 bg-clip-text text-transparent">
+            <span className="font-serif font-bold text-lg tracking-tight leading-none text-foreground">
               HR Verse
             </span>
             <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-wider mt-0.5">
-              Student Portal
+              Leadership Academy
             </span>
           </div>
         </div>
@@ -71,28 +71,28 @@ export function StudentSidebar({
             <Link
               key={item.href}
               href={item.href}
-              className={`flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
+              className={`flex items-center gap-3 px-3 py-2 rounded-lg text-xs sm:text-sm font-medium transition-colors ${
                 isActive
-                  ? 'bg-primary text-primary-foreground shadow-xs font-semibold glow-ambient-sm dark:bg-amber-500/15 dark:text-amber-300 dark:border dark:border-amber-500/25 dark:shadow-[0_0_16px_-3px_rgba(245,158,11,0.2)]'
-                  : 'text-muted-foreground hover:bg-muted/60 hover:text-foreground dark:hover:bg-white/[0.04]'
+                  ? 'bg-primary text-primary-foreground font-semibold shadow-xs dark:bg-primary/20 dark:text-primary dark:border dark:border-primary/30'
+                  : 'text-muted-foreground hover:bg-muted/70 hover:text-foreground'
               }`}
             >
-              <Icon className={`h-4 w-4 ${isActive ? 'text-primary-foreground dark:text-amber-400' : 'text-muted-foreground'}`} />
+              <Icon className={`h-4 w-4 ${isActive ? 'text-primary-foreground dark:text-primary' : 'text-muted-foreground'}`} />
               <span>{item.title}</span>
             </Link>
           )
         })}
 
-        {/* AI Assistant Quick Launcher */}
-        <div className="pt-4 mt-4 border-t border-border/60">
+        {/* Director's Desk Quick Launcher */}
+        <div className="pt-4 mt-4 border-t border-border">
           <button
             onClick={onOpenAIChat}
-            className="w-full flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-xs font-medium bg-amber-500/[0.05] hover:bg-amber-500/[0.1] text-amber-700 dark:text-amber-300 border border-amber-500/20 hover:border-amber-500/35 transition-all text-left group"
+            className="w-full flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-xs font-medium bg-muted/50 hover:bg-muted text-foreground border border-border transition-all text-left group"
           >
-            <Sparkles className="h-3.5 w-3.5 text-amber-500 group-hover:scale-110 transition-transform" />
-            <span className="flex-1">AI HR Assistant</span>
-            <span className="text-[9px] uppercase font-bold bg-amber-500/15 px-1.5 py-0.5 rounded text-amber-600 dark:text-amber-300">
-              Groq
+            <Compass className="h-3.5 w-3.5 text-primary group-hover:rotate-45 transition-transform" />
+            <span className="flex-1 font-medium">Director&apos;s Desk</span>
+            <span className="text-[9px] uppercase tracking-wider font-semibold bg-primary/10 px-1.5 py-0.5 rounded text-primary">
+              Advisor
             </span>
           </button>
         </div>

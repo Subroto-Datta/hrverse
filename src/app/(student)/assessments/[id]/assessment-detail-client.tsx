@@ -12,7 +12,6 @@ import {
   ClipboardCheck,
   CheckCircle2,
   Clock,
-  Sparkles,
   ArrowLeft,
   Loader2,
   Send,

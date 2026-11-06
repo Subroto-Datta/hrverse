@@ -8,7 +8,7 @@ import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { BookOpen, CheckCircle2, Clock, ArrowRight, Sparkles, Lock } from 'lucide-react'
+import { BookOpen, CheckCircle2, Clock, ArrowRight, Lock } from 'lucide-react'
 
 export const dynamic = 'force-dynamic'
 export const revalidate = 0
@@ -52,31 +52,39 @@ export default async function LearnOverviewPage() {
   return (
     <div className="p-6 sm:p-8 space-y-8 max-w-5xl mx-auto">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-border pb-6">
-        <div>
-          <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-foreground">
-            Learning Workspace
+        <div className="space-y-1">
+          <div className="flex items-center gap-2">
+            <span className="text-[10px] font-mono uppercase tracking-widest text-primary font-bold px-2 py-0.5 rounded bg-primary/10 border border-primary/20">
+              CHRMP Master Syllabus
+            </span>
+            <span className="text-xs text-muted-foreground font-mono">
+              14 Applied Curriculum Days
+            </span>
+          </div>
+          <h1 className="font-serif text-3xl sm:text-4xl font-bold tracking-tight text-foreground">
+            Curriculum Workspace
           </h1>
-          <p className="text-xs sm:text-sm text-muted-foreground mt-1">
-            Access curriculum lessons, interactive study blocks, and case studies.
+          <p className="text-xs sm:text-sm text-muted-foreground">
+            Access daily coursework modules, hospital operational case files, and statutory compliance frameworks.
           </p>
         </div>
 
         {firstUncompletedLesson && (
           <Link href={`/learn/${firstUncompletedLesson.id}`}>
-            <Button className="gap-2 shadow-sm font-semibold">
-              <BookOpen className="h-4 w-4" /> Resume: {firstUncompletedLesson.title.split(':')[0] || 'Next Lesson'}
+            <Button className="gap-2 shadow-xs font-semibold">
+              <BookOpen className="h-4 w-4" /> Resume: {firstUncompletedLesson.title.split(':')[0] || 'Next Unit'}
             </Button>
           </Link>
         )}
       </div>
 
       {(!modules || modules.length === 0) ? (
-        <Card className="border border-border/80 shadow-sm p-8 text-center space-y-4">
+        <Card className="border border-border shadow-xs p-8 text-center space-y-4">
           <div className="h-12 w-12 rounded-full bg-muted flex items-center justify-center mx-auto text-muted-foreground">
             <BookOpen className="h-6 w-6" />
           </div>
           <div className="space-y-1">
-            <h3 className="font-bold text-base text-foreground">No Published Lessons Yet</h3>
+            <h3 className="font-serif font-bold text-base text-foreground">No Published Lessons Yet</h3>
             <p className="text-xs text-muted-foreground max-w-md mx-auto">
               Curriculum modules are currently being prepared or ingested by administrators. Check back shortly!
             </p>
@@ -85,24 +93,24 @@ export default async function LearnOverviewPage() {
       ) : (
         <div className="space-y-6">
           {modules.map((module: any) => (
-            <Card key={module.id} className="border border-border/70 shadow-xs hover:shadow-sm rounded-xl overflow-hidden transition-all">
-              <CardHeader className="bg-muted/30 border-b border-border/50 pb-4">
+            <Card key={module.id} className="border border-border shadow-xs rounded-xl overflow-hidden">
+              <CardHeader className="bg-muted/30 border-b border-border/60 pb-4">
                 <div className="flex items-center justify-between">
-                  <Badge variant="outline" className="text-amber-700 dark:text-amber-300 border-amber-500/25 bg-amber-500/10 font-semibold text-[11px]">
+                  <Badge variant="outline" className="text-primary border-primary/25 bg-primary/10 font-mono font-semibold text-[10px]">
                     Module {module.order_index}
                   </Badge>
-                  <span className="text-xs text-muted-foreground">
+                  <span className="text-xs text-muted-foreground font-mono">
                     {module.parts?.reduce(
                       (acc: number, p: { lessons: unknown[] }) => acc + (p.lessons?.length || 0),
                       0
                     ) || 0}{' '}
-                    Lessons
+                    Curriculum Units
                   </span>
                 </div>
-                <CardTitle className="text-lg font-bold text-foreground mt-1">
+                <CardTitle className="font-serif text-xl sm:text-2xl font-bold text-foreground mt-1">
                   {module.title}
                 </CardTitle>
-                <CardDescription className="text-xs leading-relaxed text-muted-foreground">
+                <CardDescription className="text-xs leading-relaxed text-muted-foreground font-sans">
                   {module.description}
                 </CardDescription>
               </CardHeader>
@@ -120,9 +128,9 @@ export default async function LearnOverviewPage() {
                     }>
                   }) => (
                     <div key={part.id} className="space-y-3">
-                      <h4 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground border-b border-border/40 pb-1.5 flex items-center justify-between">
+                      <h4 className="text-[11px] font-bold uppercase tracking-wider text-muted-foreground border-b border-border/40 pb-1.5 flex items-center justify-between">
                         <span>{part.title}</span>
-                        <span className="text-[10px] text-muted-foreground/80 font-normal">
+                        <span className="text-[10px] text-muted-foreground/80 font-normal font-mono">
                           {part.lessons?.length || 0} Lessons
                         </span>
                       </h4>
@@ -134,18 +142,18 @@ export default async function LearnOverviewPage() {
                           return (
                             <div
                               key={lesson.id}
-                              className={`flex items-center justify-between p-3.5 rounded-xl border transition-all duration-200 group ${
+                              className={`flex items-center justify-between p-3.5 rounded-lg border transition-colors ${
                                 isUnlocked
-                                  ? 'border-border/60 hover:border-amber-500/35 bg-card hover:bg-amber-500/[0.02] hover:shadow-[0_2px_16px_-4px_rgba(245,158,11,0.08)]'
-                                  : 'border-border/40 bg-muted/20 opacity-70'
+                                  ? 'border-border bg-card hover:bg-muted/40'
+                                  : 'border-border/40 bg-muted/20 opacity-60'
                               }`}
                             >
                               <div className="flex items-center gap-3 min-w-0">
                                 {isCompleted ? (
                                   <CheckCircle2 className="h-4 w-4 text-emerald-500 shrink-0" />
                                 ) : isUnlocked ? (
-                                  <div className="h-4 w-4 rounded-full border-2 border-amber-500 bg-amber-500/20 shrink-0 flex items-center justify-center">
-                                    <span className="h-1.5 w-1.5 rounded-full bg-amber-500 animate-pulse" />
+                                  <div className="h-4 w-4 rounded-full border-2 border-primary bg-primary/20 shrink-0 flex items-center justify-center">
+                                    <span className="h-1.5 w-1.5 rounded-full bg-primary" />
                                   </div>
                                 ) : (
                                   <Lock className="h-4 w-4 text-muted-foreground shrink-0" />
@@ -161,7 +169,7 @@ export default async function LearnOverviewPage() {
                                       </span>
                                     )}
                                     {isUnlocked && !isCompleted && (
-                                      <span className="text-[10px] text-amber-700 dark:text-amber-300 font-semibold bg-amber-500/10 px-1.5 py-0.5 rounded border border-amber-500/20">
+                                      <span className="text-[10px] text-primary font-semibold bg-primary/10 px-1.5 py-0.5 rounded border border-primary/20">
                                         Available
                                       </span>
                                     )}
@@ -173,7 +181,7 @@ export default async function LearnOverviewPage() {
                               </div>
 
                               <div className="flex items-center gap-4 shrink-0">
-                                <span className="text-[11px] text-muted-foreground flex items-center gap-1">
+                                <span className="text-[11px] text-muted-foreground flex items-center gap-1 font-mono">
                                   <Clock className="h-3 w-3" /> {lesson.estimated_minutes || 20}m
                                 </span>
 
@@ -182,11 +190,7 @@ export default async function LearnOverviewPage() {
                                     <Button
                                       size="sm"
                                       variant={isCompleted ? 'outline' : 'default'}
-                                      className={`h-7 text-xs gap-1 font-semibold ${
-                                        !isCompleted
-                                          ? 'bg-primary text-primary-foreground shadow-xs'
-                                          : ''
-                                      }`}
+                                      className="h-7 text-xs gap-1 font-semibold"
                                     >
                                       {isCompleted ? 'Review' : 'Start'}{' '}
                                       <ArrowRight className="h-3 w-3" />

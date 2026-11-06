@@ -9,7 +9,7 @@ import {
 } from '@/components/ui/dialog'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
-import { Sparkles, Send, Bot, User, Loader2 } from 'lucide-react'
+import { Compass, Send, User, Loader2, BookOpen } from 'lucide-react'
 
 interface Message {
   role: 'user' | 'assistant'
@@ -30,8 +30,8 @@ export function AIAssistantModal({
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'assistant',
-      content: `Hello! I am your HR Verse AI Learning Mentor powered by Groq. How can I assist with your HRM studies today?${
-        lessonTitle ? ` I see you're currently reviewing "${lessonTitle}". Ask me anything about it!` : ''
+      content: `Welcome to Faculty Office Hours. I am your HR Executive Advisor. How can I assist with your curriculum, statutory policies, or workplace case studies today?${
+        lessonTitle ? ` I see you're currently reviewing "${lessonTitle}". Ask me about any complex frameworks or practical scenarios!` : ''
       }`,
     },
   ])
@@ -75,7 +75,7 @@ export function AIAssistantModal({
         ...updatedMessages,
         {
           role: 'assistant',
-          content: `⚠️ Error: ${error.message || 'Could not connect to Groq AI. Please check your API key.'}`,
+          content: `⚠️ Notice: ${error.message || 'Unable to connect to the advisory desk. Please verify your connection.'}`,
         },
       ])
     } finally {
@@ -86,20 +86,20 @@ export function AIAssistantModal({
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="max-w-2xl sm:max-w-2xl h-[600px] flex flex-col p-0 overflow-hidden">
-        <DialogHeader className="p-4 border-b border-border bg-muted/30">
+        <DialogHeader className="p-4 border-b border-border bg-muted/40">
           <div className="flex items-center gap-2.5">
-            <div className="h-8 w-8 rounded-lg bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center">
-              <Sparkles className="h-4 w-4" />
+            <div className="h-8 w-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center">
+              <Compass className="h-4 w-4" />
             </div>
             <div>
               <DialogTitle className="text-base font-bold flex items-center gap-2">
-                HR Verse AI Learning Assistant
-                <span className="text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-600 dark:text-amber-400">
-                  Groq LLM
+                Faculty Office Hours & Case Advisor
+                <span className="text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded bg-primary/10 text-primary">
+                  Advisory Desk
                 </span>
               </DialogTitle>
               <p className="text-xs text-muted-foreground">
-                Ask questions about HR concepts, case analyses, formulas, and rubrics.
+                Executive HRM mentoring, statutory policy interpretations, and case guidance
               </p>
             </div>
           </div>
@@ -114,7 +114,7 @@ export function AIAssistantModal({
             >
               {m.role === 'assistant' && (
                 <div className="h-7 w-7 rounded-full bg-primary text-primary-foreground flex items-center justify-center shrink-0 text-xs shadow-xs">
-                  <Bot className="h-4 w-4" />
+                  <Compass className="h-3.5 w-3.5" />
                 </div>
               )}
               <div
@@ -139,7 +139,7 @@ export function AIAssistantModal({
               <div className="h-7 w-7 rounded-full bg-primary text-primary-foreground flex items-center justify-center shrink-0">
                 <Loader2 className="h-4 w-4 animate-spin" />
               </div>
-              <span>HR Mentor is thinking...</span>
+              <span>Advisor is reviewing...</span>
             </div>
           )}
         </div>
@@ -150,7 +150,7 @@ export function AIAssistantModal({
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => e.key === 'Enter' && handleSend()}
-            placeholder="Ask about compa-ratios, BARS, 360 feedback, ADDIE..."
+            placeholder="Ask about compliance, staffing ratios, or case rationale..."
             className="flex-1 text-sm"
             disabled={loading}
           />
@@ -163,4 +163,3 @@ export function AIAssistantModal({
     </Dialog>
   )
 }
-
