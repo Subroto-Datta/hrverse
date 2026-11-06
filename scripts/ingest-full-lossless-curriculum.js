@@ -89,3 +89,4 @@ ingestAll().catch(err => {
   console.error('Fatal ingestion error:', err);
   process.exit(1);
 });
+
