@@ -17,6 +17,17 @@ import {
 } from 'lucide-react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
+import {
+  InteractiveCalculator,
+  ProcessSteps,
+  ComparisonMatrix,
+  InteractiveCheckpoint,
+  InteractiveChecklist,
+  DepartmentMap,
+  AssignmentCard,
+  TakeawayBanner,
+  StatsGrid,
+} from '@/components/course/visual-blocks'
 
 interface LessonContentBlock {
   type: string
@@ -218,14 +229,116 @@ export function LessonViewer({
 
           if (block.type === 'example') {
             return (
-              <div key={idx} className="p-4 rounded-xl border border-emerald-500/20 bg-emerald-500/10 text-xs sm:text-sm my-4">
-                <span className="font-bold text-emerald-700 dark:text-emerald-300 block mb-1">
+              <div key={idx} className="p-4.5 rounded-xl border border-emerald-500/25 bg-emerald-500/[0.04] text-xs sm:text-sm my-5 space-y-1">
+                <span className="font-bold text-emerald-700 dark:text-emerald-300 block">
                   Practical Workplace Scenario:
                 </span>
-                <p className="text-emerald-900 dark:text-emerald-200 leading-relaxed">
+                <p className="text-foreground/90 leading-relaxed">
                   {block.data?.text as string}
                 </p>
               </div>
+            )
+          }
+
+          if (block.type === 'calculator') {
+            return (
+              <InteractiveCalculator
+                key={idx}
+                type={(block.data?.calculatorType as any) || 'attrition_rate'}
+                title={(block.data?.title as string) || 'Metric Calculator'}
+                description={block.data?.description as string}
+                defaultValues={block.data?.defaultValues as any}
+              />
+            )
+          }
+
+          if (block.type === 'process_steps') {
+            return (
+              <ProcessSteps
+                key={idx}
+                title={block.data?.title as string}
+                subtitle={block.data?.subtitle as string}
+                steps={(block.data?.steps as any) || []}
+              />
+            )
+          }
+
+          if (block.type === 'comparison_matrix') {
+            return (
+              <ComparisonMatrix
+                key={idx}
+                title={block.data?.title as string}
+                subtitle={block.data?.subtitle as string}
+                items={(block.data?.items as any) || []}
+              />
+            )
+          }
+
+          if (block.type === 'checkpoint') {
+            return (
+              <InteractiveCheckpoint
+                key={idx}
+                question={block.data?.question as string}
+                scenario={block.data?.scenario as string}
+                options={(block.data?.options as string[]) || []}
+                correctOptionIndex={(block.data?.correctOptionIndex as number) || 0}
+                explanation={block.data?.explanation as string}
+                mentorTip={block.data?.mentorTip as string}
+              />
+            )
+          }
+
+          if (block.type === 'checklist') {
+            return (
+              <InteractiveChecklist
+                key={idx}
+                title={block.data?.title as string}
+                subtitle={block.data?.subtitle as string}
+                items={(block.data?.items as string[]) || []}
+              />
+            )
+          }
+
+          if (block.type === 'department_map') {
+            return (
+              <DepartmentMap
+                key={idx}
+                title={block.data?.title as string}
+                departments={(block.data?.departments as any) || []}
+              />
+            )
+          }
+
+          if (block.type === 'assignment') {
+            return (
+              <AssignmentCard
+                key={idx}
+                title={block.data?.title as string}
+                durationMinutes={block.data?.durationMinutes as number}
+                objective={block.data?.objective as string}
+                tasks={(block.data?.tasks as string[]) || []}
+                submissionFormat={block.data?.submissionFormat as string}
+              />
+            )
+          }
+
+          if (block.type === 'takeaway') {
+            return (
+              <TakeawayBanner
+                key={idx}
+                quote={block.data?.quote as string}
+                author={block.data?.author as string}
+                tag={block.data?.tag as string}
+              />
+            )
+          }
+
+          if (block.type === 'stats') {
+            return (
+              <StatsGrid
+                key={idx}
+                stats={(block.data?.stats as any) || []}
+              />
             )
           }
 
