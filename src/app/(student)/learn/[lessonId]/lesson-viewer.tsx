@@ -242,103 +242,133 @@ export function LessonViewer({
 
           if (block.type === 'calculator') {
             return (
-              <InteractiveCalculator
-                key={idx}
-                type={(block.data?.calculatorType as any) || 'attrition_rate'}
-                title={(block.data?.title as string) || 'Metric Calculator'}
-                description={block.data?.description as string}
-                defaultValues={block.data?.defaultValues as any}
-              />
+              <div key={idx} className="not-prose">
+                <InteractiveCalculator
+                  type={(block.data?.calculatorType as any) || 'attrition_rate'}
+                  title={(block.data?.title as string) || 'Metric Calculator'}
+                  description={block.data?.description as string}
+                  defaultValues={block.data?.defaultValues as any}
+                />
+              </div>
             )
           }
 
           if (block.type === 'process_steps') {
             return (
-              <ProcessSteps
-                key={idx}
-                title={block.data?.title as string}
-                subtitle={block.data?.subtitle as string}
-                steps={(block.data?.steps as any) || []}
-              />
+              <div key={idx} className="not-prose">
+                <ProcessSteps
+                  title={block.data?.title as string}
+                  subtitle={block.data?.subtitle as string}
+                  steps={(block.data?.steps as any) || []}
+                />
+              </div>
             )
           }
 
           if (block.type === 'comparison_matrix') {
             return (
-              <ComparisonMatrix
-                key={idx}
-                title={block.data?.title as string}
-                subtitle={block.data?.subtitle as string}
-                items={(block.data?.items as any) || []}
-              />
+              <div key={idx} className="not-prose">
+                <ComparisonMatrix
+                  title={block.data?.title as string}
+                  subtitle={block.data?.subtitle as string}
+                  items={(block.data?.items as any) || []}
+                />
+              </div>
             )
           }
 
           if (block.type === 'checkpoint') {
             return (
-              <InteractiveCheckpoint
-                key={idx}
-                question={block.data?.question as string}
-                scenario={block.data?.scenario as string}
-                options={(block.data?.options as string[]) || []}
-                correctOptionIndex={(block.data?.correctOptionIndex as number) || 0}
-                explanation={block.data?.explanation as string}
-                mentorTip={block.data?.mentorTip as string}
-              />
+              <div key={idx} className="not-prose">
+                <InteractiveCheckpoint
+                  question={block.data?.question as string}
+                  scenario={block.data?.scenario as string}
+                  options={(block.data?.options as string[]) || []}
+                  correctOptionIndex={(block.data?.correctOptionIndex as number) || 0}
+                  explanation={block.data?.explanation as string}
+                  mentorTip={block.data?.mentorTip as string}
+                />
+              </div>
             )
           }
 
           if (block.type === 'checklist') {
             return (
-              <InteractiveChecklist
-                key={idx}
-                title={block.data?.title as string}
-                subtitle={block.data?.subtitle as string}
-                items={(block.data?.items as string[]) || []}
-              />
+              <div key={idx} className="not-prose">
+                <InteractiveChecklist
+                  title={block.data?.title as string}
+                  subtitle={block.data?.subtitle as string}
+                  items={(block.data?.items as string[]) || []}
+                />
+              </div>
             )
           }
 
           if (block.type === 'department_map') {
             return (
-              <DepartmentMap
-                key={idx}
-                title={block.data?.title as string}
-                departments={(block.data?.departments as any) || []}
-              />
+              <div key={idx} className="not-prose">
+                <DepartmentMap
+                  title={block.data?.title as string}
+                  departments={(block.data?.departments as any) || []}
+                />
+              </div>
             )
           }
 
           if (block.type === 'assignment') {
             return (
-              <AssignmentCard
-                key={idx}
-                title={block.data?.title as string}
-                durationMinutes={block.data?.durationMinutes as number}
-                objective={block.data?.objective as string}
-                tasks={(block.data?.tasks as string[]) || []}
-                submissionFormat={block.data?.submissionFormat as string}
-              />
+              <div key={idx} className="not-prose">
+                <AssignmentCard
+                  title={block.data?.title as string}
+                  durationMinutes={block.data?.durationMinutes as number}
+                  objective={block.data?.objective as string}
+                  tasks={(block.data?.tasks as string[]) || []}
+                  submissionFormat={block.data?.submissionFormat as string}
+                />
+              </div>
             )
           }
 
           if (block.type === 'takeaway') {
             return (
-              <TakeawayBanner
-                key={idx}
-                quote={block.data?.quote as string}
-                author={block.data?.author as string}
-                tag={block.data?.tag as string}
-              />
+              <div key={idx} className="not-prose">
+                <TakeawayBanner
+                  quote={block.data?.quote as string}
+                  author={block.data?.author as string}
+                  tag={block.data?.tag as string}
+                />
+              </div>
             )
           }
 
           if (block.type === 'stats') {
             return (
-              <StatsGrid
-                key={idx}
-                stats={(block.data?.stats as any) || []}
-              />
+              <div key={idx} className="not-prose">
+                <StatsGrid
+                  stats={(block.data?.stats as any) || []}
+                />
+              </div>
+            )
+          }
+
+          if (block.type === 'divider') {
+            return <hr key={idx} className="my-8 border-border/60" />
+          }
+
+          if (block.type === 'quote') {
+            return (
+              <blockquote key={idx} className="border-l-4 border-amber-500 pl-4 italic text-muted-foreground my-4">
+                {block.data?.text as string}
+              </blockquote>
+            )
+          }
+
+          // Graceful fallback: if block has text, render it so content is never lost
+          if (block.data?.text && typeof block.data.text === 'string') {
+            return (
+              <p key={idx} className="text-sm sm:text-base leading-relaxed text-foreground/90">
+                {block.data.text}
+              </p>
             )
           }
 

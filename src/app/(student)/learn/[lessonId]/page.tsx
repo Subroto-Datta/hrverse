@@ -7,6 +7,9 @@ import {
 import { notFound } from 'next/navigation'
 import { LessonViewer } from './lesson-viewer'
 
+export const dynamic = 'force-dynamic'
+export const revalidate = 0
+
 export default async function LessonPage({
   params,
 }: {

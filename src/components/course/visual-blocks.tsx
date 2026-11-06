@@ -391,7 +391,7 @@ export function InteractiveCalculator({
 export function ProcessSteps({
   title,
   subtitle,
-  steps,
+  steps = [],
 }: {
   title?: string
   subtitle?: string
@@ -404,7 +404,11 @@ export function ProcessSteps({
     badge?: string
   }>
 }) {
+  const safeSteps = steps || []
   const [activeStep, setActiveStep] = useState(0)
+
+  if (safeSteps.length === 0) return null
+  const currentStep = safeSteps[activeStep] || safeSteps[0]
 
   return (
     <div className="my-8 space-y-4">
@@ -420,9 +424,10 @@ export function ProcessSteps({
 
       {/* Stepper Navigation Pills */}
       <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-none">
-        {steps.map((s, idx) => (
+        {safeSteps.map((s, idx) => (
           <button
             key={idx}
+            type="button"
             onClick={() => setActiveStep(idx)}
             className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all border ${
               activeStep === idx
@@ -443,47 +448,48 @@ export function ProcessSteps({
       </div>
 
       {/* Active Step Showcase Card */}
-      {steps[activeStep] && (
+      {currentStep && (
         <Card className="border border-border/80 bg-gradient-to-br from-card via-card to-amber-500/[0.02] shadow-sm">
           <CardContent className="p-6 space-y-4">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-border/60 pb-3">
               <div className="flex items-center gap-3">
                 <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-500/15 text-amber-600 dark:text-amber-400 font-extrabold text-sm border border-amber-500/30">
-                  {steps[activeStep].step}
+                  {currentStep.step}
                 </span>
                 <div>
                   <h4 className="text-base sm:text-lg font-bold text-foreground">
-                    {steps[activeStep].title}
+                    {currentStep.title}
                   </h4>
-                  {steps[activeStep].subtitle && (
-                    <p className="text-xs text-muted-foreground">{steps[activeStep].subtitle}</p>
+                  {currentStep.subtitle && (
+                    <p className="text-xs text-muted-foreground">{currentStep.subtitle}</p>
                   )}
                 </div>
               </div>
-              {steps[activeStep].badge && (
+              {currentStep.badge && (
                 <Badge variant="outline" className="text-xs font-semibold text-amber-600 dark:text-amber-400 border-amber-500/30 bg-amber-500/10">
-                  {steps[activeStep].badge}
+                  {currentStep.badge}
                 </Badge>
               )}
             </div>
 
             <p className="text-sm leading-relaxed text-foreground/90">
-              {steps[activeStep].description}
+              {currentStep.description}
             </p>
 
-            {steps[activeStep].keyAction && (
+            {currentStep.keyAction && (
               <div className="p-3.5 rounded-xl border border-amber-500/20 bg-amber-500/[0.05] text-xs space-y-1">
                 <span className="font-bold text-amber-700 dark:text-amber-300 block">
                   Critical HR Action Required:
                 </span>
                 <p className="text-foreground/80 leading-relaxed">
-                  {steps[activeStep].keyAction}
+                  {currentStep.keyAction}
                 </p>
               </div>
             )}
 
             <div className="flex justify-between items-center pt-2">
               <button
+                type="button"
                 disabled={activeStep === 0}
                 onClick={() => setActiveStep((prev) => Math.max(0, prev - 1))}
                 className="text-xs text-muted-foreground hover:text-foreground disabled:opacity-30 disabled:pointer-events-none transition-colors"
@@ -491,11 +497,12 @@ export function ProcessSteps({
                 ← Previous Stage
               </button>
               <span className="text-xs font-mono text-muted-foreground">
-                {activeStep + 1} of {steps.length}
+                {activeStep + 1} of {safeSteps.length}
               </span>
               <button
-                disabled={activeStep === steps.length - 1}
-                onClick={() => setActiveStep((prev) => Math.min(steps.length - 1, prev + 1))}
+                type="button"
+                disabled={activeStep === safeSteps.length - 1}
+                onClick={() => setActiveStep((prev) => Math.min(safeSteps.length - 1, prev + 1))}
                 className="text-xs font-semibold text-amber-600 dark:text-amber-400 hover:underline disabled:opacity-30 disabled:pointer-events-none transition-colors"
               >
                 Next Stage →
@@ -514,7 +521,7 @@ export function ProcessSteps({
 export function ComparisonMatrix({
   title,
   subtitle,
-  items,
+  items = [],
 }: {
   title?: string
   subtitle?: string
@@ -527,6 +534,16 @@ export function ComparisonMatrix({
     hospitalExample?: string
   }>
 }) {
+  const safeItems = items || []
+  if (safeItems.length === 0) return null
+
+  const gridColsClass =
+    safeItems.length === 1
+      ? 'grid-cols-1'
+      : safeItems.length === 2
+      ? 'grid-cols-1 md:grid-cols-2'
+      : 'grid-cols-1 md:grid-cols-3'
+
   return (
     <div className="my-8 space-y-4">
       {title && (
@@ -536,8 +553,8 @@ export function ComparisonMatrix({
         </div>
       )}
 
-      <div className={`grid grid-cols-1 md:grid-cols-${Math.min(items.length, 3)} gap-4`}>
-        {items.map((item, idx) => (
+      <div className={`grid ${gridColsClass} gap-4`}>
+        {safeItems.map((item, idx) => (
           <Card
             key={idx}
             className="border border-border/80 bg-card hover:border-amber-500/35 hover:shadow-md transition-all duration-200"
@@ -573,7 +590,7 @@ export function ComparisonMatrix({
                   Key Characteristics
                 </span>
                 <ul className="space-y-1 pl-1">
-                  {item.keyDifferences.map((diff, dIdx) => (
+                  {(item.keyDifferences || []).map((diff, dIdx) => (
                     <li key={dIdx} className="flex items-start gap-2 text-foreground/85">
                       <span className="h-1.5 w-1.5 rounded-full bg-amber-500 mt-1.5 shrink-0" />
                       <span>{diff}</span>
@@ -606,8 +623,8 @@ export function ComparisonMatrix({
 export function InteractiveCheckpoint({
   question,
   scenario,
-  options,
-  correctOptionIndex,
+  options = [],
+  correctOptionIndex = 0,
   explanation,
   mentorTip,
 }: {
@@ -618,6 +635,7 @@ export function InteractiveCheckpoint({
   explanation: string
   mentorTip?: string
 }) {
+  const safeOptions = options || []
   const [selected, setSelected] = useState<number | null>(null)
   const [revealed, setRevealed] = useState(false)
 
@@ -647,7 +665,7 @@ export function InteractiveCheckpoint({
 
       <CardContent className="p-6 space-y-4">
         <div className="space-y-2">
-          {options.map((opt, idx) => {
+          {safeOptions.map((opt, idx) => {
             let itemStyle = 'border-border/70 hover:border-amber-500/35 hover:bg-muted/40 text-foreground'
             if (revealed) {
               if (idx === correctOptionIndex) {
@@ -713,12 +731,13 @@ export function InteractiveCheckpoint({
 export function InteractiveChecklist({
   title,
   subtitle,
-  items,
+  items = [],
 }: {
   title: string
   subtitle?: string
   items: string[]
 }) {
+  const safeItems = items || []
   const [checkedState, setCheckedState] = useState<Record<number, boolean>>({})
 
   const toggleCheck = (idx: number) => {
@@ -726,7 +745,7 @@ export function InteractiveChecklist({
   }
 
   const completedCount = Object.values(checkedState).filter(Boolean).length
-  const progressPct = items.length > 0 ? Math.round((completedCount / items.length) * 100) : 0
+  const progressPct = safeItems.length > 0 ? Math.round((completedCount / safeItems.length) * 100) : 0
 
   return (
     <Card className="my-8 border border-border/80 bg-card shadow-xs">
@@ -748,18 +767,19 @@ export function InteractiveChecklist({
               />
             </div>
             <span className="text-xs font-bold text-foreground font-mono">
-              {completedCount}/{items.length}
+              {completedCount}/{safeItems.length}
             </span>
           </div>
         </div>
       </CardHeader>
 
       <CardContent className="p-5 space-y-2">
-        {items.map((item, idx) => {
+        {safeItems.map((item, idx) => {
           const isDone = !!checkedState[idx]
           return (
             <button
               key={idx}
+              type="button"
               onClick={() => toggleCheck(idx)}
               className={`w-full text-left p-3 rounded-xl border text-xs sm:text-sm transition-all flex items-start gap-3 ${
                 isDone
@@ -781,7 +801,7 @@ export function InteractiveChecklist({
           )
         })}
 
-        {progressPct === 100 && (
+        {progressPct === 100 && safeItems.length > 0 && (
           <div className="p-3 rounded-xl border border-emerald-500/30 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 text-xs font-semibold text-center mt-3">
             🎉 Outstanding! You have satisfied all learning outcomes for today.
           </div>
@@ -796,7 +816,7 @@ export function InteractiveChecklist({
 // ============================================================
 export function DepartmentMap({
   title,
-  departments,
+  departments = [],
 }: {
   title: string
   departments: Array<{
@@ -807,6 +827,8 @@ export function DepartmentMap({
     compliance?: string
   }>
 }) {
+  const safeDepts = departments || []
+
   return (
     <div className="my-8 space-y-4">
       <div className="space-y-1">
@@ -820,7 +842,7 @@ export function DepartmentMap({
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5">
-        {departments.map((dept, idx) => (
+        {safeDepts.map((dept, idx) => (
           <Card
             key={idx}
             className="border border-border/80 bg-card hover:border-amber-500/30 transition-all duration-200"
@@ -863,7 +885,7 @@ export function AssignmentCard({
   title,
   durationMinutes,
   objective,
-  tasks,
+  tasks = [],
   submissionFormat,
 }: {
   title: string
@@ -872,6 +894,8 @@ export function AssignmentCard({
   tasks: string[]
   submissionFormat?: string
 }) {
+  const safeTasks = tasks || []
+
   return (
     <Card className="my-8 border border-amber-500/30 bg-gradient-to-br from-card via-card to-amber-500/[0.04] shadow-sm">
       <CardHeader className="bg-amber-500/[0.08] border-b border-amber-500/20 pb-4">
@@ -899,7 +923,7 @@ export function AssignmentCard({
             Required Tasks & Deliverables:
           </h4>
           <ol className="space-y-2 pl-4 list-decimal text-xs sm:text-sm text-foreground/90">
-            {tasks.map((task, idx) => (
+            {safeTasks.map((task, idx) => (
               <li key={idx} className="leading-relaxed">
                 {task}
               </li>
@@ -954,7 +978,7 @@ export function TakeawayBanner({
 // 9. STATS & BENCHMARK HIGHLIGHT GRID
 // ============================================================
 export function StatsGrid({
-  stats,
+  stats = [],
 }: {
   stats: Array<{
     value: string
@@ -963,9 +987,11 @@ export function StatsGrid({
     badge?: string
   }>
 }) {
+  const safeStats = stats || []
+
   return (
     <div className="my-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
-      {stats.map((stat, idx) => (
+      {safeStats.map((stat, idx) => (
         <Card key={idx} className="border border-border/80 bg-card p-4 space-y-1">
           <div className="flex items-center justify-between">
             <span className="text-2xl sm:text-3xl font-extrabold text-foreground tracking-tight">
@@ -984,3 +1010,4 @@ export function StatsGrid({
     </div>
   )
 }
+
