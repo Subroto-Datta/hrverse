@@ -14,6 +14,7 @@ import {
   BookOpen,
   HelpCircle,
   Loader2,
+  Lock,
 } from 'lucide-react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
@@ -38,7 +39,11 @@ export function LessonViewer({
   lesson,
   isCompletedInitially,
   nextLessonId,
+  nextLessonTitle,
   prevLessonId,
+  prevLessonTitle,
+  dayIndex,
+  totalLessons,
 }: {
   lesson: {
     id: string
@@ -49,12 +54,35 @@ export function LessonViewer({
   }
   isCompletedInitially: boolean
   nextLessonId: string | null
+  nextLessonTitle?: string | null
   prevLessonId: string | null
+  prevLessonTitle?: string | null
+  dayIndex?: number
+  totalLessons?: number
 }) {
   const [completed, setCompleted] = useState(isCompletedInitially)
   const [submitting, setSubmitting] = useState(false)
   const [aiModalOpen, setAiModalOpen] = useState(false)
   const router = useRouter()
+
+  // Parse blocks
+  let blocks: LessonContentBlock[] = []
+  if (typeof lesson.content === 'object' && lesson.content?.blocks) {
+    blocks = lesson.content.blocks
+  } else if (typeof lesson.content === 'string') {
+    try {
+      const parsed = JSON.parse(lesson.content)
+      blocks = parsed.blocks || []
+    } catch {
+      blocks = [{ type: 'paragraph', data: { text: lesson.content } }]
+    }
+  }
+
+  // Count interaction targets
+  const checkpointBlocks = blocks.filter((b) => b.type === 'checkpoint')
+  const checklistBlocks = blocks.filter((b) => b.type === 'checklist')
+  const [answeredCheckpoints, setAnsweredCheckpoints] = useState<number>(0)
+  const [checklistComplete, setChecklistComplete] = useState<boolean>(checklistBlocks.length === 0)
 
   const handleMarkComplete = async () => {
     setSubmitting(true)
@@ -68,19 +96,6 @@ export function LessonViewer({
       console.error('Error completing lesson:', err)
     } finally {
       setSubmitting(false)
-    }
-  }
-
-  // Parse blocks
-  let blocks: LessonContentBlock[] = []
-  if (typeof lesson.content === 'object' && lesson.content?.blocks) {
-    blocks = lesson.content.blocks
-  } else if (typeof lesson.content === 'string') {
-    try {
-      const parsed = JSON.parse(lesson.content)
-      blocks = parsed.blocks || []
-    } catch {
-      blocks = [{ type: 'paragraph', data: { text: lesson.content } }]
     }
   }
 
@@ -287,6 +302,9 @@ export function LessonViewer({
                   correctOptionIndex={(block.data?.correctOptionIndex as number) || 0}
                   explanation={block.data?.explanation as string}
                   mentorTip={block.data?.mentorTip as string}
+                  onAnswer={() => {
+                    setAnsweredCheckpoints((prev) => Math.min(checkpointBlocks.length, prev + 1))
+                  }}
                 />
               </div>
             )
@@ -299,6 +317,9 @@ export function LessonViewer({
                   title={block.data?.title as string}
                   subtitle={block.data?.subtitle as string}
                   items={(block.data?.items as string[]) || []}
+                  onCompleteChange={(isDone) => {
+                    setChecklistComplete(isDone)
+                  }}
                 />
               </div>
             )
@@ -376,12 +397,75 @@ export function LessonViewer({
         })}
       </article>
 
+      {/* Interaction Requirements Card */}
+      <div
+        className={`p-4 sm:p-5 rounded-2xl border transition-all ${
+          completed
+            ? 'border-emerald-500/30 bg-emerald-500/[0.04]'
+            : 'border-border/80 bg-card shadow-xs'
+        }`}
+      >
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="space-y-1">
+            <div className="flex items-center gap-2">
+              {completed ? (
+                <CheckCircle2 className="h-4 w-4 text-emerald-500 shrink-0" />
+              ) : (
+                <Sparkles className="h-4 w-4 text-amber-500 shrink-0" />
+              )}
+              <span className="text-xs font-bold text-foreground">
+                {completed
+                  ? 'Day Requirements Satisfied'
+                  : 'Day Completion & Progression Status'}
+              </span>
+            </div>
+            <p className="text-[11px] text-muted-foreground">
+              {completed
+                ? 'Coursework, practical interactions, and self-mastery checks completed. Next day unlocked!'
+                : 'Review coursework and interact with checkpoint scenarios below to unlock the next day in sequence.'}
+            </p>
+          </div>
+
+          <div className="flex flex-wrap items-center gap-2 text-[11px]">
+            {checkpointBlocks.length > 0 && (
+              <span
+                className={`px-2.5 py-1 rounded-lg border font-mono ${
+                  answeredCheckpoints >= checkpointBlocks.length || completed
+                    ? 'border-emerald-500/30 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300'
+                    : 'border-border bg-muted/50 text-muted-foreground'
+                }`}
+              >
+                Checkpoint:{' '}
+                {completed ? checkpointBlocks.length : answeredCheckpoints}/
+                {checkpointBlocks.length}
+              </span>
+            )}
+            {checklistBlocks.length > 0 && (
+              <span
+                className={`px-2.5 py-1 rounded-lg border font-mono ${
+                  checklistComplete || completed
+                    ? 'border-emerald-500/30 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300'
+                    : 'border-border bg-muted/50 text-muted-foreground'
+                }`}
+              >
+                Checklist: {checklistComplete || completed ? 'Verified ✓' : 'Pending'}
+              </span>
+            )}
+          </div>
+        </div>
+      </div>
+
       {/* Bottom Navigation */}
-      <div className="pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div className="pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
         {prevLessonId ? (
           <Link href={`/learn/${prevLessonId}`}>
             <Button variant="outline" size="sm" className="gap-1.5 text-xs">
-              <ArrowLeft className="h-4 w-4" /> Previous Lesson
+              <ArrowLeft className="h-4 w-4" />{' '}
+              {prevLessonTitle
+                ? prevLessonTitle.length > 25
+                  ? prevLessonTitle.slice(0, 25) + '...'
+                  : prevLessonTitle
+                : 'Previous Day'}
             </Button>
           </Link>
         ) : (
@@ -393,10 +477,10 @@ export function LessonViewer({
             size="sm"
             onClick={handleMarkComplete}
             disabled={submitting}
-            className={`gap-1.5 text-xs ${
+            className={`gap-1.5 text-xs font-semibold ${
               completed
                 ? 'bg-emerald-600 hover:bg-emerald-700 text-white'
-                : 'bg-primary text-primary-foreground'
+                : 'bg-primary text-primary-foreground shadow-xs hover:shadow-[0_0_18px_-3px_rgba(245,158,11,0.22)]'
             }`}
           >
             {submitting ? (
@@ -407,17 +491,39 @@ export function LessonViewer({
               </>
             ) : (
               <>
-                Complete Lesson & Continue <ArrowRight className="h-3.5 w-3.5" />
+                Complete Lesson & Unlock Next <ArrowRight className="h-3.5 w-3.5" />
               </>
             )}
           </Button>
 
           {nextLessonId && (
-            <Link href={`/learn/${nextLessonId}`}>
-              <Button variant="outline" size="sm" className="gap-1.5 text-xs">
-                Next <ArrowRight className="h-4 w-4" />
+            completed ? (
+              <Link href={`/learn/${nextLessonId}`}>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="gap-1.5 text-xs border-amber-500/30 hover:border-amber-500 hover:bg-amber-500/10 text-foreground transition-all shadow-xs"
+                >
+                  Next:{' '}
+                  {nextLessonTitle
+                    ? nextLessonTitle.length > 24
+                      ? nextLessonTitle.slice(0, 24) + '...'
+                      : nextLessonTitle
+                    : 'Next Day'}{' '}
+                  <ArrowRight className="h-3.5 w-3.5 text-amber-500" />
+                </Button>
+              </Link>
+            ) : (
+              <Button
+                variant="outline"
+                size="sm"
+                disabled
+                className="gap-1.5 text-xs opacity-50 cursor-not-allowed border-dashed text-muted-foreground"
+                title="Complete today's coursework to unlock the next day"
+              >
+                <Lock className="h-3.5 w-3.5" /> Next Day Locked
               </Button>
-            </Link>
+            )
           )}
         </div>
       </div>

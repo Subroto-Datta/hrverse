@@ -1,5 +1,9 @@
 import { getUser } from '@/lib/utils/auth'
-import { getPublishedModules, getStudentLessonProgress } from '@/lib/content/get-content'
+import {
+  getPublishedModules,
+  getAllPublishedLessons,
+  getStudentLessonProgress,
+} from '@/lib/content/get-content'
 import Link from 'next/link'
 import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -10,13 +14,20 @@ import {
   BookOpen,
   HelpCircle,
   Lock,
+  Sparkles,
 } from 'lucide-react'
+
+export const dynamic = 'force-dynamic'
+export const revalidate = 0
 
 export default async function RoadmapPage() {
   const user = await getUser()
+  const isAdmin =
+    user?.user_metadata?.role === 'admin' || user?.user_metadata?.role === 'instructor'
 
   // Safely fetch modules with parts and lessons
   const modules = await getPublishedModules()
+  const allLessons = await getAllPublishedLessons()
 
   // Safely fetch student lesson completions
   const progress = await getStudentLessonProgress(user?.id || '')
@@ -25,6 +36,19 @@ export default async function RoadmapPage() {
       ?.filter((p: any) => p.status === 'completed')
       .map((p: any) => p.lesson_id) || []
   )
+
+  // Determine sequential unlock state
+  const unlockedLessonIds = new Set<string>()
+  allLessons.forEach((l: any, idx: number) => {
+    if (isAdmin || idx === 0) {
+      unlockedLessonIds.add(l.id)
+    } else {
+      const prevLesson = allLessons[idx - 1]
+      if (prevLesson && completedLessonIds.has(prevLesson.id)) {
+        unlockedLessonIds.add(l.id)
+      }
+    }
+  })
 
   const weeks = [
     {
@@ -169,16 +193,30 @@ export default async function RoadmapPage() {
                         {correspondingModule.parts.flatMap((part: { lessons: Array<{ id: string; title: string; slug: string }> }) =>
                           (part.lessons || []).map((lesson) => {
                             const isDone = completedLessonIds.has(lesson.id)
+                            const isUnlocked = unlockedLessonIds.has(lesson.id)
+
+                            if (!isUnlocked) {
+                              return (
+                                <div
+                                  key={lesson.id}
+                                  className="flex items-center gap-2 p-2 rounded-md bg-muted/20 text-xs text-muted-foreground/60 cursor-not-allowed opacity-60"
+                                >
+                                  <Lock className="h-3.5 w-3.5 shrink-0" />
+                                  <span className="truncate">{lesson.title}</span>
+                                </div>
+                              )
+                            }
+
                             return (
                               <Link
                                 key={lesson.id}
                                 href={`/learn/${lesson.id}`}
-                                className="flex items-center gap-2 p-2 rounded-md hover:bg-muted/60 text-xs text-foreground group/link"
+                                className="flex items-center gap-2 p-2 rounded-md hover:bg-muted/60 text-xs text-foreground group/link transition-colors"
                               >
                                 {isDone ? (
                                   <CheckCircle2 className="h-3.5 w-3.5 text-emerald-500 shrink-0" />
                                 ) : (
-                                  <Clock className="h-3.5 w-3.5 text-muted-foreground shrink-0" />
+                                  <Sparkles className="h-3.5 w-3.5 text-amber-500 shrink-0" />
                                 )}
                                 <span className="truncate group-hover/link:text-primary transition-colors">
                                   {lesson.title}

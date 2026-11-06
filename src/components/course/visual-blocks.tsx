@@ -627,6 +627,7 @@ export function InteractiveCheckpoint({
   correctOptionIndex = 0,
   explanation,
   mentorTip,
+  onAnswer,
 }: {
   question: string
   scenario?: string
@@ -634,6 +635,7 @@ export function InteractiveCheckpoint({
   correctOptionIndex: number
   explanation: string
   mentorTip?: string
+  onAnswer?: (isCorrect: boolean) => void
 }) {
   const safeOptions = options || []
   const [selected, setSelected] = useState<number | null>(null)
@@ -642,6 +644,7 @@ export function InteractiveCheckpoint({
   const handleSelect = (idx: number) => {
     setSelected(idx)
     setRevealed(true)
+    onAnswer?.(idx === correctOptionIndex)
   }
 
   const isCorrect = selected === correctOptionIndex
@@ -732,16 +735,23 @@ export function InteractiveChecklist({
   title,
   subtitle,
   items = [],
+  onCompleteChange,
 }: {
   title: string
   subtitle?: string
   items: string[]
+  onCompleteChange?: (isComplete: boolean) => void
 }) {
   const safeItems = items || []
   const [checkedState, setCheckedState] = useState<Record<number, boolean>>({})
 
   const toggleCheck = (idx: number) => {
-    setCheckedState((prev) => ({ ...prev, [idx]: !prev[idx] }))
+    setCheckedState((prev) => {
+      const next = { ...prev, [idx]: !prev[idx] }
+      const doneCount = Object.values(next).filter(Boolean).length
+      onCompleteChange?.(safeItems.length > 0 && doneCount >= safeItems.length)
+      return next
+    })
   }
 
   const completedCount = Object.values(checkedState).filter(Boolean).length

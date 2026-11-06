@@ -1,18 +1,28 @@
 import { getUser } from '@/lib/utils/auth'
-import { getPublishedModules, getStudentLessonProgress } from '@/lib/content/get-content'
+import {
+  getPublishedModules,
+  getAllPublishedLessons,
+  getStudentLessonProgress,
+} from '@/lib/content/get-content'
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { BookOpen, CheckCircle2, Clock, ArrowRight, Sparkles } from 'lucide-react'
+import { BookOpen, CheckCircle2, Clock, ArrowRight, Sparkles, Lock } from 'lucide-react'
+
+export const dynamic = 'force-dynamic'
+export const revalidate = 0
 
 export default async function LearnOverviewPage() {
   const user = await getUser()
+  const isAdmin =
+    user?.user_metadata?.role === 'admin' || user?.user_metadata?.role === 'instructor'
 
   // Safely fetch modules with parts and lessons
   const modules = await getPublishedModules()
 
-  // Safely fetch lesson progress
+  // Safely fetch ordered lessons & student progress
+  const allLessons = await getAllPublishedLessons()
   const progress = await getStudentLessonProgress(user?.id || '')
 
   const completedLessonIds = new Set(
@@ -21,22 +31,23 @@ export default async function LearnOverviewPage() {
       .map((p: any) => p.lesson_id) || []
   )
 
-  // Find first uncompleted lesson
-  let firstUncompletedLessonId: string | null = null
-  if (modules && modules.length > 0) {
-    for (const m of modules) {
-      for (const p of m.parts || []) {
-        for (const l of p.lessons || []) {
-          if (!completedLessonIds.has(l.id)) {
-            firstUncompletedLessonId = l.id
-            break
-          }
-        }
-        if (firstUncompletedLessonId) break
+  // Determine sequential unlock state across the curriculum
+  const unlockedLessonIds = new Set<string>()
+  allLessons.forEach((l: any, idx: number) => {
+    if (isAdmin || idx === 0) {
+      unlockedLessonIds.add(l.id)
+    } else {
+      const prevLesson = allLessons[idx - 1]
+      if (prevLesson && completedLessonIds.has(prevLesson.id)) {
+        unlockedLessonIds.add(l.id)
       }
-      if (firstUncompletedLessonId) break
     }
-  }
+  })
+
+  // Find first uncompleted and unlocked lesson for resume
+  const firstUncompletedLesson = allLessons.find(
+    (l: any) => !completedLessonIds.has(l.id) && unlockedLessonIds.has(l.id)
+  )
 
   return (
     <div className="p-6 sm:p-8 space-y-8 max-w-5xl mx-auto">
@@ -50,10 +61,10 @@ export default async function LearnOverviewPage() {
           </p>
         </div>
 
-        {firstUncompletedLessonId && (
-          <Link href={`/learn/${firstUncompletedLessonId}`}>
-            <Button className="gap-2 shadow-sm">
-              <BookOpen className="h-4 w-4" /> Resume Next Lesson
+        {firstUncompletedLesson && (
+          <Link href={`/learn/${firstUncompletedLesson.id}`}>
+            <Button className="gap-2 shadow-sm font-semibold">
+              <BookOpen className="h-4 w-4" /> Resume: {firstUncompletedLesson.title.split(':')[0] || 'Next Lesson'}
             </Button>
           </Link>
         )}
@@ -118,22 +129,43 @@ export default async function LearnOverviewPage() {
                       <div className="space-y-2">
                         {part.lessons?.map((lesson) => {
                           const isCompleted = completedLessonIds.has(lesson.id)
+                          const isUnlocked = unlockedLessonIds.has(lesson.id)
 
                           return (
                             <div
                               key={lesson.id}
-                              className="flex items-center justify-between p-3.5 rounded-xl border border-border/60 hover:border-amber-500/35 bg-card hover:bg-amber-500/[0.02] hover:shadow-[0_2px_16px_-4px_rgba(245,158,11,0.08)] transition-all duration-200 group"
+                              className={`flex items-center justify-between p-3.5 rounded-xl border transition-all duration-200 group ${
+                                isUnlocked
+                                  ? 'border-border/60 hover:border-amber-500/35 bg-card hover:bg-amber-500/[0.02] hover:shadow-[0_2px_16px_-4px_rgba(245,158,11,0.08)]'
+                                  : 'border-border/40 bg-muted/20 opacity-70'
+                              }`}
                             >
                               <div className="flex items-center gap-3 min-w-0">
                                 {isCompleted ? (
                                   <CheckCircle2 className="h-4 w-4 text-emerald-500 shrink-0" />
+                                ) : isUnlocked ? (
+                                  <div className="h-4 w-4 rounded-full border-2 border-amber-500 bg-amber-500/20 shrink-0 flex items-center justify-center">
+                                    <span className="h-1.5 w-1.5 rounded-full bg-amber-500 animate-pulse" />
+                                  </div>
                                 ) : (
-                                  <div className="h-4 w-4 rounded-full border-2 border-muted-foreground shrink-0" />
+                                  <Lock className="h-4 w-4 text-muted-foreground shrink-0" />
                                 )}
                                 <div className="min-w-0">
-                                  <h5 className="text-xs font-bold text-foreground group-hover:text-primary transition-colors truncate">
-                                    {lesson.title}
-                                  </h5>
+                                  <div className="flex items-center gap-2">
+                                    <h5 className="text-xs font-bold text-foreground group-hover:text-primary transition-colors truncate">
+                                      {lesson.title}
+                                    </h5>
+                                    {!isUnlocked && (
+                                      <span className="text-[10px] text-muted-foreground font-mono bg-muted px-1.5 py-0.5 rounded">
+                                        Locked
+                                      </span>
+                                    )}
+                                    {isUnlocked && !isCompleted && (
+                                      <span className="text-[10px] text-amber-700 dark:text-amber-300 font-semibold bg-amber-500/10 px-1.5 py-0.5 rounded border border-amber-500/20">
+                                        Available
+                                      </span>
+                                    )}
+                                  </div>
                                   <p className="text-[11px] text-muted-foreground truncate">
                                     {lesson.summary || 'Core educational concepts and frameworks.'}
                                   </p>
@@ -144,16 +176,32 @@ export default async function LearnOverviewPage() {
                                 <span className="text-[11px] text-muted-foreground flex items-center gap-1">
                                   <Clock className="h-3 w-3" /> {lesson.estimated_minutes || 20}m
                                 </span>
-                                <Link href={`/learn/${lesson.id}`}>
+
+                                {isUnlocked ? (
+                                  <Link href={`/learn/${lesson.id}`}>
+                                    <Button
+                                      size="sm"
+                                      variant={isCompleted ? 'outline' : 'default'}
+                                      className={`h-7 text-xs gap-1 font-semibold ${
+                                        !isCompleted
+                                          ? 'bg-primary text-primary-foreground shadow-xs'
+                                          : ''
+                                      }`}
+                                    >
+                                      {isCompleted ? 'Review' : 'Start'}{' '}
+                                      <ArrowRight className="h-3 w-3" />
+                                    </Button>
+                                  </Link>
+                                ) : (
                                   <Button
                                     size="sm"
-                                    variant={isCompleted ? 'outline' : 'default'}
-                                    className="h-7 text-xs gap-1"
+                                    variant="outline"
+                                    disabled
+                                    className="h-7 text-xs gap-1 opacity-50 cursor-not-allowed border-dashed"
                                   >
-                                    {isCompleted ? 'Review' : 'Start'}{' '}
-                                    <ArrowRight className="h-3 w-3" />
+                                    <Lock className="h-3 w-3" /> Locked
                                   </Button>
-                                </Link>
+                                )}
                               </div>
                             </div>
                           )

@@ -42,21 +42,23 @@ export async function getPublishedModules() {
   }
 }
 
-// Helper to sort parts and lessons by order_index
+// Helper to sort modules, parts, and lessons by order_index
 function sortModulesPartsAndLessons(modules: any[]) {
-  return modules.map((m) => {
-    const parts = (m.parts || []).sort(
-      (a: any, b: any) => (a.order_index ?? 0) - (b.order_index ?? 0)
-    )
-    for (const part of parts) {
-      if (part.lessons) {
-        part.lessons.sort(
-          (a: any, b: any) => (a.order_index ?? 0) - (b.order_index ?? 0)
-        )
+  return [...modules]
+    .sort((a, b) => (a.order_index ?? 0) - (b.order_index ?? 0))
+    .map((m) => {
+      const parts = (m.parts || []).sort(
+        (a: any, b: any) => (a.order_index ?? 0) - (b.order_index ?? 0)
+      )
+      for (const part of parts) {
+        if (part.lessons) {
+          part.lessons.sort(
+            (a: any, b: any) => (a.order_index ?? 0) - (b.order_index ?? 0)
+          )
+        }
       }
-    }
-    return { ...m, parts }
-  })
+      return { ...m, parts }
+    })
 }
 
 /**
@@ -189,33 +191,64 @@ export async function getLessonById(lessonId: string) {
 }
 
 /**
- * Safely fetches all published lessons ordered.
+ * Safely fetches all published lessons ordered hierarchically:
+ * Module order_index -> Part order_index -> Lesson order_index.
+ * This guarantees Days 1-7 and subsequent weeks are strictly sequenced.
  */
 export async function getAllPublishedLessons() {
   try {
     const supabase = await createClient()
     const { data, error } = await supabase
       .from('lessons')
-      .select('id, title, order_index, is_published')
+      .select(
+        'id, title, order_index, is_published, part_id, parts(id, title, order_index, module_id, modules(id, title, order_index))'
+      )
       .eq('is_published', true)
-      .order('order_index', { ascending: true })
 
     if (!error && data && data.length > 0) {
-      return data
+      return sortLessonsHierarchically(data)
+    }
+
+    if (error) {
+      console.warn('Standard client error fetching all lessons, falling back to admin client:', error.message)
     }
 
     const adminSupabase = createAdminClient()
-    const { data: adminData } = await adminSupabase
+    const { data: adminData, error: adminErr } = await adminSupabase
       .from('lessons')
-      .select('id, title, order_index, is_published')
+      .select(
+        'id, title, order_index, is_published, part_id, parts(id, title, order_index, module_id, modules(id, title, order_index))'
+      )
       .eq('is_published', true)
-      .order('order_index', { ascending: true })
 
-    return adminData || []
+    if (adminErr) {
+      console.error('Error fetching all lessons via admin client:', adminErr.message)
+      return []
+    }
+
+    return sortLessonsHierarchically(adminData || [])
   } catch (err) {
     console.error('Fatal error fetching all lessons:', err)
     return []
   }
+}
+
+/**
+ * Sorts lessons strictly according to curriculum hierarchy:
+ * 1. Module order_index
+ * 2. Part order_index
+ * 3. Lesson order_index
+ */
+export function sortLessonsHierarchically(lessons: any[]) {
+  return [...lessons].sort((a, b) => {
+    const modA = a.parts?.modules?.order_index ?? 999
+    const modB = b.parts?.modules?.order_index ?? 999
+    if (modA !== modB) return modA - modB
+    const partA = a.parts?.order_index ?? 999
+    const partB = b.parts?.order_index ?? 999
+    if (partA !== partB) return partA - partB
+    return (a.order_index ?? 0) - (b.order_index ?? 0)
+  })
 }
 
 /**
