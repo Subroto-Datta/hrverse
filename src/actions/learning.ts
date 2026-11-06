@@ -2,6 +2,7 @@
 
 import { createClient } from '@/lib/supabase/server'
 import { createAdminClient } from '@/lib/supabase/admin'
+import { isModuleFinishedByStudent } from '@/lib/content/get-content'
 import { revalidatePath } from 'next/cache'
 
 export async function completeLesson(lessonId: string, timeSpentSeconds: number = 60) {
@@ -152,12 +153,25 @@ export async function submitQuizAttempt(
 
   const percentage = totalPoints > 0 ? (earnedScore / totalPoints) * 100 : 0
 
-  // 2. Fetch quiz passing score requirement
+  // 2. Fetch quiz passing score requirement and verify module prerequisite
   const { data: quiz } = await adminSupabase
     .from('quizzes')
-    .select('passing_score')
+    .select('passing_score, module_id')
     .eq('id', quizId)
     .single()
+
+  if (quiz?.module_id) {
+    const isAdmin =
+      user.user_metadata?.role === 'admin' || user.user_metadata?.role === 'instructor'
+    if (!isAdmin) {
+      const moduleStatus = await isModuleFinishedByStudent(user.id, quiz.module_id)
+      if (!moduleStatus.isFinished) {
+        throw new Error(
+          `Prerequisite incomplete: You must finish all lessons for ${moduleStatus.moduleTitle} before taking this assessment.`
+        )
+      }
+    }
+  }
 
   const passingScore = quiz?.passing_score || 70
   const passed = percentage >= passingScore

@@ -62,14 +62,14 @@ function sortModulesPartsAndLessons(modules: any[]) {
 }
 
 /**
- * Safely fetches published quizzes with questions count.
+ * Safely fetches published quizzes with questions count and module relations.
  */
 export async function getPublishedQuizzes() {
   try {
     const supabase = await createClient()
     const { data, error } = await supabase
       .from('quizzes')
-      .select('*, quiz_questions(id)')
+      .select('*, quiz_questions(id), modules(id, title, order_index)')
       .eq('is_published', true)
       .order('created_at', { ascending: true })
 
@@ -84,7 +84,7 @@ export async function getPublishedQuizzes() {
     const adminSupabase = createAdminClient()
     const { data: adminData, error: adminError } = await adminSupabase
       .from('quizzes')
-      .select('*, quiz_questions(id)')
+      .select('*, quiz_questions(id), modules(id, title, order_index)')
       .eq('is_published', true)
       .order('created_at', { ascending: true })
 
@@ -252,14 +252,14 @@ export function sortLessonsHierarchically(lessons: any[]) {
 }
 
 /**
- * Safely fetches a single quiz by ID.
+ * Safely fetches a single quiz by ID with associated module relations.
  */
 export async function getQuizById(quizId: string) {
   try {
     const supabase = await createClient()
     const { data, error } = await supabase
       .from('quizzes')
-      .select('*')
+      .select('*, modules(id, title, order_index)')
       .eq('id', quizId)
       .single()
 
@@ -270,7 +270,7 @@ export async function getQuizById(quizId: string) {
     const adminSupabase = createAdminClient()
     const { data: adminData } = await adminSupabase
       .from('quizzes')
-      .select('*')
+      .select('*, modules(id, title, order_index)')
       .eq('id', quizId)
       .single()
 
@@ -278,6 +278,72 @@ export async function getQuizById(quizId: string) {
   } catch (err) {
     console.error('Fatal error fetching quiz:', err)
     return null
+  }
+}
+
+/**
+ * Checks whether all published lessons in a module (week) have been completed by a student.
+ */
+export async function isModuleFinishedByStudent(studentId: string, moduleId: string): Promise<{
+  isFinished: boolean
+  totalLessons: number
+  completedLessons: number
+  moduleTitle: string
+  uncompletedLessons: Array<{ id: string; title: string }>
+}> {
+  try {
+    const modules = await getPublishedModules()
+    const module = modules.find((m: any) => m.id === moduleId)
+    if (!module) {
+      return {
+        isFinished: false,
+        totalLessons: 0,
+        completedLessons: 0,
+        moduleTitle: 'Unknown Module',
+        uncompletedLessons: [],
+      }
+    }
+
+    const moduleLessons: Array<{ id: string; title: string }> = (module.parts || []).flatMap(
+      (p: any) => (p.lessons || []).map((l: any) => ({ id: l.id, title: l.title }))
+    )
+
+    if (moduleLessons.length === 0) {
+      return {
+        isFinished: true,
+        totalLessons: 0,
+        completedLessons: 0,
+        moduleTitle: module.title,
+        uncompletedLessons: [],
+      }
+    }
+
+    const progress = await getStudentLessonProgress(studentId)
+    const completedSet = new Set(
+      progress
+        ?.filter((p: any) => p.status === 'completed')
+        .map((p: any) => p.lesson_id) || []
+    )
+
+    const completedLessons = moduleLessons.filter((l) => completedSet.has(l.id)).length
+    const uncompletedLessons = moduleLessons.filter((l) => !completedSet.has(l.id))
+
+    return {
+      isFinished: completedLessons >= moduleLessons.length,
+      totalLessons: moduleLessons.length,
+      completedLessons,
+      moduleTitle: module.title,
+      uncompletedLessons,
+    }
+  } catch (err) {
+    console.error('Error checking module completion status:', err)
+    return {
+      isFinished: false,
+      totalLessons: 0,
+      completedLessons: 0,
+      moduleTitle: 'Error',
+      uncompletedLessons: [],
+    }
   }
 }
 

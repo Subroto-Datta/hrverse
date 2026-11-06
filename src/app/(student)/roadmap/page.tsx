@@ -15,6 +15,7 @@ import {
   HelpCircle,
   Lock,
   Sparkles,
+  ArrowRight,
 } from 'lucide-react'
 
 export const dynamic = 'force-dynamic'
@@ -229,11 +230,43 @@ export default async function RoadmapPage() {
                     </div>
                   )}
 
-                  {/* Deliverable Pill */}
-                  <div className="flex items-center gap-2 text-xs font-medium text-muted-foreground bg-muted/40 p-2.5 rounded-md">
-                    <HelpCircle className="h-3.5 w-3.5 text-primary" />
-                    <span>Deliverable: {w.quizTitle}</span>
-                  </div>
+                  {/* Deliverable Pill with Week Completion Prerequisite */}
+                  {(() => {
+                    const moduleLessons = (correspondingModule?.parts || []).flatMap(
+                      (p: any) => p.lessons || []
+                    )
+                    const isWeekCompleted =
+                      isAdmin ||
+                      (moduleLessons.length > 0 &&
+                        moduleLessons.every((l: any) => completedLessonIds.has(l.id)))
+
+                    if (isWeekCompleted) {
+                      return (
+                        <Link
+                          href="/quizzes"
+                          className="flex items-center justify-between text-xs font-semibold text-emerald-700 dark:text-emerald-300 bg-emerald-500/10 p-2.5 rounded-md border border-emerald-500/25 hover:bg-emerald-500/20 transition-all group/deliv"
+                        >
+                          <span className="flex items-center gap-2">
+                            <CheckCircle2 className="h-3.5 w-3.5 text-emerald-500" />
+                            <span>Deliverable: {w.quizTitle} (Unlocked)</span>
+                          </span>
+                          <ArrowRight className="h-3.5 w-3.5 text-emerald-500 group-hover/deliv:translate-x-0.5 transition-transform" />
+                        </Link>
+                      )
+                    }
+
+                    return (
+                      <div className="flex items-center justify-between text-xs font-medium text-muted-foreground bg-muted/40 p-2.5 rounded-md">
+                        <span className="flex items-center gap-2">
+                          <Lock className="h-3.5 w-3.5 text-muted-foreground" />
+                          <span>Deliverable: {w.quizTitle} (Locked)</span>
+                        </span>
+                        <span className="text-[10px] text-muted-foreground/80 font-mono">
+                          Finish Week to Unlock
+                        </span>
+                      </div>
+                    )
+                  })()}
                 </CardContent>
               </Card>
             </div>
